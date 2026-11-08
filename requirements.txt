@@ -1,0 +1,6 @@
+numpy
+requests
+h5py
+fsspec
+aiohttp
+eccodes
