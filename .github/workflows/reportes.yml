@@ -1,0 +1,33 @@
+name: Reportes de productores
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"   # cada 10 minutos (GitHub puede demorar unos minutos más)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: zonda
+  cancel-in-progress: false
+
+jobs:
+  reportes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python reportes.py
+        env:
+          REPORTES_CSV: ${{ secrets.REPORTES_CSV }}
+      - name: Guardar
+        run: |
+          git config user.name "ayudante-tiempo-campero"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A datos
+          git commit -m "Reportes $(date -u +%Y-%m-%dT%H:%MZ)" || exit 0
+          git pull --rebase && git push
