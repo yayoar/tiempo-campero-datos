@@ -1,0 +1,24 @@
+{
+ "actualizado": "2026-11-08T00:44:09Z",
+ "version": 1,
+ "dias": {
+  "2026-11-08": {
+   "producto": "noche",
+   "generado": "2026-11-08T00:44:09Z",
+   "zonas": {
+    "norte": {
+     "nivel": 0,
+     "puntaje": null
+    },
+    "sur": {
+     "nivel": 0,
+     "puntaje": null
+    },
+    "valle": {
+     "nivel": 0,
+     "puntaje": null
+    }
+   }
+  }
+ }
+}
