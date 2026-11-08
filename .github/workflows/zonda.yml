@@ -9,6 +9,9 @@ on:
       producto:
         description: "noche (para mañana) o manana (para hoy)"
         default: "noche"
+      fecha:
+        description: "fecha AAAA-MM-DD (opcional, para pruebas)"
+        default: ""
 
 permissions:
   contents: write
@@ -32,7 +35,7 @@ jobs:
         run: |
           if [ -n "${{ github.event.inputs.producto }}" ]; then P="${{ github.event.inputs.producto }}";
           elif [ "${{ github.event.schedule }}" = "0 9 * * *" ]; then P=manana; else P=noche; fi
-          python zonda.py "$P"
+          python zonda.py "$P" ${{ github.event.inputs.fecha }}
       - name: Guardar resultado
         run: |
           git config user.name "ayudante-tiempo-campero"
