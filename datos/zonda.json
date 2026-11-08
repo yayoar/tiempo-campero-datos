@@ -1,7 +1,25 @@
 {
- "actualizado": "2026-11-08T00:44:09Z",
+ "actualizado": "2026-11-08T00:48:01Z",
  "version": 1,
  "dias": {
+  "2026-09-24": {
+   "producto": "manana",
+   "generado": "2026-11-08T00:48:01Z",
+   "zonas": {
+    "norte": {
+     "nivel": 2,
+     "puntaje": 0.994
+    },
+    "sur": {
+     "nivel": 2,
+     "puntaje": 0.978
+    },
+    "valle": {
+     "nivel": 2,
+     "puntaje": 0.827
+    }
+   }
+  },
   "2026-11-08": {
    "producto": "noche",
    "generado": "2026-11-08T00:44:09Z",
