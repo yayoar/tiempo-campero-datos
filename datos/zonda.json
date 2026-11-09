@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-09T01:50:33Z",
+ "actualizado": "2026-11-09T19:38:10Z",
  "version": 1,
  "dias": {
   "2026-11-08": {
@@ -21,8 +21,8 @@
    }
   },
   "2026-11-09": {
-   "producto": "noche",
-   "generado": "2026-11-09T01:50:33Z",
+   "producto": "manana",
+   "generado": "2026-11-09T19:38:10Z",
    "zonas": {
     "norte": {
      "nivel": 0,
