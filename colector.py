@@ -205,7 +205,51 @@ def pronosticos():
     os.makedirs(os.path.dirname(marca), exist_ok=True)
     open(marca, "w").write(ahora.isoformat())
 
+# ---------------------------------------------------------------- estaciones de Contingencias (verdad medida)
+def estaciones_dacc():
+    """Red agrometeorológica de Contingencias (~60 estaciones, datos horarios desde 1998 en algunas).
+    Cada estación publica su archivo de datos horarios; guardamos las filas nuevas en datos/estaciones/dacc/AAAA-MM.csv.gz.
+    Columnas: estación + la fila tal cual la publica Contingencias (fecha, temperaturas de suelo, aire máx/mín/med,
+    humedad máx/mín/med, viento máx/mín/med, direcciones, presión, radiación, hoja mojada, lluvia [col 29], ...)."""
+    import ast, glob
+    carpeta = os.path.join(DATOS, "estaciones", "dacc"); os.makedirs(carpeta, exist_ok=True)
+    estado_r = os.path.join(carpeta, "ultimo.json")
+    estado = json.load(open(estado_r)) if os.path.exists(estado_r) else {}
+    if estado.get("_corrida") and (time.time() - estado["_corrida"]) < 5.5 * 3600 and "--forzar" not in sys.argv:
+        print("estaciones: todavía no toca"); return
+    lista = json.loads(get("https://agrometeo.mendoza.gov.ar/api/getEstaciones.php"))
+    json.dump(lista, open(os.path.join(carpeta, "estaciones.json"), "w", encoding="utf8"), ensure_ascii=False, indent=0)
+    from concurrent.futures import ThreadPoolExecutor
+    def bajar(x):
+        i = x.get("idArchivoGoolgeDatos")
+        if not i: return x, None
+        try: return x, get(f"https://drive.google.com/uc?export=download&id={i}")
+        except Exception as e: print("estación", x["Estacion"], e); return x, None
+    with ThreadPoolExecutor(6) as ex: res = list(ex.map(bajar, [x for x in lista if x.get("Estacion")]))
+    por_mes = {}
+    for x, txt in res:
+        if not txt: continue
+        e = str(x["Estacion"]); ult = estado.get(e, ""); maximo = ult
+        for linea in txt.splitlines():
+            linea = linea.strip()
+            if not linea.startswith("["): continue
+            try: f = ast.literal_eval(linea)
+            except Exception: continue
+            if len(f) < 4 or not isinstance(f[3], str) or f[3] <= ult or not re.match(r"20[1-3]\d-[01]\d-[0-3]\d ", f[3]): continue
+            por_mes.setdefault(f[3][:7], []).append([e] + [f[3]] + list(f[4:]))
+            maximo = max(maximo, f[3])
+        if maximo: estado[e] = maximo
+    total = 0
+    for mes, filas in por_mes.items():
+        filas.sort(key=lambda r: (r[1], r[0]))
+        with gzip.open(os.path.join(carpeta, f"{mes}.csv.gz"), "at", encoding="utf8") as f:
+            for r in filas: f.write(",".join(str(v) for v in r) + "\n")
+        total += len(filas)
+    estado["_corrida"] = time.time()
+    json.dump(estado, open(estado_r, "w"), indent=0)
+    print("estaciones: filas nuevas", total)
+
 if __name__ == "__main__":
-    for paso in (radar, pronosticos):
+    for paso in (radar, pronosticos, estaciones_dacc):
         try: paso()
         except Exception as e: print(paso.__name__, "falló:", e)
