@@ -2,7 +2,7 @@ name: Colector (radar y pronósticos de todas las fuentes)
 
 on:
   schedule:
-    - cron: "41 * * * *"   # cada hora; el radar de Contingencias guarda 3 días, así que una demora no pierde nada
+    - cron: "41 */3 * * *"   # GitHub demora las corridas programadas; cada corrida se queda ~5,5 h y guarda una vez por hora
   workflow_dispatch:
 
 permissions:
@@ -15,18 +15,24 @@ concurrency:
 jobs:
   colector:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 350
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - run: pip install numpy pillow
-      - run: python colector.py
-      - name: Guardar
+      - name: Juntar y guardar cada hora durante ~5,5 horas
         run: |
           git config user.name "ayudante-tiempo-campero"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add datos/radar datos/pronosticos datos/fuentes datos/estaciones
-          git commit -m "Colector $(date -u +%Y-%m-%dT%H:%MZ)" || echo "sin cambios"
-          for i in 1 2 3; do git pull --rebase && git push && break; sleep 10; done
+          fin=$(( $(date +%s) + 19800 ))
+          while true; do
+            git pull --rebase -q || true
+            python colector.py || true
+            git add datos/radar datos/pronosticos datos/fuentes datos/estaciones
+            git commit -q -m "Colector $(date -u +%Y-%m-%dT%H:%MZ)" || echo "sin cambios"
+            for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 15; done
+            [ $(( $(date +%s) + 3600 )) -gt $fin ] && break
+            sleep 3300
+          done
