@@ -21,7 +21,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install numpy pillow
+      - run: pip install numpy pillow fsspec h5py aiohttp
       - name: Juntar y guardar cada hora durante ~5,5 horas
         run: |
           git config user.name "ayudante-tiempo-campero"
@@ -30,7 +30,7 @@ jobs:
           while true; do
             git pull --rebase -q || true
             python colector.py || true
-            git add datos/radar datos/pronosticos datos/fuentes datos/estaciones datos/duelo
+            git add datos/radar datos/pronosticos datos/fuentes datos/estaciones datos/duelo datos/smn_wrf
             git commit -q -m "Colector $(date -u +%Y-%m-%dT%H:%MZ)" || echo "sin cambios"
             for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 15; done
             [ $(( $(date +%s) + 3600 )) -gt $fin ] && break
