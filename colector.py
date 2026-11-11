@@ -171,12 +171,12 @@ def open_meteo():
     for m in MODELOS:
         try:
             out[m] = json.loads(get(f"https://api.open-meteo.com/v1/forecast?latitude={la}&longitude={lo}&hourly={var}"
-                                    f"&models={m}&wind_speed_unit=kmh&timezone=America%2FArgentina%2FMendoza&forecast_days=3"))
+                                    f"&models={m}&wind_speed_unit=kmh&timezone=America%2FArgentina%2FMendoza&forecast_days=7"))
         except Exception as e: print("open-meteo", m, e)
         time.sleep(2)
     try:
         out["ensamble_ecmwf"] = json.loads(get(f"https://ensemble-api.open-meteo.com/v1/ensemble?latitude={la}&longitude={lo}"
-                                               "&hourly=precipitation&models=ecmwf_ifs025&forecast_days=3&timezone=America%2FArgentina%2FMendoza"))
+                                               "&hourly=precipitation&models=ecmwf_ifs025&forecast_days=7&timezone=America%2FArgentina%2FMendoza"))
     except Exception as e: print("ensamble", e)
     return out
 
@@ -217,7 +217,11 @@ def estaciones_dacc():
     estado = json.load(open(estado_r)) if os.path.exists(estado_r) else {}
     if estado.get("_corrida") and (time.time() - estado["_corrida"]) < 5.5 * 3600 and "--forzar" not in sys.argv:
         print("estaciones: todavía no toca"); return
-    lista = json.loads(get("https://agrometeo.mendoza.gov.ar/api/getEstaciones.php"))
+    try: lista = json.loads(get("https://agrometeo.mendoza.gov.ar/api/getEstaciones.php"))
+    except Exception as e:
+        guardada = os.path.join(carpeta, "estaciones.json")
+        if not os.path.exists(guardada): raise
+        print("estaciones: uso la lista guardada", e); lista = json.load(open(guardada, encoding="utf8"))
     json.dump(lista, open(os.path.join(carpeta, "estaciones.json"), "w", encoding="utf8"), ensure_ascii=False, indent=0)
     from concurrent.futures import ThreadPoolExecutor
     def bajar(x):
@@ -250,6 +254,7 @@ def estaciones_dacc():
     print("estaciones: filas nuevas", total)
 
 if __name__ == "__main__":
-    for paso in (radar, pronosticos, estaciones_dacc):
+    import duelo
+    for paso in (radar, pronosticos, estaciones_dacc, duelo.main):
         try: paso()
         except Exception as e: print(paso.__name__, "falló:", e)
