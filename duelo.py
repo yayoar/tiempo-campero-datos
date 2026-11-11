@@ -21,6 +21,11 @@ PESOS = {"gem_seamless": 3, "icon_seamless": 2, "ukmo_seamless": 2, "ecmwf_ifs02
          "gfs_seamless": .5, "jma_seamless": .5}
 AR = dt.timezone(dt.timedelta(hours=-3))
 
+def hora_dacc(s):
+    """'2026-07-29 1:00:00' / '2026-11-10 24:00:00' -> comienzo de la hora medida (la marca cierra la hora)."""
+    f, h = s.strip().split(" ")[:2]; hh = int(h.split(":")[0])
+    return dt.datetime.strptime(f, "%Y-%m-%d") + dt.timedelta(hours=hh - 1)
+
 def snapshots(fuente):
     """[(datetime UTC, ruta)] de los pronósticos guardados."""
     out = []
@@ -95,9 +100,7 @@ def medido(dia):
         for l in gzip.open(f, "rt"):
             c = l.rstrip("\n").split(",")
             if c[0] != ESTACION: continue
-            t = dt.datetime.strptime(c[1][:16].replace(" 24:", " 00:"), "%Y-%m-%d %H:%M")
-            if " 24:" in c[1]: t += dt.timedelta(days=1)
-            t -= dt.timedelta(hours=1)        # la marca cierra la hora: 01:00 = de 0 a 1
+            t = hora_dacc(c[1])            # la marca cierra la hora: 01:00 = de 0 a 1
             if t.date() == dia: filas.append((t.hour, c))
     if len(filas) < 20: return None
     num = lambda c, i: float(c[i]) if c[i] not in ("", "None") else None
