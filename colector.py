@@ -254,7 +254,7 @@ def estaciones_dacc():
     print("estaciones: filas nuevas", total)
 
 if __name__ == "__main__":
-    import duelo
-    for paso in (radar, pronosticos, estaciones_dacc, duelo.main):
+    import duelo, duelo_total
+    for paso in (radar, pronosticos, estaciones_dacc, duelo.main, duelo_total.main):
         try: paso()
         except Exception as e: print(paso.__name__, "falló:", e)
