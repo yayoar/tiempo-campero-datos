@@ -1,0 +1,351 @@
+dia,depto,fuente,fenomeno,aviso,paso
+2026-11-10,Maipú,SMN (WRF),helada,0,0
+2026-11-10,Maipú,SMN (WRF),calor,0,0
+2026-11-10,Maipú,SMN (WRF),lluvia,1,1
+2026-11-10,Maipú,SMN (WRF),lluvia_intensa,0,0
+2026-11-10,Maipú,SMN (WRF),zonda,0,0
+2026-11-10,Maipú,SMN (WRF),viento_fuerte,0,1
+2026-11-10,Maipú,SMN (WRF),nieve,0,0
+2026-11-10,Lavalle,SMN (WRF),helada,0,0
+2026-11-10,Lavalle,SMN (WRF),calor,0,0
+2026-11-10,Lavalle,SMN (WRF),lluvia,1,0
+2026-11-10,Lavalle,SMN (WRF),lluvia_intensa,0,0
+2026-11-10,Lavalle,SMN (WRF),zonda,0,0
+2026-11-10,Lavalle,SMN (WRF),viento_fuerte,0,1
+2026-11-10,Lavalle,SMN (WRF),nieve,0,0
+2026-11-10,San Martín,SMN (WRF),helada,0,0
+2026-11-10,San Martín,SMN (WRF),calor,0,0
+2026-11-10,San Martín,SMN (WRF),lluvia,1,1
+2026-11-10,San Martín,SMN (WRF),lluvia_intensa,0,0
+2026-11-10,San Martín,SMN (WRF),zonda,0,0
+2026-11-10,San Martín,SMN (WRF),viento_fuerte,0,0
+2026-11-10,San Martín,SMN (WRF),nieve,0,0
+2026-11-10,Junín,SMN (WRF),helada,0,0
+2026-11-10,Junín,SMN (WRF),calor,0,0
+2026-11-10,Junín,SMN (WRF),lluvia,1,1
+2026-11-10,Junín,SMN (WRF),lluvia_intensa,0,0
+2026-11-10,Junín,SMN (WRF),zonda,0,0
+2026-11-10,Junín,SMN (WRF),viento_fuerte,0,0
+2026-11-10,Junín,SMN (WRF),nieve,0,0
+2026-11-10,Rivadavia,SMN (WRF),helada,0,0
+2026-11-10,Rivadavia,SMN (WRF),calor,0,0
+2026-11-10,Rivadavia,SMN (WRF),lluvia,1,1
+2026-11-10,Rivadavia,SMN (WRF),lluvia_intensa,0,0
+2026-11-10,Rivadavia,SMN (WRF),zonda,0,0
+2026-11-10,Rivadavia,SMN (WRF),viento_fuerte,0,0
+2026-11-10,Rivadavia,SMN (WRF),nieve,0,0
+2026-11-10,Santa Rosa,SMN (WRF),helada,0,0
+2026-11-10,Santa Rosa,SMN (WRF),calor,0,0
+2026-11-10,Santa Rosa,SMN (WRF),lluvia,1,0
+2026-11-10,Santa Rosa,SMN (WRF),lluvia_intensa,0,0
+2026-11-10,Santa Rosa,SMN (WRF),zonda,0,0
+2026-11-10,Santa Rosa,SMN (WRF),viento_fuerte,0,0
+2026-11-10,Santa Rosa,SMN (WRF),nieve,0,0
+2026-11-10,Tupungato,SMN (WRF),helada,0,0
+2026-11-10,Tupungato,SMN (WRF),calor,0,0
+2026-11-10,Tupungato,SMN (WRF),lluvia,1,1
+2026-11-10,Tupungato,SMN (WRF),lluvia_intensa,0,0
+2026-11-10,Tupungato,SMN (WRF),zonda,0,0
+2026-11-10,Tupungato,SMN (WRF),viento_fuerte,0,0
+2026-11-10,Tupungato,SMN (WRF),nieve,0,0
+2026-11-10,Tunuyán,SMN (WRF),helada,0,0
+2026-11-10,Tunuyán,SMN (WRF),calor,0,0
+2026-11-10,Tunuyán,SMN (WRF),lluvia,1,1
+2026-11-10,Tunuyán,SMN (WRF),lluvia_intensa,0,0
+2026-11-10,Tunuyán,SMN (WRF),zonda,0,0
+2026-11-10,Tunuyán,SMN (WRF),viento_fuerte,0,0
+2026-11-10,Tunuyán,SMN (WRF),nieve,0,0
+2026-11-10,San Carlos,SMN (WRF),helada,0,0
+2026-11-10,San Carlos,SMN (WRF),calor,0,0
+2026-11-10,San Carlos,SMN (WRF),lluvia,1,1
+2026-11-10,San Carlos,SMN (WRF),lluvia_intensa,0,0
+2026-11-10,San Carlos,SMN (WRF),zonda,0,0
+2026-11-10,San Carlos,SMN (WRF),viento_fuerte,0,0
+2026-11-10,San Carlos,SMN (WRF),nieve,0,0
+2026-11-10,General Alvear,SMN (WRF),helada,0,0
+2026-11-10,General Alvear,SMN (WRF),calor,0,0
+2026-11-10,General Alvear,SMN (WRF),lluvia,1,1
+2026-11-10,General Alvear,SMN (WRF),lluvia_intensa,0,0
+2026-11-10,General Alvear,SMN (WRF),zonda,0,0
+2026-11-10,General Alvear,SMN (WRF),viento_fuerte,0,0
+2026-11-10,General Alvear,SMN (WRF),nieve,0,0
+2026-11-09,Maipú,SMN (WRF),helada,0,0
+2026-11-09,Maipú,SMN (WRF),calor,0,0
+2026-11-09,Maipú,SMN (WRF),lluvia,0,0
+2026-11-09,Maipú,SMN (WRF),lluvia_intensa,0,0
+2026-11-09,Maipú,SMN (WRF),zonda,0,0
+2026-11-09,Maipú,SMN (WRF),viento_fuerte,0,0
+2026-11-09,Maipú,SMN (WRF),nieve,0,0
+2026-11-09,Lavalle,SMN (WRF),helada,0,0
+2026-11-09,Lavalle,SMN (WRF),calor,0,0
+2026-11-09,Lavalle,SMN (WRF),lluvia,0,0
+2026-11-09,Lavalle,SMN (WRF),lluvia_intensa,0,0
+2026-11-09,Lavalle,SMN (WRF),zonda,0,0
+2026-11-09,Lavalle,SMN (WRF),viento_fuerte,0,0
+2026-11-09,Lavalle,SMN (WRF),nieve,0,0
+2026-11-09,San Martín,SMN (WRF),helada,0,0
+2026-11-09,San Martín,SMN (WRF),calor,0,0
+2026-11-09,San Martín,SMN (WRF),lluvia,0,0
+2026-11-09,San Martín,SMN (WRF),lluvia_intensa,0,0
+2026-11-09,San Martín,SMN (WRF),zonda,0,0
+2026-11-09,San Martín,SMN (WRF),viento_fuerte,0,0
+2026-11-09,San Martín,SMN (WRF),nieve,0,0
+2026-11-09,Junín,SMN (WRF),helada,0,0
+2026-11-09,Junín,SMN (WRF),calor,0,0
+2026-11-09,Junín,SMN (WRF),lluvia,0,0
+2026-11-09,Junín,SMN (WRF),lluvia_intensa,0,0
+2026-11-09,Junín,SMN (WRF),zonda,0,0
+2026-11-09,Junín,SMN (WRF),viento_fuerte,0,0
+2026-11-09,Junín,SMN (WRF),nieve,0,0
+2026-11-09,Rivadavia,SMN (WRF),helada,0,0
+2026-11-09,Rivadavia,SMN (WRF),calor,0,0
+2026-11-09,Rivadavia,SMN (WRF),lluvia,0,0
+2026-11-09,Rivadavia,SMN (WRF),lluvia_intensa,0,0
+2026-11-09,Rivadavia,SMN (WRF),zonda,0,0
+2026-11-09,Rivadavia,SMN (WRF),viento_fuerte,0,0
+2026-11-09,Rivadavia,SMN (WRF),nieve,0,0
+2026-11-09,Santa Rosa,SMN (WRF),helada,0,0
+2026-11-09,Santa Rosa,SMN (WRF),calor,0,0
+2026-11-09,Santa Rosa,SMN (WRF),lluvia,0,0
+2026-11-09,Santa Rosa,SMN (WRF),lluvia_intensa,0,0
+2026-11-09,Santa Rosa,SMN (WRF),zonda,0,0
+2026-11-09,Santa Rosa,SMN (WRF),viento_fuerte,0,0
+2026-11-09,Santa Rosa,SMN (WRF),nieve,0,0
+2026-11-09,Tupungato,SMN (WRF),helada,0,0
+2026-11-09,Tupungato,SMN (WRF),calor,0,0
+2026-11-09,Tupungato,SMN (WRF),lluvia,0,0
+2026-11-09,Tupungato,SMN (WRF),lluvia_intensa,0,0
+2026-11-09,Tupungato,SMN (WRF),zonda,0,0
+2026-11-09,Tupungato,SMN (WRF),viento_fuerte,0,0
+2026-11-09,Tupungato,SMN (WRF),nieve,0,0
+2026-11-09,Tunuyán,SMN (WRF),helada,0,0
+2026-11-09,Tunuyán,SMN (WRF),calor,0,0
+2026-11-09,Tunuyán,SMN (WRF),lluvia,0,0
+2026-11-09,Tunuyán,SMN (WRF),lluvia_intensa,0,0
+2026-11-09,Tunuyán,SMN (WRF),zonda,0,0
+2026-11-09,Tunuyán,SMN (WRF),viento_fuerte,0,0
+2026-11-09,Tunuyán,SMN (WRF),nieve,0,0
+2026-11-09,San Carlos,SMN (WRF),helada,0,0
+2026-11-09,San Carlos,SMN (WRF),calor,0,0
+2026-11-09,San Carlos,SMN (WRF),lluvia,0,0
+2026-11-09,San Carlos,SMN (WRF),lluvia_intensa,0,0
+2026-11-09,San Carlos,SMN (WRF),zonda,0,0
+2026-11-09,San Carlos,SMN (WRF),viento_fuerte,0,0
+2026-11-09,San Carlos,SMN (WRF),nieve,0,0
+2026-11-09,General Alvear,SMN (WRF),helada,0,0
+2026-11-09,General Alvear,SMN (WRF),calor,0,0
+2026-11-09,General Alvear,SMN (WRF),lluvia,0,0
+2026-11-09,General Alvear,SMN (WRF),lluvia_intensa,0,0
+2026-11-09,General Alvear,SMN (WRF),zonda,0,0
+2026-11-09,General Alvear,SMN (WRF),viento_fuerte,0,0
+2026-11-09,General Alvear,SMN (WRF),nieve,0,0
+2026-11-08,Maipú,SMN (WRF),helada,0,0
+2026-11-08,Maipú,SMN (WRF),calor,0,0
+2026-11-08,Maipú,SMN (WRF),lluvia,0,0
+2026-11-08,Maipú,SMN (WRF),lluvia_intensa,0,0
+2026-11-08,Maipú,SMN (WRF),zonda,0,0
+2026-11-08,Maipú,SMN (WRF),viento_fuerte,0,0
+2026-11-08,Maipú,SMN (WRF),nieve,0,0
+2026-11-08,Lavalle,SMN (WRF),helada,0,0
+2026-11-08,Lavalle,SMN (WRF),calor,0,0
+2026-11-08,Lavalle,SMN (WRF),lluvia,0,0
+2026-11-08,Lavalle,SMN (WRF),lluvia_intensa,0,0
+2026-11-08,Lavalle,SMN (WRF),zonda,0,0
+2026-11-08,Lavalle,SMN (WRF),viento_fuerte,0,0
+2026-11-08,Lavalle,SMN (WRF),nieve,0,0
+2026-11-08,San Martín,SMN (WRF),helada,0,0
+2026-11-08,San Martín,SMN (WRF),calor,0,0
+2026-11-08,San Martín,SMN (WRF),lluvia,0,0
+2026-11-08,San Martín,SMN (WRF),lluvia_intensa,0,0
+2026-11-08,San Martín,SMN (WRF),zonda,0,0
+2026-11-08,San Martín,SMN (WRF),viento_fuerte,0,0
+2026-11-08,San Martín,SMN (WRF),nieve,0,0
+2026-11-08,Junín,SMN (WRF),helada,0,0
+2026-11-08,Junín,SMN (WRF),calor,0,0
+2026-11-08,Junín,SMN (WRF),lluvia,0,0
+2026-11-08,Junín,SMN (WRF),lluvia_intensa,0,0
+2026-11-08,Junín,SMN (WRF),zonda,0,0
+2026-11-08,Junín,SMN (WRF),viento_fuerte,0,0
+2026-11-08,Junín,SMN (WRF),nieve,0,0
+2026-11-08,Rivadavia,SMN (WRF),helada,0,0
+2026-11-08,Rivadavia,SMN (WRF),calor,0,0
+2026-11-08,Rivadavia,SMN (WRF),lluvia,0,0
+2026-11-08,Rivadavia,SMN (WRF),lluvia_intensa,0,0
+2026-11-08,Rivadavia,SMN (WRF),zonda,0,0
+2026-11-08,Rivadavia,SMN (WRF),viento_fuerte,0,0
+2026-11-08,Rivadavia,SMN (WRF),nieve,0,0
+2026-11-08,Santa Rosa,SMN (WRF),helada,0,0
+2026-11-08,Santa Rosa,SMN (WRF),calor,0,0
+2026-11-08,Santa Rosa,SMN (WRF),lluvia,0,0
+2026-11-08,Santa Rosa,SMN (WRF),lluvia_intensa,0,0
+2026-11-08,Santa Rosa,SMN (WRF),zonda,0,0
+2026-11-08,Santa Rosa,SMN (WRF),viento_fuerte,0,0
+2026-11-08,Santa Rosa,SMN (WRF),nieve,0,0
+2026-11-08,Tupungato,SMN (WRF),helada,0,0
+2026-11-08,Tupungato,SMN (WRF),calor,0,0
+2026-11-08,Tupungato,SMN (WRF),lluvia,0,0
+2026-11-08,Tupungato,SMN (WRF),lluvia_intensa,0,0
+2026-11-08,Tupungato,SMN (WRF),zonda,0,0
+2026-11-08,Tupungato,SMN (WRF),viento_fuerte,0,0
+2026-11-08,Tupungato,SMN (WRF),nieve,0,0
+2026-11-08,Tunuyán,SMN (WRF),helada,0,0
+2026-11-08,Tunuyán,SMN (WRF),calor,0,0
+2026-11-08,Tunuyán,SMN (WRF),lluvia,0,0
+2026-11-08,Tunuyán,SMN (WRF),lluvia_intensa,0,0
+2026-11-08,Tunuyán,SMN (WRF),zonda,0,0
+2026-11-08,Tunuyán,SMN (WRF),viento_fuerte,0,0
+2026-11-08,Tunuyán,SMN (WRF),nieve,0,0
+2026-11-08,San Carlos,SMN (WRF),helada,0,0
+2026-11-08,San Carlos,SMN (WRF),calor,0,0
+2026-11-08,San Carlos,SMN (WRF),lluvia,0,0
+2026-11-08,San Carlos,SMN (WRF),lluvia_intensa,0,0
+2026-11-08,San Carlos,SMN (WRF),zonda,0,0
+2026-11-08,San Carlos,SMN (WRF),viento_fuerte,0,0
+2026-11-08,San Carlos,SMN (WRF),nieve,0,0
+2026-11-08,General Alvear,SMN (WRF),helada,0,0
+2026-11-08,General Alvear,SMN (WRF),calor,0,0
+2026-11-08,General Alvear,SMN (WRF),lluvia,0,0
+2026-11-08,General Alvear,SMN (WRF),lluvia_intensa,0,0
+2026-11-08,General Alvear,SMN (WRF),zonda,0,0
+2026-11-08,General Alvear,SMN (WRF),viento_fuerte,0,0
+2026-11-08,General Alvear,SMN (WRF),nieve,0,0
+2026-11-07,Maipú,SMN (WRF),helada,0,0
+2026-11-07,Maipú,SMN (WRF),calor,0,0
+2026-11-07,Maipú,SMN (WRF),lluvia,0,0
+2026-11-07,Maipú,SMN (WRF),lluvia_intensa,0,0
+2026-11-07,Maipú,SMN (WRF),zonda,0,0
+2026-11-07,Maipú,SMN (WRF),viento_fuerte,0,0
+2026-11-07,Maipú,SMN (WRF),nieve,0,0
+2026-11-07,Lavalle,SMN (WRF),helada,0,0
+2026-11-07,Lavalle,SMN (WRF),calor,0,0
+2026-11-07,Lavalle,SMN (WRF),lluvia,0,0
+2026-11-07,Lavalle,SMN (WRF),lluvia_intensa,0,0
+2026-11-07,Lavalle,SMN (WRF),zonda,0,0
+2026-11-07,Lavalle,SMN (WRF),viento_fuerte,0,0
+2026-11-07,Lavalle,SMN (WRF),nieve,0,0
+2026-11-07,San Martín,SMN (WRF),helada,0,0
+2026-11-07,San Martín,SMN (WRF),calor,0,0
+2026-11-07,San Martín,SMN (WRF),lluvia,0,0
+2026-11-07,San Martín,SMN (WRF),lluvia_intensa,0,0
+2026-11-07,San Martín,SMN (WRF),zonda,0,0
+2026-11-07,San Martín,SMN (WRF),viento_fuerte,0,0
+2026-11-07,San Martín,SMN (WRF),nieve,0,0
+2026-11-07,Junín,SMN (WRF),helada,0,0
+2026-11-07,Junín,SMN (WRF),calor,0,0
+2026-11-07,Junín,SMN (WRF),lluvia,0,0
+2026-11-07,Junín,SMN (WRF),lluvia_intensa,0,0
+2026-11-07,Junín,SMN (WRF),zonda,0,0
+2026-11-07,Junín,SMN (WRF),viento_fuerte,0,0
+2026-11-07,Junín,SMN (WRF),nieve,0,0
+2026-11-07,Rivadavia,SMN (WRF),helada,0,0
+2026-11-07,Rivadavia,SMN (WRF),calor,0,0
+2026-11-07,Rivadavia,SMN (WRF),lluvia,0,0
+2026-11-07,Rivadavia,SMN (WRF),lluvia_intensa,0,0
+2026-11-07,Rivadavia,SMN (WRF),zonda,0,0
+2026-11-07,Rivadavia,SMN (WRF),viento_fuerte,0,0
+2026-11-07,Rivadavia,SMN (WRF),nieve,0,0
+2026-11-07,Santa Rosa,SMN (WRF),helada,0,0
+2026-11-07,Santa Rosa,SMN (WRF),calor,0,0
+2026-11-07,Santa Rosa,SMN (WRF),lluvia,0,0
+2026-11-07,Santa Rosa,SMN (WRF),lluvia_intensa,0,0
+2026-11-07,Santa Rosa,SMN (WRF),zonda,0,0
+2026-11-07,Santa Rosa,SMN (WRF),viento_fuerte,0,0
+2026-11-07,Santa Rosa,SMN (WRF),nieve,0,0
+2026-11-07,Tupungato,SMN (WRF),helada,0,0
+2026-11-07,Tupungato,SMN (WRF),calor,0,0
+2026-11-07,Tupungato,SMN (WRF),lluvia,0,0
+2026-11-07,Tupungato,SMN (WRF),lluvia_intensa,0,0
+2026-11-07,Tupungato,SMN (WRF),zonda,0,0
+2026-11-07,Tupungato,SMN (WRF),viento_fuerte,0,0
+2026-11-07,Tupungato,SMN (WRF),nieve,0,0
+2026-11-07,Tunuyán,SMN (WRF),helada,0,0
+2026-11-07,Tunuyán,SMN (WRF),calor,0,0
+2026-11-07,Tunuyán,SMN (WRF),lluvia,0,0
+2026-11-07,Tunuyán,SMN (WRF),lluvia_intensa,0,0
+2026-11-07,Tunuyán,SMN (WRF),zonda,0,0
+2026-11-07,Tunuyán,SMN (WRF),viento_fuerte,0,0
+2026-11-07,Tunuyán,SMN (WRF),nieve,0,0
+2026-11-07,San Carlos,SMN (WRF),helada,0,1
+2026-11-07,San Carlos,SMN (WRF),calor,0,0
+2026-11-07,San Carlos,SMN (WRF),lluvia,0,0
+2026-11-07,San Carlos,SMN (WRF),lluvia_intensa,0,0
+2026-11-07,San Carlos,SMN (WRF),zonda,0,0
+2026-11-07,San Carlos,SMN (WRF),viento_fuerte,0,0
+2026-11-07,San Carlos,SMN (WRF),nieve,0,0
+2026-11-07,General Alvear,SMN (WRF),helada,0,0
+2026-11-07,General Alvear,SMN (WRF),calor,0,0
+2026-11-07,General Alvear,SMN (WRF),lluvia,0,0
+2026-11-07,General Alvear,SMN (WRF),lluvia_intensa,0,0
+2026-11-07,General Alvear,SMN (WRF),zonda,0,0
+2026-11-07,General Alvear,SMN (WRF),viento_fuerte,0,0
+2026-11-07,General Alvear,SMN (WRF),nieve,0,0
+2026-11-06,Maipú,SMN (WRF),helada,0,0
+2026-11-06,Maipú,SMN (WRF),calor,0,0
+2026-11-06,Maipú,SMN (WRF),lluvia,0,1
+2026-11-06,Maipú,SMN (WRF),lluvia_intensa,0,0
+2026-11-06,Maipú,SMN (WRF),zonda,0,0
+2026-11-06,Maipú,SMN (WRF),viento_fuerte,0,0
+2026-11-06,Maipú,SMN (WRF),nieve,0,0
+2026-11-06,Lavalle,SMN (WRF),helada,0,0
+2026-11-06,Lavalle,SMN (WRF),calor,0,0
+2026-11-06,Lavalle,SMN (WRF),lluvia,0,0
+2026-11-06,Lavalle,SMN (WRF),lluvia_intensa,0,0
+2026-11-06,Lavalle,SMN (WRF),zonda,0,0
+2026-11-06,Lavalle,SMN (WRF),viento_fuerte,0,1
+2026-11-06,Lavalle,SMN (WRF),nieve,0,0
+2026-11-06,San Martín,SMN (WRF),helada,0,0
+2026-11-06,San Martín,SMN (WRF),calor,0,0
+2026-11-06,San Martín,SMN (WRF),lluvia,0,0
+2026-11-06,San Martín,SMN (WRF),lluvia_intensa,0,0
+2026-11-06,San Martín,SMN (WRF),zonda,1,0
+2026-11-06,San Martín,SMN (WRF),viento_fuerte,0,0
+2026-11-06,San Martín,SMN (WRF),nieve,0,0
+2026-11-06,Junín,SMN (WRF),helada,0,0
+2026-11-06,Junín,SMN (WRF),calor,0,0
+2026-11-06,Junín,SMN (WRF),lluvia,0,0
+2026-11-06,Junín,SMN (WRF),lluvia_intensa,0,0
+2026-11-06,Junín,SMN (WRF),zonda,1,0
+2026-11-06,Junín,SMN (WRF),viento_fuerte,0,0
+2026-11-06,Junín,SMN (WRF),nieve,0,0
+2026-11-06,Rivadavia,SMN (WRF),helada,0,0
+2026-11-06,Rivadavia,SMN (WRF),calor,0,0
+2026-11-06,Rivadavia,SMN (WRF),lluvia,0,0
+2026-11-06,Rivadavia,SMN (WRF),lluvia_intensa,0,0
+2026-11-06,Rivadavia,SMN (WRF),zonda,1,0
+2026-11-06,Rivadavia,SMN (WRF),viento_fuerte,0,0
+2026-11-06,Rivadavia,SMN (WRF),nieve,0,0
+2026-11-06,Santa Rosa,SMN (WRF),helada,0,0
+2026-11-06,Santa Rosa,SMN (WRF),calor,0,0
+2026-11-06,Santa Rosa,SMN (WRF),lluvia,0,0
+2026-11-06,Santa Rosa,SMN (WRF),lluvia_intensa,0,0
+2026-11-06,Santa Rosa,SMN (WRF),zonda,1,0
+2026-11-06,Santa Rosa,SMN (WRF),viento_fuerte,0,0
+2026-11-06,Santa Rosa,SMN (WRF),nieve,0,0
+2026-11-06,Tupungato,SMN (WRF),helada,0,0
+2026-11-06,Tupungato,SMN (WRF),calor,0,0
+2026-11-06,Tupungato,SMN (WRF),lluvia,0,1
+2026-11-06,Tupungato,SMN (WRF),lluvia_intensa,0,0
+2026-11-06,Tupungato,SMN (WRF),zonda,0,0
+2026-11-06,Tupungato,SMN (WRF),viento_fuerte,0,0
+2026-11-06,Tupungato,SMN (WRF),nieve,0,0
+2026-11-06,Tunuyán,SMN (WRF),helada,0,0
+2026-11-06,Tunuyán,SMN (WRF),calor,0,0
+2026-11-06,Tunuyán,SMN (WRF),lluvia,0,1
+2026-11-06,Tunuyán,SMN (WRF),lluvia_intensa,0,0
+2026-11-06,Tunuyán,SMN (WRF),zonda,1,0
+2026-11-06,Tunuyán,SMN (WRF),viento_fuerte,0,0
+2026-11-06,Tunuyán,SMN (WRF),nieve,0,0
+2026-11-06,San Carlos,SMN (WRF),helada,0,0
+2026-11-06,San Carlos,SMN (WRF),calor,0,0
+2026-11-06,San Carlos,SMN (WRF),lluvia,0,1
+2026-11-06,San Carlos,SMN (WRF),lluvia_intensa,0,0
+2026-11-06,San Carlos,SMN (WRF),zonda,0,0
+2026-11-06,San Carlos,SMN (WRF),viento_fuerte,0,0
+2026-11-06,San Carlos,SMN (WRF),nieve,0,0
+2026-11-06,General Alvear,SMN (WRF),helada,0,0
+2026-11-06,General Alvear,SMN (WRF),calor,0,0
+2026-11-06,General Alvear,SMN (WRF),lluvia,0,0
+2026-11-06,General Alvear,SMN (WRF),lluvia_intensa,0,0
+2026-11-06,General Alvear,SMN (WRF),zonda,0,0
+2026-11-06,General Alvear,SMN (WRF),viento_fuerte,0,0
+2026-11-06,General Alvear,SMN (WRF),nieve,0,0
