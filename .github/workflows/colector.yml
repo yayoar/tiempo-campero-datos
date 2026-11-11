@@ -30,7 +30,7 @@ jobs:
           while true; do
             git pull --rebase -q || true
             python colector.py || true
-            git add datos/radar datos/pronosticos datos/fuentes datos/estaciones
+            git add datos/radar datos/pronosticos datos/fuentes datos/estaciones datos/duelo
             git commit -q -m "Colector $(date -u +%Y-%m-%dT%H:%MZ)" || echo "sin cambios"
             for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 15; done
             [ $(( $(date +%s) + 3600 )) -gt $fin ] && break
