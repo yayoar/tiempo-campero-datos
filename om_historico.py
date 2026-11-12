@@ -9,7 +9,11 @@ def get(u, t=240):
     return urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": "TiempoCampero/0.33"}), timeout=t).read().decode()
 def main():
     os.makedirs(OUT, exist_ok=True)
-    est = [x for x in json.loads(get("https://agrometeo.mendoza.gov.ar/api/getEstaciones.php")) if x.get("Estacion") and x.get("lat")]
+    try: lista = json.loads(get("https://agrometeo.mendoza.gov.ar/api/getEstaciones.php"))
+    except Exception as e:   # la API de Contingencias a veces no responde: uso la lista que guarda el colector
+        print("estaciones: uso la lista guardada", e)
+        lista = json.load(open(os.path.join(RAIZ, "datos", "estaciones", "dacc", "estaciones.json"), encoding="utf8"))
+    est = [x for x in lista if x.get("Estacion") and x.get("lat")]
     est.sort(key=lambda x: (0 if (x.get("Departamento") or "") in UCO else 1, x["Estacion"]))
     inicio = time.time()
     for x in est:
