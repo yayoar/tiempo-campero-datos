@@ -1,0 +1,526 @@
+dia,estacion,fuente,fenomeno,aviso,paso
+2026-11-12,Est. El Peral,SMN (4 km),helada,0,0
+2026-11-12,Est. El Peral,SMN (4 km),calor,0,0
+2026-11-12,Est. El Peral,SMN (4 km),lluvia,0,0
+2026-11-12,Est. El Peral,SMN (4 km),lluvia_intensa,0,0
+2026-11-12,Est. El Peral,SMN (4 km),zonda,0,0
+2026-11-12,Est. El Peral,SMN (4 km),viento_fuerte,0,0
+2026-11-12,Est. El Peral,SMN (4 km),nieve,0,0
+2026-11-12,Est. Dubois,SMN (4 km),helada,0,0
+2026-11-12,Est. Dubois,SMN (4 km),calor,0,1
+2026-11-12,Est. Dubois,SMN (4 km),lluvia,0,0
+2026-11-12,Est. Dubois,SMN (4 km),lluvia_intensa,0,0
+2026-11-12,Est. Dubois,SMN (4 km),zonda,0,0
+2026-11-12,Est. Dubois,SMN (4 km),viento_fuerte,0,0
+2026-11-12,Est. Dubois,SMN (4 km),nieve,0,0
+2026-11-12,Est. Cruz Negra,SMN (4 km),helada,0,0
+2026-11-12,Est. Cruz Negra,SMN (4 km),calor,0,1
+2026-11-12,Est. Cruz Negra,SMN (4 km),lluvia,0,0
+2026-11-12,Est. Cruz Negra,SMN (4 km),lluvia_intensa,0,0
+2026-11-12,Est. Cruz Negra,SMN (4 km),zonda,0,0
+2026-11-12,Est. Cruz Negra,SMN (4 km),viento_fuerte,0,0
+2026-11-12,Est. Cruz Negra,SMN (4 km),nieve,0,0
+2026-11-12,Est. Cordón del Plata,SMN (4 km),helada,0,0
+2026-11-12,Est. Cordón del Plata,SMN (4 km),calor,0,1
+2026-11-12,Est. Cordón del Plata,SMN (4 km),lluvia,0,0
+2026-11-12,Est. Cordón del Plata,SMN (4 km),lluvia_intensa,0,0
+2026-11-12,Est. Cordón del Plata,SMN (4 km),zonda,0,0
+2026-11-12,Est. Cordón del Plata,SMN (4 km),viento_fuerte,0,0
+2026-11-12,Est. Cordón del Plata,SMN (4 km),nieve,0,0
+2026-11-12,Est. Tunuyán,SMN (4 km),helada,0,0
+2026-11-12,Est. Tunuyán,SMN (4 km),calor,0,1
+2026-11-12,Est. Tunuyán,SMN (4 km),lluvia,0,0
+2026-11-12,Est. Tunuyán,SMN (4 km),lluvia_intensa,0,0
+2026-11-12,Est. Tunuyán,SMN (4 km),zonda,0,0
+2026-11-12,Est. Tunuyán,SMN (4 km),viento_fuerte,0,0
+2026-11-12,Est. Tunuyán,SMN (4 km),nieve,0,0
+2026-11-12,Est. Agua Amarga,SMN (4 km),helada,0,0
+2026-11-12,Est. Agua Amarga,SMN (4 km),calor,0,0
+2026-11-12,Est. Agua Amarga,SMN (4 km),lluvia,0,0
+2026-11-12,Est. Agua Amarga,SMN (4 km),lluvia_intensa,0,0
+2026-11-12,Est. Agua Amarga,SMN (4 km),zonda,0,0
+2026-11-12,Est. Agua Amarga,SMN (4 km),viento_fuerte,0,0
+2026-11-12,Est. Agua Amarga,SMN (4 km),nieve,0,0
+2026-11-12,Est. Colonia Las Rosas,SMN (4 km),helada,0,0
+2026-11-12,Est. Colonia Las Rosas,SMN (4 km),calor,0,1
+2026-11-12,Est. Colonia Las Rosas,SMN (4 km),lluvia,0,0
+2026-11-12,Est. Colonia Las Rosas,SMN (4 km),lluvia_intensa,0,0
+2026-11-12,Est. Colonia Las Rosas,SMN (4 km),zonda,0,0
+2026-11-12,Est. Colonia Las Rosas,SMN (4 km),viento_fuerte,0,0
+2026-11-12,Est. Colonia Las Rosas,SMN (4 km),nieve,0,0
+2026-11-12,Est. La Estacada,SMN (4 km),helada,0,0
+2026-11-12,Est. La Estacada,SMN (4 km),calor,1,1
+2026-11-12,Est. La Estacada,SMN (4 km),lluvia,0,0
+2026-11-12,Est. La Estacada,SMN (4 km),lluvia_intensa,0,0
+2026-11-12,Est. La Estacada,SMN (4 km),zonda,0,0
+2026-11-12,Est. La Estacada,SMN (4 km),viento_fuerte,0,0
+2026-11-12,Est. La Estacada,SMN (4 km),nieve,0,0
+2026-11-12,Est. Chacayes Piedra Negra,SMN (4 km),helada,0,0
+2026-11-12,Est. Chacayes Piedra Negra,SMN (4 km),calor,0,1
+2026-11-12,Est. Chacayes Piedra Negra,SMN (4 km),lluvia,0,0
+2026-11-12,Est. Chacayes Piedra Negra,SMN (4 km),lluvia_intensa,0,0
+2026-11-12,Est. Chacayes Piedra Negra,SMN (4 km),zonda,0,0
+2026-11-12,Est. Chacayes Piedra Negra,SMN (4 km),viento_fuerte,0,0
+2026-11-12,Est. Chacayes Piedra Negra,SMN (4 km),nieve,0,0
+2026-11-12,Est. Chacayes Alpasión,SMN (4 km),helada,0,0
+2026-11-12,Est. Chacayes Alpasión,SMN (4 km),calor,0,0
+2026-11-12,Est. Chacayes Alpasión,SMN (4 km),lluvia,0,0
+2026-11-12,Est. Chacayes Alpasión,SMN (4 km),lluvia_intensa,0,0
+2026-11-12,Est. Chacayes Alpasión,SMN (4 km),zonda,0,0
+2026-11-12,Est. Chacayes Alpasión,SMN (4 km),viento_fuerte,0,0
+2026-11-12,Est. Chacayes Alpasión,SMN (4 km),nieve,0,0
+2026-11-12,Est. Chacayes El Carrizalejo,SMN (4 km),helada,0,0
+2026-11-12,Est. Chacayes El Carrizalejo,SMN (4 km),calor,0,0
+2026-11-12,Est. Chacayes El Carrizalejo,SMN (4 km),lluvia,0,0
+2026-11-12,Est. Chacayes El Carrizalejo,SMN (4 km),lluvia_intensa,0,0
+2026-11-12,Est. Chacayes El Carrizalejo,SMN (4 km),zonda,0,0
+2026-11-12,Est. Chacayes El Carrizalejo,SMN (4 km),viento_fuerte,0,0
+2026-11-12,Est. Chacayes El Carrizalejo,SMN (4 km),nieve,0,0
+2026-11-12,Est. La Consulta,SMN (4 km),helada,0,0
+2026-11-12,Est. La Consulta,SMN (4 km),calor,0,1
+2026-11-12,Est. La Consulta,SMN (4 km),lluvia,0,0
+2026-11-12,Est. La Consulta,SMN (4 km),lluvia_intensa,0,0
+2026-11-12,Est. La Consulta,SMN (4 km),zonda,0,0
+2026-11-12,Est. La Consulta,SMN (4 km),viento_fuerte,0,0
+2026-11-12,Est. La Consulta,SMN (4 km),nieve,0,0
+2026-11-12,Est. El Cepillo,SMN (4 km),helada,0,0
+2026-11-12,Est. El Cepillo,SMN (4 km),calor,0,0
+2026-11-12,Est. El Cepillo,SMN (4 km),lluvia,0,0
+2026-11-12,Est. El Cepillo,SMN (4 km),lluvia_intensa,0,0
+2026-11-12,Est. El Cepillo,SMN (4 km),zonda,0,0
+2026-11-12,Est. El Cepillo,SMN (4 km),viento_fuerte,0,0
+2026-11-12,Est. El Cepillo,SMN (4 km),nieve,0,0
+2026-11-12,Est. Casas Viejas,SMN (4 km),helada,0,0
+2026-11-12,Est. Casas Viejas,SMN (4 km),calor,0,0
+2026-11-12,Est. Casas Viejas,SMN (4 km),lluvia,0,0
+2026-11-12,Est. Casas Viejas,SMN (4 km),lluvia_intensa,0,0
+2026-11-12,Est. Casas Viejas,SMN (4 km),zonda,0,0
+2026-11-12,Est. Casas Viejas,SMN (4 km),viento_fuerte,0,0
+2026-11-12,Est. Casas Viejas,SMN (4 km),nieve,0,0
+2026-11-12,Est. Pareditas,SMN (4 km),helada,0,0
+2026-11-12,Est. Pareditas,SMN (4 km),calor,0,0
+2026-11-12,Est. Pareditas,SMN (4 km),lluvia,0,0
+2026-11-12,Est. Pareditas,SMN (4 km),lluvia_intensa,0,0
+2026-11-12,Est. Pareditas,SMN (4 km),zonda,0,0
+2026-11-12,Est. Pareditas,SMN (4 km),viento_fuerte,0,0
+2026-11-12,Est. Pareditas,SMN (4 km),nieve,0,0
+2026-11-11,Est. El Peral,SMN (4 km),helada,0,0
+2026-11-11,Est. El Peral,SMN (4 km),calor,0,0
+2026-11-11,Est. El Peral,SMN (4 km),lluvia,0,0
+2026-11-11,Est. El Peral,SMN (4 km),lluvia_intensa,0,0
+2026-11-11,Est. El Peral,SMN (4 km),zonda,0,0
+2026-11-11,Est. El Peral,SMN (4 km),viento_fuerte,0,0
+2026-11-11,Est. El Peral,SMN (4 km),nieve,0,0
+2026-11-11,Est. Dubois,SMN (4 km),helada,0,0
+2026-11-11,Est. Dubois,SMN (4 km),calor,0,0
+2026-11-11,Est. Dubois,SMN (4 km),lluvia,0,0
+2026-11-11,Est. Dubois,SMN (4 km),lluvia_intensa,0,0
+2026-11-11,Est. Dubois,SMN (4 km),zonda,0,0
+2026-11-11,Est. Dubois,SMN (4 km),viento_fuerte,0,0
+2026-11-11,Est. Dubois,SMN (4 km),nieve,0,0
+2026-11-11,Est. Cruz Negra,SMN (4 km),helada,0,0
+2026-11-11,Est. Cruz Negra,SMN (4 km),calor,0,0
+2026-11-11,Est. Cruz Negra,SMN (4 km),lluvia,0,0
+2026-11-11,Est. Cruz Negra,SMN (4 km),lluvia_intensa,0,0
+2026-11-11,Est. Cruz Negra,SMN (4 km),zonda,0,0
+2026-11-11,Est. Cruz Negra,SMN (4 km),viento_fuerte,0,0
+2026-11-11,Est. Cruz Negra,SMN (4 km),nieve,0,0
+2026-11-11,Est. Cordón del Plata,SMN (4 km),helada,0,0
+2026-11-11,Est. Cordón del Plata,SMN (4 km),calor,0,0
+2026-11-11,Est. Cordón del Plata,SMN (4 km),lluvia,0,0
+2026-11-11,Est. Cordón del Plata,SMN (4 km),lluvia_intensa,0,0
+2026-11-11,Est. Cordón del Plata,SMN (4 km),zonda,0,0
+2026-11-11,Est. Cordón del Plata,SMN (4 km),viento_fuerte,0,0
+2026-11-11,Est. Cordón del Plata,SMN (4 km),nieve,0,0
+2026-11-11,Est. Tunuyán,SMN (4 km),helada,0,0
+2026-11-11,Est. Tunuyán,SMN (4 km),calor,0,0
+2026-11-11,Est. Tunuyán,SMN (4 km),lluvia,0,0
+2026-11-11,Est. Tunuyán,SMN (4 km),lluvia_intensa,0,0
+2026-11-11,Est. Tunuyán,SMN (4 km),zonda,0,0
+2026-11-11,Est. Tunuyán,SMN (4 km),viento_fuerte,0,0
+2026-11-11,Est. Tunuyán,SMN (4 km),nieve,0,0
+2026-11-11,Est. Agua Amarga,SMN (4 km),helada,0,0
+2026-11-11,Est. Agua Amarga,SMN (4 km),calor,0,0
+2026-11-11,Est. Agua Amarga,SMN (4 km),lluvia,0,0
+2026-11-11,Est. Agua Amarga,SMN (4 km),lluvia_intensa,0,0
+2026-11-11,Est. Agua Amarga,SMN (4 km),zonda,0,0
+2026-11-11,Est. Agua Amarga,SMN (4 km),viento_fuerte,0,0
+2026-11-11,Est. Agua Amarga,SMN (4 km),nieve,0,0
+2026-11-11,Est. Colonia Las Rosas,SMN (4 km),helada,0,0
+2026-11-11,Est. Colonia Las Rosas,SMN (4 km),calor,0,0
+2026-11-11,Est. Colonia Las Rosas,SMN (4 km),lluvia,0,0
+2026-11-11,Est. Colonia Las Rosas,SMN (4 km),lluvia_intensa,0,0
+2026-11-11,Est. Colonia Las Rosas,SMN (4 km),zonda,0,0
+2026-11-11,Est. Colonia Las Rosas,SMN (4 km),viento_fuerte,0,0
+2026-11-11,Est. Colonia Las Rosas,SMN (4 km),nieve,0,0
+2026-11-11,Est. La Estacada,SMN (4 km),helada,0,0
+2026-11-11,Est. La Estacada,SMN (4 km),calor,0,0
+2026-11-11,Est. La Estacada,SMN (4 km),lluvia,0,0
+2026-11-11,Est. La Estacada,SMN (4 km),lluvia_intensa,0,0
+2026-11-11,Est. La Estacada,SMN (4 km),zonda,0,0
+2026-11-11,Est. La Estacada,SMN (4 km),viento_fuerte,0,0
+2026-11-11,Est. La Estacada,SMN (4 km),nieve,0,0
+2026-11-11,Est. Chacayes Piedra Negra,SMN (4 km),helada,0,0
+2026-11-11,Est. Chacayes Piedra Negra,SMN (4 km),calor,0,0
+2026-11-11,Est. Chacayes Piedra Negra,SMN (4 km),lluvia,0,0
+2026-11-11,Est. Chacayes Piedra Negra,SMN (4 km),lluvia_intensa,0,0
+2026-11-11,Est. Chacayes Piedra Negra,SMN (4 km),zonda,0,0
+2026-11-11,Est. Chacayes Piedra Negra,SMN (4 km),viento_fuerte,0,0
+2026-11-11,Est. Chacayes Piedra Negra,SMN (4 km),nieve,0,0
+2026-11-11,Est. Chacayes Alpasión,SMN (4 km),helada,0,0
+2026-11-11,Est. Chacayes Alpasión,SMN (4 km),calor,0,0
+2026-11-11,Est. Chacayes Alpasión,SMN (4 km),lluvia,0,0
+2026-11-11,Est. Chacayes Alpasión,SMN (4 km),lluvia_intensa,0,0
+2026-11-11,Est. Chacayes Alpasión,SMN (4 km),zonda,0,0
+2026-11-11,Est. Chacayes Alpasión,SMN (4 km),viento_fuerte,0,0
+2026-11-11,Est. Chacayes Alpasión,SMN (4 km),nieve,0,0
+2026-11-11,Est. Chacayes El Carrizalejo,SMN (4 km),helada,0,0
+2026-11-11,Est. Chacayes El Carrizalejo,SMN (4 km),calor,0,0
+2026-11-11,Est. Chacayes El Carrizalejo,SMN (4 km),lluvia,0,0
+2026-11-11,Est. Chacayes El Carrizalejo,SMN (4 km),lluvia_intensa,0,0
+2026-11-11,Est. Chacayes El Carrizalejo,SMN (4 km),zonda,0,0
+2026-11-11,Est. Chacayes El Carrizalejo,SMN (4 km),viento_fuerte,0,0
+2026-11-11,Est. Chacayes El Carrizalejo,SMN (4 km),nieve,0,0
+2026-11-11,Est. La Consulta,SMN (4 km),helada,0,0
+2026-11-11,Est. La Consulta,SMN (4 km),calor,0,0
+2026-11-11,Est. La Consulta,SMN (4 km),lluvia,0,0
+2026-11-11,Est. La Consulta,SMN (4 km),lluvia_intensa,0,0
+2026-11-11,Est. La Consulta,SMN (4 km),zonda,0,0
+2026-11-11,Est. La Consulta,SMN (4 km),viento_fuerte,0,0
+2026-11-11,Est. La Consulta,SMN (4 km),nieve,0,0
+2026-11-11,Est. El Cepillo,SMN (4 km),helada,0,0
+2026-11-11,Est. El Cepillo,SMN (4 km),calor,0,0
+2026-11-11,Est. El Cepillo,SMN (4 km),lluvia,0,0
+2026-11-11,Est. El Cepillo,SMN (4 km),lluvia_intensa,0,0
+2026-11-11,Est. El Cepillo,SMN (4 km),zonda,0,0
+2026-11-11,Est. El Cepillo,SMN (4 km),viento_fuerte,0,0
+2026-11-11,Est. El Cepillo,SMN (4 km),nieve,0,0
+2026-11-11,Est. Casas Viejas,SMN (4 km),helada,0,0
+2026-11-11,Est. Casas Viejas,SMN (4 km),calor,0,0
+2026-11-11,Est. Casas Viejas,SMN (4 km),lluvia,0,0
+2026-11-11,Est. Casas Viejas,SMN (4 km),lluvia_intensa,0,0
+2026-11-11,Est. Casas Viejas,SMN (4 km),zonda,0,0
+2026-11-11,Est. Casas Viejas,SMN (4 km),viento_fuerte,0,0
+2026-11-11,Est. Casas Viejas,SMN (4 km),nieve,0,0
+2026-11-11,Est. Pareditas,SMN (4 km),helada,0,0
+2026-11-11,Est. Pareditas,SMN (4 km),calor,0,0
+2026-11-11,Est. Pareditas,SMN (4 km),lluvia,0,0
+2026-11-11,Est. Pareditas,SMN (4 km),lluvia_intensa,0,0
+2026-11-11,Est. Pareditas,SMN (4 km),zonda,0,0
+2026-11-11,Est. Pareditas,SMN (4 km),viento_fuerte,0,0
+2026-11-11,Est. Pareditas,SMN (4 km),nieve,0,0
+2026-11-10,Est. El Peral,SMN (4 km),helada,0,0
+2026-11-10,Est. El Peral,SMN (4 km),calor,0,0
+2026-11-10,Est. El Peral,SMN (4 km),lluvia,1,1
+2026-11-10,Est. El Peral,SMN (4 km),lluvia_intensa,0,0
+2026-11-10,Est. El Peral,SMN (4 km),zonda,0,0
+2026-11-10,Est. El Peral,SMN (4 km),viento_fuerte,0,0
+2026-11-10,Est. El Peral,SMN (4 km),nieve,0,0
+2026-11-10,Est. Dubois,SMN (4 km),helada,0,0
+2026-11-10,Est. Dubois,SMN (4 km),calor,0,0
+2026-11-10,Est. Dubois,SMN (4 km),lluvia,1,1
+2026-11-10,Est. Dubois,SMN (4 km),lluvia_intensa,1,0
+2026-11-10,Est. Dubois,SMN (4 km),zonda,0,0
+2026-11-10,Est. Dubois,SMN (4 km),viento_fuerte,0,0
+2026-11-10,Est. Dubois,SMN (4 km),nieve,0,0
+2026-11-10,Est. Cruz Negra,SMN (4 km),helada,0,0
+2026-11-10,Est. Cruz Negra,SMN (4 km),calor,0,0
+2026-11-10,Est. Cruz Negra,SMN (4 km),lluvia,1,1
+2026-11-10,Est. Cruz Negra,SMN (4 km),lluvia_intensa,1,0
+2026-11-10,Est. Cruz Negra,SMN (4 km),zonda,0,0
+2026-11-10,Est. Cruz Negra,SMN (4 km),viento_fuerte,0,0
+2026-11-10,Est. Cruz Negra,SMN (4 km),nieve,0,0
+2026-11-10,Est. Cordón del Plata,SMN (4 km),helada,0,0
+2026-11-10,Est. Cordón del Plata,SMN (4 km),calor,0,0
+2026-11-10,Est. Cordón del Plata,SMN (4 km),lluvia,1,1
+2026-11-10,Est. Cordón del Plata,SMN (4 km),lluvia_intensa,0,0
+2026-11-10,Est. Cordón del Plata,SMN (4 km),zonda,0,0
+2026-11-10,Est. Cordón del Plata,SMN (4 km),viento_fuerte,0,0
+2026-11-10,Est. Cordón del Plata,SMN (4 km),nieve,0,0
+2026-11-10,Est. Tunuyán,SMN (4 km),helada,0,0
+2026-11-10,Est. Tunuyán,SMN (4 km),calor,0,0
+2026-11-10,Est. Tunuyán,SMN (4 km),lluvia,1,1
+2026-11-10,Est. Tunuyán,SMN (4 km),lluvia_intensa,0,0
+2026-11-10,Est. Tunuyán,SMN (4 km),zonda,0,0
+2026-11-10,Est. Tunuyán,SMN (4 km),viento_fuerte,0,0
+2026-11-10,Est. Tunuyán,SMN (4 km),nieve,0,0
+2026-11-10,Est. Agua Amarga,SMN (4 km),helada,0,0
+2026-11-10,Est. Agua Amarga,SMN (4 km),calor,0,0
+2026-11-10,Est. Agua Amarga,SMN (4 km),lluvia,0,1
+2026-11-10,Est. Agua Amarga,SMN (4 km),lluvia_intensa,0,0
+2026-11-10,Est. Agua Amarga,SMN (4 km),zonda,0,0
+2026-11-10,Est. Agua Amarga,SMN (4 km),viento_fuerte,0,0
+2026-11-10,Est. Agua Amarga,SMN (4 km),nieve,0,0
+2026-11-10,Est. Colonia Las Rosas,SMN (4 km),helada,0,0
+2026-11-10,Est. Colonia Las Rosas,SMN (4 km),calor,0,0
+2026-11-10,Est. Colonia Las Rosas,SMN (4 km),lluvia,1,1
+2026-11-10,Est. Colonia Las Rosas,SMN (4 km),lluvia_intensa,0,0
+2026-11-10,Est. Colonia Las Rosas,SMN (4 km),zonda,0,0
+2026-11-10,Est. Colonia Las Rosas,SMN (4 km),viento_fuerte,0,0
+2026-11-10,Est. Colonia Las Rosas,SMN (4 km),nieve,0,0
+2026-11-10,Est. La Estacada,SMN (4 km),helada,0,0
+2026-11-10,Est. La Estacada,SMN (4 km),calor,0,0
+2026-11-10,Est. La Estacada,SMN (4 km),lluvia,1,0
+2026-11-10,Est. La Estacada,SMN (4 km),lluvia_intensa,0,0
+2026-11-10,Est. La Estacada,SMN (4 km),zonda,0,0
+2026-11-10,Est. La Estacada,SMN (4 km),viento_fuerte,0,0
+2026-11-10,Est. La Estacada,SMN (4 km),nieve,0,0
+2026-11-10,Est. Chacayes Piedra Negra,SMN (4 km),helada,0,0
+2026-11-10,Est. Chacayes Piedra Negra,SMN (4 km),calor,0,0
+2026-11-10,Est. Chacayes Piedra Negra,SMN (4 km),lluvia,0,1
+2026-11-10,Est. Chacayes Piedra Negra,SMN (4 km),lluvia_intensa,0,0
+2026-11-10,Est. Chacayes Piedra Negra,SMN (4 km),zonda,0,0
+2026-11-10,Est. Chacayes Piedra Negra,SMN (4 km),viento_fuerte,0,0
+2026-11-10,Est. Chacayes Piedra Negra,SMN (4 km),nieve,0,0
+2026-11-10,Est. Chacayes Alpasión,SMN (4 km),helada,0,0
+2026-11-10,Est. Chacayes Alpasión,SMN (4 km),calor,0,0
+2026-11-10,Est. Chacayes Alpasión,SMN (4 km),lluvia,1,1
+2026-11-10,Est. Chacayes Alpasión,SMN (4 km),lluvia_intensa,0,0
+2026-11-10,Est. Chacayes Alpasión,SMN (4 km),zonda,0,0
+2026-11-10,Est. Chacayes Alpasión,SMN (4 km),viento_fuerte,0,0
+2026-11-10,Est. Chacayes Alpasión,SMN (4 km),nieve,0,0
+2026-11-10,Est. Chacayes El Carrizalejo,SMN (4 km),helada,0,0
+2026-11-10,Est. Chacayes El Carrizalejo,SMN (4 km),calor,0,0
+2026-11-10,Est. Chacayes El Carrizalejo,SMN (4 km),lluvia,1,1
+2026-11-10,Est. Chacayes El Carrizalejo,SMN (4 km),lluvia_intensa,0,0
+2026-11-10,Est. Chacayes El Carrizalejo,SMN (4 km),zonda,0,0
+2026-11-10,Est. Chacayes El Carrizalejo,SMN (4 km),viento_fuerte,0,0
+2026-11-10,Est. Chacayes El Carrizalejo,SMN (4 km),nieve,0,0
+2026-11-10,Est. La Consulta,SMN (4 km),helada,0,0
+2026-11-10,Est. La Consulta,SMN (4 km),calor,0,0
+2026-11-10,Est. La Consulta,SMN (4 km),lluvia,1,1
+2026-11-10,Est. La Consulta,SMN (4 km),lluvia_intensa,0,0
+2026-11-10,Est. La Consulta,SMN (4 km),zonda,0,0
+2026-11-10,Est. La Consulta,SMN (4 km),viento_fuerte,0,0
+2026-11-10,Est. La Consulta,SMN (4 km),nieve,0,0
+2026-11-10,Est. El Cepillo,SMN (4 km),helada,0,0
+2026-11-10,Est. El Cepillo,SMN (4 km),calor,0,0
+2026-11-10,Est. El Cepillo,SMN (4 km),lluvia,1,1
+2026-11-10,Est. El Cepillo,SMN (4 km),lluvia_intensa,0,0
+2026-11-10,Est. El Cepillo,SMN (4 km),zonda,0,0
+2026-11-10,Est. El Cepillo,SMN (4 km),viento_fuerte,0,0
+2026-11-10,Est. El Cepillo,SMN (4 km),nieve,0,0
+2026-11-10,Est. Casas Viejas,SMN (4 km),helada,0,0
+2026-11-10,Est. Casas Viejas,SMN (4 km),calor,0,0
+2026-11-10,Est. Casas Viejas,SMN (4 km),lluvia,1,0
+2026-11-10,Est. Casas Viejas,SMN (4 km),lluvia_intensa,0,0
+2026-11-10,Est. Casas Viejas,SMN (4 km),zonda,0,0
+2026-11-10,Est. Casas Viejas,SMN (4 km),viento_fuerte,0,0
+2026-11-10,Est. Casas Viejas,SMN (4 km),nieve,0,0
+2026-11-10,Est. Pareditas,SMN (4 km),helada,0,0
+2026-11-10,Est. Pareditas,SMN (4 km),calor,0,0
+2026-11-10,Est. Pareditas,SMN (4 km),lluvia,1,1
+2026-11-10,Est. Pareditas,SMN (4 km),lluvia_intensa,0,0
+2026-11-10,Est. Pareditas,SMN (4 km),zonda,0,0
+2026-11-10,Est. Pareditas,SMN (4 km),viento_fuerte,0,1
+2026-11-10,Est. Pareditas,SMN (4 km),nieve,0,0
+2026-11-09,Est. El Peral,SMN (4 km),helada,0,0
+2026-11-09,Est. El Peral,SMN (4 km),calor,0,0
+2026-11-09,Est. El Peral,SMN (4 km),lluvia,1,0
+2026-11-09,Est. El Peral,SMN (4 km),lluvia_intensa,0,0
+2026-11-09,Est. El Peral,SMN (4 km),zonda,0,0
+2026-11-09,Est. El Peral,SMN (4 km),viento_fuerte,0,0
+2026-11-09,Est. El Peral,SMN (4 km),nieve,0,0
+2026-11-09,Est. Dubois,SMN (4 km),helada,0,0
+2026-11-09,Est. Dubois,SMN (4 km),calor,0,0
+2026-11-09,Est. Dubois,SMN (4 km),lluvia,0,0
+2026-11-09,Est. Dubois,SMN (4 km),lluvia_intensa,0,0
+2026-11-09,Est. Dubois,SMN (4 km),zonda,0,0
+2026-11-09,Est. Dubois,SMN (4 km),viento_fuerte,0,0
+2026-11-09,Est. Dubois,SMN (4 km),nieve,0,0
+2026-11-09,Est. Cruz Negra,SMN (4 km),helada,0,0
+2026-11-09,Est. Cruz Negra,SMN (4 km),calor,0,0
+2026-11-09,Est. Cruz Negra,SMN (4 km),lluvia,0,0
+2026-11-09,Est. Cruz Negra,SMN (4 km),lluvia_intensa,0,0
+2026-11-09,Est. Cruz Negra,SMN (4 km),zonda,0,0
+2026-11-09,Est. Cruz Negra,SMN (4 km),viento_fuerte,0,0
+2026-11-09,Est. Cruz Negra,SMN (4 km),nieve,0,0
+2026-11-09,Est. Cordón del Plata,SMN (4 km),helada,0,0
+2026-11-09,Est. Cordón del Plata,SMN (4 km),calor,0,0
+2026-11-09,Est. Cordón del Plata,SMN (4 km),lluvia,0,0
+2026-11-09,Est. Cordón del Plata,SMN (4 km),lluvia_intensa,0,0
+2026-11-09,Est. Cordón del Plata,SMN (4 km),zonda,0,0
+2026-11-09,Est. Cordón del Plata,SMN (4 km),viento_fuerte,0,0
+2026-11-09,Est. Cordón del Plata,SMN (4 km),nieve,0,0
+2026-11-09,Est. Tunuyán,SMN (4 km),helada,0,0
+2026-11-09,Est. Tunuyán,SMN (4 km),calor,0,0
+2026-11-09,Est. Tunuyán,SMN (4 km),lluvia,0,0
+2026-11-09,Est. Tunuyán,SMN (4 km),lluvia_intensa,0,0
+2026-11-09,Est. Tunuyán,SMN (4 km),zonda,0,0
+2026-11-09,Est. Tunuyán,SMN (4 km),viento_fuerte,0,0
+2026-11-09,Est. Tunuyán,SMN (4 km),nieve,0,0
+2026-11-09,Est. Agua Amarga,SMN (4 km),helada,0,0
+2026-11-09,Est. Agua Amarga,SMN (4 km),calor,0,0
+2026-11-09,Est. Agua Amarga,SMN (4 km),lluvia,0,0
+2026-11-09,Est. Agua Amarga,SMN (4 km),lluvia_intensa,0,0
+2026-11-09,Est. Agua Amarga,SMN (4 km),zonda,0,0
+2026-11-09,Est. Agua Amarga,SMN (4 km),viento_fuerte,0,0
+2026-11-09,Est. Agua Amarga,SMN (4 km),nieve,0,0
+2026-11-09,Est. Colonia Las Rosas,SMN (4 km),helada,0,0
+2026-11-09,Est. Colonia Las Rosas,SMN (4 km),calor,0,0
+2026-11-09,Est. Colonia Las Rosas,SMN (4 km),lluvia,0,0
+2026-11-09,Est. Colonia Las Rosas,SMN (4 km),lluvia_intensa,0,0
+2026-11-09,Est. Colonia Las Rosas,SMN (4 km),zonda,0,0
+2026-11-09,Est. Colonia Las Rosas,SMN (4 km),viento_fuerte,0,0
+2026-11-09,Est. Colonia Las Rosas,SMN (4 km),nieve,0,0
+2026-11-09,Est. La Estacada,SMN (4 km),helada,0,0
+2026-11-09,Est. La Estacada,SMN (4 km),calor,0,0
+2026-11-09,Est. La Estacada,SMN (4 km),lluvia,0,0
+2026-11-09,Est. La Estacada,SMN (4 km),lluvia_intensa,0,0
+2026-11-09,Est. La Estacada,SMN (4 km),zonda,0,0
+2026-11-09,Est. La Estacada,SMN (4 km),viento_fuerte,0,0
+2026-11-09,Est. La Estacada,SMN (4 km),nieve,0,0
+2026-11-09,Est. Chacayes Piedra Negra,SMN (4 km),helada,0,0
+2026-11-09,Est. Chacayes Piedra Negra,SMN (4 km),calor,0,0
+2026-11-09,Est. Chacayes Piedra Negra,SMN (4 km),lluvia,0,0
+2026-11-09,Est. Chacayes Piedra Negra,SMN (4 km),lluvia_intensa,0,0
+2026-11-09,Est. Chacayes Piedra Negra,SMN (4 km),zonda,0,0
+2026-11-09,Est. Chacayes Piedra Negra,SMN (4 km),viento_fuerte,0,0
+2026-11-09,Est. Chacayes Piedra Negra,SMN (4 km),nieve,0,0
+2026-11-09,Est. Chacayes Alpasión,SMN (4 km),helada,0,0
+2026-11-09,Est. Chacayes Alpasión,SMN (4 km),calor,0,0
+2026-11-09,Est. Chacayes Alpasión,SMN (4 km),lluvia,0,0
+2026-11-09,Est. Chacayes Alpasión,SMN (4 km),lluvia_intensa,0,0
+2026-11-09,Est. Chacayes Alpasión,SMN (4 km),zonda,0,0
+2026-11-09,Est. Chacayes Alpasión,SMN (4 km),viento_fuerte,0,0
+2026-11-09,Est. Chacayes Alpasión,SMN (4 km),nieve,0,0
+2026-11-09,Est. Chacayes El Carrizalejo,SMN (4 km),helada,0,0
+2026-11-09,Est. Chacayes El Carrizalejo,SMN (4 km),calor,0,0
+2026-11-09,Est. Chacayes El Carrizalejo,SMN (4 km),lluvia,1,0
+2026-11-09,Est. Chacayes El Carrizalejo,SMN (4 km),lluvia_intensa,0,0
+2026-11-09,Est. Chacayes El Carrizalejo,SMN (4 km),zonda,0,0
+2026-11-09,Est. Chacayes El Carrizalejo,SMN (4 km),viento_fuerte,0,0
+2026-11-09,Est. Chacayes El Carrizalejo,SMN (4 km),nieve,0,0
+2026-11-09,Est. La Consulta,SMN (4 km),helada,0,0
+2026-11-09,Est. La Consulta,SMN (4 km),calor,0,0
+2026-11-09,Est. La Consulta,SMN (4 km),lluvia,0,0
+2026-11-09,Est. La Consulta,SMN (4 km),lluvia_intensa,0,0
+2026-11-09,Est. La Consulta,SMN (4 km),zonda,0,0
+2026-11-09,Est. La Consulta,SMN (4 km),viento_fuerte,0,0
+2026-11-09,Est. La Consulta,SMN (4 km),nieve,0,0
+2026-11-09,Est. El Cepillo,SMN (4 km),helada,0,0
+2026-11-09,Est. El Cepillo,SMN (4 km),calor,0,0
+2026-11-09,Est. El Cepillo,SMN (4 km),lluvia,0,0
+2026-11-09,Est. El Cepillo,SMN (4 km),lluvia_intensa,0,0
+2026-11-09,Est. El Cepillo,SMN (4 km),zonda,0,0
+2026-11-09,Est. El Cepillo,SMN (4 km),viento_fuerte,0,0
+2026-11-09,Est. El Cepillo,SMN (4 km),nieve,0,0
+2026-11-09,Est. Casas Viejas,SMN (4 km),helada,0,0
+2026-11-09,Est. Casas Viejas,SMN (4 km),calor,0,0
+2026-11-09,Est. Casas Viejas,SMN (4 km),lluvia,0,0
+2026-11-09,Est. Casas Viejas,SMN (4 km),lluvia_intensa,0,0
+2026-11-09,Est. Casas Viejas,SMN (4 km),zonda,0,0
+2026-11-09,Est. Casas Viejas,SMN (4 km),viento_fuerte,0,0
+2026-11-09,Est. Casas Viejas,SMN (4 km),nieve,0,0
+2026-11-09,Est. Pareditas,SMN (4 km),helada,0,0
+2026-11-09,Est. Pareditas,SMN (4 km),calor,0,0
+2026-11-09,Est. Pareditas,SMN (4 km),lluvia,0,0
+2026-11-09,Est. Pareditas,SMN (4 km),lluvia_intensa,0,0
+2026-11-09,Est. Pareditas,SMN (4 km),zonda,0,0
+2026-11-09,Est. Pareditas,SMN (4 km),viento_fuerte,0,0
+2026-11-09,Est. Pareditas,SMN (4 km),nieve,0,0
+2026-11-08,Est. El Peral,SMN (4 km),helada,0,0
+2026-11-08,Est. El Peral,SMN (4 km),calor,0,0
+2026-11-08,Est. El Peral,SMN (4 km),lluvia,0,0
+2026-11-08,Est. El Peral,SMN (4 km),lluvia_intensa,0,0
+2026-11-08,Est. El Peral,SMN (4 km),zonda,0,0
+2026-11-08,Est. El Peral,SMN (4 km),viento_fuerte,0,0
+2026-11-08,Est. El Peral,SMN (4 km),nieve,0,0
+2026-11-08,Est. Dubois,SMN (4 km),helada,0,0
+2026-11-08,Est. Dubois,SMN (4 km),calor,0,0
+2026-11-08,Est. Dubois,SMN (4 km),lluvia,0,0
+2026-11-08,Est. Dubois,SMN (4 km),lluvia_intensa,0,0
+2026-11-08,Est. Dubois,SMN (4 km),zonda,0,0
+2026-11-08,Est. Dubois,SMN (4 km),viento_fuerte,0,0
+2026-11-08,Est. Dubois,SMN (4 km),nieve,0,0
+2026-11-08,Est. Cruz Negra,SMN (4 km),helada,0,0
+2026-11-08,Est. Cruz Negra,SMN (4 km),calor,0,0
+2026-11-08,Est. Cruz Negra,SMN (4 km),lluvia,0,0
+2026-11-08,Est. Cruz Negra,SMN (4 km),lluvia_intensa,0,0
+2026-11-08,Est. Cruz Negra,SMN (4 km),zonda,0,0
+2026-11-08,Est. Cruz Negra,SMN (4 km),viento_fuerte,0,0
+2026-11-08,Est. Cruz Negra,SMN (4 km),nieve,0,0
+2026-11-08,Est. Cordón del Plata,SMN (4 km),helada,0,0
+2026-11-08,Est. Cordón del Plata,SMN (4 km),calor,0,0
+2026-11-08,Est. Cordón del Plata,SMN (4 km),lluvia,0,0
+2026-11-08,Est. Cordón del Plata,SMN (4 km),lluvia_intensa,0,0
+2026-11-08,Est. Cordón del Plata,SMN (4 km),zonda,0,0
+2026-11-08,Est. Cordón del Plata,SMN (4 km),viento_fuerte,0,0
+2026-11-08,Est. Cordón del Plata,SMN (4 km),nieve,0,0
+2026-11-08,Est. Tunuyán,SMN (4 km),helada,0,0
+2026-11-08,Est. Tunuyán,SMN (4 km),calor,0,0
+2026-11-08,Est. Tunuyán,SMN (4 km),lluvia,0,0
+2026-11-08,Est. Tunuyán,SMN (4 km),lluvia_intensa,0,0
+2026-11-08,Est. Tunuyán,SMN (4 km),zonda,0,0
+2026-11-08,Est. Tunuyán,SMN (4 km),viento_fuerte,0,0
+2026-11-08,Est. Tunuyán,SMN (4 km),nieve,0,0
+2026-11-08,Est. Agua Amarga,SMN (4 km),helada,0,0
+2026-11-08,Est. Agua Amarga,SMN (4 km),calor,0,0
+2026-11-08,Est. Agua Amarga,SMN (4 km),lluvia,0,0
+2026-11-08,Est. Agua Amarga,SMN (4 km),lluvia_intensa,0,0
+2026-11-08,Est. Agua Amarga,SMN (4 km),zonda,0,0
+2026-11-08,Est. Agua Amarga,SMN (4 km),viento_fuerte,0,0
+2026-11-08,Est. Agua Amarga,SMN (4 km),nieve,0,0
+2026-11-08,Est. Colonia Las Rosas,SMN (4 km),helada,0,0
+2026-11-08,Est. Colonia Las Rosas,SMN (4 km),calor,0,0
+2026-11-08,Est. Colonia Las Rosas,SMN (4 km),lluvia,0,0
+2026-11-08,Est. Colonia Las Rosas,SMN (4 km),lluvia_intensa,0,0
+2026-11-08,Est. Colonia Las Rosas,SMN (4 km),zonda,0,0
+2026-11-08,Est. Colonia Las Rosas,SMN (4 km),viento_fuerte,0,0
+2026-11-08,Est. Colonia Las Rosas,SMN (4 km),nieve,0,0
+2026-11-08,Est. La Estacada,SMN (4 km),helada,0,0
+2026-11-08,Est. La Estacada,SMN (4 km),calor,0,0
+2026-11-08,Est. La Estacada,SMN (4 km),lluvia,0,0
+2026-11-08,Est. La Estacada,SMN (4 km),lluvia_intensa,0,0
+2026-11-08,Est. La Estacada,SMN (4 km),zonda,0,0
+2026-11-08,Est. La Estacada,SMN (4 km),viento_fuerte,0,0
+2026-11-08,Est. La Estacada,SMN (4 km),nieve,0,0
+2026-11-08,Est. Chacayes Piedra Negra,SMN (4 km),helada,0,0
+2026-11-08,Est. Chacayes Piedra Negra,SMN (4 km),calor,0,0
+2026-11-08,Est. Chacayes Piedra Negra,SMN (4 km),lluvia,0,0
+2026-11-08,Est. Chacayes Piedra Negra,SMN (4 km),lluvia_intensa,0,0
+2026-11-08,Est. Chacayes Piedra Negra,SMN (4 km),zonda,0,0
+2026-11-08,Est. Chacayes Piedra Negra,SMN (4 km),viento_fuerte,0,0
+2026-11-08,Est. Chacayes Piedra Negra,SMN (4 km),nieve,0,0
+2026-11-08,Est. Chacayes Alpasión,SMN (4 km),helada,0,0
+2026-11-08,Est. Chacayes Alpasión,SMN (4 km),calor,0,0
+2026-11-08,Est. Chacayes Alpasión,SMN (4 km),lluvia,0,0
+2026-11-08,Est. Chacayes Alpasión,SMN (4 km),lluvia_intensa,0,0
+2026-11-08,Est. Chacayes Alpasión,SMN (4 km),zonda,0,0
+2026-11-08,Est. Chacayes Alpasión,SMN (4 km),viento_fuerte,0,0
+2026-11-08,Est. Chacayes Alpasión,SMN (4 km),nieve,0,0
+2026-11-08,Est. Chacayes El Carrizalejo,SMN (4 km),helada,0,0
+2026-11-08,Est. Chacayes El Carrizalejo,SMN (4 km),calor,0,0
+2026-11-08,Est. Chacayes El Carrizalejo,SMN (4 km),lluvia,0,0
+2026-11-08,Est. Chacayes El Carrizalejo,SMN (4 km),lluvia_intensa,0,0
+2026-11-08,Est. Chacayes El Carrizalejo,SMN (4 km),zonda,0,0
+2026-11-08,Est. Chacayes El Carrizalejo,SMN (4 km),viento_fuerte,0,0
+2026-11-08,Est. Chacayes El Carrizalejo,SMN (4 km),nieve,0,0
+2026-11-08,Est. La Consulta,SMN (4 km),helada,0,0
+2026-11-08,Est. La Consulta,SMN (4 km),calor,0,0
+2026-11-08,Est. La Consulta,SMN (4 km),lluvia,0,0
+2026-11-08,Est. La Consulta,SMN (4 km),lluvia_intensa,0,0
+2026-11-08,Est. La Consulta,SMN (4 km),zonda,0,0
+2026-11-08,Est. La Consulta,SMN (4 km),viento_fuerte,0,0
+2026-11-08,Est. La Consulta,SMN (4 km),nieve,0,0
+2026-11-08,Est. El Cepillo,SMN (4 km),helada,0,0
+2026-11-08,Est. El Cepillo,SMN (4 km),calor,0,0
+2026-11-08,Est. El Cepillo,SMN (4 km),lluvia,0,0
+2026-11-08,Est. El Cepillo,SMN (4 km),lluvia_intensa,0,0
+2026-11-08,Est. El Cepillo,SMN (4 km),zonda,0,0
+2026-11-08,Est. El Cepillo,SMN (4 km),viento_fuerte,0,0
+2026-11-08,Est. El Cepillo,SMN (4 km),nieve,0,0
+2026-11-08,Est. Casas Viejas,SMN (4 km),helada,0,0
+2026-11-08,Est. Casas Viejas,SMN (4 km),calor,0,0
+2026-11-08,Est. Casas Viejas,SMN (4 km),lluvia,0,0
+2026-11-08,Est. Casas Viejas,SMN (4 km),lluvia_intensa,0,0
+2026-11-08,Est. Casas Viejas,SMN (4 km),zonda,0,0
+2026-11-08,Est. Casas Viejas,SMN (4 km),viento_fuerte,0,0
+2026-11-08,Est. Casas Viejas,SMN (4 km),nieve,0,0
+2026-11-08,Est. Pareditas,SMN (4 km),helada,0,0
+2026-11-08,Est. Pareditas,SMN (4 km),calor,0,0
+2026-11-08,Est. Pareditas,SMN (4 km),lluvia,0,0
+2026-11-08,Est. Pareditas,SMN (4 km),lluvia_intensa,0,0
+2026-11-08,Est. Pareditas,SMN (4 km),zonda,0,0
+2026-11-08,Est. Pareditas,SMN (4 km),viento_fuerte,0,0
+2026-11-08,Est. Pareditas,SMN (4 km),nieve,0,0
