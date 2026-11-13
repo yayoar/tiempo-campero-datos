@@ -156,9 +156,11 @@ def smn_dia(dia):
     return out
 
 # ------------------------------------------------------------------ lo que pasó
-def verdad(dia):
-    est = json.load(open(os.path.join(DATOS, "estaciones", "dacc", "estaciones.json"), encoding="utf8"))
-    cerca = {n: [str(x["Estacion"]) for x in est if x.get("lat") and km(x["lat"], x["lng"], la, lo) <= 10] for n, la, lo in DEPTOS}
+def verdad(dia, cerca=None):
+    """cerca: {lugar: [números de estación]}; si no se da, las estaciones a 10 km o menos de cada departamento."""
+    if cerca is None:
+        est = json.load(open(os.path.join(DATOS, "estaciones", "dacc", "estaciones.json"), encoding="utf8"))
+        cerca = {n: [str(x["Estacion"]) for x in est if x.get("lat") and km(x["lat"], x["lng"], la, lo) <= 10] for n, la, lo in DEPTOS}
     filas = {}
     for f in glob.glob(os.path.join(DATOS, "estaciones", "dacc", f"{dia:%Y-%m}.csv.gz")) + \
              glob.glob(os.path.join(DATOS, "estaciones", "dacc", f"{(dia + dt.timedelta(days=1)):%Y-%m}.csv.gz")):
