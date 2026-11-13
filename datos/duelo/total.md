@@ -1,4 +1,4 @@
-# Duelo de todas las fuentes — 6 días medidos (actualizado 12/11 23:17)
+# Duelo de todas las fuentes — 7 días medidos (actualizado 13/11 00:13)
 
 Efectividad = aciertos / (aciertos + falsas alarmas + no avisados). Entre paréntesis: aciertos / falsas alarmas / no avisados.
 
@@ -21,24 +21,24 @@ Efectividad = aciertos / (aciertos + falsas alarmas + no avisados). Entre parén
 - The Weather Channel: 0% (0 / 0 / 0)
 - MET Norway: 0% (0 / 0 / 0)
 
-## Calor — 5 casos medidos
-- Open-Meteo ecmwf_aifs025_single: 60% (3 / 0 / 2)
-- Open-Meteo meteofrance: 50% (3 / 1 / 2)
-- Open-Meteo icon: 40% (2 / 0 / 3)
-- Open-Meteo ecmwf_ifs025: 40% (2 / 0 / 3)
-- MET Norway: 40% (2 / 0 / 3)
-- Open-Meteo gem: 20% (1 / 0 / 4)
-- Open-Meteo ukmo: 20% (1 / 0 / 4)
-- Open-Meteo ukmo_global_deterministic_10km: 20% (1 / 0 / 4)
-- Open-Meteo knmi: 20% (1 / 0 / 4)
-- Open-Meteo dmi: 20% (1 / 0 / 4)
-- Open-Meteo metno: 20% (1 / 0 / 4)
-- Tiempo Campero: 20% (1 / 0 / 4)
-- The Weather Channel: 20% (1 / 0 / 4)
-- SMN (WRF): 0% (0 / 0 / 5)
-- Open-Meteo gfs: 0% (0 / 0 / 5)
-- Open-Meteo jma: 0% (0 / 0 / 5)
-- Open-Meteo cma_grapes_global: 0% (0 / 0 / 5)
+## Calor — 15 casos medidos
+- Open-Meteo ecmwf_aifs025_single: 67% (10 / 0 / 5)
+- Open-Meteo meteofrance: 62% (10 / 1 / 5)
+- Open-Meteo icon: 60% (9 / 0 / 6)
+- Open-Meteo ecmwf_ifs025: 60% (9 / 0 / 6)
+- MET Norway: 60% (9 / 0 / 6)
+- SMN (WRF): 53% (8 / 0 / 7)
+- Open-Meteo gem: 53% (8 / 0 / 7)
+- Open-Meteo knmi: 53% (8 / 0 / 7)
+- Open-Meteo dmi: 53% (8 / 0 / 7)
+- Open-Meteo metno: 53% (8 / 0 / 7)
+- Tiempo Campero: 53% (8 / 0 / 7)
+- The Weather Channel: 53% (8 / 0 / 7)
+- Open-Meteo ukmo: 47% (7 / 0 / 8)
+- Open-Meteo gfs: 47% (7 / 0 / 8)
+- Open-Meteo ukmo_global_deterministic_10km: 47% (7 / 0 / 8)
+- Open-Meteo jma: 40% (6 / 0 / 9)
+- Open-Meteo cma_grapes_global: 33% (5 / 0 / 10)
 
 ## Lluvia — 12 casos medidos
 - SMN (WRF): 57% (8 / 2 / 4)

@@ -1539,3 +1539,1193 @@ dia,depto,fuente,fenomeno,aviso,paso
 2026-11-11,General Alvear,SMN (WRF),zonda,0,0
 2026-11-11,General Alvear,SMN (WRF),viento_fuerte,0,0
 2026-11-11,General Alvear,SMN (WRF),nieve,0,0
+2026-11-12,Maipú,Open-Meteo gem,helada,0,0
+2026-11-12,Maipú,Open-Meteo gem,calor,1,1
+2026-11-12,Maipú,Open-Meteo gem,lluvia,0,0
+2026-11-12,Maipú,Open-Meteo gem,lluvia_intensa,0,0
+2026-11-12,Maipú,Open-Meteo gem,zonda,0,0
+2026-11-12,Maipú,Open-Meteo gem,viento_fuerte,0,0
+2026-11-12,Maipú,Open-Meteo gem,nieve,0,0
+2026-11-12,Lavalle,Open-Meteo gem,helada,0,0
+2026-11-12,Lavalle,Open-Meteo gem,calor,1,1
+2026-11-12,Lavalle,Open-Meteo gem,lluvia,0,0
+2026-11-12,Lavalle,Open-Meteo gem,lluvia_intensa,0,0
+2026-11-12,Lavalle,Open-Meteo gem,zonda,0,0
+2026-11-12,Lavalle,Open-Meteo gem,viento_fuerte,0,0
+2026-11-12,Lavalle,Open-Meteo gem,nieve,0,0
+2026-11-12,San Martín,Open-Meteo gem,helada,0,0
+2026-11-12,San Martín,Open-Meteo gem,calor,1,1
+2026-11-12,San Martín,Open-Meteo gem,lluvia,0,0
+2026-11-12,San Martín,Open-Meteo gem,lluvia_intensa,0,0
+2026-11-12,San Martín,Open-Meteo gem,zonda,0,0
+2026-11-12,San Martín,Open-Meteo gem,viento_fuerte,0,0
+2026-11-12,San Martín,Open-Meteo gem,nieve,0,0
+2026-11-12,Junín,Open-Meteo gem,helada,0,0
+2026-11-12,Junín,Open-Meteo gem,calor,1,1
+2026-11-12,Junín,Open-Meteo gem,lluvia,0,0
+2026-11-12,Junín,Open-Meteo gem,lluvia_intensa,0,0
+2026-11-12,Junín,Open-Meteo gem,zonda,0,0
+2026-11-12,Junín,Open-Meteo gem,viento_fuerte,0,0
+2026-11-12,Junín,Open-Meteo gem,nieve,0,0
+2026-11-12,Rivadavia,Open-Meteo gem,helada,0,0
+2026-11-12,Rivadavia,Open-Meteo gem,calor,1,1
+2026-11-12,Rivadavia,Open-Meteo gem,lluvia,0,0
+2026-11-12,Rivadavia,Open-Meteo gem,lluvia_intensa,0,0
+2026-11-12,Rivadavia,Open-Meteo gem,zonda,0,0
+2026-11-12,Rivadavia,Open-Meteo gem,viento_fuerte,0,0
+2026-11-12,Rivadavia,Open-Meteo gem,nieve,0,0
+2026-11-12,Santa Rosa,Open-Meteo gem,helada,0,0
+2026-11-12,Santa Rosa,Open-Meteo gem,calor,1,1
+2026-11-12,Santa Rosa,Open-Meteo gem,lluvia,0,0
+2026-11-12,Santa Rosa,Open-Meteo gem,lluvia_intensa,0,0
+2026-11-12,Santa Rosa,Open-Meteo gem,zonda,0,0
+2026-11-12,Santa Rosa,Open-Meteo gem,viento_fuerte,0,0
+2026-11-12,Santa Rosa,Open-Meteo gem,nieve,0,0
+2026-11-12,Tupungato,Open-Meteo gem,helada,0,0
+2026-11-12,Tupungato,Open-Meteo gem,calor,0,1
+2026-11-12,Tupungato,Open-Meteo gem,lluvia,0,0
+2026-11-12,Tupungato,Open-Meteo gem,lluvia_intensa,0,0
+2026-11-12,Tupungato,Open-Meteo gem,zonda,0,0
+2026-11-12,Tupungato,Open-Meteo gem,viento_fuerte,0,0
+2026-11-12,Tupungato,Open-Meteo gem,nieve,0,0
+2026-11-12,Tunuyán,Open-Meteo gem,helada,0,0
+2026-11-12,Tunuyán,Open-Meteo gem,calor,0,1
+2026-11-12,Tunuyán,Open-Meteo gem,lluvia,0,0
+2026-11-12,Tunuyán,Open-Meteo gem,lluvia_intensa,0,0
+2026-11-12,Tunuyán,Open-Meteo gem,zonda,0,0
+2026-11-12,Tunuyán,Open-Meteo gem,viento_fuerte,0,0
+2026-11-12,Tunuyán,Open-Meteo gem,nieve,0,0
+2026-11-12,San Carlos,Open-Meteo gem,helada,0,0
+2026-11-12,San Carlos,Open-Meteo gem,calor,0,1
+2026-11-12,San Carlos,Open-Meteo gem,lluvia,0,0
+2026-11-12,San Carlos,Open-Meteo gem,lluvia_intensa,0,0
+2026-11-12,San Carlos,Open-Meteo gem,zonda,0,0
+2026-11-12,San Carlos,Open-Meteo gem,viento_fuerte,0,0
+2026-11-12,San Carlos,Open-Meteo gem,nieve,0,0
+2026-11-12,General Alvear,Open-Meteo gem,helada,0,0
+2026-11-12,General Alvear,Open-Meteo gem,calor,1,1
+2026-11-12,General Alvear,Open-Meteo gem,lluvia,0,0
+2026-11-12,General Alvear,Open-Meteo gem,lluvia_intensa,0,0
+2026-11-12,General Alvear,Open-Meteo gem,zonda,0,0
+2026-11-12,General Alvear,Open-Meteo gem,viento_fuerte,0,0
+2026-11-12,General Alvear,Open-Meteo gem,nieve,0,0
+2026-11-12,Maipú,Open-Meteo icon,helada,0,0
+2026-11-12,Maipú,Open-Meteo icon,calor,1,1
+2026-11-12,Maipú,Open-Meteo icon,lluvia,0,0
+2026-11-12,Maipú,Open-Meteo icon,lluvia_intensa,0,0
+2026-11-12,Maipú,Open-Meteo icon,zonda,0,0
+2026-11-12,Maipú,Open-Meteo icon,viento_fuerte,0,0
+2026-11-12,Maipú,Open-Meteo icon,nieve,0,0
+2026-11-12,Lavalle,Open-Meteo icon,helada,0,0
+2026-11-12,Lavalle,Open-Meteo icon,calor,1,1
+2026-11-12,Lavalle,Open-Meteo icon,lluvia,0,0
+2026-11-12,Lavalle,Open-Meteo icon,lluvia_intensa,0,0
+2026-11-12,Lavalle,Open-Meteo icon,zonda,0,0
+2026-11-12,Lavalle,Open-Meteo icon,viento_fuerte,0,0
+2026-11-12,Lavalle,Open-Meteo icon,nieve,0,0
+2026-11-12,San Martín,Open-Meteo icon,helada,0,0
+2026-11-12,San Martín,Open-Meteo icon,calor,1,1
+2026-11-12,San Martín,Open-Meteo icon,lluvia,0,0
+2026-11-12,San Martín,Open-Meteo icon,lluvia_intensa,0,0
+2026-11-12,San Martín,Open-Meteo icon,zonda,0,0
+2026-11-12,San Martín,Open-Meteo icon,viento_fuerte,0,0
+2026-11-12,San Martín,Open-Meteo icon,nieve,0,0
+2026-11-12,Junín,Open-Meteo icon,helada,0,0
+2026-11-12,Junín,Open-Meteo icon,calor,1,1
+2026-11-12,Junín,Open-Meteo icon,lluvia,0,0
+2026-11-12,Junín,Open-Meteo icon,lluvia_intensa,0,0
+2026-11-12,Junín,Open-Meteo icon,zonda,0,0
+2026-11-12,Junín,Open-Meteo icon,viento_fuerte,0,0
+2026-11-12,Junín,Open-Meteo icon,nieve,0,0
+2026-11-12,Rivadavia,Open-Meteo icon,helada,0,0
+2026-11-12,Rivadavia,Open-Meteo icon,calor,1,1
+2026-11-12,Rivadavia,Open-Meteo icon,lluvia,0,0
+2026-11-12,Rivadavia,Open-Meteo icon,lluvia_intensa,0,0
+2026-11-12,Rivadavia,Open-Meteo icon,zonda,0,0
+2026-11-12,Rivadavia,Open-Meteo icon,viento_fuerte,0,0
+2026-11-12,Rivadavia,Open-Meteo icon,nieve,0,0
+2026-11-12,Santa Rosa,Open-Meteo icon,helada,0,0
+2026-11-12,Santa Rosa,Open-Meteo icon,calor,1,1
+2026-11-12,Santa Rosa,Open-Meteo icon,lluvia,0,0
+2026-11-12,Santa Rosa,Open-Meteo icon,lluvia_intensa,0,0
+2026-11-12,Santa Rosa,Open-Meteo icon,zonda,0,0
+2026-11-12,Santa Rosa,Open-Meteo icon,viento_fuerte,0,0
+2026-11-12,Santa Rosa,Open-Meteo icon,nieve,0,0
+2026-11-12,Tupungato,Open-Meteo icon,helada,0,0
+2026-11-12,Tupungato,Open-Meteo icon,calor,0,1
+2026-11-12,Tupungato,Open-Meteo icon,lluvia,0,0
+2026-11-12,Tupungato,Open-Meteo icon,lluvia_intensa,0,0
+2026-11-12,Tupungato,Open-Meteo icon,zonda,0,0
+2026-11-12,Tupungato,Open-Meteo icon,viento_fuerte,0,0
+2026-11-12,Tupungato,Open-Meteo icon,nieve,0,0
+2026-11-12,Tunuyán,Open-Meteo icon,helada,0,0
+2026-11-12,Tunuyán,Open-Meteo icon,calor,0,1
+2026-11-12,Tunuyán,Open-Meteo icon,lluvia,0,0
+2026-11-12,Tunuyán,Open-Meteo icon,lluvia_intensa,0,0
+2026-11-12,Tunuyán,Open-Meteo icon,zonda,0,0
+2026-11-12,Tunuyán,Open-Meteo icon,viento_fuerte,0,0
+2026-11-12,Tunuyán,Open-Meteo icon,nieve,0,0
+2026-11-12,San Carlos,Open-Meteo icon,helada,0,0
+2026-11-12,San Carlos,Open-Meteo icon,calor,0,1
+2026-11-12,San Carlos,Open-Meteo icon,lluvia,0,0
+2026-11-12,San Carlos,Open-Meteo icon,lluvia_intensa,0,0
+2026-11-12,San Carlos,Open-Meteo icon,zonda,0,0
+2026-11-12,San Carlos,Open-Meteo icon,viento_fuerte,0,0
+2026-11-12,San Carlos,Open-Meteo icon,nieve,0,0
+2026-11-12,General Alvear,Open-Meteo icon,helada,0,0
+2026-11-12,General Alvear,Open-Meteo icon,calor,1,1
+2026-11-12,General Alvear,Open-Meteo icon,lluvia,0,0
+2026-11-12,General Alvear,Open-Meteo icon,lluvia_intensa,0,0
+2026-11-12,General Alvear,Open-Meteo icon,zonda,0,0
+2026-11-12,General Alvear,Open-Meteo icon,viento_fuerte,0,0
+2026-11-12,General Alvear,Open-Meteo icon,nieve,0,0
+2026-11-12,Maipú,Open-Meteo ukmo,helada,0,0
+2026-11-12,Maipú,Open-Meteo ukmo,calor,0,1
+2026-11-12,Maipú,Open-Meteo ukmo,lluvia,0,0
+2026-11-12,Maipú,Open-Meteo ukmo,lluvia_intensa,0,0
+2026-11-12,Maipú,Open-Meteo ukmo,zonda,0,0
+2026-11-12,Maipú,Open-Meteo ukmo,viento_fuerte,0,0
+2026-11-12,Maipú,Open-Meteo ukmo,nieve,0,0
+2026-11-12,Lavalle,Open-Meteo ukmo,helada,0,0
+2026-11-12,Lavalle,Open-Meteo ukmo,calor,1,1
+2026-11-12,Lavalle,Open-Meteo ukmo,lluvia,0,0
+2026-11-12,Lavalle,Open-Meteo ukmo,lluvia_intensa,0,0
+2026-11-12,Lavalle,Open-Meteo ukmo,zonda,0,0
+2026-11-12,Lavalle,Open-Meteo ukmo,viento_fuerte,0,0
+2026-11-12,Lavalle,Open-Meteo ukmo,nieve,0,0
+2026-11-12,San Martín,Open-Meteo ukmo,helada,0,0
+2026-11-12,San Martín,Open-Meteo ukmo,calor,1,1
+2026-11-12,San Martín,Open-Meteo ukmo,lluvia,0,0
+2026-11-12,San Martín,Open-Meteo ukmo,lluvia_intensa,0,0
+2026-11-12,San Martín,Open-Meteo ukmo,zonda,0,0
+2026-11-12,San Martín,Open-Meteo ukmo,viento_fuerte,0,0
+2026-11-12,San Martín,Open-Meteo ukmo,nieve,0,0
+2026-11-12,Junín,Open-Meteo ukmo,helada,0,0
+2026-11-12,Junín,Open-Meteo ukmo,calor,1,1
+2026-11-12,Junín,Open-Meteo ukmo,lluvia,0,0
+2026-11-12,Junín,Open-Meteo ukmo,lluvia_intensa,0,0
+2026-11-12,Junín,Open-Meteo ukmo,zonda,0,0
+2026-11-12,Junín,Open-Meteo ukmo,viento_fuerte,0,0
+2026-11-12,Junín,Open-Meteo ukmo,nieve,0,0
+2026-11-12,Rivadavia,Open-Meteo ukmo,helada,0,0
+2026-11-12,Rivadavia,Open-Meteo ukmo,calor,1,1
+2026-11-12,Rivadavia,Open-Meteo ukmo,lluvia,0,0
+2026-11-12,Rivadavia,Open-Meteo ukmo,lluvia_intensa,0,0
+2026-11-12,Rivadavia,Open-Meteo ukmo,zonda,0,0
+2026-11-12,Rivadavia,Open-Meteo ukmo,viento_fuerte,0,0
+2026-11-12,Rivadavia,Open-Meteo ukmo,nieve,0,0
+2026-11-12,Santa Rosa,Open-Meteo ukmo,helada,0,0
+2026-11-12,Santa Rosa,Open-Meteo ukmo,calor,1,1
+2026-11-12,Santa Rosa,Open-Meteo ukmo,lluvia,0,0
+2026-11-12,Santa Rosa,Open-Meteo ukmo,lluvia_intensa,0,0
+2026-11-12,Santa Rosa,Open-Meteo ukmo,zonda,0,0
+2026-11-12,Santa Rosa,Open-Meteo ukmo,viento_fuerte,0,0
+2026-11-12,Santa Rosa,Open-Meteo ukmo,nieve,0,0
+2026-11-12,Tupungato,Open-Meteo ukmo,helada,0,0
+2026-11-12,Tupungato,Open-Meteo ukmo,calor,0,1
+2026-11-12,Tupungato,Open-Meteo ukmo,lluvia,0,0
+2026-11-12,Tupungato,Open-Meteo ukmo,lluvia_intensa,0,0
+2026-11-12,Tupungato,Open-Meteo ukmo,zonda,0,0
+2026-11-12,Tupungato,Open-Meteo ukmo,viento_fuerte,0,0
+2026-11-12,Tupungato,Open-Meteo ukmo,nieve,0,0
+2026-11-12,Tunuyán,Open-Meteo ukmo,helada,0,0
+2026-11-12,Tunuyán,Open-Meteo ukmo,calor,0,1
+2026-11-12,Tunuyán,Open-Meteo ukmo,lluvia,0,0
+2026-11-12,Tunuyán,Open-Meteo ukmo,lluvia_intensa,0,0
+2026-11-12,Tunuyán,Open-Meteo ukmo,zonda,0,0
+2026-11-12,Tunuyán,Open-Meteo ukmo,viento_fuerte,0,0
+2026-11-12,Tunuyán,Open-Meteo ukmo,nieve,0,0
+2026-11-12,San Carlos,Open-Meteo ukmo,helada,0,0
+2026-11-12,San Carlos,Open-Meteo ukmo,calor,0,1
+2026-11-12,San Carlos,Open-Meteo ukmo,lluvia,0,0
+2026-11-12,San Carlos,Open-Meteo ukmo,lluvia_intensa,0,0
+2026-11-12,San Carlos,Open-Meteo ukmo,zonda,0,0
+2026-11-12,San Carlos,Open-Meteo ukmo,viento_fuerte,0,0
+2026-11-12,San Carlos,Open-Meteo ukmo,nieve,0,0
+2026-11-12,General Alvear,Open-Meteo ukmo,helada,0,0
+2026-11-12,General Alvear,Open-Meteo ukmo,calor,1,1
+2026-11-12,General Alvear,Open-Meteo ukmo,lluvia,0,0
+2026-11-12,General Alvear,Open-Meteo ukmo,lluvia_intensa,0,0
+2026-11-12,General Alvear,Open-Meteo ukmo,zonda,0,0
+2026-11-12,General Alvear,Open-Meteo ukmo,viento_fuerte,0,0
+2026-11-12,General Alvear,Open-Meteo ukmo,nieve,0,0
+2026-11-12,Maipú,Open-Meteo ecmwf_ifs025,helada,0,0
+2026-11-12,Maipú,Open-Meteo ecmwf_ifs025,calor,1,1
+2026-11-12,Maipú,Open-Meteo ecmwf_ifs025,lluvia,0,0
+2026-11-12,Maipú,Open-Meteo ecmwf_ifs025,lluvia_intensa,0,0
+2026-11-12,Maipú,Open-Meteo ecmwf_ifs025,zonda,0,0
+2026-11-12,Maipú,Open-Meteo ecmwf_ifs025,viento_fuerte,0,0
+2026-11-12,Maipú,Open-Meteo ecmwf_ifs025,nieve,0,0
+2026-11-12,Lavalle,Open-Meteo ecmwf_ifs025,helada,0,0
+2026-11-12,Lavalle,Open-Meteo ecmwf_ifs025,calor,1,1
+2026-11-12,Lavalle,Open-Meteo ecmwf_ifs025,lluvia,0,0
+2026-11-12,Lavalle,Open-Meteo ecmwf_ifs025,lluvia_intensa,0,0
+2026-11-12,Lavalle,Open-Meteo ecmwf_ifs025,zonda,0,0
+2026-11-12,Lavalle,Open-Meteo ecmwf_ifs025,viento_fuerte,0,0
+2026-11-12,Lavalle,Open-Meteo ecmwf_ifs025,nieve,0,0
+2026-11-12,San Martín,Open-Meteo ecmwf_ifs025,helada,0,0
+2026-11-12,San Martín,Open-Meteo ecmwf_ifs025,calor,1,1
+2026-11-12,San Martín,Open-Meteo ecmwf_ifs025,lluvia,0,0
+2026-11-12,San Martín,Open-Meteo ecmwf_ifs025,lluvia_intensa,0,0
+2026-11-12,San Martín,Open-Meteo ecmwf_ifs025,zonda,0,0
+2026-11-12,San Martín,Open-Meteo ecmwf_ifs025,viento_fuerte,0,0
+2026-11-12,San Martín,Open-Meteo ecmwf_ifs025,nieve,0,0
+2026-11-12,Junín,Open-Meteo ecmwf_ifs025,helada,0,0
+2026-11-12,Junín,Open-Meteo ecmwf_ifs025,calor,1,1
+2026-11-12,Junín,Open-Meteo ecmwf_ifs025,lluvia,0,0
+2026-11-12,Junín,Open-Meteo ecmwf_ifs025,lluvia_intensa,0,0
+2026-11-12,Junín,Open-Meteo ecmwf_ifs025,zonda,0,0
+2026-11-12,Junín,Open-Meteo ecmwf_ifs025,viento_fuerte,0,0
+2026-11-12,Junín,Open-Meteo ecmwf_ifs025,nieve,0,0
+2026-11-12,Rivadavia,Open-Meteo ecmwf_ifs025,helada,0,0
+2026-11-12,Rivadavia,Open-Meteo ecmwf_ifs025,calor,1,1
+2026-11-12,Rivadavia,Open-Meteo ecmwf_ifs025,lluvia,0,0
+2026-11-12,Rivadavia,Open-Meteo ecmwf_ifs025,lluvia_intensa,0,0
+2026-11-12,Rivadavia,Open-Meteo ecmwf_ifs025,zonda,0,0
+2026-11-12,Rivadavia,Open-Meteo ecmwf_ifs025,viento_fuerte,0,0
+2026-11-12,Rivadavia,Open-Meteo ecmwf_ifs025,nieve,0,0
+2026-11-12,Santa Rosa,Open-Meteo ecmwf_ifs025,helada,0,0
+2026-11-12,Santa Rosa,Open-Meteo ecmwf_ifs025,calor,1,1
+2026-11-12,Santa Rosa,Open-Meteo ecmwf_ifs025,lluvia,0,0
+2026-11-12,Santa Rosa,Open-Meteo ecmwf_ifs025,lluvia_intensa,0,0
+2026-11-12,Santa Rosa,Open-Meteo ecmwf_ifs025,zonda,0,0
+2026-11-12,Santa Rosa,Open-Meteo ecmwf_ifs025,viento_fuerte,0,0
+2026-11-12,Santa Rosa,Open-Meteo ecmwf_ifs025,nieve,0,0
+2026-11-12,Tupungato,Open-Meteo ecmwf_ifs025,helada,0,0
+2026-11-12,Tupungato,Open-Meteo ecmwf_ifs025,calor,0,1
+2026-11-12,Tupungato,Open-Meteo ecmwf_ifs025,lluvia,0,0
+2026-11-12,Tupungato,Open-Meteo ecmwf_ifs025,lluvia_intensa,0,0
+2026-11-12,Tupungato,Open-Meteo ecmwf_ifs025,zonda,0,0
+2026-11-12,Tupungato,Open-Meteo ecmwf_ifs025,viento_fuerte,0,0
+2026-11-12,Tupungato,Open-Meteo ecmwf_ifs025,nieve,0,0
+2026-11-12,Tunuyán,Open-Meteo ecmwf_ifs025,helada,0,0
+2026-11-12,Tunuyán,Open-Meteo ecmwf_ifs025,calor,0,1
+2026-11-12,Tunuyán,Open-Meteo ecmwf_ifs025,lluvia,0,0
+2026-11-12,Tunuyán,Open-Meteo ecmwf_ifs025,lluvia_intensa,0,0
+2026-11-12,Tunuyán,Open-Meteo ecmwf_ifs025,zonda,0,0
+2026-11-12,Tunuyán,Open-Meteo ecmwf_ifs025,viento_fuerte,0,0
+2026-11-12,Tunuyán,Open-Meteo ecmwf_ifs025,nieve,0,0
+2026-11-12,San Carlos,Open-Meteo ecmwf_ifs025,helada,0,0
+2026-11-12,San Carlos,Open-Meteo ecmwf_ifs025,calor,0,1
+2026-11-12,San Carlos,Open-Meteo ecmwf_ifs025,lluvia,0,0
+2026-11-12,San Carlos,Open-Meteo ecmwf_ifs025,lluvia_intensa,0,0
+2026-11-12,San Carlos,Open-Meteo ecmwf_ifs025,zonda,0,0
+2026-11-12,San Carlos,Open-Meteo ecmwf_ifs025,viento_fuerte,0,0
+2026-11-12,San Carlos,Open-Meteo ecmwf_ifs025,nieve,0,0
+2026-11-12,General Alvear,Open-Meteo ecmwf_ifs025,helada,0,0
+2026-11-12,General Alvear,Open-Meteo ecmwf_ifs025,calor,1,1
+2026-11-12,General Alvear,Open-Meteo ecmwf_ifs025,lluvia,0,0
+2026-11-12,General Alvear,Open-Meteo ecmwf_ifs025,lluvia_intensa,0,0
+2026-11-12,General Alvear,Open-Meteo ecmwf_ifs025,zonda,0,0
+2026-11-12,General Alvear,Open-Meteo ecmwf_ifs025,viento_fuerte,0,0
+2026-11-12,General Alvear,Open-Meteo ecmwf_ifs025,nieve,0,0
+2026-11-12,Maipú,Open-Meteo meteofrance,helada,0,0
+2026-11-12,Maipú,Open-Meteo meteofrance,calor,1,1
+2026-11-12,Maipú,Open-Meteo meteofrance,lluvia,0,0
+2026-11-12,Maipú,Open-Meteo meteofrance,lluvia_intensa,0,0
+2026-11-12,Maipú,Open-Meteo meteofrance,zonda,0,0
+2026-11-12,Maipú,Open-Meteo meteofrance,viento_fuerte,0,0
+2026-11-12,Maipú,Open-Meteo meteofrance,nieve,0,0
+2026-11-12,Lavalle,Open-Meteo meteofrance,helada,0,0
+2026-11-12,Lavalle,Open-Meteo meteofrance,calor,1,1
+2026-11-12,Lavalle,Open-Meteo meteofrance,lluvia,0,0
+2026-11-12,Lavalle,Open-Meteo meteofrance,lluvia_intensa,0,0
+2026-11-12,Lavalle,Open-Meteo meteofrance,zonda,0,0
+2026-11-12,Lavalle,Open-Meteo meteofrance,viento_fuerte,0,0
+2026-11-12,Lavalle,Open-Meteo meteofrance,nieve,0,0
+2026-11-12,San Martín,Open-Meteo meteofrance,helada,0,0
+2026-11-12,San Martín,Open-Meteo meteofrance,calor,1,1
+2026-11-12,San Martín,Open-Meteo meteofrance,lluvia,0,0
+2026-11-12,San Martín,Open-Meteo meteofrance,lluvia_intensa,0,0
+2026-11-12,San Martín,Open-Meteo meteofrance,zonda,0,0
+2026-11-12,San Martín,Open-Meteo meteofrance,viento_fuerte,0,0
+2026-11-12,San Martín,Open-Meteo meteofrance,nieve,0,0
+2026-11-12,Junín,Open-Meteo meteofrance,helada,0,0
+2026-11-12,Junín,Open-Meteo meteofrance,calor,1,1
+2026-11-12,Junín,Open-Meteo meteofrance,lluvia,0,0
+2026-11-12,Junín,Open-Meteo meteofrance,lluvia_intensa,0,0
+2026-11-12,Junín,Open-Meteo meteofrance,zonda,0,0
+2026-11-12,Junín,Open-Meteo meteofrance,viento_fuerte,0,0
+2026-11-12,Junín,Open-Meteo meteofrance,nieve,0,0
+2026-11-12,Rivadavia,Open-Meteo meteofrance,helada,0,0
+2026-11-12,Rivadavia,Open-Meteo meteofrance,calor,1,1
+2026-11-12,Rivadavia,Open-Meteo meteofrance,lluvia,0,0
+2026-11-12,Rivadavia,Open-Meteo meteofrance,lluvia_intensa,0,0
+2026-11-12,Rivadavia,Open-Meteo meteofrance,zonda,0,0
+2026-11-12,Rivadavia,Open-Meteo meteofrance,viento_fuerte,0,0
+2026-11-12,Rivadavia,Open-Meteo meteofrance,nieve,0,0
+2026-11-12,Santa Rosa,Open-Meteo meteofrance,helada,0,0
+2026-11-12,Santa Rosa,Open-Meteo meteofrance,calor,1,1
+2026-11-12,Santa Rosa,Open-Meteo meteofrance,lluvia,0,0
+2026-11-12,Santa Rosa,Open-Meteo meteofrance,lluvia_intensa,0,0
+2026-11-12,Santa Rosa,Open-Meteo meteofrance,zonda,0,0
+2026-11-12,Santa Rosa,Open-Meteo meteofrance,viento_fuerte,0,0
+2026-11-12,Santa Rosa,Open-Meteo meteofrance,nieve,0,0
+2026-11-12,Tupungato,Open-Meteo meteofrance,helada,0,0
+2026-11-12,Tupungato,Open-Meteo meteofrance,calor,0,1
+2026-11-12,Tupungato,Open-Meteo meteofrance,lluvia,0,0
+2026-11-12,Tupungato,Open-Meteo meteofrance,lluvia_intensa,0,0
+2026-11-12,Tupungato,Open-Meteo meteofrance,zonda,0,0
+2026-11-12,Tupungato,Open-Meteo meteofrance,viento_fuerte,0,0
+2026-11-12,Tupungato,Open-Meteo meteofrance,nieve,0,0
+2026-11-12,Tunuyán,Open-Meteo meteofrance,helada,0,0
+2026-11-12,Tunuyán,Open-Meteo meteofrance,calor,0,1
+2026-11-12,Tunuyán,Open-Meteo meteofrance,lluvia,0,0
+2026-11-12,Tunuyán,Open-Meteo meteofrance,lluvia_intensa,0,0
+2026-11-12,Tunuyán,Open-Meteo meteofrance,zonda,0,0
+2026-11-12,Tunuyán,Open-Meteo meteofrance,viento_fuerte,0,0
+2026-11-12,Tunuyán,Open-Meteo meteofrance,nieve,0,0
+2026-11-12,San Carlos,Open-Meteo meteofrance,helada,0,0
+2026-11-12,San Carlos,Open-Meteo meteofrance,calor,0,1
+2026-11-12,San Carlos,Open-Meteo meteofrance,lluvia,0,0
+2026-11-12,San Carlos,Open-Meteo meteofrance,lluvia_intensa,0,0
+2026-11-12,San Carlos,Open-Meteo meteofrance,zonda,0,0
+2026-11-12,San Carlos,Open-Meteo meteofrance,viento_fuerte,0,0
+2026-11-12,San Carlos,Open-Meteo meteofrance,nieve,0,0
+2026-11-12,General Alvear,Open-Meteo meteofrance,helada,0,0
+2026-11-12,General Alvear,Open-Meteo meteofrance,calor,1,1
+2026-11-12,General Alvear,Open-Meteo meteofrance,lluvia,0,0
+2026-11-12,General Alvear,Open-Meteo meteofrance,lluvia_intensa,0,0
+2026-11-12,General Alvear,Open-Meteo meteofrance,zonda,0,0
+2026-11-12,General Alvear,Open-Meteo meteofrance,viento_fuerte,0,0
+2026-11-12,General Alvear,Open-Meteo meteofrance,nieve,0,0
+2026-11-12,Maipú,Open-Meteo gfs,helada,0,0
+2026-11-12,Maipú,Open-Meteo gfs,calor,1,1
+2026-11-12,Maipú,Open-Meteo gfs,lluvia,0,0
+2026-11-12,Maipú,Open-Meteo gfs,lluvia_intensa,0,0
+2026-11-12,Maipú,Open-Meteo gfs,zonda,0,0
+2026-11-12,Maipú,Open-Meteo gfs,viento_fuerte,0,0
+2026-11-12,Maipú,Open-Meteo gfs,nieve,0,0
+2026-11-12,Lavalle,Open-Meteo gfs,helada,0,0
+2026-11-12,Lavalle,Open-Meteo gfs,calor,1,1
+2026-11-12,Lavalle,Open-Meteo gfs,lluvia,0,0
+2026-11-12,Lavalle,Open-Meteo gfs,lluvia_intensa,0,0
+2026-11-12,Lavalle,Open-Meteo gfs,zonda,0,0
+2026-11-12,Lavalle,Open-Meteo gfs,viento_fuerte,0,0
+2026-11-12,Lavalle,Open-Meteo gfs,nieve,0,0
+2026-11-12,San Martín,Open-Meteo gfs,helada,0,0
+2026-11-12,San Martín,Open-Meteo gfs,calor,1,1
+2026-11-12,San Martín,Open-Meteo gfs,lluvia,0,0
+2026-11-12,San Martín,Open-Meteo gfs,lluvia_intensa,0,0
+2026-11-12,San Martín,Open-Meteo gfs,zonda,0,0
+2026-11-12,San Martín,Open-Meteo gfs,viento_fuerte,0,0
+2026-11-12,San Martín,Open-Meteo gfs,nieve,0,0
+2026-11-12,Junín,Open-Meteo gfs,helada,0,0
+2026-11-12,Junín,Open-Meteo gfs,calor,1,1
+2026-11-12,Junín,Open-Meteo gfs,lluvia,0,0
+2026-11-12,Junín,Open-Meteo gfs,lluvia_intensa,0,0
+2026-11-12,Junín,Open-Meteo gfs,zonda,0,0
+2026-11-12,Junín,Open-Meteo gfs,viento_fuerte,0,0
+2026-11-12,Junín,Open-Meteo gfs,nieve,0,0
+2026-11-12,Rivadavia,Open-Meteo gfs,helada,0,0
+2026-11-12,Rivadavia,Open-Meteo gfs,calor,1,1
+2026-11-12,Rivadavia,Open-Meteo gfs,lluvia,0,0
+2026-11-12,Rivadavia,Open-Meteo gfs,lluvia_intensa,0,0
+2026-11-12,Rivadavia,Open-Meteo gfs,zonda,0,0
+2026-11-12,Rivadavia,Open-Meteo gfs,viento_fuerte,0,0
+2026-11-12,Rivadavia,Open-Meteo gfs,nieve,0,0
+2026-11-12,Santa Rosa,Open-Meteo gfs,helada,0,0
+2026-11-12,Santa Rosa,Open-Meteo gfs,calor,1,1
+2026-11-12,Santa Rosa,Open-Meteo gfs,lluvia,0,0
+2026-11-12,Santa Rosa,Open-Meteo gfs,lluvia_intensa,0,0
+2026-11-12,Santa Rosa,Open-Meteo gfs,zonda,0,0
+2026-11-12,Santa Rosa,Open-Meteo gfs,viento_fuerte,0,0
+2026-11-12,Santa Rosa,Open-Meteo gfs,nieve,0,0
+2026-11-12,Tupungato,Open-Meteo gfs,helada,0,0
+2026-11-12,Tupungato,Open-Meteo gfs,calor,0,1
+2026-11-12,Tupungato,Open-Meteo gfs,lluvia,0,0
+2026-11-12,Tupungato,Open-Meteo gfs,lluvia_intensa,0,0
+2026-11-12,Tupungato,Open-Meteo gfs,zonda,0,0
+2026-11-12,Tupungato,Open-Meteo gfs,viento_fuerte,0,0
+2026-11-12,Tupungato,Open-Meteo gfs,nieve,0,0
+2026-11-12,Tunuyán,Open-Meteo gfs,helada,0,0
+2026-11-12,Tunuyán,Open-Meteo gfs,calor,0,1
+2026-11-12,Tunuyán,Open-Meteo gfs,lluvia,0,0
+2026-11-12,Tunuyán,Open-Meteo gfs,lluvia_intensa,0,0
+2026-11-12,Tunuyán,Open-Meteo gfs,zonda,0,0
+2026-11-12,Tunuyán,Open-Meteo gfs,viento_fuerte,0,0
+2026-11-12,Tunuyán,Open-Meteo gfs,nieve,0,0
+2026-11-12,San Carlos,Open-Meteo gfs,helada,0,0
+2026-11-12,San Carlos,Open-Meteo gfs,calor,0,1
+2026-11-12,San Carlos,Open-Meteo gfs,lluvia,0,0
+2026-11-12,San Carlos,Open-Meteo gfs,lluvia_intensa,0,0
+2026-11-12,San Carlos,Open-Meteo gfs,zonda,0,0
+2026-11-12,San Carlos,Open-Meteo gfs,viento_fuerte,0,0
+2026-11-12,San Carlos,Open-Meteo gfs,nieve,0,0
+2026-11-12,General Alvear,Open-Meteo gfs,helada,0,0
+2026-11-12,General Alvear,Open-Meteo gfs,calor,1,1
+2026-11-12,General Alvear,Open-Meteo gfs,lluvia,0,0
+2026-11-12,General Alvear,Open-Meteo gfs,lluvia_intensa,0,0
+2026-11-12,General Alvear,Open-Meteo gfs,zonda,1,0
+2026-11-12,General Alvear,Open-Meteo gfs,viento_fuerte,0,0
+2026-11-12,General Alvear,Open-Meteo gfs,nieve,0,0
+2026-11-12,Maipú,Open-Meteo jma,helada,0,0
+2026-11-12,Maipú,Open-Meteo jma,calor,0,1
+2026-11-12,Maipú,Open-Meteo jma,lluvia,0,0
+2026-11-12,Maipú,Open-Meteo jma,lluvia_intensa,0,0
+2026-11-12,Maipú,Open-Meteo jma,zonda,0,0
+2026-11-12,Maipú,Open-Meteo jma,viento_fuerte,0,0
+2026-11-12,Maipú,Open-Meteo jma,nieve,0,0
+2026-11-12,Lavalle,Open-Meteo jma,helada,0,0
+2026-11-12,Lavalle,Open-Meteo jma,calor,1,1
+2026-11-12,Lavalle,Open-Meteo jma,lluvia,0,0
+2026-11-12,Lavalle,Open-Meteo jma,lluvia_intensa,0,0
+2026-11-12,Lavalle,Open-Meteo jma,zonda,0,0
+2026-11-12,Lavalle,Open-Meteo jma,viento_fuerte,0,0
+2026-11-12,Lavalle,Open-Meteo jma,nieve,0,0
+2026-11-12,San Martín,Open-Meteo jma,helada,0,0
+2026-11-12,San Martín,Open-Meteo jma,calor,1,1
+2026-11-12,San Martín,Open-Meteo jma,lluvia,0,0
+2026-11-12,San Martín,Open-Meteo jma,lluvia_intensa,0,0
+2026-11-12,San Martín,Open-Meteo jma,zonda,0,0
+2026-11-12,San Martín,Open-Meteo jma,viento_fuerte,0,0
+2026-11-12,San Martín,Open-Meteo jma,nieve,0,0
+2026-11-12,Junín,Open-Meteo jma,helada,0,0
+2026-11-12,Junín,Open-Meteo jma,calor,1,1
+2026-11-12,Junín,Open-Meteo jma,lluvia,0,0
+2026-11-12,Junín,Open-Meteo jma,lluvia_intensa,0,0
+2026-11-12,Junín,Open-Meteo jma,zonda,0,0
+2026-11-12,Junín,Open-Meteo jma,viento_fuerte,0,0
+2026-11-12,Junín,Open-Meteo jma,nieve,0,0
+2026-11-12,Rivadavia,Open-Meteo jma,helada,0,0
+2026-11-12,Rivadavia,Open-Meteo jma,calor,1,1
+2026-11-12,Rivadavia,Open-Meteo jma,lluvia,0,0
+2026-11-12,Rivadavia,Open-Meteo jma,lluvia_intensa,0,0
+2026-11-12,Rivadavia,Open-Meteo jma,zonda,0,0
+2026-11-12,Rivadavia,Open-Meteo jma,viento_fuerte,0,0
+2026-11-12,Rivadavia,Open-Meteo jma,nieve,0,0
+2026-11-12,Santa Rosa,Open-Meteo jma,helada,0,0
+2026-11-12,Santa Rosa,Open-Meteo jma,calor,1,1
+2026-11-12,Santa Rosa,Open-Meteo jma,lluvia,0,0
+2026-11-12,Santa Rosa,Open-Meteo jma,lluvia_intensa,0,0
+2026-11-12,Santa Rosa,Open-Meteo jma,zonda,0,0
+2026-11-12,Santa Rosa,Open-Meteo jma,viento_fuerte,0,0
+2026-11-12,Santa Rosa,Open-Meteo jma,nieve,0,0
+2026-11-12,Tupungato,Open-Meteo jma,helada,0,0
+2026-11-12,Tupungato,Open-Meteo jma,calor,0,1
+2026-11-12,Tupungato,Open-Meteo jma,lluvia,0,0
+2026-11-12,Tupungato,Open-Meteo jma,lluvia_intensa,0,0
+2026-11-12,Tupungato,Open-Meteo jma,zonda,0,0
+2026-11-12,Tupungato,Open-Meteo jma,viento_fuerte,0,0
+2026-11-12,Tupungato,Open-Meteo jma,nieve,0,0
+2026-11-12,Tunuyán,Open-Meteo jma,helada,0,0
+2026-11-12,Tunuyán,Open-Meteo jma,calor,0,1
+2026-11-12,Tunuyán,Open-Meteo jma,lluvia,0,0
+2026-11-12,Tunuyán,Open-Meteo jma,lluvia_intensa,0,0
+2026-11-12,Tunuyán,Open-Meteo jma,zonda,0,0
+2026-11-12,Tunuyán,Open-Meteo jma,viento_fuerte,0,0
+2026-11-12,Tunuyán,Open-Meteo jma,nieve,0,0
+2026-11-12,San Carlos,Open-Meteo jma,helada,0,0
+2026-11-12,San Carlos,Open-Meteo jma,calor,0,1
+2026-11-12,San Carlos,Open-Meteo jma,lluvia,0,0
+2026-11-12,San Carlos,Open-Meteo jma,lluvia_intensa,0,0
+2026-11-12,San Carlos,Open-Meteo jma,zonda,0,0
+2026-11-12,San Carlos,Open-Meteo jma,viento_fuerte,0,0
+2026-11-12,San Carlos,Open-Meteo jma,nieve,0,0
+2026-11-12,General Alvear,Open-Meteo jma,helada,0,0
+2026-11-12,General Alvear,Open-Meteo jma,calor,1,1
+2026-11-12,General Alvear,Open-Meteo jma,lluvia,0,0
+2026-11-12,General Alvear,Open-Meteo jma,lluvia_intensa,0,0
+2026-11-12,General Alvear,Open-Meteo jma,zonda,0,0
+2026-11-12,General Alvear,Open-Meteo jma,viento_fuerte,0,0
+2026-11-12,General Alvear,Open-Meteo jma,nieve,0,0
+2026-11-12,Maipú,Open-Meteo ecmwf_aifs025_single,helada,0,0
+2026-11-12,Maipú,Open-Meteo ecmwf_aifs025_single,calor,1,1
+2026-11-12,Maipú,Open-Meteo ecmwf_aifs025_single,lluvia,0,0
+2026-11-12,Maipú,Open-Meteo ecmwf_aifs025_single,lluvia_intensa,0,0
+2026-11-12,Maipú,Open-Meteo ecmwf_aifs025_single,zonda,0,0
+2026-11-12,Maipú,Open-Meteo ecmwf_aifs025_single,viento_fuerte,0,0
+2026-11-12,Maipú,Open-Meteo ecmwf_aifs025_single,nieve,0,0
+2026-11-12,Lavalle,Open-Meteo ecmwf_aifs025_single,helada,0,0
+2026-11-12,Lavalle,Open-Meteo ecmwf_aifs025_single,calor,1,1
+2026-11-12,Lavalle,Open-Meteo ecmwf_aifs025_single,lluvia,0,0
+2026-11-12,Lavalle,Open-Meteo ecmwf_aifs025_single,lluvia_intensa,0,0
+2026-11-12,Lavalle,Open-Meteo ecmwf_aifs025_single,zonda,0,0
+2026-11-12,Lavalle,Open-Meteo ecmwf_aifs025_single,viento_fuerte,0,0
+2026-11-12,Lavalle,Open-Meteo ecmwf_aifs025_single,nieve,0,0
+2026-11-12,San Martín,Open-Meteo ecmwf_aifs025_single,helada,0,0
+2026-11-12,San Martín,Open-Meteo ecmwf_aifs025_single,calor,1,1
+2026-11-12,San Martín,Open-Meteo ecmwf_aifs025_single,lluvia,0,0
+2026-11-12,San Martín,Open-Meteo ecmwf_aifs025_single,lluvia_intensa,0,0
+2026-11-12,San Martín,Open-Meteo ecmwf_aifs025_single,zonda,0,0
+2026-11-12,San Martín,Open-Meteo ecmwf_aifs025_single,viento_fuerte,0,0
+2026-11-12,San Martín,Open-Meteo ecmwf_aifs025_single,nieve,0,0
+2026-11-12,Junín,Open-Meteo ecmwf_aifs025_single,helada,0,0
+2026-11-12,Junín,Open-Meteo ecmwf_aifs025_single,calor,1,1
+2026-11-12,Junín,Open-Meteo ecmwf_aifs025_single,lluvia,0,0
+2026-11-12,Junín,Open-Meteo ecmwf_aifs025_single,lluvia_intensa,0,0
+2026-11-12,Junín,Open-Meteo ecmwf_aifs025_single,zonda,0,0
+2026-11-12,Junín,Open-Meteo ecmwf_aifs025_single,viento_fuerte,0,0
+2026-11-12,Junín,Open-Meteo ecmwf_aifs025_single,nieve,0,0
+2026-11-12,Rivadavia,Open-Meteo ecmwf_aifs025_single,helada,0,0
+2026-11-12,Rivadavia,Open-Meteo ecmwf_aifs025_single,calor,1,1
+2026-11-12,Rivadavia,Open-Meteo ecmwf_aifs025_single,lluvia,0,0
+2026-11-12,Rivadavia,Open-Meteo ecmwf_aifs025_single,lluvia_intensa,0,0
+2026-11-12,Rivadavia,Open-Meteo ecmwf_aifs025_single,zonda,0,0
+2026-11-12,Rivadavia,Open-Meteo ecmwf_aifs025_single,viento_fuerte,0,0
+2026-11-12,Rivadavia,Open-Meteo ecmwf_aifs025_single,nieve,0,0
+2026-11-12,Santa Rosa,Open-Meteo ecmwf_aifs025_single,helada,0,0
+2026-11-12,Santa Rosa,Open-Meteo ecmwf_aifs025_single,calor,1,1
+2026-11-12,Santa Rosa,Open-Meteo ecmwf_aifs025_single,lluvia,0,0
+2026-11-12,Santa Rosa,Open-Meteo ecmwf_aifs025_single,lluvia_intensa,0,0
+2026-11-12,Santa Rosa,Open-Meteo ecmwf_aifs025_single,zonda,0,0
+2026-11-12,Santa Rosa,Open-Meteo ecmwf_aifs025_single,viento_fuerte,0,0
+2026-11-12,Santa Rosa,Open-Meteo ecmwf_aifs025_single,nieve,0,0
+2026-11-12,Tupungato,Open-Meteo ecmwf_aifs025_single,helada,0,0
+2026-11-12,Tupungato,Open-Meteo ecmwf_aifs025_single,calor,0,1
+2026-11-12,Tupungato,Open-Meteo ecmwf_aifs025_single,lluvia,0,0
+2026-11-12,Tupungato,Open-Meteo ecmwf_aifs025_single,lluvia_intensa,0,0
+2026-11-12,Tupungato,Open-Meteo ecmwf_aifs025_single,zonda,0,0
+2026-11-12,Tupungato,Open-Meteo ecmwf_aifs025_single,viento_fuerte,0,0
+2026-11-12,Tupungato,Open-Meteo ecmwf_aifs025_single,nieve,0,0
+2026-11-12,Tunuyán,Open-Meteo ecmwf_aifs025_single,helada,0,0
+2026-11-12,Tunuyán,Open-Meteo ecmwf_aifs025_single,calor,0,1
+2026-11-12,Tunuyán,Open-Meteo ecmwf_aifs025_single,lluvia,0,0
+2026-11-12,Tunuyán,Open-Meteo ecmwf_aifs025_single,lluvia_intensa,0,0
+2026-11-12,Tunuyán,Open-Meteo ecmwf_aifs025_single,zonda,0,0
+2026-11-12,Tunuyán,Open-Meteo ecmwf_aifs025_single,viento_fuerte,0,0
+2026-11-12,Tunuyán,Open-Meteo ecmwf_aifs025_single,nieve,0,0
+2026-11-12,San Carlos,Open-Meteo ecmwf_aifs025_single,helada,0,0
+2026-11-12,San Carlos,Open-Meteo ecmwf_aifs025_single,calor,0,1
+2026-11-12,San Carlos,Open-Meteo ecmwf_aifs025_single,lluvia,0,0
+2026-11-12,San Carlos,Open-Meteo ecmwf_aifs025_single,lluvia_intensa,0,0
+2026-11-12,San Carlos,Open-Meteo ecmwf_aifs025_single,zonda,0,0
+2026-11-12,San Carlos,Open-Meteo ecmwf_aifs025_single,viento_fuerte,0,0
+2026-11-12,San Carlos,Open-Meteo ecmwf_aifs025_single,nieve,0,0
+2026-11-12,General Alvear,Open-Meteo ecmwf_aifs025_single,helada,0,0
+2026-11-12,General Alvear,Open-Meteo ecmwf_aifs025_single,calor,1,1
+2026-11-12,General Alvear,Open-Meteo ecmwf_aifs025_single,lluvia,0,0
+2026-11-12,General Alvear,Open-Meteo ecmwf_aifs025_single,lluvia_intensa,0,0
+2026-11-12,General Alvear,Open-Meteo ecmwf_aifs025_single,zonda,0,0
+2026-11-12,General Alvear,Open-Meteo ecmwf_aifs025_single,viento_fuerte,0,0
+2026-11-12,General Alvear,Open-Meteo ecmwf_aifs025_single,nieve,0,0
+2026-11-12,Maipú,Open-Meteo cma_grapes_global,helada,0,0
+2026-11-12,Maipú,Open-Meteo cma_grapes_global,calor,0,1
+2026-11-12,Maipú,Open-Meteo cma_grapes_global,lluvia,0,0
+2026-11-12,Maipú,Open-Meteo cma_grapes_global,lluvia_intensa,0,0
+2026-11-12,Maipú,Open-Meteo cma_grapes_global,zonda,0,0
+2026-11-12,Maipú,Open-Meteo cma_grapes_global,viento_fuerte,0,0
+2026-11-12,Maipú,Open-Meteo cma_grapes_global,nieve,0,0
+2026-11-12,Lavalle,Open-Meteo cma_grapes_global,helada,0,0
+2026-11-12,Lavalle,Open-Meteo cma_grapes_global,calor,0,1
+2026-11-12,Lavalle,Open-Meteo cma_grapes_global,lluvia,0,0
+2026-11-12,Lavalle,Open-Meteo cma_grapes_global,lluvia_intensa,0,0
+2026-11-12,Lavalle,Open-Meteo cma_grapes_global,zonda,0,0
+2026-11-12,Lavalle,Open-Meteo cma_grapes_global,viento_fuerte,0,0
+2026-11-12,Lavalle,Open-Meteo cma_grapes_global,nieve,0,0
+2026-11-12,San Martín,Open-Meteo cma_grapes_global,helada,0,0
+2026-11-12,San Martín,Open-Meteo cma_grapes_global,calor,1,1
+2026-11-12,San Martín,Open-Meteo cma_grapes_global,lluvia,0,0
+2026-11-12,San Martín,Open-Meteo cma_grapes_global,lluvia_intensa,0,0
+2026-11-12,San Martín,Open-Meteo cma_grapes_global,zonda,0,0
+2026-11-12,San Martín,Open-Meteo cma_grapes_global,viento_fuerte,0,0
+2026-11-12,San Martín,Open-Meteo cma_grapes_global,nieve,0,0
+2026-11-12,Junín,Open-Meteo cma_grapes_global,helada,0,0
+2026-11-12,Junín,Open-Meteo cma_grapes_global,calor,1,1
+2026-11-12,Junín,Open-Meteo cma_grapes_global,lluvia,0,0
+2026-11-12,Junín,Open-Meteo cma_grapes_global,lluvia_intensa,0,0
+2026-11-12,Junín,Open-Meteo cma_grapes_global,zonda,0,0
+2026-11-12,Junín,Open-Meteo cma_grapes_global,viento_fuerte,0,0
+2026-11-12,Junín,Open-Meteo cma_grapes_global,nieve,0,0
+2026-11-12,Rivadavia,Open-Meteo cma_grapes_global,helada,0,0
+2026-11-12,Rivadavia,Open-Meteo cma_grapes_global,calor,1,1
+2026-11-12,Rivadavia,Open-Meteo cma_grapes_global,lluvia,0,0
+2026-11-12,Rivadavia,Open-Meteo cma_grapes_global,lluvia_intensa,0,0
+2026-11-12,Rivadavia,Open-Meteo cma_grapes_global,zonda,0,0
+2026-11-12,Rivadavia,Open-Meteo cma_grapes_global,viento_fuerte,0,0
+2026-11-12,Rivadavia,Open-Meteo cma_grapes_global,nieve,0,0
+2026-11-12,Santa Rosa,Open-Meteo cma_grapes_global,helada,0,0
+2026-11-12,Santa Rosa,Open-Meteo cma_grapes_global,calor,1,1
+2026-11-12,Santa Rosa,Open-Meteo cma_grapes_global,lluvia,0,0
+2026-11-12,Santa Rosa,Open-Meteo cma_grapes_global,lluvia_intensa,0,0
+2026-11-12,Santa Rosa,Open-Meteo cma_grapes_global,zonda,0,0
+2026-11-12,Santa Rosa,Open-Meteo cma_grapes_global,viento_fuerte,0,0
+2026-11-12,Santa Rosa,Open-Meteo cma_grapes_global,nieve,0,0
+2026-11-12,Tupungato,Open-Meteo cma_grapes_global,helada,0,0
+2026-11-12,Tupungato,Open-Meteo cma_grapes_global,calor,0,1
+2026-11-12,Tupungato,Open-Meteo cma_grapes_global,lluvia,0,0
+2026-11-12,Tupungato,Open-Meteo cma_grapes_global,lluvia_intensa,0,0
+2026-11-12,Tupungato,Open-Meteo cma_grapes_global,zonda,0,0
+2026-11-12,Tupungato,Open-Meteo cma_grapes_global,viento_fuerte,0,0
+2026-11-12,Tupungato,Open-Meteo cma_grapes_global,nieve,0,0
+2026-11-12,Tunuyán,Open-Meteo cma_grapes_global,helada,0,0
+2026-11-12,Tunuyán,Open-Meteo cma_grapes_global,calor,0,1
+2026-11-12,Tunuyán,Open-Meteo cma_grapes_global,lluvia,0,0
+2026-11-12,Tunuyán,Open-Meteo cma_grapes_global,lluvia_intensa,0,0
+2026-11-12,Tunuyán,Open-Meteo cma_grapes_global,zonda,0,0
+2026-11-12,Tunuyán,Open-Meteo cma_grapes_global,viento_fuerte,0,0
+2026-11-12,Tunuyán,Open-Meteo cma_grapes_global,nieve,0,0
+2026-11-12,San Carlos,Open-Meteo cma_grapes_global,helada,0,0
+2026-11-12,San Carlos,Open-Meteo cma_grapes_global,calor,0,1
+2026-11-12,San Carlos,Open-Meteo cma_grapes_global,lluvia,0,0
+2026-11-12,San Carlos,Open-Meteo cma_grapes_global,lluvia_intensa,0,0
+2026-11-12,San Carlos,Open-Meteo cma_grapes_global,zonda,0,0
+2026-11-12,San Carlos,Open-Meteo cma_grapes_global,viento_fuerte,0,0
+2026-11-12,San Carlos,Open-Meteo cma_grapes_global,nieve,0,0
+2026-11-12,General Alvear,Open-Meteo cma_grapes_global,helada,0,0
+2026-11-12,General Alvear,Open-Meteo cma_grapes_global,calor,1,1
+2026-11-12,General Alvear,Open-Meteo cma_grapes_global,lluvia,0,0
+2026-11-12,General Alvear,Open-Meteo cma_grapes_global,lluvia_intensa,0,0
+2026-11-12,General Alvear,Open-Meteo cma_grapes_global,zonda,0,0
+2026-11-12,General Alvear,Open-Meteo cma_grapes_global,viento_fuerte,0,0
+2026-11-12,General Alvear,Open-Meteo cma_grapes_global,nieve,0,0
+2026-11-12,Maipú,Open-Meteo ukmo_global_deterministic_10km,helada,0,0
+2026-11-12,Maipú,Open-Meteo ukmo_global_deterministic_10km,calor,0,1
+2026-11-12,Maipú,Open-Meteo ukmo_global_deterministic_10km,lluvia,0,0
+2026-11-12,Maipú,Open-Meteo ukmo_global_deterministic_10km,lluvia_intensa,0,0
+2026-11-12,Maipú,Open-Meteo ukmo_global_deterministic_10km,zonda,0,0
+2026-11-12,Maipú,Open-Meteo ukmo_global_deterministic_10km,viento_fuerte,0,0
+2026-11-12,Maipú,Open-Meteo ukmo_global_deterministic_10km,nieve,0,0
+2026-11-12,Lavalle,Open-Meteo ukmo_global_deterministic_10km,helada,0,0
+2026-11-12,Lavalle,Open-Meteo ukmo_global_deterministic_10km,calor,1,1
+2026-11-12,Lavalle,Open-Meteo ukmo_global_deterministic_10km,lluvia,0,0
+2026-11-12,Lavalle,Open-Meteo ukmo_global_deterministic_10km,lluvia_intensa,0,0
+2026-11-12,Lavalle,Open-Meteo ukmo_global_deterministic_10km,zonda,0,0
+2026-11-12,Lavalle,Open-Meteo ukmo_global_deterministic_10km,viento_fuerte,0,0
+2026-11-12,Lavalle,Open-Meteo ukmo_global_deterministic_10km,nieve,0,0
+2026-11-12,San Martín,Open-Meteo ukmo_global_deterministic_10km,helada,0,0
+2026-11-12,San Martín,Open-Meteo ukmo_global_deterministic_10km,calor,1,1
+2026-11-12,San Martín,Open-Meteo ukmo_global_deterministic_10km,lluvia,0,0
+2026-11-12,San Martín,Open-Meteo ukmo_global_deterministic_10km,lluvia_intensa,0,0
+2026-11-12,San Martín,Open-Meteo ukmo_global_deterministic_10km,zonda,0,0
+2026-11-12,San Martín,Open-Meteo ukmo_global_deterministic_10km,viento_fuerte,0,0
+2026-11-12,San Martín,Open-Meteo ukmo_global_deterministic_10km,nieve,0,0
+2026-11-12,Junín,Open-Meteo ukmo_global_deterministic_10km,helada,0,0
+2026-11-12,Junín,Open-Meteo ukmo_global_deterministic_10km,calor,1,1
+2026-11-12,Junín,Open-Meteo ukmo_global_deterministic_10km,lluvia,0,0
+2026-11-12,Junín,Open-Meteo ukmo_global_deterministic_10km,lluvia_intensa,0,0
+2026-11-12,Junín,Open-Meteo ukmo_global_deterministic_10km,zonda,0,0
+2026-11-12,Junín,Open-Meteo ukmo_global_deterministic_10km,viento_fuerte,0,0
+2026-11-12,Junín,Open-Meteo ukmo_global_deterministic_10km,nieve,0,0
+2026-11-12,Rivadavia,Open-Meteo ukmo_global_deterministic_10km,helada,0,0
+2026-11-12,Rivadavia,Open-Meteo ukmo_global_deterministic_10km,calor,1,1
+2026-11-12,Rivadavia,Open-Meteo ukmo_global_deterministic_10km,lluvia,0,0
+2026-11-12,Rivadavia,Open-Meteo ukmo_global_deterministic_10km,lluvia_intensa,0,0
+2026-11-12,Rivadavia,Open-Meteo ukmo_global_deterministic_10km,zonda,0,0
+2026-11-12,Rivadavia,Open-Meteo ukmo_global_deterministic_10km,viento_fuerte,0,0
+2026-11-12,Rivadavia,Open-Meteo ukmo_global_deterministic_10km,nieve,0,0
+2026-11-12,Santa Rosa,Open-Meteo ukmo_global_deterministic_10km,helada,0,0
+2026-11-12,Santa Rosa,Open-Meteo ukmo_global_deterministic_10km,calor,1,1
+2026-11-12,Santa Rosa,Open-Meteo ukmo_global_deterministic_10km,lluvia,0,0
+2026-11-12,Santa Rosa,Open-Meteo ukmo_global_deterministic_10km,lluvia_intensa,0,0
+2026-11-12,Santa Rosa,Open-Meteo ukmo_global_deterministic_10km,zonda,0,0
+2026-11-12,Santa Rosa,Open-Meteo ukmo_global_deterministic_10km,viento_fuerte,0,0
+2026-11-12,Santa Rosa,Open-Meteo ukmo_global_deterministic_10km,nieve,0,0
+2026-11-12,Tupungato,Open-Meteo ukmo_global_deterministic_10km,helada,0,0
+2026-11-12,Tupungato,Open-Meteo ukmo_global_deterministic_10km,calor,0,1
+2026-11-12,Tupungato,Open-Meteo ukmo_global_deterministic_10km,lluvia,0,0
+2026-11-12,Tupungato,Open-Meteo ukmo_global_deterministic_10km,lluvia_intensa,0,0
+2026-11-12,Tupungato,Open-Meteo ukmo_global_deterministic_10km,zonda,0,0
+2026-11-12,Tupungato,Open-Meteo ukmo_global_deterministic_10km,viento_fuerte,0,0
+2026-11-12,Tupungato,Open-Meteo ukmo_global_deterministic_10km,nieve,0,0
+2026-11-12,Tunuyán,Open-Meteo ukmo_global_deterministic_10km,helada,0,0
+2026-11-12,Tunuyán,Open-Meteo ukmo_global_deterministic_10km,calor,0,1
+2026-11-12,Tunuyán,Open-Meteo ukmo_global_deterministic_10km,lluvia,0,0
+2026-11-12,Tunuyán,Open-Meteo ukmo_global_deterministic_10km,lluvia_intensa,0,0
+2026-11-12,Tunuyán,Open-Meteo ukmo_global_deterministic_10km,zonda,0,0
+2026-11-12,Tunuyán,Open-Meteo ukmo_global_deterministic_10km,viento_fuerte,0,0
+2026-11-12,Tunuyán,Open-Meteo ukmo_global_deterministic_10km,nieve,0,0
+2026-11-12,San Carlos,Open-Meteo ukmo_global_deterministic_10km,helada,0,0
+2026-11-12,San Carlos,Open-Meteo ukmo_global_deterministic_10km,calor,0,1
+2026-11-12,San Carlos,Open-Meteo ukmo_global_deterministic_10km,lluvia,0,0
+2026-11-12,San Carlos,Open-Meteo ukmo_global_deterministic_10km,lluvia_intensa,0,0
+2026-11-12,San Carlos,Open-Meteo ukmo_global_deterministic_10km,zonda,0,0
+2026-11-12,San Carlos,Open-Meteo ukmo_global_deterministic_10km,viento_fuerte,0,0
+2026-11-12,San Carlos,Open-Meteo ukmo_global_deterministic_10km,nieve,0,0
+2026-11-12,General Alvear,Open-Meteo ukmo_global_deterministic_10km,helada,0,0
+2026-11-12,General Alvear,Open-Meteo ukmo_global_deterministic_10km,calor,1,1
+2026-11-12,General Alvear,Open-Meteo ukmo_global_deterministic_10km,lluvia,0,0
+2026-11-12,General Alvear,Open-Meteo ukmo_global_deterministic_10km,lluvia_intensa,0,0
+2026-11-12,General Alvear,Open-Meteo ukmo_global_deterministic_10km,zonda,0,0
+2026-11-12,General Alvear,Open-Meteo ukmo_global_deterministic_10km,viento_fuerte,0,0
+2026-11-12,General Alvear,Open-Meteo ukmo_global_deterministic_10km,nieve,0,0
+2026-11-12,Maipú,Open-Meteo knmi,helada,0,0
+2026-11-12,Maipú,Open-Meteo knmi,calor,1,1
+2026-11-12,Maipú,Open-Meteo knmi,lluvia,0,0
+2026-11-12,Maipú,Open-Meteo knmi,lluvia_intensa,0,0
+2026-11-12,Maipú,Open-Meteo knmi,zonda,0,0
+2026-11-12,Maipú,Open-Meteo knmi,viento_fuerte,0,0
+2026-11-12,Maipú,Open-Meteo knmi,nieve,0,0
+2026-11-12,Lavalle,Open-Meteo knmi,helada,0,0
+2026-11-12,Lavalle,Open-Meteo knmi,calor,1,1
+2026-11-12,Lavalle,Open-Meteo knmi,lluvia,0,0
+2026-11-12,Lavalle,Open-Meteo knmi,lluvia_intensa,0,0
+2026-11-12,Lavalle,Open-Meteo knmi,zonda,0,0
+2026-11-12,Lavalle,Open-Meteo knmi,viento_fuerte,0,0
+2026-11-12,Lavalle,Open-Meteo knmi,nieve,0,0
+2026-11-12,San Martín,Open-Meteo knmi,helada,0,0
+2026-11-12,San Martín,Open-Meteo knmi,calor,1,1
+2026-11-12,San Martín,Open-Meteo knmi,lluvia,0,0
+2026-11-12,San Martín,Open-Meteo knmi,lluvia_intensa,0,0
+2026-11-12,San Martín,Open-Meteo knmi,zonda,0,0
+2026-11-12,San Martín,Open-Meteo knmi,viento_fuerte,0,0
+2026-11-12,San Martín,Open-Meteo knmi,nieve,0,0
+2026-11-12,Junín,Open-Meteo knmi,helada,0,0
+2026-11-12,Junín,Open-Meteo knmi,calor,1,1
+2026-11-12,Junín,Open-Meteo knmi,lluvia,0,0
+2026-11-12,Junín,Open-Meteo knmi,lluvia_intensa,0,0
+2026-11-12,Junín,Open-Meteo knmi,zonda,0,0
+2026-11-12,Junín,Open-Meteo knmi,viento_fuerte,0,0
+2026-11-12,Junín,Open-Meteo knmi,nieve,0,0
+2026-11-12,Rivadavia,Open-Meteo knmi,helada,0,0
+2026-11-12,Rivadavia,Open-Meteo knmi,calor,1,1
+2026-11-12,Rivadavia,Open-Meteo knmi,lluvia,0,0
+2026-11-12,Rivadavia,Open-Meteo knmi,lluvia_intensa,0,0
+2026-11-12,Rivadavia,Open-Meteo knmi,zonda,0,0
+2026-11-12,Rivadavia,Open-Meteo knmi,viento_fuerte,0,0
+2026-11-12,Rivadavia,Open-Meteo knmi,nieve,0,0
+2026-11-12,Santa Rosa,Open-Meteo knmi,helada,0,0
+2026-11-12,Santa Rosa,Open-Meteo knmi,calor,1,1
+2026-11-12,Santa Rosa,Open-Meteo knmi,lluvia,0,0
+2026-11-12,Santa Rosa,Open-Meteo knmi,lluvia_intensa,0,0
+2026-11-12,Santa Rosa,Open-Meteo knmi,zonda,1,0
+2026-11-12,Santa Rosa,Open-Meteo knmi,viento_fuerte,0,0
+2026-11-12,Santa Rosa,Open-Meteo knmi,nieve,0,0
+2026-11-12,Tupungato,Open-Meteo knmi,helada,0,0
+2026-11-12,Tupungato,Open-Meteo knmi,calor,0,1
+2026-11-12,Tupungato,Open-Meteo knmi,lluvia,0,0
+2026-11-12,Tupungato,Open-Meteo knmi,lluvia_intensa,0,0
+2026-11-12,Tupungato,Open-Meteo knmi,zonda,0,0
+2026-11-12,Tupungato,Open-Meteo knmi,viento_fuerte,0,0
+2026-11-12,Tupungato,Open-Meteo knmi,nieve,0,0
+2026-11-12,Tunuyán,Open-Meteo knmi,helada,0,0
+2026-11-12,Tunuyán,Open-Meteo knmi,calor,0,1
+2026-11-12,Tunuyán,Open-Meteo knmi,lluvia,0,0
+2026-11-12,Tunuyán,Open-Meteo knmi,lluvia_intensa,0,0
+2026-11-12,Tunuyán,Open-Meteo knmi,zonda,0,0
+2026-11-12,Tunuyán,Open-Meteo knmi,viento_fuerte,0,0
+2026-11-12,Tunuyán,Open-Meteo knmi,nieve,0,0
+2026-11-12,San Carlos,Open-Meteo knmi,helada,0,0
+2026-11-12,San Carlos,Open-Meteo knmi,calor,0,1
+2026-11-12,San Carlos,Open-Meteo knmi,lluvia,0,0
+2026-11-12,San Carlos,Open-Meteo knmi,lluvia_intensa,0,0
+2026-11-12,San Carlos,Open-Meteo knmi,zonda,0,0
+2026-11-12,San Carlos,Open-Meteo knmi,viento_fuerte,0,0
+2026-11-12,San Carlos,Open-Meteo knmi,nieve,0,0
+2026-11-12,General Alvear,Open-Meteo knmi,helada,0,0
+2026-11-12,General Alvear,Open-Meteo knmi,calor,1,1
+2026-11-12,General Alvear,Open-Meteo knmi,lluvia,0,0
+2026-11-12,General Alvear,Open-Meteo knmi,lluvia_intensa,0,0
+2026-11-12,General Alvear,Open-Meteo knmi,zonda,0,0
+2026-11-12,General Alvear,Open-Meteo knmi,viento_fuerte,0,0
+2026-11-12,General Alvear,Open-Meteo knmi,nieve,0,0
+2026-11-12,Maipú,Open-Meteo dmi,helada,0,0
+2026-11-12,Maipú,Open-Meteo dmi,calor,1,1
+2026-11-12,Maipú,Open-Meteo dmi,lluvia,0,0
+2026-11-12,Maipú,Open-Meteo dmi,lluvia_intensa,0,0
+2026-11-12,Maipú,Open-Meteo dmi,zonda,0,0
+2026-11-12,Maipú,Open-Meteo dmi,viento_fuerte,0,0
+2026-11-12,Maipú,Open-Meteo dmi,nieve,0,0
+2026-11-12,Lavalle,Open-Meteo dmi,helada,0,0
+2026-11-12,Lavalle,Open-Meteo dmi,calor,1,1
+2026-11-12,Lavalle,Open-Meteo dmi,lluvia,0,0
+2026-11-12,Lavalle,Open-Meteo dmi,lluvia_intensa,0,0
+2026-11-12,Lavalle,Open-Meteo dmi,zonda,0,0
+2026-11-12,Lavalle,Open-Meteo dmi,viento_fuerte,0,0
+2026-11-12,Lavalle,Open-Meteo dmi,nieve,0,0
+2026-11-12,San Martín,Open-Meteo dmi,helada,0,0
+2026-11-12,San Martín,Open-Meteo dmi,calor,1,1
+2026-11-12,San Martín,Open-Meteo dmi,lluvia,0,0
+2026-11-12,San Martín,Open-Meteo dmi,lluvia_intensa,0,0
+2026-11-12,San Martín,Open-Meteo dmi,zonda,0,0
+2026-11-12,San Martín,Open-Meteo dmi,viento_fuerte,0,0
+2026-11-12,San Martín,Open-Meteo dmi,nieve,0,0
+2026-11-12,Junín,Open-Meteo dmi,helada,0,0
+2026-11-12,Junín,Open-Meteo dmi,calor,1,1
+2026-11-12,Junín,Open-Meteo dmi,lluvia,0,0
+2026-11-12,Junín,Open-Meteo dmi,lluvia_intensa,0,0
+2026-11-12,Junín,Open-Meteo dmi,zonda,0,0
+2026-11-12,Junín,Open-Meteo dmi,viento_fuerte,0,0
+2026-11-12,Junín,Open-Meteo dmi,nieve,0,0
+2026-11-12,Rivadavia,Open-Meteo dmi,helada,0,0
+2026-11-12,Rivadavia,Open-Meteo dmi,calor,1,1
+2026-11-12,Rivadavia,Open-Meteo dmi,lluvia,0,0
+2026-11-12,Rivadavia,Open-Meteo dmi,lluvia_intensa,0,0
+2026-11-12,Rivadavia,Open-Meteo dmi,zonda,0,0
+2026-11-12,Rivadavia,Open-Meteo dmi,viento_fuerte,0,0
+2026-11-12,Rivadavia,Open-Meteo dmi,nieve,0,0
+2026-11-12,Santa Rosa,Open-Meteo dmi,helada,0,0
+2026-11-12,Santa Rosa,Open-Meteo dmi,calor,1,1
+2026-11-12,Santa Rosa,Open-Meteo dmi,lluvia,0,0
+2026-11-12,Santa Rosa,Open-Meteo dmi,lluvia_intensa,0,0
+2026-11-12,Santa Rosa,Open-Meteo dmi,zonda,1,0
+2026-11-12,Santa Rosa,Open-Meteo dmi,viento_fuerte,0,0
+2026-11-12,Santa Rosa,Open-Meteo dmi,nieve,0,0
+2026-11-12,Tupungato,Open-Meteo dmi,helada,0,0
+2026-11-12,Tupungato,Open-Meteo dmi,calor,0,1
+2026-11-12,Tupungato,Open-Meteo dmi,lluvia,0,0
+2026-11-12,Tupungato,Open-Meteo dmi,lluvia_intensa,0,0
+2026-11-12,Tupungato,Open-Meteo dmi,zonda,0,0
+2026-11-12,Tupungato,Open-Meteo dmi,viento_fuerte,0,0
+2026-11-12,Tupungato,Open-Meteo dmi,nieve,0,0
+2026-11-12,Tunuyán,Open-Meteo dmi,helada,0,0
+2026-11-12,Tunuyán,Open-Meteo dmi,calor,0,1
+2026-11-12,Tunuyán,Open-Meteo dmi,lluvia,0,0
+2026-11-12,Tunuyán,Open-Meteo dmi,lluvia_intensa,0,0
+2026-11-12,Tunuyán,Open-Meteo dmi,zonda,0,0
+2026-11-12,Tunuyán,Open-Meteo dmi,viento_fuerte,0,0
+2026-11-12,Tunuyán,Open-Meteo dmi,nieve,0,0
+2026-11-12,San Carlos,Open-Meteo dmi,helada,0,0
+2026-11-12,San Carlos,Open-Meteo dmi,calor,0,1
+2026-11-12,San Carlos,Open-Meteo dmi,lluvia,0,0
+2026-11-12,San Carlos,Open-Meteo dmi,lluvia_intensa,0,0
+2026-11-12,San Carlos,Open-Meteo dmi,zonda,0,0
+2026-11-12,San Carlos,Open-Meteo dmi,viento_fuerte,0,0
+2026-11-12,San Carlos,Open-Meteo dmi,nieve,0,0
+2026-11-12,General Alvear,Open-Meteo dmi,helada,0,0
+2026-11-12,General Alvear,Open-Meteo dmi,calor,1,1
+2026-11-12,General Alvear,Open-Meteo dmi,lluvia,0,0
+2026-11-12,General Alvear,Open-Meteo dmi,lluvia_intensa,0,0
+2026-11-12,General Alvear,Open-Meteo dmi,zonda,0,0
+2026-11-12,General Alvear,Open-Meteo dmi,viento_fuerte,0,0
+2026-11-12,General Alvear,Open-Meteo dmi,nieve,0,0
+2026-11-12,Maipú,Open-Meteo metno,helada,0,0
+2026-11-12,Maipú,Open-Meteo metno,calor,1,1
+2026-11-12,Maipú,Open-Meteo metno,lluvia,0,0
+2026-11-12,Maipú,Open-Meteo metno,lluvia_intensa,0,0
+2026-11-12,Maipú,Open-Meteo metno,zonda,0,0
+2026-11-12,Maipú,Open-Meteo metno,viento_fuerte,0,0
+2026-11-12,Maipú,Open-Meteo metno,nieve,0,0
+2026-11-12,Lavalle,Open-Meteo metno,helada,0,0
+2026-11-12,Lavalle,Open-Meteo metno,calor,1,1
+2026-11-12,Lavalle,Open-Meteo metno,lluvia,0,0
+2026-11-12,Lavalle,Open-Meteo metno,lluvia_intensa,0,0
+2026-11-12,Lavalle,Open-Meteo metno,zonda,0,0
+2026-11-12,Lavalle,Open-Meteo metno,viento_fuerte,0,0
+2026-11-12,Lavalle,Open-Meteo metno,nieve,0,0
+2026-11-12,San Martín,Open-Meteo metno,helada,0,0
+2026-11-12,San Martín,Open-Meteo metno,calor,1,1
+2026-11-12,San Martín,Open-Meteo metno,lluvia,0,0
+2026-11-12,San Martín,Open-Meteo metno,lluvia_intensa,0,0
+2026-11-12,San Martín,Open-Meteo metno,zonda,0,0
+2026-11-12,San Martín,Open-Meteo metno,viento_fuerte,0,0
+2026-11-12,San Martín,Open-Meteo metno,nieve,0,0
+2026-11-12,Junín,Open-Meteo metno,helada,0,0
+2026-11-12,Junín,Open-Meteo metno,calor,1,1
+2026-11-12,Junín,Open-Meteo metno,lluvia,0,0
+2026-11-12,Junín,Open-Meteo metno,lluvia_intensa,0,0
+2026-11-12,Junín,Open-Meteo metno,zonda,0,0
+2026-11-12,Junín,Open-Meteo metno,viento_fuerte,0,0
+2026-11-12,Junín,Open-Meteo metno,nieve,0,0
+2026-11-12,Rivadavia,Open-Meteo metno,helada,0,0
+2026-11-12,Rivadavia,Open-Meteo metno,calor,1,1
+2026-11-12,Rivadavia,Open-Meteo metno,lluvia,0,0
+2026-11-12,Rivadavia,Open-Meteo metno,lluvia_intensa,0,0
+2026-11-12,Rivadavia,Open-Meteo metno,zonda,0,0
+2026-11-12,Rivadavia,Open-Meteo metno,viento_fuerte,0,0
+2026-11-12,Rivadavia,Open-Meteo metno,nieve,0,0
+2026-11-12,Santa Rosa,Open-Meteo metno,helada,0,0
+2026-11-12,Santa Rosa,Open-Meteo metno,calor,1,1
+2026-11-12,Santa Rosa,Open-Meteo metno,lluvia,0,0
+2026-11-12,Santa Rosa,Open-Meteo metno,lluvia_intensa,0,0
+2026-11-12,Santa Rosa,Open-Meteo metno,zonda,1,0
+2026-11-12,Santa Rosa,Open-Meteo metno,viento_fuerte,0,0
+2026-11-12,Santa Rosa,Open-Meteo metno,nieve,0,0
+2026-11-12,Tupungato,Open-Meteo metno,helada,0,0
+2026-11-12,Tupungato,Open-Meteo metno,calor,0,1
+2026-11-12,Tupungato,Open-Meteo metno,lluvia,0,0
+2026-11-12,Tupungato,Open-Meteo metno,lluvia_intensa,0,0
+2026-11-12,Tupungato,Open-Meteo metno,zonda,0,0
+2026-11-12,Tupungato,Open-Meteo metno,viento_fuerte,0,0
+2026-11-12,Tupungato,Open-Meteo metno,nieve,0,0
+2026-11-12,Tunuyán,Open-Meteo metno,helada,0,0
+2026-11-12,Tunuyán,Open-Meteo metno,calor,0,1
+2026-11-12,Tunuyán,Open-Meteo metno,lluvia,0,0
+2026-11-12,Tunuyán,Open-Meteo metno,lluvia_intensa,0,0
+2026-11-12,Tunuyán,Open-Meteo metno,zonda,0,0
+2026-11-12,Tunuyán,Open-Meteo metno,viento_fuerte,0,0
+2026-11-12,Tunuyán,Open-Meteo metno,nieve,0,0
+2026-11-12,San Carlos,Open-Meteo metno,helada,0,0
+2026-11-12,San Carlos,Open-Meteo metno,calor,0,1
+2026-11-12,San Carlos,Open-Meteo metno,lluvia,0,0
+2026-11-12,San Carlos,Open-Meteo metno,lluvia_intensa,0,0
+2026-11-12,San Carlos,Open-Meteo metno,zonda,0,0
+2026-11-12,San Carlos,Open-Meteo metno,viento_fuerte,0,0
+2026-11-12,San Carlos,Open-Meteo metno,nieve,0,0
+2026-11-12,General Alvear,Open-Meteo metno,helada,0,0
+2026-11-12,General Alvear,Open-Meteo metno,calor,1,1
+2026-11-12,General Alvear,Open-Meteo metno,lluvia,0,0
+2026-11-12,General Alvear,Open-Meteo metno,lluvia_intensa,0,0
+2026-11-12,General Alvear,Open-Meteo metno,zonda,0,0
+2026-11-12,General Alvear,Open-Meteo metno,viento_fuerte,0,0
+2026-11-12,General Alvear,Open-Meteo metno,nieve,0,0
+2026-11-12,Maipú,Tiempo Campero,helada,0,0
+2026-11-12,Maipú,Tiempo Campero,calor,1,1
+2026-11-12,Maipú,Tiempo Campero,lluvia,0,0
+2026-11-12,Maipú,Tiempo Campero,lluvia_intensa,0,0
+2026-11-12,Maipú,Tiempo Campero,zonda,0,0
+2026-11-12,Maipú,Tiempo Campero,viento_fuerte,0,0
+2026-11-12,Maipú,Tiempo Campero,nieve,0,0
+2026-11-12,Lavalle,Tiempo Campero,helada,0,0
+2026-11-12,Lavalle,Tiempo Campero,calor,1,1
+2026-11-12,Lavalle,Tiempo Campero,lluvia,0,0
+2026-11-12,Lavalle,Tiempo Campero,lluvia_intensa,0,0
+2026-11-12,Lavalle,Tiempo Campero,zonda,0,0
+2026-11-12,Lavalle,Tiempo Campero,viento_fuerte,0,0
+2026-11-12,Lavalle,Tiempo Campero,nieve,0,0
+2026-11-12,San Martín,Tiempo Campero,helada,0,0
+2026-11-12,San Martín,Tiempo Campero,calor,1,1
+2026-11-12,San Martín,Tiempo Campero,lluvia,0,0
+2026-11-12,San Martín,Tiempo Campero,lluvia_intensa,0,0
+2026-11-12,San Martín,Tiempo Campero,zonda,0,0
+2026-11-12,San Martín,Tiempo Campero,viento_fuerte,0,0
+2026-11-12,San Martín,Tiempo Campero,nieve,0,0
+2026-11-12,Junín,Tiempo Campero,helada,0,0
+2026-11-12,Junín,Tiempo Campero,calor,1,1
+2026-11-12,Junín,Tiempo Campero,lluvia,0,0
+2026-11-12,Junín,Tiempo Campero,lluvia_intensa,0,0
+2026-11-12,Junín,Tiempo Campero,zonda,0,0
+2026-11-12,Junín,Tiempo Campero,viento_fuerte,0,0
+2026-11-12,Junín,Tiempo Campero,nieve,0,0
+2026-11-12,Rivadavia,Tiempo Campero,helada,0,0
+2026-11-12,Rivadavia,Tiempo Campero,calor,1,1
+2026-11-12,Rivadavia,Tiempo Campero,lluvia,0,0
+2026-11-12,Rivadavia,Tiempo Campero,lluvia_intensa,0,0
+2026-11-12,Rivadavia,Tiempo Campero,zonda,0,0
+2026-11-12,Rivadavia,Tiempo Campero,viento_fuerte,0,0
+2026-11-12,Rivadavia,Tiempo Campero,nieve,0,0
+2026-11-12,Santa Rosa,Tiempo Campero,helada,0,0
+2026-11-12,Santa Rosa,Tiempo Campero,calor,1,1
+2026-11-12,Santa Rosa,Tiempo Campero,lluvia,0,0
+2026-11-12,Santa Rosa,Tiempo Campero,lluvia_intensa,0,0
+2026-11-12,Santa Rosa,Tiempo Campero,zonda,0,0
+2026-11-12,Santa Rosa,Tiempo Campero,viento_fuerte,0,0
+2026-11-12,Santa Rosa,Tiempo Campero,nieve,0,0
+2026-11-12,Tupungato,Tiempo Campero,helada,0,0
+2026-11-12,Tupungato,Tiempo Campero,calor,0,1
+2026-11-12,Tupungato,Tiempo Campero,lluvia,0,0
+2026-11-12,Tupungato,Tiempo Campero,lluvia_intensa,0,0
+2026-11-12,Tupungato,Tiempo Campero,zonda,0,0
+2026-11-12,Tupungato,Tiempo Campero,viento_fuerte,0,0
+2026-11-12,Tupungato,Tiempo Campero,nieve,0,0
+2026-11-12,Tunuyán,Tiempo Campero,helada,0,0
+2026-11-12,Tunuyán,Tiempo Campero,calor,0,1
+2026-11-12,Tunuyán,Tiempo Campero,lluvia,0,0
+2026-11-12,Tunuyán,Tiempo Campero,lluvia_intensa,0,0
+2026-11-12,Tunuyán,Tiempo Campero,zonda,0,0
+2026-11-12,Tunuyán,Tiempo Campero,viento_fuerte,0,0
+2026-11-12,Tunuyán,Tiempo Campero,nieve,0,0
+2026-11-12,San Carlos,Tiempo Campero,helada,0,0
+2026-11-12,San Carlos,Tiempo Campero,calor,0,1
+2026-11-12,San Carlos,Tiempo Campero,lluvia,0,0
+2026-11-12,San Carlos,Tiempo Campero,lluvia_intensa,0,0
+2026-11-12,San Carlos,Tiempo Campero,zonda,0,0
+2026-11-12,San Carlos,Tiempo Campero,viento_fuerte,0,0
+2026-11-12,San Carlos,Tiempo Campero,nieve,0,0
+2026-11-12,General Alvear,Tiempo Campero,helada,0,0
+2026-11-12,General Alvear,Tiempo Campero,calor,1,1
+2026-11-12,General Alvear,Tiempo Campero,lluvia,0,0
+2026-11-12,General Alvear,Tiempo Campero,lluvia_intensa,0,0
+2026-11-12,General Alvear,Tiempo Campero,zonda,0,0
+2026-11-12,General Alvear,Tiempo Campero,viento_fuerte,0,0
+2026-11-12,General Alvear,Tiempo Campero,nieve,0,0
+2026-11-12,Maipú,The Weather Channel,helada,0,0
+2026-11-12,Maipú,The Weather Channel,calor,1,1
+2026-11-12,Maipú,The Weather Channel,lluvia,0,0
+2026-11-12,Maipú,The Weather Channel,lluvia_intensa,0,0
+2026-11-12,Maipú,The Weather Channel,zonda,0,0
+2026-11-12,Maipú,The Weather Channel,viento_fuerte,0,0
+2026-11-12,Maipú,The Weather Channel,nieve,0,0
+2026-11-12,Lavalle,The Weather Channel,helada,0,0
+2026-11-12,Lavalle,The Weather Channel,calor,1,1
+2026-11-12,Lavalle,The Weather Channel,lluvia,0,0
+2026-11-12,Lavalle,The Weather Channel,lluvia_intensa,0,0
+2026-11-12,Lavalle,The Weather Channel,zonda,0,0
+2026-11-12,Lavalle,The Weather Channel,viento_fuerte,0,0
+2026-11-12,Lavalle,The Weather Channel,nieve,0,0
+2026-11-12,San Martín,The Weather Channel,helada,0,0
+2026-11-12,San Martín,The Weather Channel,calor,1,1
+2026-11-12,San Martín,The Weather Channel,lluvia,0,0
+2026-11-12,San Martín,The Weather Channel,lluvia_intensa,0,0
+2026-11-12,San Martín,The Weather Channel,zonda,0,0
+2026-11-12,San Martín,The Weather Channel,viento_fuerte,0,0
+2026-11-12,San Martín,The Weather Channel,nieve,0,0
+2026-11-12,Junín,The Weather Channel,helada,0,0
+2026-11-12,Junín,The Weather Channel,calor,1,1
+2026-11-12,Junín,The Weather Channel,lluvia,0,0
+2026-11-12,Junín,The Weather Channel,lluvia_intensa,0,0
+2026-11-12,Junín,The Weather Channel,zonda,0,0
+2026-11-12,Junín,The Weather Channel,viento_fuerte,0,0
+2026-11-12,Junín,The Weather Channel,nieve,0,0
+2026-11-12,Rivadavia,The Weather Channel,helada,0,0
+2026-11-12,Rivadavia,The Weather Channel,calor,1,1
+2026-11-12,Rivadavia,The Weather Channel,lluvia,0,0
+2026-11-12,Rivadavia,The Weather Channel,lluvia_intensa,0,0
+2026-11-12,Rivadavia,The Weather Channel,zonda,0,0
+2026-11-12,Rivadavia,The Weather Channel,viento_fuerte,0,0
+2026-11-12,Rivadavia,The Weather Channel,nieve,0,0
+2026-11-12,Santa Rosa,The Weather Channel,helada,0,0
+2026-11-12,Santa Rosa,The Weather Channel,calor,1,1
+2026-11-12,Santa Rosa,The Weather Channel,lluvia,0,0
+2026-11-12,Santa Rosa,The Weather Channel,lluvia_intensa,0,0
+2026-11-12,Santa Rosa,The Weather Channel,zonda,0,0
+2026-11-12,Santa Rosa,The Weather Channel,viento_fuerte,0,0
+2026-11-12,Santa Rosa,The Weather Channel,nieve,0,0
+2026-11-12,Tupungato,The Weather Channel,helada,0,0
+2026-11-12,Tupungato,The Weather Channel,calor,0,1
+2026-11-12,Tupungato,The Weather Channel,lluvia,0,0
+2026-11-12,Tupungato,The Weather Channel,lluvia_intensa,0,0
+2026-11-12,Tupungato,The Weather Channel,zonda,0,0
+2026-11-12,Tupungato,The Weather Channel,viento_fuerte,0,0
+2026-11-12,Tupungato,The Weather Channel,nieve,0,0
+2026-11-12,Tunuyán,The Weather Channel,helada,0,0
+2026-11-12,Tunuyán,The Weather Channel,calor,0,1
+2026-11-12,Tunuyán,The Weather Channel,lluvia,0,0
+2026-11-12,Tunuyán,The Weather Channel,lluvia_intensa,0,0
+2026-11-12,Tunuyán,The Weather Channel,zonda,0,0
+2026-11-12,Tunuyán,The Weather Channel,viento_fuerte,0,0
+2026-11-12,Tunuyán,The Weather Channel,nieve,0,0
+2026-11-12,San Carlos,The Weather Channel,helada,0,0
+2026-11-12,San Carlos,The Weather Channel,calor,0,1
+2026-11-12,San Carlos,The Weather Channel,lluvia,0,0
+2026-11-12,San Carlos,The Weather Channel,lluvia_intensa,0,0
+2026-11-12,San Carlos,The Weather Channel,zonda,0,0
+2026-11-12,San Carlos,The Weather Channel,viento_fuerte,0,0
+2026-11-12,San Carlos,The Weather Channel,nieve,0,0
+2026-11-12,General Alvear,The Weather Channel,helada,0,0
+2026-11-12,General Alvear,The Weather Channel,calor,1,1
+2026-11-12,General Alvear,The Weather Channel,lluvia,0,0
+2026-11-12,General Alvear,The Weather Channel,lluvia_intensa,0,0
+2026-11-12,General Alvear,The Weather Channel,zonda,0,0
+2026-11-12,General Alvear,The Weather Channel,viento_fuerte,0,0
+2026-11-12,General Alvear,The Weather Channel,nieve,0,0
+2026-11-12,Maipú,MET Norway,helada,0,0
+2026-11-12,Maipú,MET Norway,calor,1,1
+2026-11-12,Maipú,MET Norway,lluvia,0,0
+2026-11-12,Maipú,MET Norway,lluvia_intensa,0,0
+2026-11-12,Maipú,MET Norway,zonda,0,0
+2026-11-12,Maipú,MET Norway,viento_fuerte,0,0
+2026-11-12,Maipú,MET Norway,nieve,0,0
+2026-11-12,Lavalle,MET Norway,helada,0,0
+2026-11-12,Lavalle,MET Norway,calor,1,1
+2026-11-12,Lavalle,MET Norway,lluvia,0,0
+2026-11-12,Lavalle,MET Norway,lluvia_intensa,0,0
+2026-11-12,Lavalle,MET Norway,zonda,0,0
+2026-11-12,Lavalle,MET Norway,viento_fuerte,0,0
+2026-11-12,Lavalle,MET Norway,nieve,0,0
+2026-11-12,San Martín,MET Norway,helada,0,0
+2026-11-12,San Martín,MET Norway,calor,1,1
+2026-11-12,San Martín,MET Norway,lluvia,0,0
+2026-11-12,San Martín,MET Norway,lluvia_intensa,0,0
+2026-11-12,San Martín,MET Norway,zonda,0,0
+2026-11-12,San Martín,MET Norway,viento_fuerte,0,0
+2026-11-12,San Martín,MET Norway,nieve,0,0
+2026-11-12,Junín,MET Norway,helada,0,0
+2026-11-12,Junín,MET Norway,calor,1,1
+2026-11-12,Junín,MET Norway,lluvia,0,0
+2026-11-12,Junín,MET Norway,lluvia_intensa,0,0
+2026-11-12,Junín,MET Norway,zonda,0,0
+2026-11-12,Junín,MET Norway,viento_fuerte,0,0
+2026-11-12,Junín,MET Norway,nieve,0,0
+2026-11-12,Rivadavia,MET Norway,helada,0,0
+2026-11-12,Rivadavia,MET Norway,calor,1,1
+2026-11-12,Rivadavia,MET Norway,lluvia,0,0
+2026-11-12,Rivadavia,MET Norway,lluvia_intensa,0,0
+2026-11-12,Rivadavia,MET Norway,zonda,0,0
+2026-11-12,Rivadavia,MET Norway,viento_fuerte,0,0
+2026-11-12,Rivadavia,MET Norway,nieve,0,0
+2026-11-12,Santa Rosa,MET Norway,helada,0,0
+2026-11-12,Santa Rosa,MET Norway,calor,1,1
+2026-11-12,Santa Rosa,MET Norway,lluvia,0,0
+2026-11-12,Santa Rosa,MET Norway,lluvia_intensa,0,0
+2026-11-12,Santa Rosa,MET Norway,zonda,0,0
+2026-11-12,Santa Rosa,MET Norway,viento_fuerte,0,0
+2026-11-12,Santa Rosa,MET Norway,nieve,0,0
+2026-11-12,Tupungato,MET Norway,helada,0,0
+2026-11-12,Tupungato,MET Norway,calor,0,1
+2026-11-12,Tupungato,MET Norway,lluvia,0,0
+2026-11-12,Tupungato,MET Norway,lluvia_intensa,0,0
+2026-11-12,Tupungato,MET Norway,zonda,0,0
+2026-11-12,Tupungato,MET Norway,viento_fuerte,0,0
+2026-11-12,Tupungato,MET Norway,nieve,0,0
+2026-11-12,Tunuyán,MET Norway,helada,0,0
+2026-11-12,Tunuyán,MET Norway,calor,0,1
+2026-11-12,Tunuyán,MET Norway,lluvia,0,0
+2026-11-12,Tunuyán,MET Norway,lluvia_intensa,0,0
+2026-11-12,Tunuyán,MET Norway,zonda,0,0
+2026-11-12,Tunuyán,MET Norway,viento_fuerte,0,0
+2026-11-12,Tunuyán,MET Norway,nieve,0,0
+2026-11-12,San Carlos,MET Norway,helada,0,0
+2026-11-12,San Carlos,MET Norway,calor,0,1
+2026-11-12,San Carlos,MET Norway,lluvia,0,0
+2026-11-12,San Carlos,MET Norway,lluvia_intensa,0,0
+2026-11-12,San Carlos,MET Norway,zonda,0,0
+2026-11-12,San Carlos,MET Norway,viento_fuerte,0,0
+2026-11-12,San Carlos,MET Norway,nieve,0,0
+2026-11-12,General Alvear,MET Norway,helada,0,0
+2026-11-12,General Alvear,MET Norway,calor,1,1
+2026-11-12,General Alvear,MET Norway,lluvia,0,0
+2026-11-12,General Alvear,MET Norway,lluvia_intensa,0,0
+2026-11-12,General Alvear,MET Norway,zonda,0,0
+2026-11-12,General Alvear,MET Norway,viento_fuerte,0,0
+2026-11-12,General Alvear,MET Norway,nieve,0,0
+2026-11-12,Maipú,SMN (WRF),helada,0,0
+2026-11-12,Maipú,SMN (WRF),calor,1,1
+2026-11-12,Maipú,SMN (WRF),lluvia,0,0
+2026-11-12,Maipú,SMN (WRF),lluvia_intensa,0,0
+2026-11-12,Maipú,SMN (WRF),zonda,0,0
+2026-11-12,Maipú,SMN (WRF),viento_fuerte,0,0
+2026-11-12,Maipú,SMN (WRF),nieve,0,0
+2026-11-12,Lavalle,SMN (WRF),helada,0,0
+2026-11-12,Lavalle,SMN (WRF),calor,1,1
+2026-11-12,Lavalle,SMN (WRF),lluvia,0,0
+2026-11-12,Lavalle,SMN (WRF),lluvia_intensa,0,0
+2026-11-12,Lavalle,SMN (WRF),zonda,0,0
+2026-11-12,Lavalle,SMN (WRF),viento_fuerte,0,0
+2026-11-12,Lavalle,SMN (WRF),nieve,0,0
+2026-11-12,San Martín,SMN (WRF),helada,0,0
+2026-11-12,San Martín,SMN (WRF),calor,1,1
+2026-11-12,San Martín,SMN (WRF),lluvia,0,0
+2026-11-12,San Martín,SMN (WRF),lluvia_intensa,0,0
+2026-11-12,San Martín,SMN (WRF),zonda,0,0
+2026-11-12,San Martín,SMN (WRF),viento_fuerte,0,0
+2026-11-12,San Martín,SMN (WRF),nieve,0,0
+2026-11-12,Junín,SMN (WRF),helada,0,0
+2026-11-12,Junín,SMN (WRF),calor,1,1
+2026-11-12,Junín,SMN (WRF),lluvia,0,0
+2026-11-12,Junín,SMN (WRF),lluvia_intensa,0,0
+2026-11-12,Junín,SMN (WRF),zonda,0,0
+2026-11-12,Junín,SMN (WRF),viento_fuerte,0,0
+2026-11-12,Junín,SMN (WRF),nieve,0,0
+2026-11-12,Rivadavia,SMN (WRF),helada,0,0
+2026-11-12,Rivadavia,SMN (WRF),calor,1,1
+2026-11-12,Rivadavia,SMN (WRF),lluvia,0,0
+2026-11-12,Rivadavia,SMN (WRF),lluvia_intensa,0,0
+2026-11-12,Rivadavia,SMN (WRF),zonda,0,0
+2026-11-12,Rivadavia,SMN (WRF),viento_fuerte,0,0
+2026-11-12,Rivadavia,SMN (WRF),nieve,0,0
+2026-11-12,Santa Rosa,SMN (WRF),helada,0,0
+2026-11-12,Santa Rosa,SMN (WRF),calor,1,1
+2026-11-12,Santa Rosa,SMN (WRF),lluvia,0,0
+2026-11-12,Santa Rosa,SMN (WRF),lluvia_intensa,0,0
+2026-11-12,Santa Rosa,SMN (WRF),zonda,0,0
+2026-11-12,Santa Rosa,SMN (WRF),viento_fuerte,0,0
+2026-11-12,Santa Rosa,SMN (WRF),nieve,0,0
+2026-11-12,Tupungato,SMN (WRF),helada,0,0
+2026-11-12,Tupungato,SMN (WRF),calor,0,1
+2026-11-12,Tupungato,SMN (WRF),lluvia,0,0
+2026-11-12,Tupungato,SMN (WRF),lluvia_intensa,0,0
+2026-11-12,Tupungato,SMN (WRF),zonda,0,0
+2026-11-12,Tupungato,SMN (WRF),viento_fuerte,0,0
+2026-11-12,Tupungato,SMN (WRF),nieve,0,0
+2026-11-12,Tunuyán,SMN (WRF),helada,0,0
+2026-11-12,Tunuyán,SMN (WRF),calor,1,1
+2026-11-12,Tunuyán,SMN (WRF),lluvia,0,0
+2026-11-12,Tunuyán,SMN (WRF),lluvia_intensa,0,0
+2026-11-12,Tunuyán,SMN (WRF),zonda,0,0
+2026-11-12,Tunuyán,SMN (WRF),viento_fuerte,0,0
+2026-11-12,Tunuyán,SMN (WRF),nieve,0,0
+2026-11-12,San Carlos,SMN (WRF),helada,0,0
+2026-11-12,San Carlos,SMN (WRF),calor,0,1
+2026-11-12,San Carlos,SMN (WRF),lluvia,0,0
+2026-11-12,San Carlos,SMN (WRF),lluvia_intensa,0,0
+2026-11-12,San Carlos,SMN (WRF),zonda,0,0
+2026-11-12,San Carlos,SMN (WRF),viento_fuerte,0,0
+2026-11-12,San Carlos,SMN (WRF),nieve,0,0
+2026-11-12,General Alvear,SMN (WRF),helada,0,0
+2026-11-12,General Alvear,SMN (WRF),calor,1,1
+2026-11-12,General Alvear,SMN (WRF),lluvia,0,0
+2026-11-12,General Alvear,SMN (WRF),lluvia_intensa,0,0
+2026-11-12,General Alvear,SMN (WRF),zonda,1,0
+2026-11-12,General Alvear,SMN (WRF),viento_fuerte,0,0
+2026-11-12,General Alvear,SMN (WRF),nieve,0,0

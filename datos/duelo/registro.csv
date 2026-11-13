@@ -1,3 +1,5 @@
 dia,fuente,dijo_llueve,llovio,acierto_lluvia,mm_pron,mm_medido,horas_pron,horas_medidas,horas_acertadas,tmin_pron,tmin_medida,tmax_pron,tmax_medida,err_tmin,err_tmax
 2026-11-11,Tiempo Campero,False,False,True,0.0,0,—,—,0,9.5,8.6,31.3,33.1,0.9,-1.8
 2026-11-11,The Weather Channel,False,False,True,0.0,0,—,—,0,13.9,8.6,30.6,33.1,5.3,-2.5
+2026-11-12,Tiempo Campero,False,False,True,0.0,0,—,—,0,11.1,9.6,33.6,37.0,1.5,-3.4
+2026-11-12,The Weather Channel,False,False,True,0.0,0,—,—,0,16.1,9.6,33.9,37.0,6.5,-3.1
