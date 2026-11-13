@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-12T17:26:57Z",
+ "actualizado": "2026-11-13T02:51:05Z",
  "version": 1,
  "dias": {
   "2026-11-11": {
@@ -40,19 +40,19 @@
   },
   "2026-11-13": {
    "producto": "noche",
-   "generado": "2026-11-12T03:14:41Z",
+   "generado": "2026-11-13T02:51:05Z",
    "zonas": {
     "norte": {
      "nivel": 0,
-     "puntaje": null
+     "puntaje": 0.298
     },
     "sur": {
      "nivel": 0,
-     "puntaje": null
+     "puntaje": 0.324
     },
     "valle": {
      "nivel": 0,
-     "puntaje": null
+     "puntaje": 0.119
     }
    }
   }
