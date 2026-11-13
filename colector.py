@@ -35,6 +35,20 @@ DEPTOS = [  # departamento, región, lat, lon
     ("General Alvear", "Sur", -34.975, -67.700), ("Malargüe", "Malargüe", -35.475, -69.585),
 ]
 
+# 13/11/2026: las 15 estaciones de Contingencias del Valle de Uco, para el duelo por estación (duelo_estaciones.py).
+# Los pronósticos se piden en el lugar exacto de cada estación.
+ESTACIONES = [  # nombre, región, lat, lon, número de estación de Contingencias
+    ("Est. El Peral", "Valle de Uco", -33.3467, -69.1577, 3), ("Est. Dubois", "Valle de Uco", -33.433, -69.0424, 40),
+    ("Est. Cruz Negra", "Valle de Uco", -33.4437, -68.9654, 60), ("Est. Cordón del Plata", "Valle de Uco", -33.4236, -69.1339, 61),
+    ("Est. Tunuyán", "Valle de Uco", -33.5644, -69.0395, 4), ("Est. Agua Amarga", "Valle de Uco", -33.516, -69.2075, 5),
+    ("Est. Colonia Las Rosas", "Valle de Uco", -33.619, -69.108, 36), ("Est. La Estacada", "Valle de Uco", -33.5146, -69.0019, 44),
+    ("Est. Chacayes Piedra Negra", "Valle de Uco", -33.6123, -69.2042, 42), ("Est. Chacayes Alpasión", "Valle de Uco", -33.6084, -69.28, 57),
+    ("Est. Chacayes El Carrizalejo", "Valle de Uco", -33.6049, -69.329, 62), ("Est. La Consulta", "Valle de Uco", -33.7066, -69.0732, 11),
+    ("Est. El Cepillo", "Valle de Uco", -33.8058, -69.1076, 21), ("Est. Casas Viejas", "Valle de Uco", -33.8787, -69.0369, 31),
+    ("Est. Pareditas", "Valle de Uco", -33.96, -69.0794, 52),
+]
+PUNTOS = DEPTOS + [(n, r, la, lo) for n, r, la, lo, _ in ESTACIONES]   # los departamentos primero: no cambian los índices
+
 def get(url, binario=False, intentos=3, cab=None):
     for i in range(intentos):
         try:
@@ -139,7 +153,7 @@ def twc():
     ruta_ids = os.path.join(DATOS, "fuentes", "twc_lugares.json")
     ids = json.load(open(ruta_ids, encoding="utf8")) if os.path.exists(ruta_ids) else {}
     salida = {}
-    for n, reg, la, lo in DEPTOS:
+    for n, reg, la, lo in PUNTOS:
         try:
             if n not in ids:
                 s = get(f"https://weather.com/weather/hourbyhour/l/{la:.2f},{lo:.2f}")
@@ -165,15 +179,20 @@ MODELOS = ["gem_seamless", "icon_seamless", "ukmo_seamless", "ecmwf_ifs025", "me
            "ukmo_global_deterministic_10km", "knmi_seamless", "dmi_seamless", "metno_seamless", "kma_seamless", "bom_access_global"]
 
 def open_meteo():
-    la = ",".join(f"{d[2]:.3f}" for d in DEPTOS); lo = ",".join(f"{d[3]:.3f}" for d in DEPTOS)
+    # Los 7 modelos de la app y el ensamble se piden también en las 15 estaciones; los demás, solo en los departamentos
+    # (para no gastar de más la cuota gratuita de Open-Meteo).
+    coords = lambda L: (",".join(f"{d[2]:.4f}" for d in L), ",".join(f"{d[3]:.4f}" for d in L))
+    APP7 = ("gem_seamless", "icon_seamless", "ukmo_seamless", "ecmwf_ifs025", "meteofrance_seamless", "gfs_seamless", "jma_seamless")
     var = "temperature_2m,relative_humidity_2m,precipitation,precipitation_probability,weather_code,wind_speed_10m,wind_gusts_10m,wind_direction_10m,cape,snowfall"
     out = {}
     for m in MODELOS:
+        la, lo = coords(PUNTOS if m in APP7 else DEPTOS)
         try:
             out[m] = json.loads(get(f"https://api.open-meteo.com/v1/forecast?latitude={la}&longitude={lo}&hourly={var}"
                                     f"&models={m}&wind_speed_unit=kmh&timezone=America%2FArgentina%2FMendoza&forecast_days=7"))
         except Exception as e: print("open-meteo", m, e)
         time.sleep(2)
+    la, lo = coords(PUNTOS)
     try:
         out["ensamble_ecmwf"] = json.loads(get(f"https://ensemble-api.open-meteo.com/v1/ensemble?latitude={la}&longitude={lo}"
                                                "&hourly=precipitation&models=ecmwf_ifs025&forecast_days=7&timezone=America%2FArgentina%2FMendoza"))
@@ -183,7 +202,7 @@ def open_meteo():
 def met_norway():
     out = {}
     cab = {"User-Agent": "TiempoCampero/0.32 github.com/yayoar/tiempo-campero-datos"}
-    for n, reg, la, lo in DEPTOS:
+    for n, reg, la, lo in PUNTOS:
         try: out[n] = json.loads(get(f"https://api.met.no/weatherapi/locationforecast/2.0/complete?lat={la:.3f}&lon={lo:.3f}", cab=cab))
         except Exception as e: print("met.no", n, e)
         time.sleep(1)
@@ -215,8 +234,10 @@ def estaciones_dacc():
     carpeta = os.path.join(DATOS, "estaciones", "dacc"); os.makedirs(carpeta, exist_ok=True)
     estado_r = os.path.join(carpeta, "ultimo.json")
     estado = json.load(open(estado_r)) if os.path.exists(estado_r) else {}
+    # Las 15 estaciones del Valle de Uco se bajan en cada corrida (cada hora, para el duelo por estación); las demás, cada ~6 h.
+    solo = None
     if estado.get("_corrida") and (time.time() - estado["_corrida"]) < 5.5 * 3600 and "--forzar" not in sys.argv:
-        print("estaciones: todavía no toca"); return
+        solo = {str(e[4]) for e in ESTACIONES}
     try: lista = json.loads(get("https://agrometeo.mendoza.gov.ar/api/getEstaciones.php"))
     except Exception as e:
         guardada = os.path.join(carpeta, "estaciones.json")
@@ -229,7 +250,8 @@ def estaciones_dacc():
         if not i: return x, None
         try: return x, get(f"https://drive.google.com/uc?export=download&id={i}")
         except Exception as e: print("estación", x["Estacion"], e); return x, None
-    with ThreadPoolExecutor(6) as ex: res = list(ex.map(bajar, [x for x in lista if x.get("Estacion")]))
+    with ThreadPoolExecutor(6) as ex:
+        res = list(ex.map(bajar, [x for x in lista if x.get("Estacion") and (solo is None or str(x["Estacion"]) in solo)]))
     por_mes = {}
     for x, txt in res:
         if not txt: continue
@@ -249,12 +271,12 @@ def estaciones_dacc():
         with gzip.open(os.path.join(carpeta, f"{mes}.csv.gz"), "at", encoding="utf8") as f:
             for r in filas: f.write(",".join(str(v) for v in r) + "\n")
         total += len(filas)
-    estado["_corrida"] = time.time()
+    if solo is None: estado["_corrida"] = time.time()
     json.dump(estado, open(estado_r, "w"), indent=0)
     print("estaciones: filas nuevas", total)
 
 if __name__ == "__main__":
-    import duelo, duelo_total
-    for paso in (radar, pronosticos, estaciones_dacc, duelo.main, duelo_total.main):
+    import duelo, duelo_total, duelo_estaciones
+    for paso in (radar, pronosticos, estaciones_dacc, duelo.main, duelo_total.main, duelo_estaciones.main):
         try: paso()
         except Exception as e: print(paso.__name__, "falló:", e)
