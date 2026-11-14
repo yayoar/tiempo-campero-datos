@@ -44,21 +44,45 @@ def correccion(est, dia):
         out.append(x)
     return out
 
+_LIN = None
+def minima_lineal(p, est, dia, smn=None):
+    """Mínima corregida con la fórmula del 14/11/2026 (datos/fuentes/minima_lineal.json): aprende cuánto pesa cada
+    modelo y el SMN en cada estación y época del año. Medida año contra año en 15 estaciones: error 1,4 °C (antes 1,7).
+    Devuelve None si falta el archivo o hay menos de 4 modelos."""
+    global _LIN
+    if _LIN is None:
+        r = os.path.join(DATOS, "fuentes", "minima_lineal.json")
+        _LIN = json.load(open(r, encoding="utf8")) if os.path.exists(r) else {}
+    if not _LIN or len(p) < 4: return None
+    c = _LIN["coef"]; tn = {m: v["tmin"] for m, v in p.items()}; med = mediana(list(tn.values()))
+    hr = [v["hr"] for v in p.values() if v["hr"] < 100]; raf = [v["raf"] for v in p.values() if v["raf"] > 0]
+    doy = dia.timetuple().tm_yday; sen = math.sin(2 * math.pi * doy / 365.25); cos = math.cos(2 * math.pi * doy / 365.25)
+    x = {"med": med, "min": min(tn.values()), "amp": max(tn.values()) - min(tn.values()),
+         "tmax_med": mediana([v["tmax"] for v in p.values()]),
+         "hr": mediana(hr) if hr else _LIN["hr_falta"], "raf": max(raf) if raf else _LIN["raf_falta"],
+         "pp": math.log1p(mediana([v["pp"] for v in p.values()])),
+         "smn": (smn["tmin"] - med) if smn else 0.0, "smn_falta": 0.0 if smn else 1.0, "sen": sen, "cos": cos,
+         f"e{est}": 1.0, f"e{est}_sen": sen, f"e{est}_cos": cos, f"e{est}_med": (med - 5) / 5}
+    for m, t in tn.items(): x[f"d_{m}"] = t - med
+    return _LIN["b0"] + sum(c.get(k, 0.0) * v for k, v in x.items())
+
 def mediana(v):
     v = sorted(v); n = len(v)
     return (v[n // 2] + v[(n - 1) // 2]) / 2
 
 def reglas_tc(p, est, dia, smn=None):
     """Avisos del día de Tiempo Campero con las reglas medidas en la presentación (13/11/2026):
-    helada = mínima corregida por estación <= 0,5; calor = máxima corregida >= 35; lluvia = 5 de los 7 modelos con 1 mm;
+    helada = mínima de la fórmula nueva (minima_lineal) <= 1,0 (decisión de Yayo, 14/11; si falta, la corrección
+    por estación <= 0,5); calor = máxima corregida >= 35; lluvia = 5 de los 7 modelos con 1 mm;
     lluvia intensa = mediana de los modelos >= 20 mm; zonda = (mediana de humedad mínima <= 15% y ráfaga máxima >= 40 km/h)
     o aviso de zonda del SMN. Tormenta, granizo, viento fuerte y nieve: las reglas de la app."""
     cmin, cmax = correccion(est, dia); N = len(p); c = math.ceil
-    tn = mediana([v["tmin"] for v in p.values()]) + cmin; tx = mediana([v["tmax"] for v in p.values()]) + cmax
+    tl = minima_lineal(p, est, dia, smn)
+    tn = tl if tl is not None else mediana([v["tmin"] for v in p.values()]) + cmin; tx = mediana([v["tmax"] for v in p.values()]) + cmax
     rafs = sorted((v["raf"] for v in p.values()), reverse=True)
     zon = mediana([v["hr"] for v in p.values()]) <= 15 and rafs[0] >= 40
     if smn: zon = zon or (smn.get("hr", 100) <= 15 and smn.get("raf", 0) >= 40)
-    return dict(helada=tn <= .5, calor=tx >= 35, lluvia=sum(v["pp"] >= 1 for v in p.values()) >= 5,
+    return dict(helada=tn <= (1.0 if tl is not None else .5), calor=tx >= 35, lluvia=sum(v["pp"] >= 1 for v in p.values()) >= 5,
                 lluvia_intensa=mediana([v["pp"] for v in p.values()]) >= 20,
                 tormenta=sum(any(x >= 95 for x in v["cod"]) for v in p.values()) >= 2,
                 granizo=sum(any(x in (96, 99) for x in v["cod"]) for v in p.values()) >= 2,
