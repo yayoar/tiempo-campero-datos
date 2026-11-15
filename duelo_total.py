@@ -98,7 +98,9 @@ def fuentes(dia):
     if tw:
         for n, *_ in DEPTOS:
             h = (tw.get(n) or {}).get("horario")
-            if not h: continue
+            # 15/11/2026: desde que The Weather Channel bloquea a GitHub, a veces queda un bloque incompleto
+            # guardado; sin esta guarda el duelo entero se cortaba en ese día.
+            if not h or "validTimeLocal" not in h: continue
             ix = [k for k, x in enumerate(h["validTimeLocal"]) if x.startswith(dia.isoformat())]
             if len(ix) < 20: continue
             F = lambda x: (x - 32) * 5 / 9; g = lambda c: [h[c][k] for k in ix]
