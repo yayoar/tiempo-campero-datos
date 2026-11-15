@@ -279,7 +279,9 @@ def main():
     filas = []
     for k in range(1, 6):
         d = hoy - dt.timedelta(days=k)
-        if d.isoformat() not in hechos: filas += diario(d)
+        if d.isoformat() in hechos: continue
+        try: filas += diario(d)
+        except Exception as e: print("duelo por estación: día", d, "sin medir:", e, flush=True)
     if filas:
         nuevo = not os.path.exists(reg)
         with open(reg, "a", encoding="utf8", newline="") as fh:
