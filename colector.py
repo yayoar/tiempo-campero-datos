@@ -217,6 +217,81 @@ def met_norway():
         time.sleep(1)
     return out
 
+# ---------------------------------------------------------------- meteoblue y Meteored (15/11/2026)
+# Dos servicios comerciales que la gente tiene en el teléfono, para medirlos igual que al resto.
+# Reemplazan a The Weather Channel, que desde el 14/11 bloquea a GitHub.
+# Las claves llegan por variables de entorno (GitHub Secrets); sin clave el paso se saltea sin romper nada.
+#   meteoblue: plan gratis, 10 M de créditos hasta el 15/11/2027. Una llamada por estación por día
+#     (basic-day): mínima, máxima, lluvia, humedad mín/máx y viento máximo.
+#     Medido el 15/11/2026: basic-day cuesta ~4.000 créditos por llamada; agregarle wind-3h (ráfagas)
+#     lo lleva a ~18.700, o sea 4,7 veces más. Con basic-day solo, 15 estaciones alcanzan para unos
+#     5 meses y medio; con ráfagas, para 36 días. Las ráfagas ya las tenemos de los 7 modelos de
+#     Open-Meteo, así que no vale la pena: si algún día sobran créditos, se agrega "_wind-3h" acá.
+#   Meteored: plan gratis, 50 llamadas por día. No acepta lat/lon, solo sus localidades: se pide por
+#     el hash de cada distrito, guardado en datos/fuentes/meteored_lugares.json.
+# Los dos cupos son chicos, así que esto corre UNA vez por día (ver diarias()).
+
+def meteoblue():
+    k = os.environ.get("METEOBLUE_KEY", "").strip()
+    if not k:
+        print("meteoblue: sin clave, salteo"); return {}
+    # Nos identificamos como lo que somos, igual que con MET Norway: tenemos clave propia, no hace falta
+    # disfrazarse de navegador (el User-Agent por defecto de urllib lo rechaza Cloudflare).
+    cab = {"User-Agent": "TiempoCampero/0.32 github.com/yayoar/tiempo-campero-datos",
+           "Accept": "application/json"}
+    out = {}
+    for n, reg, la, lo, num in ESTACIONES:
+        try:
+            out[n] = json.loads(get(f"https://my.meteoblue.com/packages/basic-day?apikey={k}"
+                                    f"&lat={la:.4f}&lon={lo:.4f}&format=json"
+                                    "&tz=America%2FArgentina%2FMendoza", cab=cab))
+        except Exception as e:
+            print("meteoblue", n, type(e).__name__, getattr(e, "code", ""))
+        time.sleep(1)
+    return out
+
+def meteored():
+    k = os.environ.get("METEORED_KEY", "").strip()
+    if not k:
+        print("meteored: sin clave, salteo"); return {}
+    ruta = os.path.join(DATOS, "fuentes", "meteored_lugares.json")
+    if not os.path.exists(ruta):
+        print("meteored: falta meteored_lugares.json"); return {}
+    lugares = json.load(open(ruta, encoding="utf8"))
+    # La API contesta 401 de a ratos en el minuto siguiente a cada activación o pausa; se reintenta.
+    cab = {"x-api-key": k, "Accept": "application/json",
+           "User-Agent": "TiempoCampero/0.32 github.com/yayoar/tiempo-campero-datos"}
+    out = {}
+    for n, h in lugares.items():
+        try:
+            out[n] = json.loads(get(f"https://api.meteored.com/api/forecast/v2/daily/{h}", intentos=4, cab=cab))
+        except Exception as e:
+            print("meteored", n, type(e).__name__, getattr(e, "code", ""))
+        time.sleep(2)
+    return out
+
+def diarias():
+    """meteoblue y Meteored: una sola vez por día, porque los dos planes gratuitos tienen cupo chico."""
+    ahora = dt.datetime.now(dt.timezone.utc)
+    marca = os.path.join(DATOS, "pronosticos", "ultimo_diario.txt")
+    if os.path.exists(marca):
+        ult = dt.datetime.fromisoformat(open(marca).read().strip())
+        if (ahora - ult).total_seconds() < 23 * 3600 and "--forzar" not in sys.argv:
+            print("diarias: todavía no toca"); return
+    base = os.path.join(DATOS, "pronosticos", ahora.strftime("%Y/%m/%d"), ahora.strftime("%H%M"))
+    hubo = False
+    for nombre, f in (("meteoblue", meteoblue), ("meteored", meteored)):
+        try:
+            d = f()
+            if not d: continue
+            guardar_gz(f"{base}_{nombre}.json.gz", {"guardado_utc": ahora.isoformat(), "datos": d})
+            print("diarias:", nombre, "ok,", len(d), "puntos"); hubo = True
+        except Exception as e:
+            print("diarias:", nombre, type(e).__name__, e)
+    if hubo:
+        os.makedirs(os.path.dirname(marca), exist_ok=True)
+        open(marca, "w").write(ahora.isoformat())
+
 def pronosticos():
     ahora = dt.datetime.now(dt.timezone.utc)
     marca = os.path.join(DATOS, "pronosticos", "ultimo.txt")
@@ -286,6 +361,6 @@ def estaciones_dacc():
 
 if __name__ == "__main__":
     import duelo, duelo_total, duelo_estaciones
-    for paso in (radar, pronosticos, estaciones_dacc, duelo.main, duelo_total.main, duelo_estaciones.main):
+    for paso in (radar, pronosticos, diarias, estaciones_dacc, duelo.main, duelo_total.main, duelo_estaciones.main):
         try: paso()
         except Exception as e: print(paso.__name__, "falló:", e)
