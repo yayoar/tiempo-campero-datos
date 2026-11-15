@@ -64,6 +64,7 @@ def guardar_gz(ruta, obj):
     with gzip.open(ruta, "wt", encoding="utf8") as f: json.dump(obj, f, ensure_ascii=False, separators=(",", ":"))
 
 # ---------------------------------------------------------------- radar de Contingencias
+AR = dt.timezone(dt.timedelta(hours=-3))
 BASE_RADAR = "https://www2.contingencias.mendoza.gov.ar/radar/web"
 # Georreferencia tomada del visor oficial (radar/web): origen -34,-68; 450 km al norte, 250 al sur, este y oeste.
 LAT_N = -34.00 + 450 / 110.924 + 0.046; LAT_S = -34.00 - 250 / 110.924 + 0.046
@@ -184,19 +185,27 @@ def open_meteo():
     coords = lambda L: (",".join(f"{d[2]:.4f}" for d in L), ",".join(f"{d[3]:.4f}" for d in L))
     APP7 = ("gem_seamless", "icon_seamless", "ukmo_seamless", "ecmwf_ifs025", "meteofrance_seamless", "gfs_seamless", "jma_seamless")
     var = "temperature_2m,relative_humidity_2m,precipitation,precipitation_probability,weather_code,wind_speed_10m,wind_gusts_10m,wind_direction_10m,cape,snowfall"
-    out = {}
+    # 14/11/2026 (pedido de Yayo): una vez por día se piden 16 días en vez de 7, para juntar historia del pronóstico
+    # extendido (plazos 8 a 15) y poder medirlo más adelante. El resto de las corridas sigue en 7, para no gastar cuota.
+    largo = dt.datetime.now(AR).hour == 8
+    dias = 16 if largo else 7
+    out = {"_dias": dias}
     for m in MODELOS:
         la, lo = coords(PUNTOS if m in APP7 else DEPTOS)
         try:
             out[m] = json.loads(get(f"https://api.open-meteo.com/v1/forecast?latitude={la}&longitude={lo}&hourly={var}"
-                                    f"&models={m}&wind_speed_unit=kmh&timezone=America%2FArgentina%2FMendoza&forecast_days=7"))
+                                    f"&models={m}&wind_speed_unit=kmh&timezone=America%2FArgentina%2FMendoza&forecast_days={dias}"))
         except Exception as e: print("open-meteo", m, e)
         time.sleep(2)
     la, lo = coords(PUNTOS)
-    try:
-        out["ensamble_ecmwf"] = json.loads(get(f"https://ensemble-api.open-meteo.com/v1/ensemble?latitude={la}&longitude={lo}"
-                                               "&hourly=precipitation&models=ecmwf_ifs025&forecast_days=7&timezone=America%2FArgentina%2FMendoza"))
-    except Exception as e: print("ensamble", e)
+    for clave, mod in (("ensamble_ecmwf", "ecmwf_ifs025"), ("ensamble_gfs", "gfs025")):
+        if clave == "ensamble_gfs" and not largo: continue   # el estadounidense (31 corridas), solo en la corrida larga
+        try:
+            out[clave] = json.loads(get(f"https://ensemble-api.open-meteo.com/v1/ensemble?latitude={la}&longitude={lo}"
+                                        f"&hourly=precipitation,temperature_2m&models={mod}&forecast_days={dias}"
+                                        "&timezone=America%2FArgentina%2FMendoza"))
+        except Exception as e: print("ensamble", clave, e)
+        time.sleep(2)
     return out
 
 def met_norway():
