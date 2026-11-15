@@ -23,6 +23,9 @@ jobs:
           python-version: "3.12"
       - run: pip install numpy pillow fsspec h5py aiohttp
       - name: Juntar y guardar cada hora durante ~5,5 horas
+        env:
+          METEOBLUE_KEY: ${{ secrets.METEOBLUE_KEY }}
+          METEORED_KEY: ${{ secrets.METEORED_KEY }}
         run: |
           git config user.name "ayudante-tiempo-campero"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
