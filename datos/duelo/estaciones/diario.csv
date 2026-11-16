@@ -734,3 +734,1053 @@ dia,estacion,fuente,fenomeno,aviso,paso
 2026-11-13,Est. Pareditas,SMN (4 km),zonda,0,0
 2026-11-13,Est. Pareditas,SMN (4 km),viento_fuerte,0,0
 2026-11-13,Est. Pareditas,SMN (4 km),nieve,0,0
+2026-11-15,Est. El Peral,Canadá,helada,0,0
+2026-11-15,Est. El Peral,Canadá,calor,0,0
+2026-11-15,Est. El Peral,Canadá,lluvia,0,0
+2026-11-15,Est. El Peral,Canadá,lluvia_intensa,0,0
+2026-11-15,Est. El Peral,Canadá,zonda,0,0
+2026-11-15,Est. El Peral,Canadá,viento_fuerte,0,0
+2026-11-15,Est. El Peral,Canadá,nieve,0,0
+2026-11-15,Est. Dubois,Canadá,helada,0,0
+2026-11-15,Est. Dubois,Canadá,calor,0,0
+2026-11-15,Est. Dubois,Canadá,lluvia,0,0
+2026-11-15,Est. Dubois,Canadá,lluvia_intensa,0,0
+2026-11-15,Est. Dubois,Canadá,zonda,0,0
+2026-11-15,Est. Dubois,Canadá,viento_fuerte,0,0
+2026-11-15,Est. Dubois,Canadá,nieve,0,0
+2026-11-15,Est. Cruz Negra,Canadá,helada,0,0
+2026-11-15,Est. Cruz Negra,Canadá,calor,0,0
+2026-11-15,Est. Cruz Negra,Canadá,lluvia,0,0
+2026-11-15,Est. Cruz Negra,Canadá,lluvia_intensa,0,0
+2026-11-15,Est. Cruz Negra,Canadá,zonda,0,0
+2026-11-15,Est. Cruz Negra,Canadá,viento_fuerte,0,0
+2026-11-15,Est. Cruz Negra,Canadá,nieve,0,0
+2026-11-15,Est. Cordón del Plata,Canadá,helada,0,0
+2026-11-15,Est. Cordón del Plata,Canadá,calor,0,0
+2026-11-15,Est. Cordón del Plata,Canadá,lluvia,0,0
+2026-11-15,Est. Cordón del Plata,Canadá,lluvia_intensa,0,0
+2026-11-15,Est. Cordón del Plata,Canadá,zonda,0,0
+2026-11-15,Est. Cordón del Plata,Canadá,viento_fuerte,0,0
+2026-11-15,Est. Cordón del Plata,Canadá,nieve,0,0
+2026-11-15,Est. Tunuyán,Canadá,helada,0,0
+2026-11-15,Est. Tunuyán,Canadá,calor,0,0
+2026-11-15,Est. Tunuyán,Canadá,lluvia,1,0
+2026-11-15,Est. Tunuyán,Canadá,lluvia_intensa,0,0
+2026-11-15,Est. Tunuyán,Canadá,zonda,0,0
+2026-11-15,Est. Tunuyán,Canadá,viento_fuerte,0,0
+2026-11-15,Est. Tunuyán,Canadá,nieve,0,0
+2026-11-15,Est. Agua Amarga,Canadá,helada,0,0
+2026-11-15,Est. Agua Amarga,Canadá,calor,0,0
+2026-11-15,Est. Agua Amarga,Canadá,lluvia,0,0
+2026-11-15,Est. Agua Amarga,Canadá,lluvia_intensa,0,0
+2026-11-15,Est. Agua Amarga,Canadá,zonda,0,0
+2026-11-15,Est. Agua Amarga,Canadá,viento_fuerte,0,0
+2026-11-15,Est. Agua Amarga,Canadá,nieve,0,0
+2026-11-15,Est. Colonia Las Rosas,Canadá,helada,0,0
+2026-11-15,Est. Colonia Las Rosas,Canadá,calor,0,0
+2026-11-15,Est. Colonia Las Rosas,Canadá,lluvia,0,0
+2026-11-15,Est. Colonia Las Rosas,Canadá,lluvia_intensa,0,0
+2026-11-15,Est. Colonia Las Rosas,Canadá,zonda,0,0
+2026-11-15,Est. Colonia Las Rosas,Canadá,viento_fuerte,0,0
+2026-11-15,Est. Colonia Las Rosas,Canadá,nieve,0,0
+2026-11-15,Est. La Estacada,Canadá,helada,0,0
+2026-11-15,Est. La Estacada,Canadá,calor,0,0
+2026-11-15,Est. La Estacada,Canadá,lluvia,0,0
+2026-11-15,Est. La Estacada,Canadá,lluvia_intensa,0,0
+2026-11-15,Est. La Estacada,Canadá,zonda,0,0
+2026-11-15,Est. La Estacada,Canadá,viento_fuerte,0,0
+2026-11-15,Est. La Estacada,Canadá,nieve,0,0
+2026-11-15,Est. Chacayes Piedra Negra,Canadá,helada,0,0
+2026-11-15,Est. Chacayes Piedra Negra,Canadá,calor,0,0
+2026-11-15,Est. Chacayes Piedra Negra,Canadá,lluvia,0,0
+2026-11-15,Est. Chacayes Piedra Negra,Canadá,lluvia_intensa,0,0
+2026-11-15,Est. Chacayes Piedra Negra,Canadá,zonda,0,0
+2026-11-15,Est. Chacayes Piedra Negra,Canadá,viento_fuerte,0,0
+2026-11-15,Est. Chacayes Piedra Negra,Canadá,nieve,0,0
+2026-11-15,Est. Chacayes Alpasión,Canadá,helada,0,0
+2026-11-15,Est. Chacayes Alpasión,Canadá,calor,0,0
+2026-11-15,Est. Chacayes Alpasión,Canadá,lluvia,0,0
+2026-11-15,Est. Chacayes Alpasión,Canadá,lluvia_intensa,0,0
+2026-11-15,Est. Chacayes Alpasión,Canadá,zonda,0,0
+2026-11-15,Est. Chacayes Alpasión,Canadá,viento_fuerte,0,0
+2026-11-15,Est. Chacayes Alpasión,Canadá,nieve,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,Canadá,helada,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,Canadá,calor,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,Canadá,lluvia,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,Canadá,lluvia_intensa,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,Canadá,zonda,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,Canadá,viento_fuerte,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,Canadá,nieve,0,0
+2026-11-15,Est. La Consulta,Canadá,helada,0,0
+2026-11-15,Est. La Consulta,Canadá,calor,0,0
+2026-11-15,Est. La Consulta,Canadá,lluvia,1,0
+2026-11-15,Est. La Consulta,Canadá,lluvia_intensa,0,0
+2026-11-15,Est. La Consulta,Canadá,zonda,0,0
+2026-11-15,Est. La Consulta,Canadá,viento_fuerte,0,0
+2026-11-15,Est. La Consulta,Canadá,nieve,0,0
+2026-11-15,Est. El Cepillo,Canadá,helada,0,0
+2026-11-15,Est. El Cepillo,Canadá,calor,0,0
+2026-11-15,Est. El Cepillo,Canadá,lluvia,0,0
+2026-11-15,Est. El Cepillo,Canadá,lluvia_intensa,0,0
+2026-11-15,Est. El Cepillo,Canadá,zonda,0,0
+2026-11-15,Est. El Cepillo,Canadá,viento_fuerte,0,0
+2026-11-15,Est. El Cepillo,Canadá,nieve,0,0
+2026-11-15,Est. Casas Viejas,Canadá,helada,0,0
+2026-11-15,Est. Casas Viejas,Canadá,calor,0,0
+2026-11-15,Est. Casas Viejas,Canadá,lluvia,1,0
+2026-11-15,Est. Casas Viejas,Canadá,lluvia_intensa,0,0
+2026-11-15,Est. Casas Viejas,Canadá,zonda,0,0
+2026-11-15,Est. Casas Viejas,Canadá,viento_fuerte,0,0
+2026-11-15,Est. Casas Viejas,Canadá,nieve,0,0
+2026-11-15,Est. Pareditas,Canadá,helada,0,0
+2026-11-15,Est. Pareditas,Canadá,calor,0,0
+2026-11-15,Est. Pareditas,Canadá,lluvia,0,0
+2026-11-15,Est. Pareditas,Canadá,lluvia_intensa,0,0
+2026-11-15,Est. Pareditas,Canadá,zonda,0,0
+2026-11-15,Est. Pareditas,Canadá,viento_fuerte,0,0
+2026-11-15,Est. Pareditas,Canadá,nieve,0,0
+2026-11-15,Est. El Peral,Alemania,helada,0,0
+2026-11-15,Est. El Peral,Alemania,calor,0,0
+2026-11-15,Est. El Peral,Alemania,lluvia,0,0
+2026-11-15,Est. El Peral,Alemania,lluvia_intensa,0,0
+2026-11-15,Est. El Peral,Alemania,zonda,0,0
+2026-11-15,Est. El Peral,Alemania,viento_fuerte,0,0
+2026-11-15,Est. El Peral,Alemania,nieve,0,0
+2026-11-15,Est. Dubois,Alemania,helada,0,0
+2026-11-15,Est. Dubois,Alemania,calor,0,0
+2026-11-15,Est. Dubois,Alemania,lluvia,0,0
+2026-11-15,Est. Dubois,Alemania,lluvia_intensa,0,0
+2026-11-15,Est. Dubois,Alemania,zonda,0,0
+2026-11-15,Est. Dubois,Alemania,viento_fuerte,0,0
+2026-11-15,Est. Dubois,Alemania,nieve,0,0
+2026-11-15,Est. Cruz Negra,Alemania,helada,0,0
+2026-11-15,Est. Cruz Negra,Alemania,calor,0,0
+2026-11-15,Est. Cruz Negra,Alemania,lluvia,0,0
+2026-11-15,Est. Cruz Negra,Alemania,lluvia_intensa,0,0
+2026-11-15,Est. Cruz Negra,Alemania,zonda,0,0
+2026-11-15,Est. Cruz Negra,Alemania,viento_fuerte,0,0
+2026-11-15,Est. Cruz Negra,Alemania,nieve,0,0
+2026-11-15,Est. Cordón del Plata,Alemania,helada,0,0
+2026-11-15,Est. Cordón del Plata,Alemania,calor,0,0
+2026-11-15,Est. Cordón del Plata,Alemania,lluvia,0,0
+2026-11-15,Est. Cordón del Plata,Alemania,lluvia_intensa,0,0
+2026-11-15,Est. Cordón del Plata,Alemania,zonda,0,0
+2026-11-15,Est. Cordón del Plata,Alemania,viento_fuerte,0,0
+2026-11-15,Est. Cordón del Plata,Alemania,nieve,0,0
+2026-11-15,Est. Tunuyán,Alemania,helada,0,0
+2026-11-15,Est. Tunuyán,Alemania,calor,0,0
+2026-11-15,Est. Tunuyán,Alemania,lluvia,0,0
+2026-11-15,Est. Tunuyán,Alemania,lluvia_intensa,0,0
+2026-11-15,Est. Tunuyán,Alemania,zonda,0,0
+2026-11-15,Est. Tunuyán,Alemania,viento_fuerte,0,0
+2026-11-15,Est. Tunuyán,Alemania,nieve,0,0
+2026-11-15,Est. Agua Amarga,Alemania,helada,0,0
+2026-11-15,Est. Agua Amarga,Alemania,calor,0,0
+2026-11-15,Est. Agua Amarga,Alemania,lluvia,0,0
+2026-11-15,Est. Agua Amarga,Alemania,lluvia_intensa,0,0
+2026-11-15,Est. Agua Amarga,Alemania,zonda,0,0
+2026-11-15,Est. Agua Amarga,Alemania,viento_fuerte,0,0
+2026-11-15,Est. Agua Amarga,Alemania,nieve,0,0
+2026-11-15,Est. Colonia Las Rosas,Alemania,helada,0,0
+2026-11-15,Est. Colonia Las Rosas,Alemania,calor,0,0
+2026-11-15,Est. Colonia Las Rosas,Alemania,lluvia,0,0
+2026-11-15,Est. Colonia Las Rosas,Alemania,lluvia_intensa,0,0
+2026-11-15,Est. Colonia Las Rosas,Alemania,zonda,0,0
+2026-11-15,Est. Colonia Las Rosas,Alemania,viento_fuerte,0,0
+2026-11-15,Est. Colonia Las Rosas,Alemania,nieve,0,0
+2026-11-15,Est. La Estacada,Alemania,helada,0,0
+2026-11-15,Est. La Estacada,Alemania,calor,0,0
+2026-11-15,Est. La Estacada,Alemania,lluvia,0,0
+2026-11-15,Est. La Estacada,Alemania,lluvia_intensa,0,0
+2026-11-15,Est. La Estacada,Alemania,zonda,0,0
+2026-11-15,Est. La Estacada,Alemania,viento_fuerte,0,0
+2026-11-15,Est. La Estacada,Alemania,nieve,0,0
+2026-11-15,Est. Chacayes Piedra Negra,Alemania,helada,0,0
+2026-11-15,Est. Chacayes Piedra Negra,Alemania,calor,0,0
+2026-11-15,Est. Chacayes Piedra Negra,Alemania,lluvia,0,0
+2026-11-15,Est. Chacayes Piedra Negra,Alemania,lluvia_intensa,0,0
+2026-11-15,Est. Chacayes Piedra Negra,Alemania,zonda,0,0
+2026-11-15,Est. Chacayes Piedra Negra,Alemania,viento_fuerte,0,0
+2026-11-15,Est. Chacayes Piedra Negra,Alemania,nieve,0,0
+2026-11-15,Est. Chacayes Alpasión,Alemania,helada,0,0
+2026-11-15,Est. Chacayes Alpasión,Alemania,calor,0,0
+2026-11-15,Est. Chacayes Alpasión,Alemania,lluvia,0,0
+2026-11-15,Est. Chacayes Alpasión,Alemania,lluvia_intensa,0,0
+2026-11-15,Est. Chacayes Alpasión,Alemania,zonda,0,0
+2026-11-15,Est. Chacayes Alpasión,Alemania,viento_fuerte,0,0
+2026-11-15,Est. Chacayes Alpasión,Alemania,nieve,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,Alemania,helada,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,Alemania,calor,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,Alemania,lluvia,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,Alemania,lluvia_intensa,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,Alemania,zonda,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,Alemania,viento_fuerte,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,Alemania,nieve,0,0
+2026-11-15,Est. La Consulta,Alemania,helada,0,0
+2026-11-15,Est. La Consulta,Alemania,calor,0,0
+2026-11-15,Est. La Consulta,Alemania,lluvia,0,0
+2026-11-15,Est. La Consulta,Alemania,lluvia_intensa,0,0
+2026-11-15,Est. La Consulta,Alemania,zonda,0,0
+2026-11-15,Est. La Consulta,Alemania,viento_fuerte,0,0
+2026-11-15,Est. La Consulta,Alemania,nieve,0,0
+2026-11-15,Est. El Cepillo,Alemania,helada,0,0
+2026-11-15,Est. El Cepillo,Alemania,calor,0,0
+2026-11-15,Est. El Cepillo,Alemania,lluvia,0,0
+2026-11-15,Est. El Cepillo,Alemania,lluvia_intensa,0,0
+2026-11-15,Est. El Cepillo,Alemania,zonda,0,0
+2026-11-15,Est. El Cepillo,Alemania,viento_fuerte,0,0
+2026-11-15,Est. El Cepillo,Alemania,nieve,0,0
+2026-11-15,Est. Casas Viejas,Alemania,helada,0,0
+2026-11-15,Est. Casas Viejas,Alemania,calor,0,0
+2026-11-15,Est. Casas Viejas,Alemania,lluvia,0,0
+2026-11-15,Est. Casas Viejas,Alemania,lluvia_intensa,0,0
+2026-11-15,Est. Casas Viejas,Alemania,zonda,0,0
+2026-11-15,Est. Casas Viejas,Alemania,viento_fuerte,0,0
+2026-11-15,Est. Casas Viejas,Alemania,nieve,0,0
+2026-11-15,Est. Pareditas,Alemania,helada,0,0
+2026-11-15,Est. Pareditas,Alemania,calor,0,0
+2026-11-15,Est. Pareditas,Alemania,lluvia,0,0
+2026-11-15,Est. Pareditas,Alemania,lluvia_intensa,0,0
+2026-11-15,Est. Pareditas,Alemania,zonda,0,0
+2026-11-15,Est. Pareditas,Alemania,viento_fuerte,0,0
+2026-11-15,Est. Pareditas,Alemania,nieve,0,0
+2026-11-15,Est. El Peral,Reino Unido,helada,0,0
+2026-11-15,Est. El Peral,Reino Unido,calor,0,0
+2026-11-15,Est. El Peral,Reino Unido,lluvia,0,0
+2026-11-15,Est. El Peral,Reino Unido,lluvia_intensa,0,0
+2026-11-15,Est. El Peral,Reino Unido,zonda,0,0
+2026-11-15,Est. El Peral,Reino Unido,viento_fuerte,0,0
+2026-11-15,Est. El Peral,Reino Unido,nieve,0,0
+2026-11-15,Est. Dubois,Reino Unido,helada,0,0
+2026-11-15,Est. Dubois,Reino Unido,calor,0,0
+2026-11-15,Est. Dubois,Reino Unido,lluvia,0,0
+2026-11-15,Est. Dubois,Reino Unido,lluvia_intensa,0,0
+2026-11-15,Est. Dubois,Reino Unido,zonda,0,0
+2026-11-15,Est. Dubois,Reino Unido,viento_fuerte,0,0
+2026-11-15,Est. Dubois,Reino Unido,nieve,0,0
+2026-11-15,Est. Cruz Negra,Reino Unido,helada,0,0
+2026-11-15,Est. Cruz Negra,Reino Unido,calor,0,0
+2026-11-15,Est. Cruz Negra,Reino Unido,lluvia,0,0
+2026-11-15,Est. Cruz Negra,Reino Unido,lluvia_intensa,0,0
+2026-11-15,Est. Cruz Negra,Reino Unido,zonda,0,0
+2026-11-15,Est. Cruz Negra,Reino Unido,viento_fuerte,0,0
+2026-11-15,Est. Cruz Negra,Reino Unido,nieve,0,0
+2026-11-15,Est. Cordón del Plata,Reino Unido,helada,0,0
+2026-11-15,Est. Cordón del Plata,Reino Unido,calor,0,0
+2026-11-15,Est. Cordón del Plata,Reino Unido,lluvia,0,0
+2026-11-15,Est. Cordón del Plata,Reino Unido,lluvia_intensa,0,0
+2026-11-15,Est. Cordón del Plata,Reino Unido,zonda,0,0
+2026-11-15,Est. Cordón del Plata,Reino Unido,viento_fuerte,0,0
+2026-11-15,Est. Cordón del Plata,Reino Unido,nieve,0,0
+2026-11-15,Est. Tunuyán,Reino Unido,helada,0,0
+2026-11-15,Est. Tunuyán,Reino Unido,calor,0,0
+2026-11-15,Est. Tunuyán,Reino Unido,lluvia,0,0
+2026-11-15,Est. Tunuyán,Reino Unido,lluvia_intensa,0,0
+2026-11-15,Est. Tunuyán,Reino Unido,zonda,0,0
+2026-11-15,Est. Tunuyán,Reino Unido,viento_fuerte,0,0
+2026-11-15,Est. Tunuyán,Reino Unido,nieve,0,0
+2026-11-15,Est. Agua Amarga,Reino Unido,helada,0,0
+2026-11-15,Est. Agua Amarga,Reino Unido,calor,0,0
+2026-11-15,Est. Agua Amarga,Reino Unido,lluvia,0,0
+2026-11-15,Est. Agua Amarga,Reino Unido,lluvia_intensa,0,0
+2026-11-15,Est. Agua Amarga,Reino Unido,zonda,0,0
+2026-11-15,Est. Agua Amarga,Reino Unido,viento_fuerte,0,0
+2026-11-15,Est. Agua Amarga,Reino Unido,nieve,0,0
+2026-11-15,Est. Colonia Las Rosas,Reino Unido,helada,0,0
+2026-11-15,Est. Colonia Las Rosas,Reino Unido,calor,0,0
+2026-11-15,Est. Colonia Las Rosas,Reino Unido,lluvia,0,0
+2026-11-15,Est. Colonia Las Rosas,Reino Unido,lluvia_intensa,0,0
+2026-11-15,Est. Colonia Las Rosas,Reino Unido,zonda,0,0
+2026-11-15,Est. Colonia Las Rosas,Reino Unido,viento_fuerte,0,0
+2026-11-15,Est. Colonia Las Rosas,Reino Unido,nieve,0,0
+2026-11-15,Est. La Estacada,Reino Unido,helada,0,0
+2026-11-15,Est. La Estacada,Reino Unido,calor,0,0
+2026-11-15,Est. La Estacada,Reino Unido,lluvia,0,0
+2026-11-15,Est. La Estacada,Reino Unido,lluvia_intensa,0,0
+2026-11-15,Est. La Estacada,Reino Unido,zonda,0,0
+2026-11-15,Est. La Estacada,Reino Unido,viento_fuerte,0,0
+2026-11-15,Est. La Estacada,Reino Unido,nieve,0,0
+2026-11-15,Est. Chacayes Piedra Negra,Reino Unido,helada,0,0
+2026-11-15,Est. Chacayes Piedra Negra,Reino Unido,calor,0,0
+2026-11-15,Est. Chacayes Piedra Negra,Reino Unido,lluvia,0,0
+2026-11-15,Est. Chacayes Piedra Negra,Reino Unido,lluvia_intensa,0,0
+2026-11-15,Est. Chacayes Piedra Negra,Reino Unido,zonda,0,0
+2026-11-15,Est. Chacayes Piedra Negra,Reino Unido,viento_fuerte,0,0
+2026-11-15,Est. Chacayes Piedra Negra,Reino Unido,nieve,0,0
+2026-11-15,Est. Chacayes Alpasión,Reino Unido,helada,0,0
+2026-11-15,Est. Chacayes Alpasión,Reino Unido,calor,0,0
+2026-11-15,Est. Chacayes Alpasión,Reino Unido,lluvia,0,0
+2026-11-15,Est. Chacayes Alpasión,Reino Unido,lluvia_intensa,0,0
+2026-11-15,Est. Chacayes Alpasión,Reino Unido,zonda,0,0
+2026-11-15,Est. Chacayes Alpasión,Reino Unido,viento_fuerte,0,0
+2026-11-15,Est. Chacayes Alpasión,Reino Unido,nieve,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,Reino Unido,helada,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,Reino Unido,calor,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,Reino Unido,lluvia,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,Reino Unido,lluvia_intensa,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,Reino Unido,zonda,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,Reino Unido,viento_fuerte,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,Reino Unido,nieve,0,0
+2026-11-15,Est. La Consulta,Reino Unido,helada,0,0
+2026-11-15,Est. La Consulta,Reino Unido,calor,0,0
+2026-11-15,Est. La Consulta,Reino Unido,lluvia,0,0
+2026-11-15,Est. La Consulta,Reino Unido,lluvia_intensa,0,0
+2026-11-15,Est. La Consulta,Reino Unido,zonda,0,0
+2026-11-15,Est. La Consulta,Reino Unido,viento_fuerte,0,0
+2026-11-15,Est. La Consulta,Reino Unido,nieve,0,0
+2026-11-15,Est. El Cepillo,Reino Unido,helada,0,0
+2026-11-15,Est. El Cepillo,Reino Unido,calor,0,0
+2026-11-15,Est. El Cepillo,Reino Unido,lluvia,0,0
+2026-11-15,Est. El Cepillo,Reino Unido,lluvia_intensa,0,0
+2026-11-15,Est. El Cepillo,Reino Unido,zonda,0,0
+2026-11-15,Est. El Cepillo,Reino Unido,viento_fuerte,0,0
+2026-11-15,Est. El Cepillo,Reino Unido,nieve,0,0
+2026-11-15,Est. Casas Viejas,Reino Unido,helada,0,0
+2026-11-15,Est. Casas Viejas,Reino Unido,calor,0,0
+2026-11-15,Est. Casas Viejas,Reino Unido,lluvia,0,0
+2026-11-15,Est. Casas Viejas,Reino Unido,lluvia_intensa,0,0
+2026-11-15,Est. Casas Viejas,Reino Unido,zonda,0,0
+2026-11-15,Est. Casas Viejas,Reino Unido,viento_fuerte,0,0
+2026-11-15,Est. Casas Viejas,Reino Unido,nieve,0,0
+2026-11-15,Est. Pareditas,Reino Unido,helada,0,0
+2026-11-15,Est. Pareditas,Reino Unido,calor,0,0
+2026-11-15,Est. Pareditas,Reino Unido,lluvia,0,0
+2026-11-15,Est. Pareditas,Reino Unido,lluvia_intensa,0,0
+2026-11-15,Est. Pareditas,Reino Unido,zonda,0,0
+2026-11-15,Est. Pareditas,Reino Unido,viento_fuerte,0,0
+2026-11-15,Est. Pareditas,Reino Unido,nieve,0,0
+2026-11-15,Est. El Peral,Centro Europeo,helada,0,0
+2026-11-15,Est. El Peral,Centro Europeo,calor,0,0
+2026-11-15,Est. El Peral,Centro Europeo,lluvia,0,0
+2026-11-15,Est. El Peral,Centro Europeo,lluvia_intensa,0,0
+2026-11-15,Est. El Peral,Centro Europeo,zonda,0,0
+2026-11-15,Est. El Peral,Centro Europeo,viento_fuerte,0,0
+2026-11-15,Est. El Peral,Centro Europeo,nieve,0,0
+2026-11-15,Est. Dubois,Centro Europeo,helada,0,0
+2026-11-15,Est. Dubois,Centro Europeo,calor,0,0
+2026-11-15,Est. Dubois,Centro Europeo,lluvia,0,0
+2026-11-15,Est. Dubois,Centro Europeo,lluvia_intensa,0,0
+2026-11-15,Est. Dubois,Centro Europeo,zonda,0,0
+2026-11-15,Est. Dubois,Centro Europeo,viento_fuerte,0,0
+2026-11-15,Est. Dubois,Centro Europeo,nieve,0,0
+2026-11-15,Est. Cruz Negra,Centro Europeo,helada,0,0
+2026-11-15,Est. Cruz Negra,Centro Europeo,calor,0,0
+2026-11-15,Est. Cruz Negra,Centro Europeo,lluvia,0,0
+2026-11-15,Est. Cruz Negra,Centro Europeo,lluvia_intensa,0,0
+2026-11-15,Est. Cruz Negra,Centro Europeo,zonda,0,0
+2026-11-15,Est. Cruz Negra,Centro Europeo,viento_fuerte,0,0
+2026-11-15,Est. Cruz Negra,Centro Europeo,nieve,0,0
+2026-11-15,Est. Cordón del Plata,Centro Europeo,helada,0,0
+2026-11-15,Est. Cordón del Plata,Centro Europeo,calor,0,0
+2026-11-15,Est. Cordón del Plata,Centro Europeo,lluvia,0,0
+2026-11-15,Est. Cordón del Plata,Centro Europeo,lluvia_intensa,0,0
+2026-11-15,Est. Cordón del Plata,Centro Europeo,zonda,1,0
+2026-11-15,Est. Cordón del Plata,Centro Europeo,viento_fuerte,0,0
+2026-11-15,Est. Cordón del Plata,Centro Europeo,nieve,0,0
+2026-11-15,Est. Tunuyán,Centro Europeo,helada,0,0
+2026-11-15,Est. Tunuyán,Centro Europeo,calor,0,0
+2026-11-15,Est. Tunuyán,Centro Europeo,lluvia,0,0
+2026-11-15,Est. Tunuyán,Centro Europeo,lluvia_intensa,0,0
+2026-11-15,Est. Tunuyán,Centro Europeo,zonda,0,0
+2026-11-15,Est. Tunuyán,Centro Europeo,viento_fuerte,0,0
+2026-11-15,Est. Tunuyán,Centro Europeo,nieve,0,0
+2026-11-15,Est. Agua Amarga,Centro Europeo,helada,0,0
+2026-11-15,Est. Agua Amarga,Centro Europeo,calor,0,0
+2026-11-15,Est. Agua Amarga,Centro Europeo,lluvia,0,0
+2026-11-15,Est. Agua Amarga,Centro Europeo,lluvia_intensa,0,0
+2026-11-15,Est. Agua Amarga,Centro Europeo,zonda,1,0
+2026-11-15,Est. Agua Amarga,Centro Europeo,viento_fuerte,0,0
+2026-11-15,Est. Agua Amarga,Centro Europeo,nieve,0,0
+2026-11-15,Est. Colonia Las Rosas,Centro Europeo,helada,0,0
+2026-11-15,Est. Colonia Las Rosas,Centro Europeo,calor,0,0
+2026-11-15,Est. Colonia Las Rosas,Centro Europeo,lluvia,0,0
+2026-11-15,Est. Colonia Las Rosas,Centro Europeo,lluvia_intensa,0,0
+2026-11-15,Est. Colonia Las Rosas,Centro Europeo,zonda,0,0
+2026-11-15,Est. Colonia Las Rosas,Centro Europeo,viento_fuerte,0,0
+2026-11-15,Est. Colonia Las Rosas,Centro Europeo,nieve,0,0
+2026-11-15,Est. La Estacada,Centro Europeo,helada,0,0
+2026-11-15,Est. La Estacada,Centro Europeo,calor,0,0
+2026-11-15,Est. La Estacada,Centro Europeo,lluvia,0,0
+2026-11-15,Est. La Estacada,Centro Europeo,lluvia_intensa,0,0
+2026-11-15,Est. La Estacada,Centro Europeo,zonda,0,0
+2026-11-15,Est. La Estacada,Centro Europeo,viento_fuerte,0,0
+2026-11-15,Est. La Estacada,Centro Europeo,nieve,0,0
+2026-11-15,Est. Chacayes Piedra Negra,Centro Europeo,helada,0,0
+2026-11-15,Est. Chacayes Piedra Negra,Centro Europeo,calor,0,0
+2026-11-15,Est. Chacayes Piedra Negra,Centro Europeo,lluvia,0,0
+2026-11-15,Est. Chacayes Piedra Negra,Centro Europeo,lluvia_intensa,0,0
+2026-11-15,Est. Chacayes Piedra Negra,Centro Europeo,zonda,1,0
+2026-11-15,Est. Chacayes Piedra Negra,Centro Europeo,viento_fuerte,0,0
+2026-11-15,Est. Chacayes Piedra Negra,Centro Europeo,nieve,0,0
+2026-11-15,Est. Chacayes Alpasión,Centro Europeo,helada,0,0
+2026-11-15,Est. Chacayes Alpasión,Centro Europeo,calor,0,0
+2026-11-15,Est. Chacayes Alpasión,Centro Europeo,lluvia,0,0
+2026-11-15,Est. Chacayes Alpasión,Centro Europeo,lluvia_intensa,0,0
+2026-11-15,Est. Chacayes Alpasión,Centro Europeo,zonda,1,0
+2026-11-15,Est. Chacayes Alpasión,Centro Europeo,viento_fuerte,0,0
+2026-11-15,Est. Chacayes Alpasión,Centro Europeo,nieve,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,Centro Europeo,helada,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,Centro Europeo,calor,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,Centro Europeo,lluvia,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,Centro Europeo,lluvia_intensa,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,Centro Europeo,zonda,1,0
+2026-11-15,Est. Chacayes El Carrizalejo,Centro Europeo,viento_fuerte,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,Centro Europeo,nieve,0,0
+2026-11-15,Est. La Consulta,Centro Europeo,helada,0,0
+2026-11-15,Est. La Consulta,Centro Europeo,calor,0,0
+2026-11-15,Est. La Consulta,Centro Europeo,lluvia,1,0
+2026-11-15,Est. La Consulta,Centro Europeo,lluvia_intensa,0,0
+2026-11-15,Est. La Consulta,Centro Europeo,zonda,0,0
+2026-11-15,Est. La Consulta,Centro Europeo,viento_fuerte,0,0
+2026-11-15,Est. La Consulta,Centro Europeo,nieve,0,0
+2026-11-15,Est. El Cepillo,Centro Europeo,helada,0,0
+2026-11-15,Est. El Cepillo,Centro Europeo,calor,0,0
+2026-11-15,Est. El Cepillo,Centro Europeo,lluvia,1,0
+2026-11-15,Est. El Cepillo,Centro Europeo,lluvia_intensa,0,0
+2026-11-15,Est. El Cepillo,Centro Europeo,zonda,0,0
+2026-11-15,Est. El Cepillo,Centro Europeo,viento_fuerte,0,0
+2026-11-15,Est. El Cepillo,Centro Europeo,nieve,0,0
+2026-11-15,Est. Casas Viejas,Centro Europeo,helada,0,0
+2026-11-15,Est. Casas Viejas,Centro Europeo,calor,0,0
+2026-11-15,Est. Casas Viejas,Centro Europeo,lluvia,1,0
+2026-11-15,Est. Casas Viejas,Centro Europeo,lluvia_intensa,0,0
+2026-11-15,Est. Casas Viejas,Centro Europeo,zonda,1,0
+2026-11-15,Est. Casas Viejas,Centro Europeo,viento_fuerte,0,0
+2026-11-15,Est. Casas Viejas,Centro Europeo,nieve,0,0
+2026-11-15,Est. Pareditas,Centro Europeo,helada,0,0
+2026-11-15,Est. Pareditas,Centro Europeo,calor,0,0
+2026-11-15,Est. Pareditas,Centro Europeo,lluvia,1,0
+2026-11-15,Est. Pareditas,Centro Europeo,lluvia_intensa,0,0
+2026-11-15,Est. Pareditas,Centro Europeo,zonda,1,0
+2026-11-15,Est. Pareditas,Centro Europeo,viento_fuerte,0,0
+2026-11-15,Est. Pareditas,Centro Europeo,nieve,0,0
+2026-11-15,Est. El Peral,Francia,helada,0,0
+2026-11-15,Est. El Peral,Francia,calor,0,0
+2026-11-15,Est. El Peral,Francia,lluvia,0,0
+2026-11-15,Est. El Peral,Francia,lluvia_intensa,0,0
+2026-11-15,Est. El Peral,Francia,zonda,0,0
+2026-11-15,Est. El Peral,Francia,viento_fuerte,0,0
+2026-11-15,Est. El Peral,Francia,nieve,0,0
+2026-11-15,Est. Dubois,Francia,helada,0,0
+2026-11-15,Est. Dubois,Francia,calor,0,0
+2026-11-15,Est. Dubois,Francia,lluvia,0,0
+2026-11-15,Est. Dubois,Francia,lluvia_intensa,0,0
+2026-11-15,Est. Dubois,Francia,zonda,0,0
+2026-11-15,Est. Dubois,Francia,viento_fuerte,0,0
+2026-11-15,Est. Dubois,Francia,nieve,0,0
+2026-11-15,Est. Cruz Negra,Francia,helada,0,0
+2026-11-15,Est. Cruz Negra,Francia,calor,0,0
+2026-11-15,Est. Cruz Negra,Francia,lluvia,0,0
+2026-11-15,Est. Cruz Negra,Francia,lluvia_intensa,0,0
+2026-11-15,Est. Cruz Negra,Francia,zonda,0,0
+2026-11-15,Est. Cruz Negra,Francia,viento_fuerte,0,0
+2026-11-15,Est. Cruz Negra,Francia,nieve,0,0
+2026-11-15,Est. Cordón del Plata,Francia,helada,0,0
+2026-11-15,Est. Cordón del Plata,Francia,calor,0,0
+2026-11-15,Est. Cordón del Plata,Francia,lluvia,0,0
+2026-11-15,Est. Cordón del Plata,Francia,lluvia_intensa,0,0
+2026-11-15,Est. Cordón del Plata,Francia,zonda,0,0
+2026-11-15,Est. Cordón del Plata,Francia,viento_fuerte,0,0
+2026-11-15,Est. Cordón del Plata,Francia,nieve,0,0
+2026-11-15,Est. Tunuyán,Francia,helada,0,0
+2026-11-15,Est. Tunuyán,Francia,calor,0,0
+2026-11-15,Est. Tunuyán,Francia,lluvia,0,0
+2026-11-15,Est. Tunuyán,Francia,lluvia_intensa,0,0
+2026-11-15,Est. Tunuyán,Francia,zonda,0,0
+2026-11-15,Est. Tunuyán,Francia,viento_fuerte,0,0
+2026-11-15,Est. Tunuyán,Francia,nieve,0,0
+2026-11-15,Est. Agua Amarga,Francia,helada,0,0
+2026-11-15,Est. Agua Amarga,Francia,calor,0,0
+2026-11-15,Est. Agua Amarga,Francia,lluvia,0,0
+2026-11-15,Est. Agua Amarga,Francia,lluvia_intensa,0,0
+2026-11-15,Est. Agua Amarga,Francia,zonda,0,0
+2026-11-15,Est. Agua Amarga,Francia,viento_fuerte,0,0
+2026-11-15,Est. Agua Amarga,Francia,nieve,0,0
+2026-11-15,Est. Colonia Las Rosas,Francia,helada,0,0
+2026-11-15,Est. Colonia Las Rosas,Francia,calor,0,0
+2026-11-15,Est. Colonia Las Rosas,Francia,lluvia,0,0
+2026-11-15,Est. Colonia Las Rosas,Francia,lluvia_intensa,0,0
+2026-11-15,Est. Colonia Las Rosas,Francia,zonda,0,0
+2026-11-15,Est. Colonia Las Rosas,Francia,viento_fuerte,0,0
+2026-11-15,Est. Colonia Las Rosas,Francia,nieve,0,0
+2026-11-15,Est. La Estacada,Francia,helada,0,0
+2026-11-15,Est. La Estacada,Francia,calor,0,0
+2026-11-15,Est. La Estacada,Francia,lluvia,0,0
+2026-11-15,Est. La Estacada,Francia,lluvia_intensa,0,0
+2026-11-15,Est. La Estacada,Francia,zonda,0,0
+2026-11-15,Est. La Estacada,Francia,viento_fuerte,0,0
+2026-11-15,Est. La Estacada,Francia,nieve,0,0
+2026-11-15,Est. Chacayes Piedra Negra,Francia,helada,0,0
+2026-11-15,Est. Chacayes Piedra Negra,Francia,calor,0,0
+2026-11-15,Est. Chacayes Piedra Negra,Francia,lluvia,0,0
+2026-11-15,Est. Chacayes Piedra Negra,Francia,lluvia_intensa,0,0
+2026-11-15,Est. Chacayes Piedra Negra,Francia,zonda,0,0
+2026-11-15,Est. Chacayes Piedra Negra,Francia,viento_fuerte,0,0
+2026-11-15,Est. Chacayes Piedra Negra,Francia,nieve,0,0
+2026-11-15,Est. Chacayes Alpasión,Francia,helada,0,0
+2026-11-15,Est. Chacayes Alpasión,Francia,calor,0,0
+2026-11-15,Est. Chacayes Alpasión,Francia,lluvia,0,0
+2026-11-15,Est. Chacayes Alpasión,Francia,lluvia_intensa,0,0
+2026-11-15,Est. Chacayes Alpasión,Francia,zonda,0,0
+2026-11-15,Est. Chacayes Alpasión,Francia,viento_fuerte,0,0
+2026-11-15,Est. Chacayes Alpasión,Francia,nieve,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,Francia,helada,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,Francia,calor,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,Francia,lluvia,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,Francia,lluvia_intensa,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,Francia,zonda,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,Francia,viento_fuerte,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,Francia,nieve,0,0
+2026-11-15,Est. La Consulta,Francia,helada,0,0
+2026-11-15,Est. La Consulta,Francia,calor,0,0
+2026-11-15,Est. La Consulta,Francia,lluvia,0,0
+2026-11-15,Est. La Consulta,Francia,lluvia_intensa,0,0
+2026-11-15,Est. La Consulta,Francia,zonda,0,0
+2026-11-15,Est. La Consulta,Francia,viento_fuerte,0,0
+2026-11-15,Est. La Consulta,Francia,nieve,0,0
+2026-11-15,Est. El Cepillo,Francia,helada,0,0
+2026-11-15,Est. El Cepillo,Francia,calor,0,0
+2026-11-15,Est. El Cepillo,Francia,lluvia,0,0
+2026-11-15,Est. El Cepillo,Francia,lluvia_intensa,0,0
+2026-11-15,Est. El Cepillo,Francia,zonda,0,0
+2026-11-15,Est. El Cepillo,Francia,viento_fuerte,0,0
+2026-11-15,Est. El Cepillo,Francia,nieve,0,0
+2026-11-15,Est. Casas Viejas,Francia,helada,0,0
+2026-11-15,Est. Casas Viejas,Francia,calor,0,0
+2026-11-15,Est. Casas Viejas,Francia,lluvia,0,0
+2026-11-15,Est. Casas Viejas,Francia,lluvia_intensa,0,0
+2026-11-15,Est. Casas Viejas,Francia,zonda,0,0
+2026-11-15,Est. Casas Viejas,Francia,viento_fuerte,0,0
+2026-11-15,Est. Casas Viejas,Francia,nieve,0,0
+2026-11-15,Est. Pareditas,Francia,helada,0,0
+2026-11-15,Est. Pareditas,Francia,calor,0,0
+2026-11-15,Est. Pareditas,Francia,lluvia,0,0
+2026-11-15,Est. Pareditas,Francia,lluvia_intensa,0,0
+2026-11-15,Est. Pareditas,Francia,zonda,0,0
+2026-11-15,Est. Pareditas,Francia,viento_fuerte,0,0
+2026-11-15,Est. Pareditas,Francia,nieve,0,0
+2026-11-15,Est. El Peral,Estados Unidos,helada,0,0
+2026-11-15,Est. El Peral,Estados Unidos,calor,0,0
+2026-11-15,Est. El Peral,Estados Unidos,lluvia,0,0
+2026-11-15,Est. El Peral,Estados Unidos,lluvia_intensa,0,0
+2026-11-15,Est. El Peral,Estados Unidos,zonda,0,0
+2026-11-15,Est. El Peral,Estados Unidos,viento_fuerte,0,0
+2026-11-15,Est. El Peral,Estados Unidos,nieve,0,0
+2026-11-15,Est. Dubois,Estados Unidos,helada,0,0
+2026-11-15,Est. Dubois,Estados Unidos,calor,0,0
+2026-11-15,Est. Dubois,Estados Unidos,lluvia,0,0
+2026-11-15,Est. Dubois,Estados Unidos,lluvia_intensa,0,0
+2026-11-15,Est. Dubois,Estados Unidos,zonda,0,0
+2026-11-15,Est. Dubois,Estados Unidos,viento_fuerte,0,0
+2026-11-15,Est. Dubois,Estados Unidos,nieve,0,0
+2026-11-15,Est. Cruz Negra,Estados Unidos,helada,0,0
+2026-11-15,Est. Cruz Negra,Estados Unidos,calor,0,0
+2026-11-15,Est. Cruz Negra,Estados Unidos,lluvia,0,0
+2026-11-15,Est. Cruz Negra,Estados Unidos,lluvia_intensa,0,0
+2026-11-15,Est. Cruz Negra,Estados Unidos,zonda,0,0
+2026-11-15,Est. Cruz Negra,Estados Unidos,viento_fuerte,0,0
+2026-11-15,Est. Cruz Negra,Estados Unidos,nieve,0,0
+2026-11-15,Est. Cordón del Plata,Estados Unidos,helada,0,0
+2026-11-15,Est. Cordón del Plata,Estados Unidos,calor,0,0
+2026-11-15,Est. Cordón del Plata,Estados Unidos,lluvia,0,0
+2026-11-15,Est. Cordón del Plata,Estados Unidos,lluvia_intensa,0,0
+2026-11-15,Est. Cordón del Plata,Estados Unidos,zonda,0,0
+2026-11-15,Est. Cordón del Plata,Estados Unidos,viento_fuerte,0,0
+2026-11-15,Est. Cordón del Plata,Estados Unidos,nieve,0,0
+2026-11-15,Est. Tunuyán,Estados Unidos,helada,0,0
+2026-11-15,Est. Tunuyán,Estados Unidos,calor,0,0
+2026-11-15,Est. Tunuyán,Estados Unidos,lluvia,0,0
+2026-11-15,Est. Tunuyán,Estados Unidos,lluvia_intensa,0,0
+2026-11-15,Est. Tunuyán,Estados Unidos,zonda,0,0
+2026-11-15,Est. Tunuyán,Estados Unidos,viento_fuerte,0,0
+2026-11-15,Est. Tunuyán,Estados Unidos,nieve,0,0
+2026-11-15,Est. Agua Amarga,Estados Unidos,helada,0,0
+2026-11-15,Est. Agua Amarga,Estados Unidos,calor,0,0
+2026-11-15,Est. Agua Amarga,Estados Unidos,lluvia,0,0
+2026-11-15,Est. Agua Amarga,Estados Unidos,lluvia_intensa,0,0
+2026-11-15,Est. Agua Amarga,Estados Unidos,zonda,0,0
+2026-11-15,Est. Agua Amarga,Estados Unidos,viento_fuerte,0,0
+2026-11-15,Est. Agua Amarga,Estados Unidos,nieve,0,0
+2026-11-15,Est. Colonia Las Rosas,Estados Unidos,helada,0,0
+2026-11-15,Est. Colonia Las Rosas,Estados Unidos,calor,0,0
+2026-11-15,Est. Colonia Las Rosas,Estados Unidos,lluvia,0,0
+2026-11-15,Est. Colonia Las Rosas,Estados Unidos,lluvia_intensa,0,0
+2026-11-15,Est. Colonia Las Rosas,Estados Unidos,zonda,0,0
+2026-11-15,Est. Colonia Las Rosas,Estados Unidos,viento_fuerte,0,0
+2026-11-15,Est. Colonia Las Rosas,Estados Unidos,nieve,0,0
+2026-11-15,Est. La Estacada,Estados Unidos,helada,0,0
+2026-11-15,Est. La Estacada,Estados Unidos,calor,0,0
+2026-11-15,Est. La Estacada,Estados Unidos,lluvia,0,0
+2026-11-15,Est. La Estacada,Estados Unidos,lluvia_intensa,0,0
+2026-11-15,Est. La Estacada,Estados Unidos,zonda,0,0
+2026-11-15,Est. La Estacada,Estados Unidos,viento_fuerte,0,0
+2026-11-15,Est. La Estacada,Estados Unidos,nieve,0,0
+2026-11-15,Est. Chacayes Piedra Negra,Estados Unidos,helada,0,0
+2026-11-15,Est. Chacayes Piedra Negra,Estados Unidos,calor,0,0
+2026-11-15,Est. Chacayes Piedra Negra,Estados Unidos,lluvia,0,0
+2026-11-15,Est. Chacayes Piedra Negra,Estados Unidos,lluvia_intensa,0,0
+2026-11-15,Est. Chacayes Piedra Negra,Estados Unidos,zonda,0,0
+2026-11-15,Est. Chacayes Piedra Negra,Estados Unidos,viento_fuerte,0,0
+2026-11-15,Est. Chacayes Piedra Negra,Estados Unidos,nieve,0,0
+2026-11-15,Est. Chacayes Alpasión,Estados Unidos,helada,0,0
+2026-11-15,Est. Chacayes Alpasión,Estados Unidos,calor,0,0
+2026-11-15,Est. Chacayes Alpasión,Estados Unidos,lluvia,0,0
+2026-11-15,Est. Chacayes Alpasión,Estados Unidos,lluvia_intensa,0,0
+2026-11-15,Est. Chacayes Alpasión,Estados Unidos,zonda,0,0
+2026-11-15,Est. Chacayes Alpasión,Estados Unidos,viento_fuerte,0,0
+2026-11-15,Est. Chacayes Alpasión,Estados Unidos,nieve,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,Estados Unidos,helada,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,Estados Unidos,calor,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,Estados Unidos,lluvia,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,Estados Unidos,lluvia_intensa,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,Estados Unidos,zonda,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,Estados Unidos,viento_fuerte,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,Estados Unidos,nieve,0,0
+2026-11-15,Est. La Consulta,Estados Unidos,helada,0,0
+2026-11-15,Est. La Consulta,Estados Unidos,calor,0,0
+2026-11-15,Est. La Consulta,Estados Unidos,lluvia,0,0
+2026-11-15,Est. La Consulta,Estados Unidos,lluvia_intensa,0,0
+2026-11-15,Est. La Consulta,Estados Unidos,zonda,0,0
+2026-11-15,Est. La Consulta,Estados Unidos,viento_fuerte,0,0
+2026-11-15,Est. La Consulta,Estados Unidos,nieve,0,0
+2026-11-15,Est. El Cepillo,Estados Unidos,helada,0,0
+2026-11-15,Est. El Cepillo,Estados Unidos,calor,0,0
+2026-11-15,Est. El Cepillo,Estados Unidos,lluvia,0,0
+2026-11-15,Est. El Cepillo,Estados Unidos,lluvia_intensa,0,0
+2026-11-15,Est. El Cepillo,Estados Unidos,zonda,0,0
+2026-11-15,Est. El Cepillo,Estados Unidos,viento_fuerte,0,0
+2026-11-15,Est. El Cepillo,Estados Unidos,nieve,0,0
+2026-11-15,Est. Casas Viejas,Estados Unidos,helada,0,0
+2026-11-15,Est. Casas Viejas,Estados Unidos,calor,0,0
+2026-11-15,Est. Casas Viejas,Estados Unidos,lluvia,0,0
+2026-11-15,Est. Casas Viejas,Estados Unidos,lluvia_intensa,0,0
+2026-11-15,Est. Casas Viejas,Estados Unidos,zonda,0,0
+2026-11-15,Est. Casas Viejas,Estados Unidos,viento_fuerte,0,0
+2026-11-15,Est. Casas Viejas,Estados Unidos,nieve,0,0
+2026-11-15,Est. Pareditas,Estados Unidos,helada,0,0
+2026-11-15,Est. Pareditas,Estados Unidos,calor,0,0
+2026-11-15,Est. Pareditas,Estados Unidos,lluvia,0,0
+2026-11-15,Est. Pareditas,Estados Unidos,lluvia_intensa,0,0
+2026-11-15,Est. Pareditas,Estados Unidos,zonda,0,0
+2026-11-15,Est. Pareditas,Estados Unidos,viento_fuerte,0,0
+2026-11-15,Est. Pareditas,Estados Unidos,nieve,0,0
+2026-11-15,Est. El Peral,Japón,helada,0,0
+2026-11-15,Est. El Peral,Japón,calor,0,0
+2026-11-15,Est. El Peral,Japón,lluvia,0,0
+2026-11-15,Est. El Peral,Japón,lluvia_intensa,0,0
+2026-11-15,Est. El Peral,Japón,zonda,0,0
+2026-11-15,Est. El Peral,Japón,viento_fuerte,0,0
+2026-11-15,Est. El Peral,Japón,nieve,0,0
+2026-11-15,Est. Dubois,Japón,helada,0,0
+2026-11-15,Est. Dubois,Japón,calor,0,0
+2026-11-15,Est. Dubois,Japón,lluvia,0,0
+2026-11-15,Est. Dubois,Japón,lluvia_intensa,0,0
+2026-11-15,Est. Dubois,Japón,zonda,0,0
+2026-11-15,Est. Dubois,Japón,viento_fuerte,0,0
+2026-11-15,Est. Dubois,Japón,nieve,0,0
+2026-11-15,Est. Cruz Negra,Japón,helada,0,0
+2026-11-15,Est. Cruz Negra,Japón,calor,0,0
+2026-11-15,Est. Cruz Negra,Japón,lluvia,0,0
+2026-11-15,Est. Cruz Negra,Japón,lluvia_intensa,0,0
+2026-11-15,Est. Cruz Negra,Japón,zonda,0,0
+2026-11-15,Est. Cruz Negra,Japón,viento_fuerte,0,0
+2026-11-15,Est. Cruz Negra,Japón,nieve,0,0
+2026-11-15,Est. Cordón del Plata,Japón,helada,0,0
+2026-11-15,Est. Cordón del Plata,Japón,calor,0,0
+2026-11-15,Est. Cordón del Plata,Japón,lluvia,0,0
+2026-11-15,Est. Cordón del Plata,Japón,lluvia_intensa,0,0
+2026-11-15,Est. Cordón del Plata,Japón,zonda,0,0
+2026-11-15,Est. Cordón del Plata,Japón,viento_fuerte,0,0
+2026-11-15,Est. Cordón del Plata,Japón,nieve,0,0
+2026-11-15,Est. Tunuyán,Japón,helada,0,0
+2026-11-15,Est. Tunuyán,Japón,calor,0,0
+2026-11-15,Est. Tunuyán,Japón,lluvia,0,0
+2026-11-15,Est. Tunuyán,Japón,lluvia_intensa,0,0
+2026-11-15,Est. Tunuyán,Japón,zonda,0,0
+2026-11-15,Est. Tunuyán,Japón,viento_fuerte,0,0
+2026-11-15,Est. Tunuyán,Japón,nieve,0,0
+2026-11-15,Est. Agua Amarga,Japón,helada,0,0
+2026-11-15,Est. Agua Amarga,Japón,calor,0,0
+2026-11-15,Est. Agua Amarga,Japón,lluvia,0,0
+2026-11-15,Est. Agua Amarga,Japón,lluvia_intensa,0,0
+2026-11-15,Est. Agua Amarga,Japón,zonda,0,0
+2026-11-15,Est. Agua Amarga,Japón,viento_fuerte,0,0
+2026-11-15,Est. Agua Amarga,Japón,nieve,0,0
+2026-11-15,Est. Colonia Las Rosas,Japón,helada,0,0
+2026-11-15,Est. Colonia Las Rosas,Japón,calor,0,0
+2026-11-15,Est. Colonia Las Rosas,Japón,lluvia,0,0
+2026-11-15,Est. Colonia Las Rosas,Japón,lluvia_intensa,0,0
+2026-11-15,Est. Colonia Las Rosas,Japón,zonda,0,0
+2026-11-15,Est. Colonia Las Rosas,Japón,viento_fuerte,0,0
+2026-11-15,Est. Colonia Las Rosas,Japón,nieve,0,0
+2026-11-15,Est. La Estacada,Japón,helada,0,0
+2026-11-15,Est. La Estacada,Japón,calor,0,0
+2026-11-15,Est. La Estacada,Japón,lluvia,0,0
+2026-11-15,Est. La Estacada,Japón,lluvia_intensa,0,0
+2026-11-15,Est. La Estacada,Japón,zonda,0,0
+2026-11-15,Est. La Estacada,Japón,viento_fuerte,0,0
+2026-11-15,Est. La Estacada,Japón,nieve,0,0
+2026-11-15,Est. Chacayes Piedra Negra,Japón,helada,0,0
+2026-11-15,Est. Chacayes Piedra Negra,Japón,calor,0,0
+2026-11-15,Est. Chacayes Piedra Negra,Japón,lluvia,0,0
+2026-11-15,Est. Chacayes Piedra Negra,Japón,lluvia_intensa,0,0
+2026-11-15,Est. Chacayes Piedra Negra,Japón,zonda,0,0
+2026-11-15,Est. Chacayes Piedra Negra,Japón,viento_fuerte,0,0
+2026-11-15,Est. Chacayes Piedra Negra,Japón,nieve,0,0
+2026-11-15,Est. Chacayes Alpasión,Japón,helada,0,0
+2026-11-15,Est. Chacayes Alpasión,Japón,calor,0,0
+2026-11-15,Est. Chacayes Alpasión,Japón,lluvia,0,0
+2026-11-15,Est. Chacayes Alpasión,Japón,lluvia_intensa,0,0
+2026-11-15,Est. Chacayes Alpasión,Japón,zonda,0,0
+2026-11-15,Est. Chacayes Alpasión,Japón,viento_fuerte,0,0
+2026-11-15,Est. Chacayes Alpasión,Japón,nieve,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,Japón,helada,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,Japón,calor,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,Japón,lluvia,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,Japón,lluvia_intensa,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,Japón,zonda,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,Japón,viento_fuerte,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,Japón,nieve,0,0
+2026-11-15,Est. La Consulta,Japón,helada,0,0
+2026-11-15,Est. La Consulta,Japón,calor,0,0
+2026-11-15,Est. La Consulta,Japón,lluvia,0,0
+2026-11-15,Est. La Consulta,Japón,lluvia_intensa,0,0
+2026-11-15,Est. La Consulta,Japón,zonda,0,0
+2026-11-15,Est. La Consulta,Japón,viento_fuerte,0,0
+2026-11-15,Est. La Consulta,Japón,nieve,0,0
+2026-11-15,Est. El Cepillo,Japón,helada,0,0
+2026-11-15,Est. El Cepillo,Japón,calor,0,0
+2026-11-15,Est. El Cepillo,Japón,lluvia,0,0
+2026-11-15,Est. El Cepillo,Japón,lluvia_intensa,0,0
+2026-11-15,Est. El Cepillo,Japón,zonda,0,0
+2026-11-15,Est. El Cepillo,Japón,viento_fuerte,0,0
+2026-11-15,Est. El Cepillo,Japón,nieve,0,0
+2026-11-15,Est. Casas Viejas,Japón,helada,0,0
+2026-11-15,Est. Casas Viejas,Japón,calor,0,0
+2026-11-15,Est. Casas Viejas,Japón,lluvia,0,0
+2026-11-15,Est. Casas Viejas,Japón,lluvia_intensa,0,0
+2026-11-15,Est. Casas Viejas,Japón,zonda,0,0
+2026-11-15,Est. Casas Viejas,Japón,viento_fuerte,0,0
+2026-11-15,Est. Casas Viejas,Japón,nieve,0,0
+2026-11-15,Est. Pareditas,Japón,helada,0,0
+2026-11-15,Est. Pareditas,Japón,calor,0,0
+2026-11-15,Est. Pareditas,Japón,lluvia,0,0
+2026-11-15,Est. Pareditas,Japón,lluvia_intensa,0,0
+2026-11-15,Est. Pareditas,Japón,zonda,0,0
+2026-11-15,Est. Pareditas,Japón,viento_fuerte,0,0
+2026-11-15,Est. Pareditas,Japón,nieve,0,0
+2026-11-15,Est. El Peral,MET Norway,helada,0,0
+2026-11-15,Est. El Peral,MET Norway,calor,0,0
+2026-11-15,Est. El Peral,MET Norway,lluvia,0,0
+2026-11-15,Est. El Peral,MET Norway,lluvia_intensa,0,0
+2026-11-15,Est. El Peral,MET Norway,zonda,0,0
+2026-11-15,Est. El Peral,MET Norway,viento_fuerte,0,0
+2026-11-15,Est. El Peral,MET Norway,nieve,0,0
+2026-11-15,Est. Dubois,MET Norway,helada,0,0
+2026-11-15,Est. Dubois,MET Norway,calor,0,0
+2026-11-15,Est. Dubois,MET Norway,lluvia,0,0
+2026-11-15,Est. Dubois,MET Norway,lluvia_intensa,0,0
+2026-11-15,Est. Dubois,MET Norway,zonda,0,0
+2026-11-15,Est. Dubois,MET Norway,viento_fuerte,0,0
+2026-11-15,Est. Dubois,MET Norway,nieve,0,0
+2026-11-15,Est. Cruz Negra,MET Norway,helada,0,0
+2026-11-15,Est. Cruz Negra,MET Norway,calor,0,0
+2026-11-15,Est. Cruz Negra,MET Norway,lluvia,0,0
+2026-11-15,Est. Cruz Negra,MET Norway,lluvia_intensa,0,0
+2026-11-15,Est. Cruz Negra,MET Norway,zonda,0,0
+2026-11-15,Est. Cruz Negra,MET Norway,viento_fuerte,0,0
+2026-11-15,Est. Cruz Negra,MET Norway,nieve,0,0
+2026-11-15,Est. Cordón del Plata,MET Norway,helada,0,0
+2026-11-15,Est. Cordón del Plata,MET Norway,calor,0,0
+2026-11-15,Est. Cordón del Plata,MET Norway,lluvia,1,0
+2026-11-15,Est. Cordón del Plata,MET Norway,lluvia_intensa,0,0
+2026-11-15,Est. Cordón del Plata,MET Norway,zonda,0,0
+2026-11-15,Est. Cordón del Plata,MET Norway,viento_fuerte,0,0
+2026-11-15,Est. Cordón del Plata,MET Norway,nieve,0,0
+2026-11-15,Est. Tunuyán,MET Norway,helada,0,0
+2026-11-15,Est. Tunuyán,MET Norway,calor,0,0
+2026-11-15,Est. Tunuyán,MET Norway,lluvia,1,0
+2026-11-15,Est. Tunuyán,MET Norway,lluvia_intensa,0,0
+2026-11-15,Est. Tunuyán,MET Norway,zonda,0,0
+2026-11-15,Est. Tunuyán,MET Norway,viento_fuerte,0,0
+2026-11-15,Est. Tunuyán,MET Norway,nieve,0,0
+2026-11-15,Est. Agua Amarga,MET Norway,helada,0,0
+2026-11-15,Est. Agua Amarga,MET Norway,calor,0,0
+2026-11-15,Est. Agua Amarga,MET Norway,lluvia,0,0
+2026-11-15,Est. Agua Amarga,MET Norway,lluvia_intensa,0,0
+2026-11-15,Est. Agua Amarga,MET Norway,zonda,0,0
+2026-11-15,Est. Agua Amarga,MET Norway,viento_fuerte,0,0
+2026-11-15,Est. Agua Amarga,MET Norway,nieve,0,0
+2026-11-15,Est. Colonia Las Rosas,MET Norway,helada,0,0
+2026-11-15,Est. Colonia Las Rosas,MET Norway,calor,0,0
+2026-11-15,Est. Colonia Las Rosas,MET Norway,lluvia,0,0
+2026-11-15,Est. Colonia Las Rosas,MET Norway,lluvia_intensa,0,0
+2026-11-15,Est. Colonia Las Rosas,MET Norway,zonda,0,0
+2026-11-15,Est. Colonia Las Rosas,MET Norway,viento_fuerte,0,0
+2026-11-15,Est. Colonia Las Rosas,MET Norway,nieve,0,0
+2026-11-15,Est. La Estacada,MET Norway,helada,0,0
+2026-11-15,Est. La Estacada,MET Norway,calor,0,0
+2026-11-15,Est. La Estacada,MET Norway,lluvia,0,0
+2026-11-15,Est. La Estacada,MET Norway,lluvia_intensa,0,0
+2026-11-15,Est. La Estacada,MET Norway,zonda,0,0
+2026-11-15,Est. La Estacada,MET Norway,viento_fuerte,0,0
+2026-11-15,Est. La Estacada,MET Norway,nieve,0,0
+2026-11-15,Est. Chacayes Piedra Negra,MET Norway,helada,0,0
+2026-11-15,Est. Chacayes Piedra Negra,MET Norway,calor,0,0
+2026-11-15,Est. Chacayes Piedra Negra,MET Norway,lluvia,0,0
+2026-11-15,Est. Chacayes Piedra Negra,MET Norway,lluvia_intensa,0,0
+2026-11-15,Est. Chacayes Piedra Negra,MET Norway,zonda,0,0
+2026-11-15,Est. Chacayes Piedra Negra,MET Norway,viento_fuerte,0,0
+2026-11-15,Est. Chacayes Piedra Negra,MET Norway,nieve,0,0
+2026-11-15,Est. Chacayes Alpasión,MET Norway,helada,0,0
+2026-11-15,Est. Chacayes Alpasión,MET Norway,calor,0,0
+2026-11-15,Est. Chacayes Alpasión,MET Norway,lluvia,1,0
+2026-11-15,Est. Chacayes Alpasión,MET Norway,lluvia_intensa,0,0
+2026-11-15,Est. Chacayes Alpasión,MET Norway,zonda,0,0
+2026-11-15,Est. Chacayes Alpasión,MET Norway,viento_fuerte,0,0
+2026-11-15,Est. Chacayes Alpasión,MET Norway,nieve,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,MET Norway,helada,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,MET Norway,calor,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,MET Norway,lluvia,1,0
+2026-11-15,Est. Chacayes El Carrizalejo,MET Norway,lluvia_intensa,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,MET Norway,zonda,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,MET Norway,viento_fuerte,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,MET Norway,nieve,0,0
+2026-11-15,Est. La Consulta,MET Norway,helada,0,0
+2026-11-15,Est. La Consulta,MET Norway,calor,0,0
+2026-11-15,Est. La Consulta,MET Norway,lluvia,1,0
+2026-11-15,Est. La Consulta,MET Norway,lluvia_intensa,0,0
+2026-11-15,Est. La Consulta,MET Norway,zonda,0,0
+2026-11-15,Est. La Consulta,MET Norway,viento_fuerte,0,0
+2026-11-15,Est. La Consulta,MET Norway,nieve,0,0
+2026-11-15,Est. El Cepillo,MET Norway,helada,0,0
+2026-11-15,Est. El Cepillo,MET Norway,calor,0,0
+2026-11-15,Est. El Cepillo,MET Norway,lluvia,1,0
+2026-11-15,Est. El Cepillo,MET Norway,lluvia_intensa,0,0
+2026-11-15,Est. El Cepillo,MET Norway,zonda,0,0
+2026-11-15,Est. El Cepillo,MET Norway,viento_fuerte,0,0
+2026-11-15,Est. El Cepillo,MET Norway,nieve,0,0
+2026-11-15,Est. Casas Viejas,MET Norway,helada,0,0
+2026-11-15,Est. Casas Viejas,MET Norway,calor,0,0
+2026-11-15,Est. Casas Viejas,MET Norway,lluvia,1,0
+2026-11-15,Est. Casas Viejas,MET Norway,lluvia_intensa,0,0
+2026-11-15,Est. Casas Viejas,MET Norway,zonda,0,0
+2026-11-15,Est. Casas Viejas,MET Norway,viento_fuerte,0,0
+2026-11-15,Est. Casas Viejas,MET Norway,nieve,0,0
+2026-11-15,Est. Pareditas,MET Norway,helada,0,0
+2026-11-15,Est. Pareditas,MET Norway,calor,0,0
+2026-11-15,Est. Pareditas,MET Norway,lluvia,0,0
+2026-11-15,Est. Pareditas,MET Norway,lluvia_intensa,0,0
+2026-11-15,Est. Pareditas,MET Norway,zonda,0,0
+2026-11-15,Est. Pareditas,MET Norway,viento_fuerte,0,0
+2026-11-15,Est. Pareditas,MET Norway,nieve,0,0
+2026-11-15,Est. El Peral,SMN (4 km),helada,0,0
+2026-11-15,Est. El Peral,SMN (4 km),calor,0,0
+2026-11-15,Est. El Peral,SMN (4 km),lluvia,0,0
+2026-11-15,Est. El Peral,SMN (4 km),lluvia_intensa,0,0
+2026-11-15,Est. El Peral,SMN (4 km),zonda,0,0
+2026-11-15,Est. El Peral,SMN (4 km),viento_fuerte,0,0
+2026-11-15,Est. El Peral,SMN (4 km),nieve,0,0
+2026-11-15,Est. Dubois,SMN (4 km),helada,0,0
+2026-11-15,Est. Dubois,SMN (4 km),calor,0,0
+2026-11-15,Est. Dubois,SMN (4 km),lluvia,1,0
+2026-11-15,Est. Dubois,SMN (4 km),lluvia_intensa,0,0
+2026-11-15,Est. Dubois,SMN (4 km),zonda,0,0
+2026-11-15,Est. Dubois,SMN (4 km),viento_fuerte,0,0
+2026-11-15,Est. Dubois,SMN (4 km),nieve,0,0
+2026-11-15,Est. Cruz Negra,SMN (4 km),helada,0,0
+2026-11-15,Est. Cruz Negra,SMN (4 km),calor,0,0
+2026-11-15,Est. Cruz Negra,SMN (4 km),lluvia,1,0
+2026-11-15,Est. Cruz Negra,SMN (4 km),lluvia_intensa,0,0
+2026-11-15,Est. Cruz Negra,SMN (4 km),zonda,0,0
+2026-11-15,Est. Cruz Negra,SMN (4 km),viento_fuerte,0,0
+2026-11-15,Est. Cruz Negra,SMN (4 km),nieve,0,0
+2026-11-15,Est. Cordón del Plata,SMN (4 km),helada,0,0
+2026-11-15,Est. Cordón del Plata,SMN (4 km),calor,0,0
+2026-11-15,Est. Cordón del Plata,SMN (4 km),lluvia,0,0
+2026-11-15,Est. Cordón del Plata,SMN (4 km),lluvia_intensa,0,0
+2026-11-15,Est. Cordón del Plata,SMN (4 km),zonda,0,0
+2026-11-15,Est. Cordón del Plata,SMN (4 km),viento_fuerte,0,0
+2026-11-15,Est. Cordón del Plata,SMN (4 km),nieve,0,0
+2026-11-15,Est. Tunuyán,SMN (4 km),helada,0,0
+2026-11-15,Est. Tunuyán,SMN (4 km),calor,0,0
+2026-11-15,Est. Tunuyán,SMN (4 km),lluvia,0,0
+2026-11-15,Est. Tunuyán,SMN (4 km),lluvia_intensa,0,0
+2026-11-15,Est. Tunuyán,SMN (4 km),zonda,0,0
+2026-11-15,Est. Tunuyán,SMN (4 km),viento_fuerte,0,0
+2026-11-15,Est. Tunuyán,SMN (4 km),nieve,0,0
+2026-11-15,Est. Agua Amarga,SMN (4 km),helada,0,0
+2026-11-15,Est. Agua Amarga,SMN (4 km),calor,0,0
+2026-11-15,Est. Agua Amarga,SMN (4 km),lluvia,0,0
+2026-11-15,Est. Agua Amarga,SMN (4 km),lluvia_intensa,0,0
+2026-11-15,Est. Agua Amarga,SMN (4 km),zonda,1,0
+2026-11-15,Est. Agua Amarga,SMN (4 km),viento_fuerte,0,0
+2026-11-15,Est. Agua Amarga,SMN (4 km),nieve,0,0
+2026-11-15,Est. Colonia Las Rosas,SMN (4 km),helada,0,0
+2026-11-15,Est. Colonia Las Rosas,SMN (4 km),calor,0,0
+2026-11-15,Est. Colonia Las Rosas,SMN (4 km),lluvia,0,0
+2026-11-15,Est. Colonia Las Rosas,SMN (4 km),lluvia_intensa,0,0
+2026-11-15,Est. Colonia Las Rosas,SMN (4 km),zonda,0,0
+2026-11-15,Est. Colonia Las Rosas,SMN (4 km),viento_fuerte,0,0
+2026-11-15,Est. Colonia Las Rosas,SMN (4 km),nieve,0,0
+2026-11-15,Est. La Estacada,SMN (4 km),helada,0,0
+2026-11-15,Est. La Estacada,SMN (4 km),calor,0,0
+2026-11-15,Est. La Estacada,SMN (4 km),lluvia,0,0
+2026-11-15,Est. La Estacada,SMN (4 km),lluvia_intensa,0,0
+2026-11-15,Est. La Estacada,SMN (4 km),zonda,0,0
+2026-11-15,Est. La Estacada,SMN (4 km),viento_fuerte,0,0
+2026-11-15,Est. La Estacada,SMN (4 km),nieve,0,0
+2026-11-15,Est. Chacayes Piedra Negra,SMN (4 km),helada,0,0
+2026-11-15,Est. Chacayes Piedra Negra,SMN (4 km),calor,0,0
+2026-11-15,Est. Chacayes Piedra Negra,SMN (4 km),lluvia,0,0
+2026-11-15,Est. Chacayes Piedra Negra,SMN (4 km),lluvia_intensa,0,0
+2026-11-15,Est. Chacayes Piedra Negra,SMN (4 km),zonda,0,0
+2026-11-15,Est. Chacayes Piedra Negra,SMN (4 km),viento_fuerte,0,0
+2026-11-15,Est. Chacayes Piedra Negra,SMN (4 km),nieve,0,0
+2026-11-15,Est. Chacayes Alpasión,SMN (4 km),helada,0,0
+2026-11-15,Est. Chacayes Alpasión,SMN (4 km),calor,0,0
+2026-11-15,Est. Chacayes Alpasión,SMN (4 km),lluvia,1,0
+2026-11-15,Est. Chacayes Alpasión,SMN (4 km),lluvia_intensa,0,0
+2026-11-15,Est. Chacayes Alpasión,SMN (4 km),zonda,1,0
+2026-11-15,Est. Chacayes Alpasión,SMN (4 km),viento_fuerte,0,0
+2026-11-15,Est. Chacayes Alpasión,SMN (4 km),nieve,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,SMN (4 km),helada,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,SMN (4 km),calor,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,SMN (4 km),lluvia,1,0
+2026-11-15,Est. Chacayes El Carrizalejo,SMN (4 km),lluvia_intensa,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,SMN (4 km),zonda,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,SMN (4 km),viento_fuerte,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,SMN (4 km),nieve,0,0
+2026-11-15,Est. La Consulta,SMN (4 km),helada,0,0
+2026-11-15,Est. La Consulta,SMN (4 km),calor,0,0
+2026-11-15,Est. La Consulta,SMN (4 km),lluvia,0,0
+2026-11-15,Est. La Consulta,SMN (4 km),lluvia_intensa,0,0
+2026-11-15,Est. La Consulta,SMN (4 km),zonda,0,0
+2026-11-15,Est. La Consulta,SMN (4 km),viento_fuerte,0,0
+2026-11-15,Est. La Consulta,SMN (4 km),nieve,0,0
+2026-11-15,Est. El Cepillo,SMN (4 km),helada,0,0
+2026-11-15,Est. El Cepillo,SMN (4 km),calor,0,0
+2026-11-15,Est. El Cepillo,SMN (4 km),lluvia,0,0
+2026-11-15,Est. El Cepillo,SMN (4 km),lluvia_intensa,0,0
+2026-11-15,Est. El Cepillo,SMN (4 km),zonda,0,0
+2026-11-15,Est. El Cepillo,SMN (4 km),viento_fuerte,0,0
+2026-11-15,Est. El Cepillo,SMN (4 km),nieve,0,0
+2026-11-15,Est. Casas Viejas,SMN (4 km),helada,0,0
+2026-11-15,Est. Casas Viejas,SMN (4 km),calor,0,0
+2026-11-15,Est. Casas Viejas,SMN (4 km),lluvia,0,0
+2026-11-15,Est. Casas Viejas,SMN (4 km),lluvia_intensa,0,0
+2026-11-15,Est. Casas Viejas,SMN (4 km),zonda,0,0
+2026-11-15,Est. Casas Viejas,SMN (4 km),viento_fuerte,0,0
+2026-11-15,Est. Casas Viejas,SMN (4 km),nieve,0,0
+2026-11-15,Est. Pareditas,SMN (4 km),helada,0,0
+2026-11-15,Est. Pareditas,SMN (4 km),calor,0,0
+2026-11-15,Est. Pareditas,SMN (4 km),lluvia,1,0
+2026-11-15,Est. Pareditas,SMN (4 km),lluvia_intensa,0,0
+2026-11-15,Est. Pareditas,SMN (4 km),zonda,1,0
+2026-11-15,Est. Pareditas,SMN (4 km),viento_fuerte,0,0
+2026-11-15,Est. Pareditas,SMN (4 km),nieve,0,0
+2026-11-15,Est. El Peral,Tiempo Campero,helada,0,0
+2026-11-15,Est. El Peral,Tiempo Campero,calor,0,0
+2026-11-15,Est. El Peral,Tiempo Campero,lluvia,0,0
+2026-11-15,Est. El Peral,Tiempo Campero,lluvia_intensa,0,0
+2026-11-15,Est. El Peral,Tiempo Campero,zonda,0,0
+2026-11-15,Est. El Peral,Tiempo Campero,viento_fuerte,0,0
+2026-11-15,Est. El Peral,Tiempo Campero,nieve,0,0
+2026-11-15,Est. Dubois,Tiempo Campero,helada,0,0
+2026-11-15,Est. Dubois,Tiempo Campero,calor,0,0
+2026-11-15,Est. Dubois,Tiempo Campero,lluvia,0,0
+2026-11-15,Est. Dubois,Tiempo Campero,lluvia_intensa,0,0
+2026-11-15,Est. Dubois,Tiempo Campero,zonda,0,0
+2026-11-15,Est. Dubois,Tiempo Campero,viento_fuerte,0,0
+2026-11-15,Est. Dubois,Tiempo Campero,nieve,0,0
+2026-11-15,Est. Cruz Negra,Tiempo Campero,helada,0,0
+2026-11-15,Est. Cruz Negra,Tiempo Campero,calor,0,0
+2026-11-15,Est. Cruz Negra,Tiempo Campero,lluvia,0,0
+2026-11-15,Est. Cruz Negra,Tiempo Campero,lluvia_intensa,0,0
+2026-11-15,Est. Cruz Negra,Tiempo Campero,zonda,0,0
+2026-11-15,Est. Cruz Negra,Tiempo Campero,viento_fuerte,0,0
+2026-11-15,Est. Cruz Negra,Tiempo Campero,nieve,0,0
+2026-11-15,Est. Cordón del Plata,Tiempo Campero,helada,0,0
+2026-11-15,Est. Cordón del Plata,Tiempo Campero,calor,0,0
+2026-11-15,Est. Cordón del Plata,Tiempo Campero,lluvia,0,0
+2026-11-15,Est. Cordón del Plata,Tiempo Campero,lluvia_intensa,0,0
+2026-11-15,Est. Cordón del Plata,Tiempo Campero,zonda,0,0
+2026-11-15,Est. Cordón del Plata,Tiempo Campero,viento_fuerte,0,0
+2026-11-15,Est. Cordón del Plata,Tiempo Campero,nieve,0,0
+2026-11-15,Est. Tunuyán,Tiempo Campero,helada,0,0
+2026-11-15,Est. Tunuyán,Tiempo Campero,calor,0,0
+2026-11-15,Est. Tunuyán,Tiempo Campero,lluvia,0,0
+2026-11-15,Est. Tunuyán,Tiempo Campero,lluvia_intensa,0,0
+2026-11-15,Est. Tunuyán,Tiempo Campero,zonda,0,0
+2026-11-15,Est. Tunuyán,Tiempo Campero,viento_fuerte,0,0
+2026-11-15,Est. Tunuyán,Tiempo Campero,nieve,0,0
+2026-11-15,Est. Agua Amarga,Tiempo Campero,helada,0,0
+2026-11-15,Est. Agua Amarga,Tiempo Campero,calor,0,0
+2026-11-15,Est. Agua Amarga,Tiempo Campero,lluvia,0,0
+2026-11-15,Est. Agua Amarga,Tiempo Campero,lluvia_intensa,0,0
+2026-11-15,Est. Agua Amarga,Tiempo Campero,zonda,1,0
+2026-11-15,Est. Agua Amarga,Tiempo Campero,viento_fuerte,0,0
+2026-11-15,Est. Agua Amarga,Tiempo Campero,nieve,0,0
+2026-11-15,Est. Colonia Las Rosas,Tiempo Campero,helada,0,0
+2026-11-15,Est. Colonia Las Rosas,Tiempo Campero,calor,0,0
+2026-11-15,Est. Colonia Las Rosas,Tiempo Campero,lluvia,0,0
+2026-11-15,Est. Colonia Las Rosas,Tiempo Campero,lluvia_intensa,0,0
+2026-11-15,Est. Colonia Las Rosas,Tiempo Campero,zonda,0,0
+2026-11-15,Est. Colonia Las Rosas,Tiempo Campero,viento_fuerte,0,0
+2026-11-15,Est. Colonia Las Rosas,Tiempo Campero,nieve,0,0
+2026-11-15,Est. La Estacada,Tiempo Campero,helada,0,0
+2026-11-15,Est. La Estacada,Tiempo Campero,calor,0,0
+2026-11-15,Est. La Estacada,Tiempo Campero,lluvia,0,0
+2026-11-15,Est. La Estacada,Tiempo Campero,lluvia_intensa,0,0
+2026-11-15,Est. La Estacada,Tiempo Campero,zonda,0,0
+2026-11-15,Est. La Estacada,Tiempo Campero,viento_fuerte,0,0
+2026-11-15,Est. La Estacada,Tiempo Campero,nieve,0,0
+2026-11-15,Est. Chacayes Piedra Negra,Tiempo Campero,helada,0,0
+2026-11-15,Est. Chacayes Piedra Negra,Tiempo Campero,calor,0,0
+2026-11-15,Est. Chacayes Piedra Negra,Tiempo Campero,lluvia,0,0
+2026-11-15,Est. Chacayes Piedra Negra,Tiempo Campero,lluvia_intensa,0,0
+2026-11-15,Est. Chacayes Piedra Negra,Tiempo Campero,zonda,0,0
+2026-11-15,Est. Chacayes Piedra Negra,Tiempo Campero,viento_fuerte,0,0
+2026-11-15,Est. Chacayes Piedra Negra,Tiempo Campero,nieve,0,0
+2026-11-15,Est. Chacayes Alpasión,Tiempo Campero,helada,0,0
+2026-11-15,Est. Chacayes Alpasión,Tiempo Campero,calor,0,0
+2026-11-15,Est. Chacayes Alpasión,Tiempo Campero,lluvia,0,0
+2026-11-15,Est. Chacayes Alpasión,Tiempo Campero,lluvia_intensa,0,0
+2026-11-15,Est. Chacayes Alpasión,Tiempo Campero,zonda,1,0
+2026-11-15,Est. Chacayes Alpasión,Tiempo Campero,viento_fuerte,0,0
+2026-11-15,Est. Chacayes Alpasión,Tiempo Campero,nieve,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,Tiempo Campero,helada,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,Tiempo Campero,calor,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,Tiempo Campero,lluvia,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,Tiempo Campero,lluvia_intensa,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,Tiempo Campero,zonda,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,Tiempo Campero,viento_fuerte,0,0
+2026-11-15,Est. Chacayes El Carrizalejo,Tiempo Campero,nieve,0,0
+2026-11-15,Est. La Consulta,Tiempo Campero,helada,0,0
+2026-11-15,Est. La Consulta,Tiempo Campero,calor,0,0
+2026-11-15,Est. La Consulta,Tiempo Campero,lluvia,0,0
+2026-11-15,Est. La Consulta,Tiempo Campero,lluvia_intensa,0,0
+2026-11-15,Est. La Consulta,Tiempo Campero,zonda,0,0
+2026-11-15,Est. La Consulta,Tiempo Campero,viento_fuerte,0,0
+2026-11-15,Est. La Consulta,Tiempo Campero,nieve,0,0
+2026-11-15,Est. El Cepillo,Tiempo Campero,helada,0,0
+2026-11-15,Est. El Cepillo,Tiempo Campero,calor,0,0
+2026-11-15,Est. El Cepillo,Tiempo Campero,lluvia,0,0
+2026-11-15,Est. El Cepillo,Tiempo Campero,lluvia_intensa,0,0
+2026-11-15,Est. El Cepillo,Tiempo Campero,zonda,0,0
+2026-11-15,Est. El Cepillo,Tiempo Campero,viento_fuerte,0,0
+2026-11-15,Est. El Cepillo,Tiempo Campero,nieve,0,0
+2026-11-15,Est. Casas Viejas,Tiempo Campero,helada,0,0
+2026-11-15,Est. Casas Viejas,Tiempo Campero,calor,0,0
+2026-11-15,Est. Casas Viejas,Tiempo Campero,lluvia,0,0
+2026-11-15,Est. Casas Viejas,Tiempo Campero,lluvia_intensa,0,0
+2026-11-15,Est. Casas Viejas,Tiempo Campero,zonda,0,0
+2026-11-15,Est. Casas Viejas,Tiempo Campero,viento_fuerte,0,0
+2026-11-15,Est. Casas Viejas,Tiempo Campero,nieve,0,0
+2026-11-15,Est. Pareditas,Tiempo Campero,helada,0,0
+2026-11-15,Est. Pareditas,Tiempo Campero,calor,0,0
+2026-11-15,Est. Pareditas,Tiempo Campero,lluvia,0,0
+2026-11-15,Est. Pareditas,Tiempo Campero,lluvia_intensa,0,0
+2026-11-15,Est. Pareditas,Tiempo Campero,zonda,1,0
+2026-11-15,Est. Pareditas,Tiempo Campero,viento_fuerte,0,0
+2026-11-15,Est. Pareditas,Tiempo Campero,nieve,0,0
