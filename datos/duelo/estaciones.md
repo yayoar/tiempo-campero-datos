@@ -1,4 +1,4 @@
-# Duelo por estación — Valle de Uco (actualizado 17/11 15:30)
+# Duelo por estación — Valle de Uco (actualizado 17/11 16:26)
 
 Pronóstico de la mañana del día anterior contra lo medido en cada estación de Contingencias, hora por hora.
 Puesto: por error medio de temperatura (menos es mejor). Lluvia y fenómenos: efectividad = aciertos / (aciertos + falsas alarmas + no avisados);
