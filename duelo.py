@@ -2,13 +2,17 @@
 Duelo diario en la casa de Yayo (Azcuénaga 98, Tunuyán): Tiempo Campero contra The Weather Channel (la app del celular
 del hijo), medidos contra la estación de Contingencias "Tunuyán" (a 2,5 km).
 
-Lado Tiempo Campero: las MISMAS reglas que muestra la app 0.33 (Combinador.kt), aplicadas a los mismos datos que baja la
-app (7 modelos de Open-Meteo y el ensamble ECMWF), tomados del colector para el punto Tunuyán (a 0,5 km de la casa).
-  - "Llueve": 70% o más de los modelos con 5 mm o más; se baja a "Posible lluvia" si menos del 80% del ensamble da 1 mm.
+Lado Tiempo Campero (19/11/2026): lo que muestra la app 0.35b, con los umbrales y el modelo del Valle que la app baja
+de datos/reglas.json, aplicados a los mismos datos que baja la app (7 modelos de Open-Meteo y el ensamble ECMWF),
+tomados del colector para el punto Tunuyán (a 0,5 km de la casa). Copia de Combinador.kt, ModeloValle.kt y EnsambleEcmwf.kt:
+  - Modelos disparatados (mínima a más de 8° o máxima a más de 10° de la mediana) afuera, solo para la lluvia.
+  - "Llueve": fraccion_aviso de los modelos (80%) con lluvia_aviso_mm (1 mm) o más; baja a "Posible lluvia"
+    si menos del 80% de las corridas del ensamble europeo da 1 mm.
   - "Posible lluvia": 50% de los modelos con 5 mm o 40% con 2 mm.
-  - Horas de lluvia: la mitad de los modelos con probabilidad 50% o 0,5 mm en esa hora (solo si el día es "Llueve").
-  - Helada: el modelo más frío con 0° o menos; máxima: promedio pesado de los modelos.
-  (No incluye la corrección de máxima por sitio ni el puntaje de tormenta de zona.)
+  - Horas de lluvia: la mitad de los modelos con probabilidad 50% o 0,5 mm en esa hora, si el día era "Llueve"
+    antes del ensamble (igual que la app, que marca las horas antes de consultar el ensamble).
+  - Mínima y máxima: ModeloValle (fórmula de la mínima y corrección de máxima por estación y trimestre).
+  No verificado: la app usa los valores diarios de Open-Meteo y acá se arman con los horarios.
 Lado The Weather Channel: su pronóstico hora a hora tal como lo muestra la página.
 
 Para cada día D se usa el pronóstico guardado más cercano a las 8 de la mañana del día anterior.
@@ -41,10 +45,61 @@ def elegir(fuente, dia):
          if objetivo - dt.timedelta(hours=8) <= t <= objetivo + dt.timedelta(hours=6)]
     return min(c)[1] if c else None
 
+def _reglas():
+    """Umbrales y modelo del Valle tal como los baja la app (datos/reglas.json)."""
+    r = json.load(open(os.path.join(DATOS, "reglas.json"), encoding="utf8"))
+    return r.get("version", "?"), r["umbrales"], r["modelo_valle"]
+
+def _mediana(v):
+    s = sorted(v); n = len(s)
+    return s[n // 2] if n % 2 else (s[n // 2 - 1] + s[n // 2]) / 2
+
+def _pesos_valle(M, lat, lon):
+    """Copia de ModeloValle.pesos: las 6 estaciones más cercanas, peso 1/distancia^2 (mínimo 1 km)."""
+    o = sorted(((e["n"], math.hypot((lat - e["lat"]) * 111.0, (lon - e["lon"]) * 93.0)) for e in M["estaciones"]), key=lambda t: t[1])
+    if not o or o[0][1] > M["max_km"]: return None
+    c = {n: 1.0 / (max(d, 1.0) ** 2) for n, d in o[:M["vecinas"]]}; t = sum(c.values())
+    return {n: v / t for n, v in c.items()} if t > 0 else None
+
+def _valle_minima(M, pesos, dia, por):
+    """Copia de ModeloValle.minima (sin SMN, como la app)."""
+    de = {m: v for m, v in por.items() if m in M["modelos"]}
+    if len(de) < 4: return None
+    tn = {m: v["tmin"] for m, v in de.items()}; med = _mediana(list(tn.values()))
+    hr = [float(v["hr"]) for v in de.values() if v["hr"] is not None and v["hr"] < 100]
+    rf = [v["raf"] for v in de.values() if v["raf"] is not None and v["raf"] > 0]
+    doy = dia.timetuple().tm_yday; sen = math.sin(2 * math.pi * doy / 365.25); cos = math.cos(2 * math.pi * doy / 365.25)
+    x = {"med": med, "min": min(tn.values()), "amp": max(tn.values()) - min(tn.values()),
+         "tmax_med": _mediana([v["tmax"] for v in de.values()]),
+         "hr": _mediana(hr) if hr else M["hr_falta"], "raf": max(rf) if rf else M["raf_falta"],
+         "pp": math.log(1.0 + max(_mediana([v["pp"] for v in de.values()]), 0.0)),
+         "smn": 0.0, "smn_falta": 1.0, "sen": sen, "cos": cos}
+    for m in M["modelos"]: x[f"d_{m}"] = (tn[m] - med) if m in tn else 0.0
+    for e, p in pesos.items():
+        x[f"e{e}"] = p; x[f"e{e}_sen"] = p * sen; x[f"e{e}_cos"] = p * cos; x[f"e{e}_med"] = p * (med - 5.0) / 5.0
+    return M["b0"] + sum(M["coef"].get(k, 0.0) * v for k, v in x.items())
+
+def _valle_maxima(M, pesos, dia, por):
+    """Copia de ModeloValle.maxima: mediana de los modelos + corrección de la estación por trimestre."""
+    de = [v for m, v in por.items() if m in M["modelos"]]
+    if len(de) < 4: return None
+    q = str((dia.month % 12) // 3); num = den = 0.0
+    for e, p in pesos.items():
+        v = M["cor_max"].get(str(e), {}).get(q)
+        if v is None: continue
+        num += p * v; den += p
+    return _mediana([v["tmax"] for v in de]) + num / den if den > 0 else None
+
 def app(dia):
+    """Lo que muestra la app 0.35b para el punto Tunuyán (Combinador.kt, ModeloValle.kt y EnsambleEcmwf.kt).
+    Diferencia conocida y no verificada: la app usa los valores DIARIOS de Open-Meteo; acá se arman con los horarios
+    guardados por el colector (mínimo, máximo, suma). Tampoco se aplica la regla de estabilidad, que depende del
+    pronóstico anterior guardado en el teléfono."""
     f = elegir("open_meteo", dia)
     if not f: return None
-    d = json.load(gzip.open(f))["datos"]; i = [n for n, *_ in __import__("colector").DEPTOS].index(PUNTO)
+    version, U, M = _reglas()
+    C = __import__("colector"); fila = [x for x in C.DEPTOS if x[0] == PUNTO][0]; lat, lon = fila[2], fila[3]
+    d = json.load(gzip.open(f))["datos"]; i = [n for n, *_ in C.DEPTOS].index(PUNTO)
     por = {}; horas = {}
     for m in PESOS:
         r = d.get(m); r = [r] if isinstance(r, dict) else r
@@ -52,32 +107,47 @@ def app(dia):
         h = r[i]["hourly"]; t = h["time"]; ix = [k for k, x in enumerate(t) if x.startswith(dia.isoformat())]
         if len(ix) < 20: continue
         g = lambda v: [h[v][k] for k in ix] if v in h else [None] * len(ix)
-        if sum(x is not None for x in g("temperature_2m")) < 20: continue
+        tt = [x for x in g("temperature_2m") if x is not None]
+        if len(tt) < 20: continue
         pp = [x or 0 for x in g("precipitation")]
-        por[m] = dict(tmin=min(x for x in g("temperature_2m") if x is not None), tmax=max(x for x in g("temperature_2m") if x is not None),
-                      pp=sum(pp), cod=max((x or 0) for x in g("weather_code")),
-                      raf=max((x or 0) for x in g("wind_gusts_10m")))
-        prob = [x for x in g("precipitation_probability")]
-        horas[m] = [((prob[k] or 0) >= 50 if prob[k] is not None else False) or pp[k] >= .5 for k in range(len(ix))]
+        hrs = [x for x in g("relative_humidity_2m") if x is not None]
+        rfs = [x for x in g("wind_gusts_10m") if x is not None]
+        por[m] = dict(tmin=min(tt), tmax=max(tt), pp=sum(pp), cod=max((x or 0) for x in g("weather_code")),
+                      hr=int(min(hrs)) if hrs else None, raf=max(rfs) if rfs else None)
+        prob = g("precipitation_probability")
+        horas[m] = [(prob[k] is not None and prob[k] >= 50) or pp[k] >= .5 for k in range(len(ix))]
     if len(por) < 4: return None
-    n = len(por); ceil = lambda fr: math.ceil(fr * n)
-    cuenta = lambda c: sum(1 for v in por.values() if c(v))
-    llueve = cuenta(lambda v: v["pp"] >= 5) >= ceil(.7)
-    nivel = 3 if llueve else (1 if cuenta(lambda v: v["pp"] >= 5) >= ceil(.5) or cuenta(lambda v: v["pp"] >= 2) >= ceil(.4) else 0)
+    # descartarAbsurdos: solo para las reglas de lluvia; ModeloValle recibe todos los modelos
+    datos = dict(por)
+    if len(datos) >= 3:
+        mn = _mediana([v["tmin"] for v in datos.values()]); mx = _mediana([v["tmax"] for v in datos.values()])
+        buenos = {m: v for m, v in datos.items() if abs(v["tmin"] - mn) <= 8 and abs(v["tmax"] - mx) <= 10}
+        datos = buenos or datos
+    n = len(datos); cuenta = lambda c: sum(1 for v in datos.values() if c(v))
+    fr = lambda f, c: n >= 2 and cuenta(c) >= math.ceil(f * n)
+    llueve = fr(U["fraccion_aviso"], lambda v: v["pp"] >= U["lluvia_aviso_mm"])
+    nivel = 3 if llueve else (1 if fr(.5, lambda v: v["pp"] >= 5) or fr(.4, lambda v: v["pp"] >= 2) else 0)
+    # Horas de lluvia: se calculan con el "llueve" de antes del ensamble, como en la app
+    hm = [m for m in datos if m in horas]
+    hs = [k for k in range(24) if llueve and sum(1 for m in hm if k < len(horas[m]) and horas[m][k]) * 2 >= len(hm)]
+    # EnsambleEcmwf.confirmar: si menos del 80% de las corridas da 1 mm, el día baja a "Posible lluvia"
     ens = d.get("ensamble_ecmwf"); ens = [ens] if isinstance(ens, dict) else ens
-    if llueve and isinstance(ens, list) and len(ens) > i:
+    if llueve and isinstance(ens, list) and len(ens) > i and "hourly" in ens[i]:
         eh = ens[i]["hourly"]; ix = [k for k, x in enumerate(eh["time"]) if x.startswith(dia.isoformat())]
         mem = [k for k in eh if k.startswith("precipitation")]
-        if mem and ix:
-            frac = sum(1 for k in mem if sum((eh[k][j] or 0) for j in ix) >= 1) / len(mem)
+        if len(mem) >= 20 and len(ix) >= 20:
+            frac = sum(1 for k in mem if sum((eh[k][j] or 0) for j in ix) >= 1.0) / len(mem)
             if frac < .8: llueve, nivel = False, 1
-    pt = sum(PESOS[m] for m in por)
-    hs = [k for k in range(24) if llueve and sum(1 for m in horas if k < len(horas[m]) and horas[m][k]) * 2 >= len(horas)]
-    return dict(fuente="Tiempo Campero", llueve=nivel == 3, nivel=nivel,
-                mm=round(sum(PESOS[m] * v["pp"] for m, v in por.items()) / pt, 1), horas=hs,
-                tmin=round(min(v["tmin"] for v in por.values()), 1),
-                tmax=round(sum(PESOS[m] * v["tmax"] for m, v in por.items()) / pt, 1),
-                tormenta=cuenta(lambda v: v["cod"] >= 95), modelos=n, archivo=os.path.relpath(f, RAIZ))
+    pesos = _pesos_valle(M, lat, lon)
+    tmin = _valle_minima(M, pesos, dia, por) if pesos else None
+    tmax = _valle_maxima(M, pesos, dia, por) if pesos else None
+    pt = sum(PESOS[m] for m in datos)
+    if tmin is None: tmin = min(v["tmin"] for v in datos.values())
+    if tmax is None: tmax = sum(PESOS[m] * v["tmax"] for m, v in datos.items()) / pt
+    return dict(fuente="Tiempo Campero", llueve=llueve, nivel=nivel,
+                mm=round(sum(PESOS[m] * v["pp"] for m, v in datos.items()) / pt, 1), horas=hs,
+                tmin=round(tmin, 1), tmax=round(tmax, 1), tormenta=cuenta(lambda v: v["cod"] >= 95),
+                modelos=n, reglas=version, archivo=os.path.relpath(f, RAIZ))
 
 def twc(dia):
     f = elegir("twc", dia)
@@ -120,13 +190,16 @@ def rango(hs):
 
 def main():
     hoy = dt.datetime.now(AR).date(); out = os.path.join(DATOS, "duelo"); os.makedirs(out, exist_ok=True)
-    reg = os.path.join(out, "registro.csv"); hechos = set()
+    reg = os.path.join(out, "registro.csv")
+    # Se recalcula todo el registro en cada corrida: así, cuando cambian las reglas de la app, los días
+    # anteriores se vuelven a medir con las reglas nuevas (pronósticos y mediciones quedan guardados).
+    primero = dt.date(2026, 11, 11)
     if os.path.exists(reg):
-        hechos = {r["dia"] for r in csv.DictReader(open(reg, encoding="utf8"))}
+        ds = [r["dia"] for r in csv.DictReader(open(reg, encoding="utf8"))]
+        if ds: primero = min(primero, dt.date.fromisoformat(min(ds)))
     nuevos = []
-    for k in range(1, 8):
-        dia = hoy - dt.timedelta(days=k)
-        if dia.isoformat() in hechos: continue
+    for k in range((hoy - primero).days):
+        dia = primero + dt.timedelta(days=k)
         m = medido(dia); a = app(dia); w = twc(dia)
         if not m or not (a or w): continue
         for p in (a, w):
@@ -136,11 +209,11 @@ def main():
                                acierto_lluvia=p["llueve"] == m["llueve"], mm_pron=p["mm"], mm_medido=m["mm"],
                                horas_pron=rango(p["horas"]), horas_medidas=rango(m["horas"]), horas_acertadas=len(ah),
                                tmin_pron=p["tmin"], tmin_medida=m["tmin"], tmax_pron=p["tmax"], tmax_medida=m["tmax"],
-                               err_tmin=round(p["tmin"] - m["tmin"], 1), err_tmax=round(p["tmax"] - m["tmax"], 1)))
+                               err_tmin=round(p["tmin"] - m["tmin"], 1), err_tmax=round(p["tmax"] - m["tmax"], 1),
+                               reglas=p.get("reglas", "")))
     if nuevos:
-        nuevo = not os.path.exists(reg)
-        with open(reg, "a", encoding="utf8", newline="") as f:
-            w = csv.DictWriter(f, fieldnames=list(nuevos[0])); nuevo and w.writeheader(); w.writerows(nuevos)
+        with open(reg, "w", encoding="utf8", newline="") as f:
+            w = csv.DictWriter(f, fieldnames=list(nuevos[0])); w.writeheader(); w.writerows(nuevos)
     # resumen
     filas = list(csv.DictReader(open(reg, encoding="utf8"))) if os.path.exists(reg) else []
     lin = [f"# Duelo en tu casa — actualizado {dt.datetime.now(AR):%d/%m %H:%M}", ""]
@@ -161,7 +234,7 @@ def main():
             p = fn(dia)
             if p: lin.append(f"| {dia:%d/%m} | {p['fuente']} | {'Llueve' if p['llueve'] else ('Posible lluvia' if p.get('nivel') == 1 else 'no')} | {p['mm']} | {rango(p['horas'])} | {p['tmin']} | {p['tmax']} | {p['tormenta'] or ''} |")
     open(os.path.join(out, "ultimo.md"), "w", encoding="utf8").write("\n".join(lin) + "\n")
-    print("duelo: días nuevos", len(nuevos) // 2)
+    print("duelo: renglones", len(nuevos))
 
 def _ultimo(fuente):
     s = snapshots(fuente); return s[-1][1] if s else None
