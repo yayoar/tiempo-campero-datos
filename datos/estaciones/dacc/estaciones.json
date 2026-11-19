@@ -9,6 +9,7 @@
 "Altura": "619",
 "lat": -32.8934,
 "lng": -68.3883,
+"web": 1,
 "idArchivoGoolgeDatos": "1F6pBW1qRqZ6gYdqw9BEWXT2Xa88ocMU-"
 },
 {
@@ -21,6 +22,7 @@
 "Altura": "653",
 "lat": -33.116,
 "lng": -68.4844,
+"web": 1,
 "idArchivoGoolgeDatos": "1-fUUe15V1trAyTcBBCm8aUh4ghJtv5sD"
 },
 {
@@ -33,6 +35,7 @@
 "Altura": "1074",
 "lat": -33.3467,
 "lng": -69.1577,
+"web": 1,
 "idArchivoGoolgeDatos": "1-MzhOW-ic-JWS3Aeb4kxLrqxJH6L_O9X"
 },
 {
@@ -45,6 +48,7 @@
 "Altura": "869",
 "lat": -33.5644,
 "lng": -69.0395,
+"web": 1,
 "idArchivoGoolgeDatos": "1-1DF1YMOOh0yRmUkYIfkj4PcEs7BuKGy"
 },
 {
@@ -57,6 +61,7 @@
 "Altura": "970",
 "lat": -33.516,
 "lng": -69.2075,
+"web": 1,
 "idArchivoGoolgeDatos": "1jqUoI4EwxyXtIUirV7NfTAHZ4-dbvpzZ"
 },
 {
@@ -69,6 +74,7 @@
 "Altura": "708",
 "lat": -33.1747,
 "lng": -68.6413,
+"web": 1,
 "idArchivoGoolgeDatos": "1-mHJDIQy0jrhscI4KjGOQzOaIt27fLAV"
 },
 {
@@ -81,6 +87,7 @@
 "Altura": "813",
 "lat": -34.5266,
 "lng": -68.4286,
+"web": 1,
 "idArchivoGoolgeDatos": "109lXa-C6HkvK7Y2hnVed43vrOhCZU-GE"
 },
 {
@@ -93,6 +100,7 @@
 "Altura": "555",
 "lat": -34.6477,
 "lng": -68.016,
+"web": 1,
 "idArchivoGoolgeDatos": "1-EId97qi9e1z0zLwH7R8b5mLFvQmNilV"
 },
 {
@@ -105,6 +113,7 @@
 "Altura": "940",
 "lat": -33.7066,
 "lng": -69.0732,
+"web": 1,
 "idArchivoGoolgeDatos": "1-7Mq93M1AaD7Rraia3Yp-55vhOYOMVG4"
 },
 {
@@ -117,6 +126,7 @@
 "Altura": "960",
 "lat": -33.1319,
 "lng": -68.916,
+"web": 1,
 "idArchivoGoolgeDatos": "1WZkMVyLewmC0nA2nQ67Mu2Fv_iYccn2o"
 },
 {
@@ -129,6 +139,7 @@
 "Altura": "900",
 "lat": -32.5953,
 "lng": -68.5977,
+"web": 1,
 "idArchivoGoolgeDatos": "1hEeHGb7A1_htum1eb_oqiJ4ZDXWc8TLI"
 },
 {
@@ -141,6 +152,7 @@
 "Altura": "850",
 "lat": -33.0129,
 "lng": -68.7473,
+"web": 1,
 "idArchivoGoolgeDatos": "10hsPiHMBu3PbwigTfvMXFTVj6oEa43s3"
 },
 {
@@ -152,7 +164,8 @@
 "Longitud": "68° 27' 20.0372\" O",
 "Altura": "650",
 "lat": -33.0391,
-"lng": -68.4556
+"lng": -68.4556,
+"web": 1
 },
 {
 "Estacion": 16,
@@ -164,6 +177,7 @@
 "Altura": "929",
 "lat": -32.8329,
 "lng": -68.6005,
+"web": 1,
 "idArchivoGoolgeDatos": "16yZkXh31C_kgMTCSvfhT8XhydWvv7CCU"
 },
 {
@@ -176,6 +190,7 @@
 "Altura": "600",
 "lat": -33.0873,
 "lng": -68.2101,
+"web": 1,
 "idArchivoGoolgeDatos": "1wseWfu6ToGnDXspG6noHDKWP6PkLPH5p"
 },
 {
@@ -188,6 +203,7 @@
 "Altura": "",
 "lat": -33.2395,
 "lng": -68.193,
+"web": 1,
 "idArchivoGoolgeDatos": "1-vL4L1GtLychkRobsxkIuLegESFKZh18"
 },
 {
@@ -200,6 +216,7 @@
 "Altura": "600",
 "lat": -33.2602,
 "lng": -68.4456,
+"web": 1,
 "idArchivoGoolgeDatos": "1-0Ho5WNf1bVhJIrH6CqEcuNqetbftrm_"
 },
 {
@@ -211,7 +228,8 @@
 "Longitud": "68° 18' 50\" O",
 "Altura": "600",
 "lat": -32.6461,
-"lng": -68.3139
+"lng": -68.3139,
+"web": 1
 },
 {
 "Estacion": 21,
@@ -223,6 +241,7 @@
 "Altura": "950",
 "lat": -33.8058,
 "lng": -69.1076,
+"web": 1,
 "idArchivoGoolgeDatos": "1-Ek6nU6nvojK7Ac6EEd9T9WdAN3-YYOQ"
 },
 {
@@ -235,6 +254,7 @@
 "Altura": "530",
 "lat": -34.8325,
 "lng": -67.8983,
+"web": 1,
 "idArchivoGoolgeDatos": "1itvgzIE-qDmSPNlWWn4Qn8nfW58rFeBz"
 },
 {
@@ -247,6 +267,7 @@
 "Altura": "455",
 "lat": -35.0107,
 "lng": -67.5567,
+"web": 1,
 "idArchivoGoolgeDatos": "1-qwQfcmGxouLzOdYM9A84x3IpQ6dFlKA"
 },
 {
@@ -259,6 +280,7 @@
 "Altura": "475",
 "lat": -34.9147,
 "lng": -67.5952,
+"web": 1,
 "idArchivoGoolgeDatos": "1-c7UGvy5NySyEcxM632yEwTP34AcfJNs"
 },
 {
@@ -271,6 +293,7 @@
 "Altura": "791",
 "lat": -34.6469,
 "lng": -68.4614,
+"web": 1,
 "idArchivoGoolgeDatos": "10d334p6dTEhVu1PryrQZdmH_7bv-1wRu"
 },
 {
@@ -283,6 +306,7 @@
 "Altura": "557",
 "lat": -33.3881,
 "lng": -67.8548,
+"web": 1,
 "idArchivoGoolgeDatos": "1V68MfJjAbIJrLTFOmlDHJdF4nCn7nIXu"
 },
 {
@@ -295,6 +319,7 @@
 "Altura": "491",
 "lat": -34.8719,
 "lng": -67.7228,
+"web": 1,
 "idArchivoGoolgeDatos": "1-0qcWhubc-_Eex4GGixwjXddXBz1PVJ-"
 },
 {
@@ -307,6 +332,7 @@
 "Altura": "1011",
 "lat": -33.8787,
 "lng": -69.0369,
+"web": 1,
 "idArchivoGoolgeDatos": "1-dbdQToo9uI9SwHZ-tSoyVBvqULDzIXR"
 },
 {
@@ -319,6 +345,7 @@
 "Altura": "656",
 "lat": -32.9684,
 "lng": -68.5636,
+"web": 1,
 "idArchivoGoolgeDatos": "1a8jYfF-S76i6z4B48Mkxc39e77bu_xbU"
 },
 {
@@ -331,6 +358,7 @@
 "Altura": "632",
 "lat": -33.0152,
 "lng": -68.3067,
+"web": 1,
 "idArchivoGoolgeDatos": "1KigXsT73ogdEYEMYKvlXGDjgcdvCnMSh"
 },
 {
@@ -343,6 +371,7 @@
 "Altura": "660",
 "lat": -34.5103,
 "lng": -68.2858,
+"web": 1,
 "idArchivoGoolgeDatos": "1-OXFOkUi_r3YmH4kDi592D8mKim2efDj"
 },
 {
@@ -355,6 +384,7 @@
 "Altura": "966",
 "lat": -33.619,
 "lng": -69.108,
+"web": 1,
 "idArchivoGoolgeDatos": "1-8e6vk-qHqm7qDAaoHEyCPMSM0w-mnCA"
 },
 {
@@ -367,6 +397,7 @@
 "Altura": "466",
 "lat": -34.9972,
 "lng": -67.6327,
+"web": 1,
 "idArchivoGoolgeDatos": "11B7V_qXzvb2At7y9oHkTxwvAXps2HY8k"
 },
 {
@@ -379,6 +410,7 @@
 "Altura": "455",
 "lat": -34.9819,
 "lng": -67.5155,
+"web": 1,
 "idArchivoGoolgeDatos": "1NkUdqfs-dlfxrZS27xEbtl0zn381PKn3"
 },
 {
@@ -391,6 +423,7 @@
 "Altura": "453",
 "lat": -34.9322,
 "lng": -67.43,
+"web": 1,
 "idArchivoGoolgeDatos": "10220oef2NYNsxUbETuFtPxWppLD89c4z"
 },
 {
@@ -403,6 +436,7 @@
 "Altura": "967",
 "lat": -33.433,
 "lng": -69.0424,
+"web": 1,
 "idArchivoGoolgeDatos": "1-9kN5tPkTk1IfWzDKXOut-Zv_kmEjaua"
 },
 {
@@ -415,6 +449,7 @@
 "Altura": "636",
 "lat": -33.1764,
 "lng": -68.3045,
+"web": 1,
 "idArchivoGoolgeDatos": "1095GwaST7WJARxoILAlOIFix7wMOqsFY"
 },
 {
@@ -427,6 +462,7 @@
 "Altura": "1028",
 "lat": -33.6123,
 "lng": -69.2042,
+"web": 1,
 "idArchivoGoolgeDatos": "1SY6cKBXIpm0hUIqM2a1-RlV-xb-tfeoL"
 },
 {
@@ -439,6 +475,7 @@
 "Altura": "942",
 "lat": -33.32,
 "lng": -68.917,
+"web": 1,
 "idArchivoGoolgeDatos": "1yYO2Fh9fj0AIvj0zUCRYBh7VaKMDj9_L"
 },
 {
@@ -451,6 +488,7 @@
 "Altura": "865",
 "lat": -33.5146,
 "lng": -69.0019,
+"web": 1,
 "idArchivoGoolgeDatos": "1--SRH8dl7bjawQ53078SeeDxuGmaX4Gu"
 },
 {
@@ -463,6 +501,7 @@
 "Altura": "796",
 "lat": -33.3074,
 "lng": -68.7145,
+"web": 1,
 "idArchivoGoolgeDatos": "1x89_ZZWKQdzdhClNUv9FXlA_XRKF1kRn"
 },
 {
@@ -475,6 +514,7 @@
 "Altura": "641",
 "lat": -34.7392,
 "lng": -68.3135,
+"web": 1,
 "idArchivoGoolgeDatos": "10LL38wk3F3CgmsrGp_zslsDO7o3YYnDN"
 },
 {
@@ -487,6 +527,7 @@
 "Altura": "591",
 "lat": -33.393,
 "lng": -68.0927,
+"web": 1,
 "idArchivoGoolgeDatos": "1EFDbw_-3IN0XnBMLGUTVOMEd87omAz4r"
 },
 {
@@ -499,6 +540,7 @@
 "Altura": "586",
 "lat": -34.6877,
 "lng": -68.1541,
+"web": 1,
 "idArchivoGoolgeDatos": "1NOdFqyNgJmLSzb_fQyssUfrZIGMd-q-f"
 },
 {
@@ -511,6 +553,7 @@
 "Altura": "661",
 "lat": -33.0724,
 "lng": -68.4645,
+"web": 1,
 "idArchivoGoolgeDatos": "1Po_XkQzzWFK6pOFe8htcYwEap_B15QTY"
 },
 {
@@ -523,6 +566,7 @@
 "Altura": "591",
 "lat": -33.393,
 "lng": -68.0927,
+"web": 1,
 "idArchivoGoolgeDatos": "1EFDbw_-3IN0XnBMLGUTVOMEd87omAz4r"
 },
 {
@@ -535,6 +579,7 @@
 "Altura": "702",
 "lat": -33.2052,
 "lng": -68.5983,
+"web": 1,
 "idArchivoGoolgeDatos": "1WSPx-0ZTpvfG8ld3izfyCP4IDxggIxB6"
 },
 {
@@ -547,6 +592,7 @@
 "Altura": "1102",
 "lat": -33.96,
 "lng": -69.0794,
+"web": 1,
 "idArchivoGoolgeDatos": "1x1lE1AgKnSpQJKAjU1ICkPGggEjkTh2v"
 },
 {
@@ -559,6 +605,7 @@
 "Altura": "605",
 "lat": -32.7477,
 "lng": -68.3297,
+"web": 1,
 "idArchivoGoolgeDatos": "1VzDJnojCyq3pntfFQb5kl9n9JjGEyv-4"
 },
 {
@@ -571,6 +618,7 @@
 "Altura": "638",
 "lat": -33.3327,
 "lng": -68.3384,
+"web": 1,
 "idArchivoGoolgeDatos": "1eJ4naQFyF5tLPDldAm-rkjNIHEvg5CcN"
 },
 {
@@ -583,6 +631,7 @@
 "Altura": "605",
 "lat": -32.7137,
 "lng": -68.4801,
+"web": 1,
 "idArchivoGoolgeDatos": "12op2c0Juc_V3xKjLuonTBJ99ML7rhdvK"
 },
 {
@@ -595,6 +644,7 @@
 "Altura": "641",
 "lat": -33.0987,
 "lng": -68.3069,
+"web": 1,
 "idArchivoGoolgeDatos": "1uGP5lhkdZIbEfmQr7hV_-TgT0FcaagUR"
 },
 {
@@ -607,6 +657,7 @@
 "Altura": "1257",
 "lat": -33.6084,
 "lng": -69.28,
+"web": 1,
 "idArchivoGoolgeDatos": "1V-H8IPqNRppY1gTZkd4RV7q9n7_11ckc"
 },
 {
@@ -619,6 +670,7 @@
 "Altura": "703",
 "lat": -33.0627,
 "lng": -68.6588,
+"web": 1,
 "idArchivoGoolgeDatos": "1w50bR5AWnpOsG7WgdZFU3tL23JEWxmxz"
 },
 {
@@ -631,6 +683,7 @@
 "Altura": "625",
 "lat": -32.7204,
 "lng": -68.6788,
+"web": 1,
 "idArchivoGoolgeDatos": "1DEY8O70Mlw9IC_pMge8-_7xPKY2ph9d_"
 },
 {
@@ -643,6 +696,7 @@
 "Altura": "900",
 "lat": -33.4437,
 "lng": -68.9654,
+"web": 1,
 "idArchivoGoolgeDatos": "1I4ox1JH3Z93IFizvxuqghOXxBqqbgN-H"
 },
 {
@@ -655,6 +709,7 @@
 "Altura": "1020",
 "lat": -33.4236,
 "lng": -69.1339,
+"web": 1,
 "idArchivoGoolgeDatos": "1JaaxJtmXf9fKGTA_xnOXCdYWWK55UUU-"
 },
 {
@@ -667,6 +722,7 @@
 "Altura": "1475",
 "lat": -33.6049,
 "lng": -69.329,
+"web": 1,
 "idArchivoGoolgeDatos": "1S74q4g7xFHPaNKXokxWhQ10iO0deEngk"
 },
 {
@@ -679,6 +735,7 @@
 "Altura": "557",
 "lat": -34.5666,
 "lng": -68.0084,
+"web": 1,
 "idArchivoGoolgeDatos": "1f9leRokptlmdWQMvPYDVL6XVL-v_V1hV"
 },
 {
@@ -691,6 +748,7 @@
 "Altura": "566",
 "lat": -34.5306,
 "lng": -68.1014,
+"web": 1,
 "idArchivoGoolgeDatos": "1UXUZ8N4F3AmrfmhM7QouVw4K5dvU9uCJ"
 },
 {
@@ -703,6 +761,7 @@
 "Altura": "523",
 "lat": -34.5686,
 "lng": -67.8619,
+"web": 1,
 "idArchivoGoolgeDatos": "1qCCHmbfBumqFyZ7LzIHMoSIJwsa2r7aP"
 },
 {
@@ -715,6 +774,7 @@
 "Altura": "620",
 "lat": -34.8281,
 "lng": -68.2511,
+"web": 1,
 "idArchivoGoolgeDatos": "1FASXEMjxmj3WkXhQJ_0z4hiU-dfC96hd"
 },
 {
@@ -727,6 +787,7 @@
 "Altura": "575",
 "lat": -34.0464,
 "lng": -67.9527,
+"web": 1,
 "idArchivoGoolgeDatos": "1yEKa8893iQy92mzU3DiQWZlOrGujIo3j"
 },
 {
@@ -738,6 +799,7 @@
 "Longitud": "",
 "Altura": "964",
 "lat": -33.6413,
-"lng": -69.1502
+"lng": -69.1502,
+"web": 1
 }
 ]
