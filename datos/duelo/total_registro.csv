@@ -6152,3 +6152,675 @@ dia,depto,fuente,fenomeno,aviso,paso
 2026-11-15,General Alvear,SMN (WRF),zonda,0,0
 2026-11-15,General Alvear,SMN (WRF),viento_fuerte,0,0
 2026-11-15,General Alvear,SMN (WRF),nieve,0,0
+2026-11-17,Tupungato,Open-Meteo gem,helada,0,0
+2026-11-17,Tupungato,Open-Meteo gem,calor,0,0
+2026-11-17,Tupungato,Open-Meteo gem,lluvia,1,0
+2026-11-17,Tupungato,Open-Meteo gem,lluvia_intensa,0,0
+2026-11-17,Tupungato,Open-Meteo gem,zonda,0,0
+2026-11-17,Tupungato,Open-Meteo gem,viento_fuerte,0,0
+2026-11-17,Tupungato,Open-Meteo gem,nieve,0,0
+2026-11-17,Tunuyán,Open-Meteo gem,helada,0,0
+2026-11-17,Tunuyán,Open-Meteo gem,calor,0,0
+2026-11-17,Tunuyán,Open-Meteo gem,lluvia,1,0
+2026-11-17,Tunuyán,Open-Meteo gem,lluvia_intensa,0,0
+2026-11-17,Tunuyán,Open-Meteo gem,zonda,0,0
+2026-11-17,Tunuyán,Open-Meteo gem,viento_fuerte,0,0
+2026-11-17,Tunuyán,Open-Meteo gem,nieve,0,0
+2026-11-17,San Carlos,Open-Meteo gem,helada,0,0
+2026-11-17,San Carlos,Open-Meteo gem,calor,0,0
+2026-11-17,San Carlos,Open-Meteo gem,lluvia,1,0
+2026-11-17,San Carlos,Open-Meteo gem,lluvia_intensa,0,0
+2026-11-17,San Carlos,Open-Meteo gem,zonda,0,0
+2026-11-17,San Carlos,Open-Meteo gem,viento_fuerte,0,0
+2026-11-17,San Carlos,Open-Meteo gem,nieve,0,0
+2026-11-17,Tupungato,Open-Meteo icon,helada,0,0
+2026-11-17,Tupungato,Open-Meteo icon,calor,0,0
+2026-11-17,Tupungato,Open-Meteo icon,lluvia,0,0
+2026-11-17,Tupungato,Open-Meteo icon,lluvia_intensa,0,0
+2026-11-17,Tupungato,Open-Meteo icon,zonda,0,0
+2026-11-17,Tupungato,Open-Meteo icon,viento_fuerte,0,0
+2026-11-17,Tupungato,Open-Meteo icon,nieve,0,0
+2026-11-17,Tunuyán,Open-Meteo icon,helada,0,0
+2026-11-17,Tunuyán,Open-Meteo icon,calor,0,0
+2026-11-17,Tunuyán,Open-Meteo icon,lluvia,1,0
+2026-11-17,Tunuyán,Open-Meteo icon,lluvia_intensa,0,0
+2026-11-17,Tunuyán,Open-Meteo icon,zonda,0,0
+2026-11-17,Tunuyán,Open-Meteo icon,viento_fuerte,0,0
+2026-11-17,Tunuyán,Open-Meteo icon,nieve,0,0
+2026-11-17,San Carlos,Open-Meteo icon,helada,0,0
+2026-11-17,San Carlos,Open-Meteo icon,calor,0,0
+2026-11-17,San Carlos,Open-Meteo icon,lluvia,1,0
+2026-11-17,San Carlos,Open-Meteo icon,lluvia_intensa,0,0
+2026-11-17,San Carlos,Open-Meteo icon,zonda,0,0
+2026-11-17,San Carlos,Open-Meteo icon,viento_fuerte,0,0
+2026-11-17,San Carlos,Open-Meteo icon,nieve,0,0
+2026-11-17,Tupungato,Open-Meteo ukmo,helada,0,0
+2026-11-17,Tupungato,Open-Meteo ukmo,calor,0,0
+2026-11-17,Tupungato,Open-Meteo ukmo,lluvia,1,0
+2026-11-17,Tupungato,Open-Meteo ukmo,lluvia_intensa,0,0
+2026-11-17,Tupungato,Open-Meteo ukmo,zonda,0,0
+2026-11-17,Tupungato,Open-Meteo ukmo,viento_fuerte,0,0
+2026-11-17,Tupungato,Open-Meteo ukmo,nieve,0,0
+2026-11-17,Tunuyán,Open-Meteo ukmo,helada,0,0
+2026-11-17,Tunuyán,Open-Meteo ukmo,calor,0,0
+2026-11-17,Tunuyán,Open-Meteo ukmo,lluvia,1,0
+2026-11-17,Tunuyán,Open-Meteo ukmo,lluvia_intensa,0,0
+2026-11-17,Tunuyán,Open-Meteo ukmo,zonda,0,0
+2026-11-17,Tunuyán,Open-Meteo ukmo,viento_fuerte,0,0
+2026-11-17,Tunuyán,Open-Meteo ukmo,nieve,0,0
+2026-11-17,San Carlos,Open-Meteo ukmo,helada,0,0
+2026-11-17,San Carlos,Open-Meteo ukmo,calor,0,0
+2026-11-17,San Carlos,Open-Meteo ukmo,lluvia,1,0
+2026-11-17,San Carlos,Open-Meteo ukmo,lluvia_intensa,0,0
+2026-11-17,San Carlos,Open-Meteo ukmo,zonda,0,0
+2026-11-17,San Carlos,Open-Meteo ukmo,viento_fuerte,0,0
+2026-11-17,San Carlos,Open-Meteo ukmo,nieve,0,0
+2026-11-17,Tupungato,Open-Meteo ecmwf_ifs025,helada,0,0
+2026-11-17,Tupungato,Open-Meteo ecmwf_ifs025,calor,0,0
+2026-11-17,Tupungato,Open-Meteo ecmwf_ifs025,lluvia,1,0
+2026-11-17,Tupungato,Open-Meteo ecmwf_ifs025,lluvia_intensa,0,0
+2026-11-17,Tupungato,Open-Meteo ecmwf_ifs025,zonda,0,0
+2026-11-17,Tupungato,Open-Meteo ecmwf_ifs025,viento_fuerte,0,0
+2026-11-17,Tupungato,Open-Meteo ecmwf_ifs025,nieve,0,0
+2026-11-17,Tunuyán,Open-Meteo ecmwf_ifs025,helada,0,0
+2026-11-17,Tunuyán,Open-Meteo ecmwf_ifs025,calor,0,0
+2026-11-17,Tunuyán,Open-Meteo ecmwf_ifs025,lluvia,1,0
+2026-11-17,Tunuyán,Open-Meteo ecmwf_ifs025,lluvia_intensa,0,0
+2026-11-17,Tunuyán,Open-Meteo ecmwf_ifs025,zonda,0,0
+2026-11-17,Tunuyán,Open-Meteo ecmwf_ifs025,viento_fuerte,0,0
+2026-11-17,Tunuyán,Open-Meteo ecmwf_ifs025,nieve,0,0
+2026-11-17,San Carlos,Open-Meteo ecmwf_ifs025,helada,0,0
+2026-11-17,San Carlos,Open-Meteo ecmwf_ifs025,calor,0,0
+2026-11-17,San Carlos,Open-Meteo ecmwf_ifs025,lluvia,1,0
+2026-11-17,San Carlos,Open-Meteo ecmwf_ifs025,lluvia_intensa,0,0
+2026-11-17,San Carlos,Open-Meteo ecmwf_ifs025,zonda,0,0
+2026-11-17,San Carlos,Open-Meteo ecmwf_ifs025,viento_fuerte,0,0
+2026-11-17,San Carlos,Open-Meteo ecmwf_ifs025,nieve,0,0
+2026-11-17,Tupungato,Open-Meteo meteofrance,helada,0,0
+2026-11-17,Tupungato,Open-Meteo meteofrance,calor,0,0
+2026-11-17,Tupungato,Open-Meteo meteofrance,lluvia,1,0
+2026-11-17,Tupungato,Open-Meteo meteofrance,lluvia_intensa,0,0
+2026-11-17,Tupungato,Open-Meteo meteofrance,zonda,0,0
+2026-11-17,Tupungato,Open-Meteo meteofrance,viento_fuerte,0,0
+2026-11-17,Tupungato,Open-Meteo meteofrance,nieve,0,0
+2026-11-17,Tunuyán,Open-Meteo meteofrance,helada,0,0
+2026-11-17,Tunuyán,Open-Meteo meteofrance,calor,0,0
+2026-11-17,Tunuyán,Open-Meteo meteofrance,lluvia,1,0
+2026-11-17,Tunuyán,Open-Meteo meteofrance,lluvia_intensa,0,0
+2026-11-17,Tunuyán,Open-Meteo meteofrance,zonda,0,0
+2026-11-17,Tunuyán,Open-Meteo meteofrance,viento_fuerte,0,0
+2026-11-17,Tunuyán,Open-Meteo meteofrance,nieve,0,0
+2026-11-17,San Carlos,Open-Meteo meteofrance,helada,0,0
+2026-11-17,San Carlos,Open-Meteo meteofrance,calor,0,0
+2026-11-17,San Carlos,Open-Meteo meteofrance,lluvia,1,0
+2026-11-17,San Carlos,Open-Meteo meteofrance,lluvia_intensa,0,0
+2026-11-17,San Carlos,Open-Meteo meteofrance,zonda,0,0
+2026-11-17,San Carlos,Open-Meteo meteofrance,viento_fuerte,0,0
+2026-11-17,San Carlos,Open-Meteo meteofrance,nieve,0,0
+2026-11-17,Tupungato,Open-Meteo gfs,helada,0,0
+2026-11-17,Tupungato,Open-Meteo gfs,calor,0,0
+2026-11-17,Tupungato,Open-Meteo gfs,lluvia,1,0
+2026-11-17,Tupungato,Open-Meteo gfs,lluvia_intensa,0,0
+2026-11-17,Tupungato,Open-Meteo gfs,zonda,0,0
+2026-11-17,Tupungato,Open-Meteo gfs,viento_fuerte,0,0
+2026-11-17,Tupungato,Open-Meteo gfs,nieve,0,0
+2026-11-17,Tunuyán,Open-Meteo gfs,helada,0,0
+2026-11-17,Tunuyán,Open-Meteo gfs,calor,0,0
+2026-11-17,Tunuyán,Open-Meteo gfs,lluvia,1,0
+2026-11-17,Tunuyán,Open-Meteo gfs,lluvia_intensa,0,0
+2026-11-17,Tunuyán,Open-Meteo gfs,zonda,0,0
+2026-11-17,Tunuyán,Open-Meteo gfs,viento_fuerte,0,0
+2026-11-17,Tunuyán,Open-Meteo gfs,nieve,0,0
+2026-11-17,San Carlos,Open-Meteo gfs,helada,0,0
+2026-11-17,San Carlos,Open-Meteo gfs,calor,0,0
+2026-11-17,San Carlos,Open-Meteo gfs,lluvia,1,0
+2026-11-17,San Carlos,Open-Meteo gfs,lluvia_intensa,0,0
+2026-11-17,San Carlos,Open-Meteo gfs,zonda,0,0
+2026-11-17,San Carlos,Open-Meteo gfs,viento_fuerte,0,0
+2026-11-17,San Carlos,Open-Meteo gfs,nieve,0,0
+2026-11-17,Tupungato,Open-Meteo jma,helada,0,0
+2026-11-17,Tupungato,Open-Meteo jma,calor,0,0
+2026-11-17,Tupungato,Open-Meteo jma,lluvia,1,0
+2026-11-17,Tupungato,Open-Meteo jma,lluvia_intensa,0,0
+2026-11-17,Tupungato,Open-Meteo jma,zonda,0,0
+2026-11-17,Tupungato,Open-Meteo jma,viento_fuerte,0,0
+2026-11-17,Tupungato,Open-Meteo jma,nieve,0,0
+2026-11-17,Tunuyán,Open-Meteo jma,helada,0,0
+2026-11-17,Tunuyán,Open-Meteo jma,calor,0,0
+2026-11-17,Tunuyán,Open-Meteo jma,lluvia,1,0
+2026-11-17,Tunuyán,Open-Meteo jma,lluvia_intensa,0,0
+2026-11-17,Tunuyán,Open-Meteo jma,zonda,0,0
+2026-11-17,Tunuyán,Open-Meteo jma,viento_fuerte,0,0
+2026-11-17,Tunuyán,Open-Meteo jma,nieve,0,0
+2026-11-17,San Carlos,Open-Meteo jma,helada,0,0
+2026-11-17,San Carlos,Open-Meteo jma,calor,0,0
+2026-11-17,San Carlos,Open-Meteo jma,lluvia,1,0
+2026-11-17,San Carlos,Open-Meteo jma,lluvia_intensa,0,0
+2026-11-17,San Carlos,Open-Meteo jma,zonda,0,0
+2026-11-17,San Carlos,Open-Meteo jma,viento_fuerte,0,0
+2026-11-17,San Carlos,Open-Meteo jma,nieve,0,0
+2026-11-17,Tupungato,Open-Meteo ecmwf_aifs025_single,helada,0,0
+2026-11-17,Tupungato,Open-Meteo ecmwf_aifs025_single,calor,0,0
+2026-11-17,Tupungato,Open-Meteo ecmwf_aifs025_single,lluvia,1,0
+2026-11-17,Tupungato,Open-Meteo ecmwf_aifs025_single,lluvia_intensa,0,0
+2026-11-17,Tupungato,Open-Meteo ecmwf_aifs025_single,zonda,0,0
+2026-11-17,Tupungato,Open-Meteo ecmwf_aifs025_single,viento_fuerte,0,0
+2026-11-17,Tupungato,Open-Meteo ecmwf_aifs025_single,nieve,0,0
+2026-11-17,Tunuyán,Open-Meteo ecmwf_aifs025_single,helada,0,0
+2026-11-17,Tunuyán,Open-Meteo ecmwf_aifs025_single,calor,0,0
+2026-11-17,Tunuyán,Open-Meteo ecmwf_aifs025_single,lluvia,1,0
+2026-11-17,Tunuyán,Open-Meteo ecmwf_aifs025_single,lluvia_intensa,0,0
+2026-11-17,Tunuyán,Open-Meteo ecmwf_aifs025_single,zonda,0,0
+2026-11-17,Tunuyán,Open-Meteo ecmwf_aifs025_single,viento_fuerte,0,0
+2026-11-17,Tunuyán,Open-Meteo ecmwf_aifs025_single,nieve,0,0
+2026-11-17,San Carlos,Open-Meteo ecmwf_aifs025_single,helada,0,0
+2026-11-17,San Carlos,Open-Meteo ecmwf_aifs025_single,calor,0,0
+2026-11-17,San Carlos,Open-Meteo ecmwf_aifs025_single,lluvia,1,0
+2026-11-17,San Carlos,Open-Meteo ecmwf_aifs025_single,lluvia_intensa,0,0
+2026-11-17,San Carlos,Open-Meteo ecmwf_aifs025_single,zonda,0,0
+2026-11-17,San Carlos,Open-Meteo ecmwf_aifs025_single,viento_fuerte,0,0
+2026-11-17,San Carlos,Open-Meteo ecmwf_aifs025_single,nieve,0,0
+2026-11-17,Tupungato,Open-Meteo cma_grapes_global,helada,0,0
+2026-11-17,Tupungato,Open-Meteo cma_grapes_global,calor,0,0
+2026-11-17,Tupungato,Open-Meteo cma_grapes_global,lluvia,1,0
+2026-11-17,Tupungato,Open-Meteo cma_grapes_global,lluvia_intensa,0,0
+2026-11-17,Tupungato,Open-Meteo cma_grapes_global,zonda,0,0
+2026-11-17,Tupungato,Open-Meteo cma_grapes_global,viento_fuerte,0,0
+2026-11-17,Tupungato,Open-Meteo cma_grapes_global,nieve,0,0
+2026-11-17,Tunuyán,Open-Meteo cma_grapes_global,helada,0,0
+2026-11-17,Tunuyán,Open-Meteo cma_grapes_global,calor,0,0
+2026-11-17,Tunuyán,Open-Meteo cma_grapes_global,lluvia,1,0
+2026-11-17,Tunuyán,Open-Meteo cma_grapes_global,lluvia_intensa,0,0
+2026-11-17,Tunuyán,Open-Meteo cma_grapes_global,zonda,0,0
+2026-11-17,Tunuyán,Open-Meteo cma_grapes_global,viento_fuerte,0,0
+2026-11-17,Tunuyán,Open-Meteo cma_grapes_global,nieve,0,0
+2026-11-17,San Carlos,Open-Meteo cma_grapes_global,helada,0,0
+2026-11-17,San Carlos,Open-Meteo cma_grapes_global,calor,0,0
+2026-11-17,San Carlos,Open-Meteo cma_grapes_global,lluvia,1,0
+2026-11-17,San Carlos,Open-Meteo cma_grapes_global,lluvia_intensa,0,0
+2026-11-17,San Carlos,Open-Meteo cma_grapes_global,zonda,0,0
+2026-11-17,San Carlos,Open-Meteo cma_grapes_global,viento_fuerte,0,0
+2026-11-17,San Carlos,Open-Meteo cma_grapes_global,nieve,0,0
+2026-11-17,Tupungato,Open-Meteo ukmo_global_deterministic_10km,helada,0,0
+2026-11-17,Tupungato,Open-Meteo ukmo_global_deterministic_10km,calor,0,0
+2026-11-17,Tupungato,Open-Meteo ukmo_global_deterministic_10km,lluvia,1,0
+2026-11-17,Tupungato,Open-Meteo ukmo_global_deterministic_10km,lluvia_intensa,0,0
+2026-11-17,Tupungato,Open-Meteo ukmo_global_deterministic_10km,zonda,0,0
+2026-11-17,Tupungato,Open-Meteo ukmo_global_deterministic_10km,viento_fuerte,0,0
+2026-11-17,Tupungato,Open-Meteo ukmo_global_deterministic_10km,nieve,0,0
+2026-11-17,Tunuyán,Open-Meteo ukmo_global_deterministic_10km,helada,0,0
+2026-11-17,Tunuyán,Open-Meteo ukmo_global_deterministic_10km,calor,0,0
+2026-11-17,Tunuyán,Open-Meteo ukmo_global_deterministic_10km,lluvia,1,0
+2026-11-17,Tunuyán,Open-Meteo ukmo_global_deterministic_10km,lluvia_intensa,0,0
+2026-11-17,Tunuyán,Open-Meteo ukmo_global_deterministic_10km,zonda,0,0
+2026-11-17,Tunuyán,Open-Meteo ukmo_global_deterministic_10km,viento_fuerte,0,0
+2026-11-17,Tunuyán,Open-Meteo ukmo_global_deterministic_10km,nieve,0,0
+2026-11-17,San Carlos,Open-Meteo ukmo_global_deterministic_10km,helada,0,0
+2026-11-17,San Carlos,Open-Meteo ukmo_global_deterministic_10km,calor,0,0
+2026-11-17,San Carlos,Open-Meteo ukmo_global_deterministic_10km,lluvia,1,0
+2026-11-17,San Carlos,Open-Meteo ukmo_global_deterministic_10km,lluvia_intensa,0,0
+2026-11-17,San Carlos,Open-Meteo ukmo_global_deterministic_10km,zonda,0,0
+2026-11-17,San Carlos,Open-Meteo ukmo_global_deterministic_10km,viento_fuerte,0,0
+2026-11-17,San Carlos,Open-Meteo ukmo_global_deterministic_10km,nieve,0,0
+2026-11-17,Tupungato,Open-Meteo knmi,helada,0,0
+2026-11-17,Tupungato,Open-Meteo knmi,calor,0,0
+2026-11-17,Tupungato,Open-Meteo knmi,lluvia,1,0
+2026-11-17,Tupungato,Open-Meteo knmi,lluvia_intensa,0,0
+2026-11-17,Tupungato,Open-Meteo knmi,zonda,0,0
+2026-11-17,Tupungato,Open-Meteo knmi,viento_fuerte,0,0
+2026-11-17,Tupungato,Open-Meteo knmi,nieve,0,0
+2026-11-17,Tunuyán,Open-Meteo knmi,helada,0,0
+2026-11-17,Tunuyán,Open-Meteo knmi,calor,0,0
+2026-11-17,Tunuyán,Open-Meteo knmi,lluvia,1,0
+2026-11-17,Tunuyán,Open-Meteo knmi,lluvia_intensa,0,0
+2026-11-17,Tunuyán,Open-Meteo knmi,zonda,0,0
+2026-11-17,Tunuyán,Open-Meteo knmi,viento_fuerte,0,0
+2026-11-17,Tunuyán,Open-Meteo knmi,nieve,0,0
+2026-11-17,San Carlos,Open-Meteo knmi,helada,0,0
+2026-11-17,San Carlos,Open-Meteo knmi,calor,0,0
+2026-11-17,San Carlos,Open-Meteo knmi,lluvia,1,0
+2026-11-17,San Carlos,Open-Meteo knmi,lluvia_intensa,0,0
+2026-11-17,San Carlos,Open-Meteo knmi,zonda,0,0
+2026-11-17,San Carlos,Open-Meteo knmi,viento_fuerte,0,0
+2026-11-17,San Carlos,Open-Meteo knmi,nieve,0,0
+2026-11-17,Tupungato,Open-Meteo dmi,helada,0,0
+2026-11-17,Tupungato,Open-Meteo dmi,calor,0,0
+2026-11-17,Tupungato,Open-Meteo dmi,lluvia,1,0
+2026-11-17,Tupungato,Open-Meteo dmi,lluvia_intensa,0,0
+2026-11-17,Tupungato,Open-Meteo dmi,zonda,0,0
+2026-11-17,Tupungato,Open-Meteo dmi,viento_fuerte,0,0
+2026-11-17,Tupungato,Open-Meteo dmi,nieve,0,0
+2026-11-17,Tunuyán,Open-Meteo dmi,helada,0,0
+2026-11-17,Tunuyán,Open-Meteo dmi,calor,0,0
+2026-11-17,Tunuyán,Open-Meteo dmi,lluvia,1,0
+2026-11-17,Tunuyán,Open-Meteo dmi,lluvia_intensa,0,0
+2026-11-17,Tunuyán,Open-Meteo dmi,zonda,0,0
+2026-11-17,Tunuyán,Open-Meteo dmi,viento_fuerte,0,0
+2026-11-17,Tunuyán,Open-Meteo dmi,nieve,0,0
+2026-11-17,San Carlos,Open-Meteo dmi,helada,0,0
+2026-11-17,San Carlos,Open-Meteo dmi,calor,0,0
+2026-11-17,San Carlos,Open-Meteo dmi,lluvia,1,0
+2026-11-17,San Carlos,Open-Meteo dmi,lluvia_intensa,0,0
+2026-11-17,San Carlos,Open-Meteo dmi,zonda,0,0
+2026-11-17,San Carlos,Open-Meteo dmi,viento_fuerte,0,0
+2026-11-17,San Carlos,Open-Meteo dmi,nieve,0,0
+2026-11-17,Tupungato,Open-Meteo metno,helada,0,0
+2026-11-17,Tupungato,Open-Meteo metno,calor,0,0
+2026-11-17,Tupungato,Open-Meteo metno,lluvia,1,0
+2026-11-17,Tupungato,Open-Meteo metno,lluvia_intensa,0,0
+2026-11-17,Tupungato,Open-Meteo metno,zonda,0,0
+2026-11-17,Tupungato,Open-Meteo metno,viento_fuerte,0,0
+2026-11-17,Tupungato,Open-Meteo metno,nieve,0,0
+2026-11-17,Tunuyán,Open-Meteo metno,helada,0,0
+2026-11-17,Tunuyán,Open-Meteo metno,calor,0,0
+2026-11-17,Tunuyán,Open-Meteo metno,lluvia,1,0
+2026-11-17,Tunuyán,Open-Meteo metno,lluvia_intensa,0,0
+2026-11-17,Tunuyán,Open-Meteo metno,zonda,0,0
+2026-11-17,Tunuyán,Open-Meteo metno,viento_fuerte,0,0
+2026-11-17,Tunuyán,Open-Meteo metno,nieve,0,0
+2026-11-17,San Carlos,Open-Meteo metno,helada,0,0
+2026-11-17,San Carlos,Open-Meteo metno,calor,0,0
+2026-11-17,San Carlos,Open-Meteo metno,lluvia,1,0
+2026-11-17,San Carlos,Open-Meteo metno,lluvia_intensa,0,0
+2026-11-17,San Carlos,Open-Meteo metno,zonda,0,0
+2026-11-17,San Carlos,Open-Meteo metno,viento_fuerte,0,0
+2026-11-17,San Carlos,Open-Meteo metno,nieve,0,0
+2026-11-17,Tupungato,Tiempo Campero,helada,0,0
+2026-11-17,Tupungato,Tiempo Campero,calor,0,0
+2026-11-17,Tupungato,Tiempo Campero,lluvia,0,0
+2026-11-17,Tupungato,Tiempo Campero,lluvia_intensa,0,0
+2026-11-17,Tupungato,Tiempo Campero,zonda,0,0
+2026-11-17,Tupungato,Tiempo Campero,viento_fuerte,0,0
+2026-11-17,Tupungato,Tiempo Campero,nieve,0,0
+2026-11-17,Tunuyán,Tiempo Campero,helada,0,0
+2026-11-17,Tunuyán,Tiempo Campero,calor,0,0
+2026-11-17,Tunuyán,Tiempo Campero,lluvia,0,0
+2026-11-17,Tunuyán,Tiempo Campero,lluvia_intensa,0,0
+2026-11-17,Tunuyán,Tiempo Campero,zonda,0,0
+2026-11-17,Tunuyán,Tiempo Campero,viento_fuerte,0,0
+2026-11-17,Tunuyán,Tiempo Campero,nieve,0,0
+2026-11-17,San Carlos,Tiempo Campero,helada,0,0
+2026-11-17,San Carlos,Tiempo Campero,calor,0,0
+2026-11-17,San Carlos,Tiempo Campero,lluvia,0,0
+2026-11-17,San Carlos,Tiempo Campero,lluvia_intensa,0,0
+2026-11-17,San Carlos,Tiempo Campero,zonda,0,0
+2026-11-17,San Carlos,Tiempo Campero,viento_fuerte,0,0
+2026-11-17,San Carlos,Tiempo Campero,nieve,0,0
+2026-11-17,Tupungato,MET Norway,helada,0,0
+2026-11-17,Tupungato,MET Norway,calor,0,0
+2026-11-17,Tupungato,MET Norway,lluvia,1,0
+2026-11-17,Tupungato,MET Norway,lluvia_intensa,0,0
+2026-11-17,Tupungato,MET Norway,zonda,0,0
+2026-11-17,Tupungato,MET Norway,viento_fuerte,0,0
+2026-11-17,Tupungato,MET Norway,nieve,0,0
+2026-11-17,Tunuyán,MET Norway,helada,0,0
+2026-11-17,Tunuyán,MET Norway,calor,0,0
+2026-11-17,Tunuyán,MET Norway,lluvia,1,0
+2026-11-17,Tunuyán,MET Norway,lluvia_intensa,0,0
+2026-11-17,Tunuyán,MET Norway,zonda,0,0
+2026-11-17,Tunuyán,MET Norway,viento_fuerte,0,0
+2026-11-17,Tunuyán,MET Norway,nieve,0,0
+2026-11-17,San Carlos,MET Norway,helada,0,0
+2026-11-17,San Carlos,MET Norway,calor,0,0
+2026-11-17,San Carlos,MET Norway,lluvia,1,0
+2026-11-17,San Carlos,MET Norway,lluvia_intensa,0,0
+2026-11-17,San Carlos,MET Norway,zonda,0,0
+2026-11-17,San Carlos,MET Norway,viento_fuerte,0,0
+2026-11-17,San Carlos,MET Norway,nieve,0,0
+2026-11-17,Tupungato,SMN (WRF),helada,0,0
+2026-11-17,Tupungato,SMN (WRF),calor,0,0
+2026-11-17,Tupungato,SMN (WRF),lluvia,1,0
+2026-11-17,Tupungato,SMN (WRF),lluvia_intensa,0,0
+2026-11-17,Tupungato,SMN (WRF),zonda,1,0
+2026-11-17,Tupungato,SMN (WRF),viento_fuerte,0,0
+2026-11-17,Tupungato,SMN (WRF),nieve,0,0
+2026-11-17,Tunuyán,SMN (WRF),helada,0,0
+2026-11-17,Tunuyán,SMN (WRF),calor,0,0
+2026-11-17,Tunuyán,SMN (WRF),lluvia,1,0
+2026-11-17,Tunuyán,SMN (WRF),lluvia_intensa,0,0
+2026-11-17,Tunuyán,SMN (WRF),zonda,0,0
+2026-11-17,Tunuyán,SMN (WRF),viento_fuerte,0,0
+2026-11-17,Tunuyán,SMN (WRF),nieve,0,0
+2026-11-17,San Carlos,SMN (WRF),helada,0,0
+2026-11-17,San Carlos,SMN (WRF),calor,0,0
+2026-11-17,San Carlos,SMN (WRF),lluvia,0,0
+2026-11-17,San Carlos,SMN (WRF),lluvia_intensa,0,0
+2026-11-17,San Carlos,SMN (WRF),zonda,1,0
+2026-11-17,San Carlos,SMN (WRF),viento_fuerte,0,0
+2026-11-17,San Carlos,SMN (WRF),nieve,0,0
+2026-11-16,Tupungato,Open-Meteo gem,helada,0,0
+2026-11-16,Tupungato,Open-Meteo gem,calor,0,0
+2026-11-16,Tupungato,Open-Meteo gem,lluvia,1,1
+2026-11-16,Tupungato,Open-Meteo gem,lluvia_intensa,0,0
+2026-11-16,Tupungato,Open-Meteo gem,zonda,0,1
+2026-11-16,Tupungato,Open-Meteo gem,viento_fuerte,0,0
+2026-11-16,Tupungato,Open-Meteo gem,nieve,0,0
+2026-11-16,Tunuyán,Open-Meteo gem,helada,0,0
+2026-11-16,Tunuyán,Open-Meteo gem,calor,0,0
+2026-11-16,Tunuyán,Open-Meteo gem,lluvia,1,0
+2026-11-16,Tunuyán,Open-Meteo gem,lluvia_intensa,0,0
+2026-11-16,Tunuyán,Open-Meteo gem,zonda,0,0
+2026-11-16,Tunuyán,Open-Meteo gem,viento_fuerte,0,1
+2026-11-16,Tunuyán,Open-Meteo gem,nieve,0,0
+2026-11-16,San Carlos,Open-Meteo gem,helada,0,0
+2026-11-16,San Carlos,Open-Meteo gem,calor,0,0
+2026-11-16,San Carlos,Open-Meteo gem,lluvia,1,1
+2026-11-16,San Carlos,Open-Meteo gem,lluvia_intensa,0,0
+2026-11-16,San Carlos,Open-Meteo gem,zonda,0,0
+2026-11-16,San Carlos,Open-Meteo gem,viento_fuerte,0,1
+2026-11-16,San Carlos,Open-Meteo gem,nieve,0,0
+2026-11-16,Tupungato,Open-Meteo icon,helada,0,0
+2026-11-16,Tupungato,Open-Meteo icon,calor,0,0
+2026-11-16,Tupungato,Open-Meteo icon,lluvia,1,1
+2026-11-16,Tupungato,Open-Meteo icon,lluvia_intensa,0,0
+2026-11-16,Tupungato,Open-Meteo icon,zonda,0,1
+2026-11-16,Tupungato,Open-Meteo icon,viento_fuerte,0,0
+2026-11-16,Tupungato,Open-Meteo icon,nieve,0,0
+2026-11-16,Tunuyán,Open-Meteo icon,helada,0,0
+2026-11-16,Tunuyán,Open-Meteo icon,calor,0,0
+2026-11-16,Tunuyán,Open-Meteo icon,lluvia,1,0
+2026-11-16,Tunuyán,Open-Meteo icon,lluvia_intensa,0,0
+2026-11-16,Tunuyán,Open-Meteo icon,zonda,0,0
+2026-11-16,Tunuyán,Open-Meteo icon,viento_fuerte,0,1
+2026-11-16,Tunuyán,Open-Meteo icon,nieve,0,0
+2026-11-16,San Carlos,Open-Meteo icon,helada,0,0
+2026-11-16,San Carlos,Open-Meteo icon,calor,0,0
+2026-11-16,San Carlos,Open-Meteo icon,lluvia,1,1
+2026-11-16,San Carlos,Open-Meteo icon,lluvia_intensa,0,0
+2026-11-16,San Carlos,Open-Meteo icon,zonda,0,0
+2026-11-16,San Carlos,Open-Meteo icon,viento_fuerte,0,1
+2026-11-16,San Carlos,Open-Meteo icon,nieve,0,0
+2026-11-16,Tupungato,Open-Meteo ukmo,helada,0,0
+2026-11-16,Tupungato,Open-Meteo ukmo,calor,0,0
+2026-11-16,Tupungato,Open-Meteo ukmo,lluvia,1,1
+2026-11-16,Tupungato,Open-Meteo ukmo,lluvia_intensa,0,0
+2026-11-16,Tupungato,Open-Meteo ukmo,zonda,0,1
+2026-11-16,Tupungato,Open-Meteo ukmo,viento_fuerte,0,0
+2026-11-16,Tupungato,Open-Meteo ukmo,nieve,0,0
+2026-11-16,Tunuyán,Open-Meteo ukmo,helada,0,0
+2026-11-16,Tunuyán,Open-Meteo ukmo,calor,0,0
+2026-11-16,Tunuyán,Open-Meteo ukmo,lluvia,1,0
+2026-11-16,Tunuyán,Open-Meteo ukmo,lluvia_intensa,0,0
+2026-11-16,Tunuyán,Open-Meteo ukmo,zonda,0,0
+2026-11-16,Tunuyán,Open-Meteo ukmo,viento_fuerte,0,1
+2026-11-16,Tunuyán,Open-Meteo ukmo,nieve,0,0
+2026-11-16,San Carlos,Open-Meteo ukmo,helada,0,0
+2026-11-16,San Carlos,Open-Meteo ukmo,calor,0,0
+2026-11-16,San Carlos,Open-Meteo ukmo,lluvia,1,1
+2026-11-16,San Carlos,Open-Meteo ukmo,lluvia_intensa,0,0
+2026-11-16,San Carlos,Open-Meteo ukmo,zonda,0,0
+2026-11-16,San Carlos,Open-Meteo ukmo,viento_fuerte,0,1
+2026-11-16,San Carlos,Open-Meteo ukmo,nieve,0,0
+2026-11-16,Tupungato,Open-Meteo ecmwf_ifs025,helada,0,0
+2026-11-16,Tupungato,Open-Meteo ecmwf_ifs025,calor,0,0
+2026-11-16,Tupungato,Open-Meteo ecmwf_ifs025,lluvia,1,1
+2026-11-16,Tupungato,Open-Meteo ecmwf_ifs025,lluvia_intensa,0,0
+2026-11-16,Tupungato,Open-Meteo ecmwf_ifs025,zonda,0,1
+2026-11-16,Tupungato,Open-Meteo ecmwf_ifs025,viento_fuerte,0,0
+2026-11-16,Tupungato,Open-Meteo ecmwf_ifs025,nieve,0,0
+2026-11-16,Tunuyán,Open-Meteo ecmwf_ifs025,helada,0,0
+2026-11-16,Tunuyán,Open-Meteo ecmwf_ifs025,calor,0,0
+2026-11-16,Tunuyán,Open-Meteo ecmwf_ifs025,lluvia,1,0
+2026-11-16,Tunuyán,Open-Meteo ecmwf_ifs025,lluvia_intensa,0,0
+2026-11-16,Tunuyán,Open-Meteo ecmwf_ifs025,zonda,0,0
+2026-11-16,Tunuyán,Open-Meteo ecmwf_ifs025,viento_fuerte,0,1
+2026-11-16,Tunuyán,Open-Meteo ecmwf_ifs025,nieve,0,0
+2026-11-16,San Carlos,Open-Meteo ecmwf_ifs025,helada,0,0
+2026-11-16,San Carlos,Open-Meteo ecmwf_ifs025,calor,0,0
+2026-11-16,San Carlos,Open-Meteo ecmwf_ifs025,lluvia,1,1
+2026-11-16,San Carlos,Open-Meteo ecmwf_ifs025,lluvia_intensa,1,0
+2026-11-16,San Carlos,Open-Meteo ecmwf_ifs025,zonda,0,0
+2026-11-16,San Carlos,Open-Meteo ecmwf_ifs025,viento_fuerte,0,1
+2026-11-16,San Carlos,Open-Meteo ecmwf_ifs025,nieve,0,0
+2026-11-16,Tupungato,Open-Meteo meteofrance,helada,0,0
+2026-11-16,Tupungato,Open-Meteo meteofrance,calor,0,0
+2026-11-16,Tupungato,Open-Meteo meteofrance,lluvia,1,1
+2026-11-16,Tupungato,Open-Meteo meteofrance,lluvia_intensa,0,0
+2026-11-16,Tupungato,Open-Meteo meteofrance,zonda,0,1
+2026-11-16,Tupungato,Open-Meteo meteofrance,viento_fuerte,0,0
+2026-11-16,Tupungato,Open-Meteo meteofrance,nieve,0,0
+2026-11-16,Tunuyán,Open-Meteo meteofrance,helada,0,0
+2026-11-16,Tunuyán,Open-Meteo meteofrance,calor,0,0
+2026-11-16,Tunuyán,Open-Meteo meteofrance,lluvia,1,0
+2026-11-16,Tunuyán,Open-Meteo meteofrance,lluvia_intensa,0,0
+2026-11-16,Tunuyán,Open-Meteo meteofrance,zonda,0,0
+2026-11-16,Tunuyán,Open-Meteo meteofrance,viento_fuerte,0,1
+2026-11-16,Tunuyán,Open-Meteo meteofrance,nieve,0,0
+2026-11-16,San Carlos,Open-Meteo meteofrance,helada,0,0
+2026-11-16,San Carlos,Open-Meteo meteofrance,calor,0,0
+2026-11-16,San Carlos,Open-Meteo meteofrance,lluvia,1,1
+2026-11-16,San Carlos,Open-Meteo meteofrance,lluvia_intensa,0,0
+2026-11-16,San Carlos,Open-Meteo meteofrance,zonda,0,0
+2026-11-16,San Carlos,Open-Meteo meteofrance,viento_fuerte,0,1
+2026-11-16,San Carlos,Open-Meteo meteofrance,nieve,0,0
+2026-11-16,Tupungato,Open-Meteo gfs,helada,0,0
+2026-11-16,Tupungato,Open-Meteo gfs,calor,0,0
+2026-11-16,Tupungato,Open-Meteo gfs,lluvia,1,1
+2026-11-16,Tupungato,Open-Meteo gfs,lluvia_intensa,0,0
+2026-11-16,Tupungato,Open-Meteo gfs,zonda,0,1
+2026-11-16,Tupungato,Open-Meteo gfs,viento_fuerte,0,0
+2026-11-16,Tupungato,Open-Meteo gfs,nieve,0,0
+2026-11-16,Tunuyán,Open-Meteo gfs,helada,0,0
+2026-11-16,Tunuyán,Open-Meteo gfs,calor,0,0
+2026-11-16,Tunuyán,Open-Meteo gfs,lluvia,1,0
+2026-11-16,Tunuyán,Open-Meteo gfs,lluvia_intensa,0,0
+2026-11-16,Tunuyán,Open-Meteo gfs,zonda,0,0
+2026-11-16,Tunuyán,Open-Meteo gfs,viento_fuerte,0,1
+2026-11-16,Tunuyán,Open-Meteo gfs,nieve,0,0
+2026-11-16,San Carlos,Open-Meteo gfs,helada,0,0
+2026-11-16,San Carlos,Open-Meteo gfs,calor,0,0
+2026-11-16,San Carlos,Open-Meteo gfs,lluvia,1,1
+2026-11-16,San Carlos,Open-Meteo gfs,lluvia_intensa,0,0
+2026-11-16,San Carlos,Open-Meteo gfs,zonda,0,0
+2026-11-16,San Carlos,Open-Meteo gfs,viento_fuerte,0,1
+2026-11-16,San Carlos,Open-Meteo gfs,nieve,0,0
+2026-11-16,Tupungato,Open-Meteo jma,helada,0,0
+2026-11-16,Tupungato,Open-Meteo jma,calor,0,0
+2026-11-16,Tupungato,Open-Meteo jma,lluvia,1,1
+2026-11-16,Tupungato,Open-Meteo jma,lluvia_intensa,0,0
+2026-11-16,Tupungato,Open-Meteo jma,zonda,0,1
+2026-11-16,Tupungato,Open-Meteo jma,viento_fuerte,0,0
+2026-11-16,Tupungato,Open-Meteo jma,nieve,0,0
+2026-11-16,Tunuyán,Open-Meteo jma,helada,0,0
+2026-11-16,Tunuyán,Open-Meteo jma,calor,0,0
+2026-11-16,Tunuyán,Open-Meteo jma,lluvia,1,0
+2026-11-16,Tunuyán,Open-Meteo jma,lluvia_intensa,0,0
+2026-11-16,Tunuyán,Open-Meteo jma,zonda,0,0
+2026-11-16,Tunuyán,Open-Meteo jma,viento_fuerte,0,1
+2026-11-16,Tunuyán,Open-Meteo jma,nieve,0,0
+2026-11-16,San Carlos,Open-Meteo jma,helada,0,0
+2026-11-16,San Carlos,Open-Meteo jma,calor,0,0
+2026-11-16,San Carlos,Open-Meteo jma,lluvia,1,1
+2026-11-16,San Carlos,Open-Meteo jma,lluvia_intensa,0,0
+2026-11-16,San Carlos,Open-Meteo jma,zonda,0,0
+2026-11-16,San Carlos,Open-Meteo jma,viento_fuerte,0,1
+2026-11-16,San Carlos,Open-Meteo jma,nieve,0,0
+2026-11-16,Tupungato,Open-Meteo ecmwf_aifs025_single,helada,0,0
+2026-11-16,Tupungato,Open-Meteo ecmwf_aifs025_single,calor,0,0
+2026-11-16,Tupungato,Open-Meteo ecmwf_aifs025_single,lluvia,1,1
+2026-11-16,Tupungato,Open-Meteo ecmwf_aifs025_single,lluvia_intensa,0,0
+2026-11-16,Tupungato,Open-Meteo ecmwf_aifs025_single,zonda,0,1
+2026-11-16,Tupungato,Open-Meteo ecmwf_aifs025_single,viento_fuerte,0,0
+2026-11-16,Tupungato,Open-Meteo ecmwf_aifs025_single,nieve,0,0
+2026-11-16,Tunuyán,Open-Meteo ecmwf_aifs025_single,helada,0,0
+2026-11-16,Tunuyán,Open-Meteo ecmwf_aifs025_single,calor,0,0
+2026-11-16,Tunuyán,Open-Meteo ecmwf_aifs025_single,lluvia,1,0
+2026-11-16,Tunuyán,Open-Meteo ecmwf_aifs025_single,lluvia_intensa,0,0
+2026-11-16,Tunuyán,Open-Meteo ecmwf_aifs025_single,zonda,0,0
+2026-11-16,Tunuyán,Open-Meteo ecmwf_aifs025_single,viento_fuerte,0,1
+2026-11-16,Tunuyán,Open-Meteo ecmwf_aifs025_single,nieve,0,0
+2026-11-16,San Carlos,Open-Meteo ecmwf_aifs025_single,helada,0,0
+2026-11-16,San Carlos,Open-Meteo ecmwf_aifs025_single,calor,0,0
+2026-11-16,San Carlos,Open-Meteo ecmwf_aifs025_single,lluvia,1,1
+2026-11-16,San Carlos,Open-Meteo ecmwf_aifs025_single,lluvia_intensa,0,0
+2026-11-16,San Carlos,Open-Meteo ecmwf_aifs025_single,zonda,0,0
+2026-11-16,San Carlos,Open-Meteo ecmwf_aifs025_single,viento_fuerte,0,1
+2026-11-16,San Carlos,Open-Meteo ecmwf_aifs025_single,nieve,0,0
+2026-11-16,Tupungato,Open-Meteo cma_grapes_global,helada,0,0
+2026-11-16,Tupungato,Open-Meteo cma_grapes_global,calor,0,0
+2026-11-16,Tupungato,Open-Meteo cma_grapes_global,lluvia,1,1
+2026-11-16,Tupungato,Open-Meteo cma_grapes_global,lluvia_intensa,0,0
+2026-11-16,Tupungato,Open-Meteo cma_grapes_global,zonda,0,1
+2026-11-16,Tupungato,Open-Meteo cma_grapes_global,viento_fuerte,0,0
+2026-11-16,Tupungato,Open-Meteo cma_grapes_global,nieve,0,0
+2026-11-16,Tunuyán,Open-Meteo cma_grapes_global,helada,0,0
+2026-11-16,Tunuyán,Open-Meteo cma_grapes_global,calor,0,0
+2026-11-16,Tunuyán,Open-Meteo cma_grapes_global,lluvia,1,0
+2026-11-16,Tunuyán,Open-Meteo cma_grapes_global,lluvia_intensa,0,0
+2026-11-16,Tunuyán,Open-Meteo cma_grapes_global,zonda,0,0
+2026-11-16,Tunuyán,Open-Meteo cma_grapes_global,viento_fuerte,0,1
+2026-11-16,Tunuyán,Open-Meteo cma_grapes_global,nieve,0,0
+2026-11-16,San Carlos,Open-Meteo cma_grapes_global,helada,0,0
+2026-11-16,San Carlos,Open-Meteo cma_grapes_global,calor,0,0
+2026-11-16,San Carlos,Open-Meteo cma_grapes_global,lluvia,1,1
+2026-11-16,San Carlos,Open-Meteo cma_grapes_global,lluvia_intensa,0,0
+2026-11-16,San Carlos,Open-Meteo cma_grapes_global,zonda,0,0
+2026-11-16,San Carlos,Open-Meteo cma_grapes_global,viento_fuerte,0,1
+2026-11-16,San Carlos,Open-Meteo cma_grapes_global,nieve,0,0
+2026-11-16,Tupungato,Open-Meteo ukmo_global_deterministic_10km,helada,0,0
+2026-11-16,Tupungato,Open-Meteo ukmo_global_deterministic_10km,calor,0,0
+2026-11-16,Tupungato,Open-Meteo ukmo_global_deterministic_10km,lluvia,1,1
+2026-11-16,Tupungato,Open-Meteo ukmo_global_deterministic_10km,lluvia_intensa,0,0
+2026-11-16,Tupungato,Open-Meteo ukmo_global_deterministic_10km,zonda,0,1
+2026-11-16,Tupungato,Open-Meteo ukmo_global_deterministic_10km,viento_fuerte,0,0
+2026-11-16,Tupungato,Open-Meteo ukmo_global_deterministic_10km,nieve,0,0
+2026-11-16,Tunuyán,Open-Meteo ukmo_global_deterministic_10km,helada,0,0
+2026-11-16,Tunuyán,Open-Meteo ukmo_global_deterministic_10km,calor,0,0
+2026-11-16,Tunuyán,Open-Meteo ukmo_global_deterministic_10km,lluvia,1,0
+2026-11-16,Tunuyán,Open-Meteo ukmo_global_deterministic_10km,lluvia_intensa,0,0
+2026-11-16,Tunuyán,Open-Meteo ukmo_global_deterministic_10km,zonda,0,0
+2026-11-16,Tunuyán,Open-Meteo ukmo_global_deterministic_10km,viento_fuerte,0,1
+2026-11-16,Tunuyán,Open-Meteo ukmo_global_deterministic_10km,nieve,0,0
+2026-11-16,San Carlos,Open-Meteo ukmo_global_deterministic_10km,helada,0,0
+2026-11-16,San Carlos,Open-Meteo ukmo_global_deterministic_10km,calor,0,0
+2026-11-16,San Carlos,Open-Meteo ukmo_global_deterministic_10km,lluvia,1,1
+2026-11-16,San Carlos,Open-Meteo ukmo_global_deterministic_10km,lluvia_intensa,0,0
+2026-11-16,San Carlos,Open-Meteo ukmo_global_deterministic_10km,zonda,0,0
+2026-11-16,San Carlos,Open-Meteo ukmo_global_deterministic_10km,viento_fuerte,0,1
+2026-11-16,San Carlos,Open-Meteo ukmo_global_deterministic_10km,nieve,0,0
+2026-11-16,Tupungato,Open-Meteo knmi,helada,0,0
+2026-11-16,Tupungato,Open-Meteo knmi,calor,0,0
+2026-11-16,Tupungato,Open-Meteo knmi,lluvia,1,1
+2026-11-16,Tupungato,Open-Meteo knmi,lluvia_intensa,0,0
+2026-11-16,Tupungato,Open-Meteo knmi,zonda,0,1
+2026-11-16,Tupungato,Open-Meteo knmi,viento_fuerte,0,0
+2026-11-16,Tupungato,Open-Meteo knmi,nieve,0,0
+2026-11-16,Tunuyán,Open-Meteo knmi,helada,0,0
+2026-11-16,Tunuyán,Open-Meteo knmi,calor,0,0
+2026-11-16,Tunuyán,Open-Meteo knmi,lluvia,1,0
+2026-11-16,Tunuyán,Open-Meteo knmi,lluvia_intensa,0,0
+2026-11-16,Tunuyán,Open-Meteo knmi,zonda,0,0
+2026-11-16,Tunuyán,Open-Meteo knmi,viento_fuerte,0,1
+2026-11-16,Tunuyán,Open-Meteo knmi,nieve,0,0
+2026-11-16,San Carlos,Open-Meteo knmi,helada,0,0
+2026-11-16,San Carlos,Open-Meteo knmi,calor,0,0
+2026-11-16,San Carlos,Open-Meteo knmi,lluvia,1,1
+2026-11-16,San Carlos,Open-Meteo knmi,lluvia_intensa,0,0
+2026-11-16,San Carlos,Open-Meteo knmi,zonda,0,0
+2026-11-16,San Carlos,Open-Meteo knmi,viento_fuerte,0,1
+2026-11-16,San Carlos,Open-Meteo knmi,nieve,0,0
+2026-11-16,Tupungato,Open-Meteo dmi,helada,0,0
+2026-11-16,Tupungato,Open-Meteo dmi,calor,0,0
+2026-11-16,Tupungato,Open-Meteo dmi,lluvia,1,1
+2026-11-16,Tupungato,Open-Meteo dmi,lluvia_intensa,0,0
+2026-11-16,Tupungato,Open-Meteo dmi,zonda,0,1
+2026-11-16,Tupungato,Open-Meteo dmi,viento_fuerte,0,0
+2026-11-16,Tupungato,Open-Meteo dmi,nieve,0,0
+2026-11-16,Tunuyán,Open-Meteo dmi,helada,0,0
+2026-11-16,Tunuyán,Open-Meteo dmi,calor,0,0
+2026-11-16,Tunuyán,Open-Meteo dmi,lluvia,1,0
+2026-11-16,Tunuyán,Open-Meteo dmi,lluvia_intensa,0,0
+2026-11-16,Tunuyán,Open-Meteo dmi,zonda,0,0
+2026-11-16,Tunuyán,Open-Meteo dmi,viento_fuerte,0,1
+2026-11-16,Tunuyán,Open-Meteo dmi,nieve,0,0
+2026-11-16,San Carlos,Open-Meteo dmi,helada,0,0
+2026-11-16,San Carlos,Open-Meteo dmi,calor,0,0
+2026-11-16,San Carlos,Open-Meteo dmi,lluvia,1,1
+2026-11-16,San Carlos,Open-Meteo dmi,lluvia_intensa,0,0
+2026-11-16,San Carlos,Open-Meteo dmi,zonda,0,0
+2026-11-16,San Carlos,Open-Meteo dmi,viento_fuerte,0,1
+2026-11-16,San Carlos,Open-Meteo dmi,nieve,0,0
+2026-11-16,Tupungato,Open-Meteo metno,helada,0,0
+2026-11-16,Tupungato,Open-Meteo metno,calor,0,0
+2026-11-16,Tupungato,Open-Meteo metno,lluvia,1,1
+2026-11-16,Tupungato,Open-Meteo metno,lluvia_intensa,0,0
+2026-11-16,Tupungato,Open-Meteo metno,zonda,0,1
+2026-11-16,Tupungato,Open-Meteo metno,viento_fuerte,0,0
+2026-11-16,Tupungato,Open-Meteo metno,nieve,0,0
+2026-11-16,Tunuyán,Open-Meteo metno,helada,0,0
+2026-11-16,Tunuyán,Open-Meteo metno,calor,0,0
+2026-11-16,Tunuyán,Open-Meteo metno,lluvia,1,0
+2026-11-16,Tunuyán,Open-Meteo metno,lluvia_intensa,0,0
+2026-11-16,Tunuyán,Open-Meteo metno,zonda,0,0
+2026-11-16,Tunuyán,Open-Meteo metno,viento_fuerte,0,1
+2026-11-16,Tunuyán,Open-Meteo metno,nieve,0,0
+2026-11-16,San Carlos,Open-Meteo metno,helada,0,0
+2026-11-16,San Carlos,Open-Meteo metno,calor,0,0
+2026-11-16,San Carlos,Open-Meteo metno,lluvia,1,1
+2026-11-16,San Carlos,Open-Meteo metno,lluvia_intensa,0,0
+2026-11-16,San Carlos,Open-Meteo metno,zonda,0,0
+2026-11-16,San Carlos,Open-Meteo metno,viento_fuerte,0,1
+2026-11-16,San Carlos,Open-Meteo metno,nieve,0,0
+2026-11-16,Tupungato,Tiempo Campero,helada,0,0
+2026-11-16,Tupungato,Tiempo Campero,calor,0,0
+2026-11-16,Tupungato,Tiempo Campero,lluvia,1,1
+2026-11-16,Tupungato,Tiempo Campero,lluvia_intensa,0,0
+2026-11-16,Tupungato,Tiempo Campero,zonda,0,1
+2026-11-16,Tupungato,Tiempo Campero,viento_fuerte,0,0
+2026-11-16,Tupungato,Tiempo Campero,nieve,0,0
+2026-11-16,Tunuyán,Tiempo Campero,helada,0,0
+2026-11-16,Tunuyán,Tiempo Campero,calor,0,0
+2026-11-16,Tunuyán,Tiempo Campero,lluvia,1,0
+2026-11-16,Tunuyán,Tiempo Campero,lluvia_intensa,1,0
+2026-11-16,Tunuyán,Tiempo Campero,zonda,0,0
+2026-11-16,Tunuyán,Tiempo Campero,viento_fuerte,0,1
+2026-11-16,Tunuyán,Tiempo Campero,nieve,0,0
+2026-11-16,San Carlos,Tiempo Campero,helada,0,0
+2026-11-16,San Carlos,Tiempo Campero,calor,0,0
+2026-11-16,San Carlos,Tiempo Campero,lluvia,1,1
+2026-11-16,San Carlos,Tiempo Campero,lluvia_intensa,1,0
+2026-11-16,San Carlos,Tiempo Campero,zonda,0,0
+2026-11-16,San Carlos,Tiempo Campero,viento_fuerte,0,1
+2026-11-16,San Carlos,Tiempo Campero,nieve,0,0
+2026-11-16,Tupungato,MET Norway,helada,0,0
+2026-11-16,Tupungato,MET Norway,calor,0,0
+2026-11-16,Tupungato,MET Norway,lluvia,1,1
+2026-11-16,Tupungato,MET Norway,lluvia_intensa,0,0
+2026-11-16,Tupungato,MET Norway,zonda,0,1
+2026-11-16,Tupungato,MET Norway,viento_fuerte,0,0
+2026-11-16,Tupungato,MET Norway,nieve,0,0
+2026-11-16,Tunuyán,MET Norway,helada,0,0
+2026-11-16,Tunuyán,MET Norway,calor,0,0
+2026-11-16,Tunuyán,MET Norway,lluvia,1,0
+2026-11-16,Tunuyán,MET Norway,lluvia_intensa,1,0
+2026-11-16,Tunuyán,MET Norway,zonda,0,0
+2026-11-16,Tunuyán,MET Norway,viento_fuerte,0,1
+2026-11-16,Tunuyán,MET Norway,nieve,0,0
+2026-11-16,San Carlos,MET Norway,helada,0,0
+2026-11-16,San Carlos,MET Norway,calor,0,0
+2026-11-16,San Carlos,MET Norway,lluvia,1,1
+2026-11-16,San Carlos,MET Norway,lluvia_intensa,0,0
+2026-11-16,San Carlos,MET Norway,zonda,0,0
+2026-11-16,San Carlos,MET Norway,viento_fuerte,0,1
+2026-11-16,San Carlos,MET Norway,nieve,0,0
+2026-11-16,Tupungato,SMN (WRF),helada,0,0
+2026-11-16,Tupungato,SMN (WRF),calor,0,0
+2026-11-16,Tupungato,SMN (WRF),lluvia,1,1
+2026-11-16,Tupungato,SMN (WRF),lluvia_intensa,0,0
+2026-11-16,Tupungato,SMN (WRF),zonda,1,1
+2026-11-16,Tupungato,SMN (WRF),viento_fuerte,0,0
+2026-11-16,Tupungato,SMN (WRF),nieve,0,0
+2026-11-16,Tunuyán,SMN (WRF),helada,0,0
+2026-11-16,Tunuyán,SMN (WRF),calor,0,0
+2026-11-16,Tunuyán,SMN (WRF),lluvia,0,0
+2026-11-16,Tunuyán,SMN (WRF),lluvia_intensa,0,0
+2026-11-16,Tunuyán,SMN (WRF),zonda,1,0
+2026-11-16,Tunuyán,SMN (WRF),viento_fuerte,0,1
+2026-11-16,Tunuyán,SMN (WRF),nieve,0,0
+2026-11-16,San Carlos,SMN (WRF),helada,0,0
+2026-11-16,San Carlos,SMN (WRF),calor,0,0
+2026-11-16,San Carlos,SMN (WRF),lluvia,0,1
+2026-11-16,San Carlos,SMN (WRF),lluvia_intensa,0,0
+2026-11-16,San Carlos,SMN (WRF),zonda,1,0
+2026-11-16,San Carlos,SMN (WRF),viento_fuerte,1,1
+2026-11-16,San Carlos,SMN (WRF),nieve,0,0

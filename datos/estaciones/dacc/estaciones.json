@@ -8,7 +8,8 @@
 "Longitud": "68° 21' 45.0\" O",
 "Altura": "619",
 "lat": -32.8934,
-"lng": -68.3883
+"lng": -68.3883,
+"idArchivoGoolgeDatos": "1F6pBW1qRqZ6gYdqw9BEWXT2Xa88ocMU-"
 },
 {
 "Estacion": 2,
@@ -19,7 +20,8 @@
 "Longitud": "68° 29’ 4” O",
 "Altura": "653",
 "lat": -33.116,
-"lng": -68.4844
+"lng": -68.4844,
+"idArchivoGoolgeDatos": "1-fUUe15V1trAyTcBBCm8aUh4ghJtv5sD"
 },
 {
 "Estacion": 3,
@@ -30,7 +32,8 @@
 "Longitud": "69° 9’ 27,7” O",
 "Altura": "1074",
 "lat": -33.3467,
-"lng": -69.1577
+"lng": -69.1577,
+"idArchivoGoolgeDatos": "1-MzhOW-ic-JWS3Aeb4kxLrqxJH6L_O9X"
 },
 {
 "Estacion": 4,
@@ -41,7 +44,8 @@
 "Longitud": "69° 02'2 2.1\"O",
 "Altura": "869",
 "lat": -33.5644,
-"lng": -69.0395
+"lng": -69.0395,
+"idArchivoGoolgeDatos": "1-1DF1YMOOh0yRmUkYIfkj4PcEs7BuKGy"
 },
 {
 "Estacion": 5,
@@ -52,7 +56,8 @@
 "Longitud": "69° 12’ 27” O",
 "Altura": "970",
 "lat": -33.516,
-"lng": -69.2075
+"lng": -69.2075,
+"idArchivoGoolgeDatos": "1jqUoI4EwxyXtIUirV7NfTAHZ4-dbvpzZ"
 },
 {
 "Estacion": 7,
@@ -63,7 +68,8 @@
 "Longitud": "68° 38' 28,7\" O",
 "Altura": "708",
 "lat": -33.1747,
-"lng": -68.6413
+"lng": -68.6413,
+"idArchivoGoolgeDatos": "1-mHJDIQy0jrhscI4KjGOQzOaIt27fLAV"
 },
 {
 "Estacion": 8,
@@ -74,7 +80,8 @@
 "Longitud": "68° 25' 42.8\" O",
 "Altura": "813",
 "lat": -34.5266,
-"lng": -68.4286
+"lng": -68.4286,
+"idArchivoGoolgeDatos": "109lXa-C6HkvK7Y2hnVed43vrOhCZU-GE"
 },
 {
 "Estacion": 9,
@@ -85,7 +92,8 @@
 "Longitud": "68° 00' 57.6\" O",
 "Altura": "555",
 "lat": -34.6477,
-"lng": -68.016
+"lng": -68.016,
+"idArchivoGoolgeDatos": "1-EId97qi9e1z0zLwH7R8b5mLFvQmNilV"
 },
 {
 "Estacion": 11,
@@ -96,7 +104,8 @@
 "Longitud": "69º 04' 23.6\" O",
 "Altura": "940",
 "lat": -33.7066,
-"lng": -69.0732
+"lng": -69.0732,
+"idArchivoGoolgeDatos": "1-7Mq93M1AaD7Rraia3Yp-55vhOYOMVG4"
 },
 {
 "Estacion": 12,
@@ -107,7 +116,8 @@
 "Longitud": "68° 54' 32.796\" O",
 "Altura": "960",
 "lat": -33.1319,
-"lng": -68.916
+"lng": -68.916,
+"idArchivoGoolgeDatos": "1WZkMVyLewmC0nA2nQ67Mu2Fv_iYccn2o"
 },
 {
 "Estacion": 13,
@@ -118,7 +128,8 @@
 "Longitud": "68° 35' 51.58\" O",
 "Altura": "900",
 "lat": -32.5953,
-"lng": -68.5977
+"lng": -68.5977,
+"idArchivoGoolgeDatos": "1hEeHGb7A1_htum1eb_oqiJ4ZDXWc8TLI"
 },
 {
 "Estacion": 14,
@@ -129,7 +140,8 @@
 "Longitud": "68° 44' 50.39\" O",
 "Altura": "850",
 "lat": -33.0129,
-"lng": -68.7473
+"lng": -68.7473,
+"idArchivoGoolgeDatos": "10hsPiHMBu3PbwigTfvMXFTVj6oEa43s3"
 },
 {
 "Estacion": 15,
@@ -151,7 +163,8 @@
 "Longitud": "68° 36' 01.7\" O",
 "Altura": "929",
 "lat": -32.8329,
-"lng": -68.6005
+"lng": -68.6005,
+"idArchivoGoolgeDatos": "16yZkXh31C_kgMTCSvfhT8XhydWvv7CCU"
 },
 {
 "Estacion": 17,
@@ -162,7 +175,8 @@
 "Longitud": "68° 12'' 49.0031\" O",
 "Altura": "600",
 "lat": -33.0873,
-"lng": -68.2101
+"lng": -68.2101,
+"idArchivoGoolgeDatos": "1wseWfu6ToGnDXspG6noHDKWP6PkLPH5p"
 },
 {
 "Estacion": 18,
@@ -173,7 +187,8 @@
 "Longitud": "68°11'33.95\"O",
 "Altura": "",
 "lat": -33.2395,
-"lng": -68.193
+"lng": -68.193,
+"idArchivoGoolgeDatos": "1-vL4L1GtLychkRobsxkIuLegESFKZh18"
 },
 {
 "Estacion": 19,
@@ -184,7 +199,8 @@
 "Longitud": "68° 26' 44.0893\" O",
 "Altura": "600",
 "lat": -33.2602,
-"lng": -68.4456
+"lng": -68.4456,
+"idArchivoGoolgeDatos": "1-0Ho5WNf1bVhJIrH6CqEcuNqetbftrm_"
 },
 {
 "Estacion": 20,
@@ -206,7 +222,8 @@
 "Longitud": "69º 6' 27.5\" O",
 "Altura": "950",
 "lat": -33.8058,
-"lng": -69.1076
+"lng": -69.1076,
+"idArchivoGoolgeDatos": "1-Ek6nU6nvojK7Ac6EEd9T9WdAN3-YYOQ"
 },
 {
 "Estacion": 23,
@@ -217,7 +234,8 @@
 "Longitud": "67° 53' 54\" W",
 "Altura": "530",
 "lat": -34.8325,
-"lng": -67.8983
+"lng": -67.8983,
+"idArchivoGoolgeDatos": "1itvgzIE-qDmSPNlWWn4Qn8nfW58rFeBz"
 },
 {
 "Estacion": 24,
@@ -228,7 +246,8 @@
 "Longitud": "67º 33' 24.15\" O",
 "Altura": "455",
 "lat": -35.0107,
-"lng": -67.5567
+"lng": -67.5567,
+"idArchivoGoolgeDatos": "1-qwQfcmGxouLzOdYM9A84x3IpQ6dFlKA"
 },
 {
 "Estacion": 25,
@@ -239,7 +258,8 @@
 "Longitud": "67° 35' 43\" O",
 "Altura": "475",
 "lat": -34.9147,
-"lng": -67.5952
+"lng": -67.5952,
+"idArchivoGoolgeDatos": "1-c7UGvy5NySyEcxM632yEwTP34AcfJNs"
 },
 {
 "Estacion": 26,
@@ -250,7 +270,8 @@
 "Longitud": "W 68º 27' 41''",
 "Altura": "791",
 "lat": -34.6469,
-"lng": -68.4614
+"lng": -68.4614,
+"idArchivoGoolgeDatos": "10d334p6dTEhVu1PryrQZdmH_7bv-1wRu"
 },
 {
 "Estacion": 27,
@@ -261,7 +282,8 @@
 "Longitud": "67°51'17.1\"O",
 "Altura": "557",
 "lat": -33.3881,
-"lng": -67.8548
+"lng": -67.8548,
+"idArchivoGoolgeDatos": "1V68MfJjAbIJrLTFOmlDHJdF4nCn7nIXu"
 },
 {
 "Estacion": 29,
@@ -272,7 +294,8 @@
 "Longitud": "67° 43' 22'' O",
 "Altura": "491",
 "lat": -34.8719,
-"lng": -67.7228
+"lng": -67.7228,
+"idArchivoGoolgeDatos": "1-0qcWhubc-_Eex4GGixwjXddXBz1PVJ-"
 },
 {
 "Estacion": 31,
@@ -283,7 +306,8 @@
 "Longitud": "69°02'12.8\"W",
 "Altura": "1011",
 "lat": -33.8787,
-"lng": -69.0369
+"lng": -69.0369,
+"idArchivoGoolgeDatos": "1-dbdQToo9uI9SwHZ-tSoyVBvqULDzIXR"
 },
 {
 "Estacion": 32,
@@ -294,7 +318,8 @@
 "Longitud": "68° 33' 48.8\" O",
 "Altura": "656",
 "lat": -32.9684,
-"lng": -68.5636
+"lng": -68.5636,
+"idArchivoGoolgeDatos": "1a8jYfF-S76i6z4B48Mkxc39e77bu_xbU"
 },
 {
 "Estacion": 33,
@@ -305,7 +330,8 @@
 "Longitud": "68° 18' 24.2\" O",
 "Altura": "632",
 "lat": -33.0152,
-"lng": -68.3067
+"lng": -68.3067,
+"idArchivoGoolgeDatos": "1KigXsT73ogdEYEMYKvlXGDjgcdvCnMSh"
 },
 {
 "Estacion": 35,
@@ -316,7 +342,8 @@
 "Longitud": "68º 17' 09\" O",
 "Altura": "660",
 "lat": -34.5103,
-"lng": -68.2858
+"lng": -68.2858,
+"idArchivoGoolgeDatos": "1-OXFOkUi_r3YmH4kDi592D8mKim2efDj"
 },
 {
 "Estacion": 36,
@@ -327,7 +354,8 @@
 "Longitud": "69° 6' 28.65\" O",
 "Altura": "966",
 "lat": -33.619,
-"lng": -69.108
+"lng": -69.108,
+"idArchivoGoolgeDatos": "1-8e6vk-qHqm7qDAaoHEyCPMSM0w-mnCA"
 },
 {
 "Estacion": 37,
@@ -338,7 +366,8 @@
 "Longitud": "67° 37' 58\" O",
 "Altura": "466",
 "lat": -34.9972,
-"lng": -67.6327
+"lng": -67.6327,
+"idArchivoGoolgeDatos": "11B7V_qXzvb2At7y9oHkTxwvAXps2HY8k"
 },
 {
 "Estacion": 38,
@@ -349,7 +378,8 @@
 "Longitud": "67° 30' 56\" O",
 "Altura": "455",
 "lat": -34.9819,
-"lng": -67.5155
+"lng": -67.5155,
+"idArchivoGoolgeDatos": "1NkUdqfs-dlfxrZS27xEbtl0zn381PKn3"
 },
 {
 "Estacion": 39,
@@ -360,7 +390,8 @@
 "Longitud": "67° 25' 47.92\" O",
 "Altura": "453",
 "lat": -34.9322,
-"lng": -67.43
+"lng": -67.43,
+"idArchivoGoolgeDatos": "10220oef2NYNsxUbETuFtPxWppLD89c4z"
 },
 {
 "Estacion": 40,
@@ -371,7 +402,8 @@
 "Longitud": " 69° 2'32.60\"O",
 "Altura": "967",
 "lat": -33.433,
-"lng": -69.0424
+"lng": -69.0424,
+"idArchivoGoolgeDatos": "1-9kN5tPkTk1IfWzDKXOut-Zv_kmEjaua"
 },
 {
 "Estacion": 41,
@@ -382,7 +414,8 @@
 "Longitud": "68° 18' 16\"",
 "Altura": "636",
 "lat": -33.1764,
-"lng": -68.3045
+"lng": -68.3045,
+"idArchivoGoolgeDatos": "1095GwaST7WJARxoILAlOIFix7wMOqsFY"
 },
 {
 "Estacion": 42,
@@ -393,7 +426,8 @@
 "Longitud": "69°12'15.1\"O",
 "Altura": "1028",
 "lat": -33.6123,
-"lng": -69.2042
+"lng": -69.2042,
+"idArchivoGoolgeDatos": "1SY6cKBXIpm0hUIqM2a1-RlV-xb-tfeoL"
 },
 {
 "Estacion": 43,
@@ -404,7 +438,8 @@
 "Longitud": "68° 55' 01.1\" O",
 "Altura": "942",
 "lat": -33.32,
-"lng": -68.917
+"lng": -68.917,
+"idArchivoGoolgeDatos": "1yYO2Fh9fj0AIvj0zUCRYBh7VaKMDj9_L"
 },
 {
 "Estacion": 44,
@@ -415,7 +450,8 @@
 "Longitud": "69°00'06.8\"O",
 "Altura": "865",
 "lat": -33.5146,
-"lng": -69.0019
+"lng": -69.0019,
+"idArchivoGoolgeDatos": "1--SRH8dl7bjawQ53078SeeDxuGmaX4Gu"
 },
 {
 "Estacion": 45,
@@ -426,7 +462,8 @@
 "Longitud": "68°42'52.1\" O",
 "Altura": "796",
 "lat": -33.3074,
-"lng": -68.7145
+"lng": -68.7145,
+"idArchivoGoolgeDatos": "1x89_ZZWKQdzdhClNUv9FXlA_XRKF1kRn"
 },
 {
 "Estacion": 46,
@@ -437,7 +474,8 @@
 "Longitud": "68°18'48.7\" O",
 "Altura": "641",
 "lat": -34.7392,
-"lng": -68.3135
+"lng": -68.3135,
+"idArchivoGoolgeDatos": "10LL38wk3F3CgmsrGp_zslsDO7o3YYnDN"
 },
 {
 "Estacion": 47,
@@ -448,7 +486,8 @@
 "Longitud": "68°05'33.7\" O",
 "Altura": "591",
 "lat": -33.393,
-"lng": -68.0927
+"lng": -68.0927,
+"idArchivoGoolgeDatos": "1EFDbw_-3IN0XnBMLGUTVOMEd87omAz4r"
 },
 {
 "Estacion": 48,
@@ -459,7 +498,8 @@
 "Longitud": "68° 09' 14.9\" O",
 "Altura": "586",
 "lat": -34.6877,
-"lng": -68.1541
+"lng": -68.1541,
+"idArchivoGoolgeDatos": "1NOdFqyNgJmLSzb_fQyssUfrZIGMd-q-f"
 },
 {
 "Estacion": 49,
@@ -470,7 +510,8 @@
 "Longitud": "68° 27' 52.2\" W",
 "Altura": "661",
 "lat": -33.0724,
-"lng": -68.4645
+"lng": -68.4645,
+"idArchivoGoolgeDatos": "1Po_XkQzzWFK6pOFe8htcYwEap_B15QTY"
 },
 {
 "Estacion": 50,
@@ -481,7 +522,8 @@
 "Longitud": "68° 05' 33.7\" O",
 "Altura": "591",
 "lat": -33.393,
-"lng": -68.0927
+"lng": -68.0927,
+"idArchivoGoolgeDatos": "1EFDbw_-3IN0XnBMLGUTVOMEd87omAz4r"
 },
 {
 "Estacion": 51,
@@ -492,7 +534,8 @@
 "Longitud": "68° 35' 53.9\" O",
 "Altura": "702",
 "lat": -33.2052,
-"lng": -68.5983
+"lng": -68.5983,
+"idArchivoGoolgeDatos": "1WSPx-0ZTpvfG8ld3izfyCP4IDxggIxB6"
 },
 {
 "Estacion": 52,
@@ -503,7 +546,8 @@
 "Longitud": "69° 04' 45.7\" O",
 "Altura": "1102",
 "lat": -33.96,
-"lng": -69.0794
+"lng": -69.0794,
+"idArchivoGoolgeDatos": "1x1lE1AgKnSpQJKAjU1ICkPGggEjkTh2v"
 },
 {
 "Estacion": 53,
@@ -514,7 +558,8 @@
 "Longitud": "68°19'46.7\" O",
 "Altura": "605",
 "lat": -32.7477,
-"lng": -68.3297
+"lng": -68.3297,
+"idArchivoGoolgeDatos": "1VzDJnojCyq3pntfFQb5kl9n9JjGEyv-4"
 },
 {
 "Estacion": 54,
@@ -525,7 +570,8 @@
 "Longitud": "68° 20' 18.3\" O",
 "Altura": "638",
 "lat": -33.3327,
-"lng": -68.3384
+"lng": -68.3384,
+"idArchivoGoolgeDatos": "1eJ4naQFyF5tLPDldAm-rkjNIHEvg5CcN"
 },
 {
 "Estacion": 55,
@@ -536,7 +582,8 @@
 "Longitud": "68° 28' 48.2\" O",
 "Altura": "605",
 "lat": -32.7137,
-"lng": -68.4801
+"lng": -68.4801,
+"idArchivoGoolgeDatos": "12op2c0Juc_V3xKjLuonTBJ99ML7rhdvK"
 },
 {
 "Estacion": 56,
@@ -547,7 +594,8 @@
 "Longitud": "68° 18' 24.7\" O",
 "Altura": "641",
 "lat": -33.0987,
-"lng": -68.3069
+"lng": -68.3069,
+"idArchivoGoolgeDatos": "1uGP5lhkdZIbEfmQr7hV_-TgT0FcaagUR"
 },
 {
 "Estacion": 57,
@@ -558,7 +606,8 @@
 "Longitud": "69° 16' 47.8\" O",
 "Altura": "1257",
 "lat": -33.6084,
-"lng": -69.28
+"lng": -69.28,
+"idArchivoGoolgeDatos": "1V-H8IPqNRppY1gTZkd4RV7q9n7_11ckc"
 },
 {
 "Estacion": 58,
@@ -569,7 +618,8 @@
 "Longitud": "68° 39' 31.7\" O",
 "Altura": "703",
 "lat": -33.0627,
-"lng": -68.6588
+"lng": -68.6588,
+"idArchivoGoolgeDatos": "1w50bR5AWnpOsG7WgdZFU3tL23JEWxmxz"
 },
 {
 "Estacion": 59,
@@ -580,7 +630,8 @@
 "Longitud": "68° 40' 43.8\" O",
 "Altura": "625",
 "lat": -32.7204,
-"lng": -68.6788
+"lng": -68.6788,
+"idArchivoGoolgeDatos": "1DEY8O70Mlw9IC_pMge8-_7xPKY2ph9d_"
 },
 {
 "Estacion": 60,
@@ -591,7 +642,8 @@
 "Longitud": "68° 57' 55.3\" O",
 "Altura": "900",
 "lat": -33.4437,
-"lng": -68.9654
+"lng": -68.9654,
+"idArchivoGoolgeDatos": "1I4ox1JH3Z93IFizvxuqghOXxBqqbgN-H"
 },
 {
 "Estacion": 61,
@@ -602,7 +654,8 @@
 "Longitud": "69° 08' 02.1\" O",
 "Altura": "1020",
 "lat": -33.4236,
-"lng": -69.1339
+"lng": -69.1339,
+"idArchivoGoolgeDatos": "1JaaxJtmXf9fKGTA_xnOXCdYWWK55UUU-"
 },
 {
 "Estacion": 62,
@@ -613,7 +666,8 @@
 "Longitud": "69° 19' 44.6\"O",
 "Altura": "1475",
 "lat": -33.6049,
-"lng": -69.329
+"lng": -69.329,
+"idArchivoGoolgeDatos": "1S74q4g7xFHPaNKXokxWhQ10iO0deEngk"
 },
 {
 "Estacion": 63,
@@ -624,7 +678,8 @@
 "Longitud": "68° 00' 30.1\" O",
 "Altura": "557",
 "lat": -34.5666,
-"lng": -68.0084
+"lng": -68.0084,
+"idArchivoGoolgeDatos": "1f9leRokptlmdWQMvPYDVL6XVL-v_V1hV"
 },
 {
 "Estacion": 64,
@@ -635,7 +690,8 @@
 "Longitud": "68° 06' 05.0\" O",
 "Altura": "566",
 "lat": -34.5306,
-"lng": -68.1014
+"lng": -68.1014,
+"idArchivoGoolgeDatos": "1UXUZ8N4F3AmrfmhM7QouVw4K5dvU9uCJ"
 },
 {
 "Estacion": 65,
@@ -646,7 +702,8 @@
 "Longitud": "67°51' 42.8\" O",
 "Altura": "523",
 "lat": -34.5686,
-"lng": -67.8619
+"lng": -67.8619,
+"idArchivoGoolgeDatos": "1qCCHmbfBumqFyZ7LzIHMoSIJwsa2r7aP"
 },
 {
 "Estacion": 66,
@@ -657,7 +714,8 @@
 "Longitud": "68° 15' 04.1\" O",
 "Altura": "620",
 "lat": -34.8281,
-"lng": -68.2511
+"lng": -68.2511,
+"idArchivoGoolgeDatos": "1FASXEMjxmj3WkXhQJ_0z4hiU-dfC96hd"
 },
 {
 "Estacion": 67,
@@ -668,7 +726,8 @@
 "Longitud": "67° 57' 09.7\" W",
 "Altura": "575",
 "lat": -34.0464,
-"lng": -67.9527
+"lng": -67.9527,
+"idArchivoGoolgeDatos": "1yEKa8893iQy92mzU3DiQWZlOrGujIo3j"
 },
 {
 "Estacion": 322,
