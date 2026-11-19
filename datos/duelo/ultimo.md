@@ -1,4 +1,4 @@
-# Duelo en tu casa — actualizado 19/11 09:07
+# Duelo en tu casa — actualizado 19/11 10:03
 
 - **Tiempo Campero**: 8 días medidos; acertó si llovía o no 6 de 8; error medio mínima 2.0°, máxima 1.4°.
 - **The Weather Channel**: 3 días medidos; acertó si llovía o no 3 de 3; error medio mínima 6.0°, máxima 3.0°.
