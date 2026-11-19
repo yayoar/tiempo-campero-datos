@@ -322,12 +322,22 @@ def estaciones_dacc():
     solo = None
     if estado.get("_corrida") and (time.time() - estado["_corrida"]) < 5.5 * 3600 and "--forzar" not in sys.argv:
         solo = {str(e[4]) for e in ESTACIONES}
+    guardada = os.path.join(carpeta, "estaciones.json")
     try: lista = json.loads(get("https://agrometeo.mendoza.gov.ar/api/getEstaciones.php"))
     except Exception as e:
-        guardada = os.path.join(carpeta, "estaciones.json")
         if not os.path.exists(guardada): raise
         print("estaciones: uso la lista guardada", e); lista = json.load(open(guardada, encoding="utf8"))
-    json.dump(lista, open(os.path.join(carpeta, "estaciones.json"), "w", encoding="utf8"), ensure_ascii=False, indent=0)
+    # Desde el 16/11/2026 el indice dejo de publicar idArchivoGoolgeDatos y la bajada quedo sin puente.
+    # Los archivos de Drive siguen vivos y actualizandose cada hora, asi que el id sale de ids.json.
+    ids_r = os.path.join(carpeta, "ids.json")
+    ids = json.load(open(ids_r, encoding="utf8")) if os.path.exists(ids_r) else {}
+    faltan = 0
+    for x in lista:
+        if not x.get("idArchivoGoolgeDatos") and ids.get(str(x.get("Estacion"))):
+            x["idArchivoGoolgeDatos"] = ids[str(x["Estacion"])]
+        if x.get("Estacion") and not x.get("idArchivoGoolgeDatos"): faltan += 1
+    if faltan: print("estaciones: sin id de archivo:", faltan)
+    json.dump(lista, open(guardada, "w", encoding="utf8"), ensure_ascii=False, indent=0)
     from concurrent.futures import ThreadPoolExecutor
     def bajar(x):
         i = x.get("idArchivoGoolgeDatos")
