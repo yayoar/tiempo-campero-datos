@@ -7,9 +7,14 @@ anterior (D-1, el pronóstico guardado más cercano a las 8) y se compara con lo
 
 Árbitros (lo medido):
   * estaciones de Contingencias a 10 km o menos del punto de cada departamento: helada (mínima <= 0), calor (máxima >= 35),
-    lluvia (1 mm o más en el día), lluvia intensa (10 mm en una hora o 25 mm en el día), zonda (2 horas o más con humedad
-    <= 15%, ráfaga >= 36 km/h y viento del oeste), viento fuerte (ráfaga >= 54 km/h sin zonda), nieve (1 mm o más con
-    máxima <= 3);
+    lluvia (1 mm o más en el día), lluvia intensa (10 mm en una hora o 25 mm en el día), zonda (ver abajo),
+    viento fuerte (ráfaga >= 54 km/h sin zonda), nieve (1 mm o más con máxima <= 3);
+  * zonda (regla del 22/11/2026, decidida con Yayo): una "hora de zonda" en una estación es una hora con humedad <= 15%,
+    ráfaga >= 36 km/h y viento del oeste al norte (225° a 360°, y 0°). En el Valle de Uco el zonda se mide con las
+    15 estaciones juntas: hay zonda si 3 estaciones distintas o más tienen al menos una hora de zonda dentro de una
+    misma ventana de 7 horas del día; cuentan como "con zonda" las estaciones de esas ventanas, y cada departamento
+    del Valle (Tupungato, Tunuyán, San Carlos) tiene zonda si lo tiene alguna estación de ese departamento (así entra
+    Los Chacayes, a 24 km del punto de Tunuyán). Fuera del Valle sigue la regla anterior: 2 horas o más en una estación.
   * radar de Contingencias: tormenta (45 dBZ o más a menos de 10 km), granizo (55 dBZ o más a menos de 2 km).
 Puntaje por fuente y fenómeno: aciertos (avisó y pasó), falsas alarmas, no avisados, y la EFECTIVIDAD
 = aciertos / (aciertos + falsas alarmas + no avisados), que no premia callarse ni avisar siempre.
@@ -158,11 +163,40 @@ def smn_dia(dia):
     return out
 
 # ------------------------------------------------------------------ lo que pasó
+VALLE = [str(e[4]) for e in C.ESTACIONES]   # las 15 estaciones del Valle de Uco
+VENTANA_ZONDA, ESTACIONES_ZONDA = 7, 3
+
+def _sin_tilde(t):
+    import unicodedata
+    return "".join(c for c in unicodedata.normalize("NFD", str(t)) if unicodedata.category(c) != "Mn").lower().strip()
+
+def _horas_zonda(h, num):
+    """Horas (0-23) con humedad <= 15%, ráfaga >= 10 m/s y viento de 225° a 360° (o 0°), con el filtro de calidad."""
+    out = set()
+    for hora, c in h.items():
+        a, b, cc, d = num(c, 12), num(c, 14), num(c, 16), num(c, 19)
+        if None in (a, b, cc) or b > 45 or b > cc * 5 + 6: continue
+        if a <= 15 and b >= 10 and d is not None and (225 <= d <= 360 or d == 0): out.add(hora)
+    return out
+
+def zonda_valle(filas, num):
+    """Estaciones del Valle con zonda confirmado ese día: 3 o más estaciones con horas de zonda en una ventana de 7 h."""
+    hz = {e: _horas_zonda(filas[e], num) for e in VALLE if e in filas and len(filas[e]) >= 20}
+    conf = set()
+    for t in range(24):
+        s = {e for e, hs in hz.items() if any(t <= x < t + VENTANA_ZONDA for x in hs)}
+        if len(s) >= ESTACIONES_ZONDA: conf |= s
+    return conf
+
 def verdad(dia, cerca=None):
-    """cerca: {lugar: [números de estación]}; si no se da, las estaciones a 10 km o menos de cada departamento."""
+    """cerca: {lugar: [números de estación]}; si no se da, las estaciones a 10 km o menos de cada departamento
+    (y para el zonda del Valle, todas las estaciones del Valle de ese departamento)."""
+    depto_valle = None
     if cerca is None:
         est = json.load(open(os.path.join(DATOS, "estaciones", "dacc", "estaciones.json"), encoding="utf8"))
         cerca = {n: [str(x["Estacion"]) for x in est if x.get("lat") and km(x["lat"], x["lng"], la, lo) <= 10] for n, la, lo in DEPTOS}
+        depto_valle = {n: [str(x["Estacion"]) for x in est if str(x.get("Estacion")) in VALLE and _sin_tilde(x.get("Departamento")) == _sin_tilde(n)]
+                       for n, *_ in DEPTOS}
     filas = {}
     for f in glob.glob(os.path.join(DATOS, "estaciones", "dacc", f"{dia:%Y-%m}.csv.gz")) + \
              glob.glob(os.path.join(DATOS, "estaciones", "dacc", f"{(dia + dt.timedelta(days=1)):%Y-%m}.csv.gz")):
@@ -174,26 +208,29 @@ def verdad(dia, cerca=None):
         try: return float(c[i])
         except Exception: return None
     rad = radar_dia(dia)
+    conf = zonda_valle(filas, num)
     out = {}
     for n, *_ in DEPTOS:
         v = {}
-        hs = [filas[e] for e in cerca[n] if e in filas and len(filas[e]) >= 20]
+        hs = [(e, filas[e]) for e in cerca[n] if e in filas and len(filas[e]) >= 20]
         if hs:
-            def una(h):
+            def una(e, h):
                 tx = [num(c, 8) for c in h.values()]; tn = [num(c, 9) for c in h.values()]
                 pp = [num(c, 27) for c in h.values()]; pp = [p for p in pp if p is not None and 0 <= p < 80]
                 hr = [num(c, 12) for c in h.values()]; vx = [num(c, 14) for c in h.values()]; vm = [num(c, 16) for c in h.values()]
                 dr = [num(c, 19) for c in h.values()]
                 tmax = max(x for x in tx if x is not None); tmin = min(x for x in tn if x is not None)
                 ok = [(a, b, d) for a, b, cc, d in zip(hr, vx, vm, dr) if None not in (a, b, cc) and b <= 45 and b <= cc * 5 + 6]
-                zon = sum(1 for a, b, d in ok if a <= 15 and b >= 10 and d is not None and 225 <= d <= 360) >= 2
+                zon = (e in conf) if e in VALLE else len(_horas_zonda(h, num)) >= 2
                 return dict(helada=tmin <= 0, calor=tmax >= 35, lluvia=sum(pp) >= 1,
                             lluvia_intensa=sum(pp) >= 25 or max(pp or [0]) >= 10, zonda=zon,
                             viento_fuerte=(not zon) and max((b for _, b, _ in ok), default=0) >= 15,
                             nieve=sum(pp) >= 1 and tmax <= 3)
-            us = [una(h) for h in hs]
+            us = [una(e, h) for e, h in hs]
             v = {k: any(u[k] for u in us) if k in ("lluvia", "lluvia_intensa", "zonda", "viento_fuerte", "nieve") else
                     sum(u[k] for u in us) * 2 >= len(us) for k in us[0]}
+        if depto_valle and depto_valle.get(n) and any(e in filas for e in depto_valle[n]):
+            v["zonda"] = any(e in conf for e in depto_valle[n])
         if n in rad:
             v["tormenta"] = rad[n][1] >= 45; v["granizo"] = rad[n][0] >= 55
         if v: out[n] = v
@@ -240,8 +277,48 @@ def radar_dia(dia):
     return out
 
 # ------------------------------------------------------------------ principal
+REGLA_ZONDA = "2026-11-22 (Valle: 3 estaciones en 7 h)"
+
+def remedir_zonda():
+    """Una sola vez por cambio de regla: vuelve a medir el "pasó" del zonda en los días ya registrados del Valle
+    (por departamento en total_registro.csv y por estación en estaciones/diario.csv). Lo pronosticado no se toca."""
+    marca = os.path.join(DATOS, "duelo", "regla_zonda.txt")
+    if os.path.exists(marca) and open(marca, encoding="utf8").read().strip() == REGLA_ZONDA: return
+    valle_d = {"Tupungato", "Tunuyán", "San Carlos"}
+    nombre_est = {n: str(e) for n, _, _, _, e in C.ESTACIONES}
+    cache = {}
+    def pasos(dia):
+        if dia not in cache:
+            d = dt.date.fromisoformat(dia); V = verdad(d) or {}
+            global DEPTOS
+            viejo = DEPTOS
+            try:
+                DEPTOS = [(n, la, lo) for n, _, la, lo, _ in C.ESTACIONES]
+                Ve = verdad(d, cerca={n: [e] for n, e in nombre_est.items()}) or {}
+            finally:
+                DEPTOS = viejo
+            cache[dia] = {**{n: x.get("zonda") for n, x in V.items()}, **{n: x.get("zonda") for n, x in Ve.items()}}
+        return cache[dia]
+    for ruta, col in ((os.path.join(DATOS, "duelo", "total_registro.csv"), "depto"),
+                      (os.path.join(DATOS, "duelo", "estaciones", "diario.csv"), "estacion")):
+        if not os.path.exists(ruta): continue
+        R = list(csv.DictReader(open(ruta, encoding="utf8")))
+        if not R: continue
+        cambios = 0
+        for r in R:
+            if r["fenomeno"] != "zonda" or not (r[col] in valle_d or r[col] in nombre_est): continue
+            z = pasos(r["dia"]).get(r[col])
+            if z is None: continue
+            if str(int(bool(z))) != r["paso"]: r["paso"] = str(int(bool(z))); cambios += 1
+        with open(ruta, "w", encoding="utf8", newline="") as fh:
+            w = csv.DictWriter(fh, fieldnames=list(R[0].keys())); w.writeheader(); w.writerows(R)
+        print("zonda vuelto a medir:", os.path.basename(ruta), cambios, "cambios")
+    open(marca, "w", encoding="utf8").write(REGLA_ZONDA + "\n")
+
 def main():
     hoy = dt.datetime.now(AR).date(); carpeta = os.path.join(DATOS, "duelo"); os.makedirs(carpeta, exist_ok=True)
+    try: remedir_zonda()
+    except Exception as e: print("remedir_zonda falló:", e)
     reg = os.path.join(carpeta, "total_registro.csv")
     hechos = {r["dia"] for r in csv.DictReader(open(reg, encoding="utf8"))} if os.path.exists(reg) else set()
     nuevas = []
