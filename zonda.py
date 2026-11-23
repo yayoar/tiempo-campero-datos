@@ -199,7 +199,24 @@ def puntaje(m, feats, relleno):
 
 def main():
     producto = sys.argv[1]
-    hoy = (dt.datetime.now(dt.timezone.utc).replace(tzinfo=None) - dt.timedelta(hours=3)).date()
+    ahora_local = dt.datetime.now(dt.timezone.utc).replace(tzinfo=None) - dt.timedelta(hours=3)
+    hoy = ahora_local.date()
+    if producto == "auto":
+        # 23/11/2026 (decidido con Yayo): GitHub atrasa las corridas programadas (la de las 6:00 salía entre las 13 y las 18,
+        # la de las 19:30 cerca de medianoche). Ahora hay varios horarios por aviso y el producto se decide por la hora real:
+        # de 4 a 13 h, "manana" para hoy; de 14 a 23 h, "noche" para mañana; de 0 a 3 h no se hace nada (lo cubre el de la mañana).
+        # Si ese aviso ya se hizo hace menos de 8 horas, esta corrida no hace nada.
+        h = ahora_local.hour
+        if h < 4: print("auto: de 0 a 3 h no se calcula"); return
+        producto = "manana" if h < 14 else "noche"
+        D0 = hoy if producto == "manana" else hoy + dt.timedelta(1)
+        try:
+            prev = json.load(open(os.path.join(AQUI, "datos", "zonda.json")))["dias"].get(D0.isoformat(), {})
+            gen = dt.datetime.fromisoformat(prev.get("generado", "").rstrip("Z")) if prev.get("generado") else None
+            if prev.get("producto") == producto and gen and ahora_local + dt.timedelta(hours=3) - gen < dt.timedelta(hours=8):
+                print(f"auto: el aviso {producto} para {D0} ya se hizo a las {prev['generado']}"); return
+        except Exception as e:
+            print("auto: no pude leer zonda.json:", e)
     D = dt.date.fromisoformat(sys.argv[2]) if len(sys.argv) > 2 else (hoy + dt.timedelta(1) if producto == "noche" else hoy)
     corridas = ["18"] if producto == "noche" else ["18", "00", "06"]
     gl = globales(D)
