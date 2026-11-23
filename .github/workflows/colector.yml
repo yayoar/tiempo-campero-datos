@@ -2,7 +2,9 @@ name: Colector (radar y pronósticos de todas las fuentes)
 
 on:
   schedule:
-    - cron: "41 */3 * * *"   # GitHub demora las corridas programadas; cada corrida se queda ~5,5 h y guarda una vez por hora
+    # 23/11/2026 (Yayo): dos horarios por hora; si GitHub se saltea uno, entra el otro. Nunca corren dos a la vez (concurrency).
+    - cron: "11 * * * *"
+    - cron: "41 * * * *"   # cada corrida se queda ~5,5 h y guarda una vez por hora
   workflow_dispatch:
 
 permissions:
