@@ -1,4 +1,4 @@
-# Duelo de todas las fuentes — 16 días medidos (actualizado 22/11 23:09)
+# Duelo de todas las fuentes — 17 días medidos (actualizado 23/11 00:08)
 
 Efectividad = aciertos / (aciertos + falsas alarmas + no avisados). Entre paréntesis: aciertos / falsas alarmas / no avisados.
 
@@ -20,6 +20,7 @@ Efectividad = aciertos / (aciertos + falsas alarmas + no avisados). Entre parén
 - Tiempo Campero: 0% (0 / 0 / 0)
 - The Weather Channel: 0% (0 / 0 / 0)
 - MET Norway: 0% (0 / 0 / 0)
+- Open-Meteo ensamble_gfs: 0% (0 / 0 / 0)
 
 ## Calor — 25 casos medidos
 - Open-Meteo icon: 65% (17 / 1 / 8)
@@ -39,75 +40,79 @@ Efectividad = aciertos / (aciertos + falsas alarmas + no avisados). Entre parén
 - Open-Meteo cma_grapes_global: 44% (11 / 0 / 14)
 - SMN (WRF): 32% (8 / 0 / 17)
 - Open-Meteo jma: 28% (7 / 0 / 18)
+- Open-Meteo ensamble_gfs: 0% (0 / 0 / 0)
 
 ## Lluvia — 15 casos medidos
 - Tiempo Campero: 50% (2 / 1 / 1)
 - SMN (WRF): 35% (9 / 11 / 6)
-- Open-Meteo jma: 19% (3 / 13 / 0)
+- Open-Meteo jma: 18% (3 / 14 / 0)
 - Open-Meteo icon: 12% (3 / 23 / 0)
 - Open-Meteo meteofrance: 11% (3 / 24 / 0)
-- Open-Meteo knmi: 10% (3 / 26 / 0)
-- Open-Meteo dmi: 10% (3 / 26 / 0)
-- Open-Meteo metno: 10% (3 / 26 / 0)
-- Open-Meteo ecmwf_ifs025: 10% (3 / 28 / 0)
-- MET Norway: 10% (3 / 28 / 0)
+- Open-Meteo knmi: 10% (3 / 28 / 0)
+- Open-Meteo dmi: 10% (3 / 28 / 0)
+- Open-Meteo metno: 10% (3 / 28 / 0)
+- Open-Meteo ecmwf_ifs025: 9% (3 / 29 / 0)
+- MET Norway: 9% (3 / 31 / 0)
 - Open-Meteo ukmo: 9% (3 / 32 / 0)
 - Open-Meteo ukmo_global_deterministic_10km: 9% (3 / 32 / 0)
 - Open-Meteo gfs: 8% (3 / 35 / 0)
 - Open-Meteo ecmwf_aifs025_single: 7% (3 / 43 / 0)
 - Open-Meteo cma_grapes_global: 6% (3 / 46 / 0)
-- Open-Meteo gem: 5% (2 / 40 / 1)
+- Open-Meteo gem: 4% (2 / 42 / 1)
 - The Weather Channel: 0% (0 / 8 / 0)
+- Open-Meteo ensamble_gfs: 0% (0 / 0 / 0)
 
 ## Lluvia intensa — 0 casos medidos
 Todavía no pasó en los días medidos.
 
-## Tormenta — 21 casos medidos
-- Open-Meteo gem: 0% (0 / 0 / 21)
-- Open-Meteo icon: 0% (0 / 1 / 21)
-- Open-Meteo ukmo: 0% (0 / 0 / 21)
-- Open-Meteo ecmwf_ifs025: 0% (0 / 0 / 21)
-- Open-Meteo meteofrance: 0% (0 / 0 / 21)
-- Open-Meteo gfs: 0% (0 / 1 / 21)
-- Open-Meteo jma: 0% (0 / 0 / 21)
-- Open-Meteo ecmwf_aifs025_single: 0% (0 / 0 / 21)
-- Open-Meteo cma_grapes_global: 0% (0 / 0 / 21)
-- Open-Meteo ukmo_global_deterministic_10km: 0% (0 / 0 / 21)
-- Open-Meteo knmi: 0% (0 / 0 / 21)
-- Open-Meteo dmi: 0% (0 / 0 / 21)
-- Open-Meteo metno: 0% (0 / 0 / 21)
-- Tiempo Campero: 0% (0 / 0 / 21)
+## Tormenta — 29 casos medidos
+- Open-Meteo gem: 0% (0 / 0 / 29)
+- Open-Meteo icon: 0% (0 / 1 / 29)
+- Open-Meteo ukmo: 0% (0 / 0 / 29)
+- Open-Meteo ecmwf_ifs025: 0% (0 / 0 / 29)
+- Open-Meteo meteofrance: 0% (0 / 0 / 29)
+- Open-Meteo gfs: 0% (0 / 1 / 29)
+- Open-Meteo jma: 0% (0 / 0 / 29)
+- Open-Meteo ecmwf_aifs025_single: 0% (0 / 0 / 29)
+- Open-Meteo cma_grapes_global: 0% (0 / 0 / 29)
+- Open-Meteo ukmo_global_deterministic_10km: 0% (0 / 0 / 29)
+- Open-Meteo knmi: 0% (0 / 0 / 29)
+- Open-Meteo dmi: 0% (0 / 0 / 29)
+- Open-Meteo metno: 0% (0 / 0 / 29)
+- Tiempo Campero: 0% (0 / 0 / 29)
 - The Weather Channel: 0% (0 / 5 / 9)
-- MET Norway: 0% (0 / 0 / 21)
-- SMN (WRF): 0% (0 / 0 / 12)
+- MET Norway: 0% (0 / 0 / 29)
+- SMN (WRF): 0% (0 / 0 / 20)
+- Open-Meteo ensamble_gfs: 0% (0 / 0 / 8)
 
 ## Granizo — 0 casos medidos
 Todavía no pasó en los días medidos.
 
-## Zonda — 1 casos medidos
-- SMN (WRF): 8% (1 / 11 / 0)
-- Open-Meteo gem: 0% (0 / 2 / 1)
-- Open-Meteo icon: 0% (0 / 10 / 1)
-- Open-Meteo ukmo: 0% (0 / 3 / 1)
-- Open-Meteo ecmwf_ifs025: 0% (0 / 13 / 1)
-- Open-Meteo meteofrance: 0% (0 / 14 / 1)
-- Open-Meteo gfs: 0% (0 / 16 / 1)
-- Open-Meteo jma: 0% (0 / 0 / 1)
-- Open-Meteo ecmwf_aifs025_single: 0% (0 / 0 / 1)
-- Open-Meteo cma_grapes_global: 0% (0 / 0 / 1)
-- Open-Meteo ukmo_global_deterministic_10km: 0% (0 / 3 / 1)
-- Open-Meteo knmi: 0% (0 / 19 / 1)
-- Open-Meteo dmi: 0% (0 / 19 / 1)
-- Open-Meteo metno: 0% (0 / 19 / 1)
-- Tiempo Campero: 0% (0 / 39 / 1)
+## Zonda — 3 casos medidos
+- SMN (WRF): 15% (2 / 10 / 1)
+- Open-Meteo gem: 0% (0 / 2 / 3)
+- Open-Meteo icon: 0% (0 / 10 / 3)
+- Open-Meteo ukmo: 0% (0 / 3 / 3)
+- Open-Meteo ecmwf_ifs025: 0% (0 / 13 / 3)
+- Open-Meteo meteofrance: 0% (0 / 14 / 3)
+- Open-Meteo gfs: 0% (0 / 16 / 3)
+- Open-Meteo jma: 0% (0 / 0 / 3)
+- Open-Meteo ecmwf_aifs025_single: 0% (0 / 0 / 3)
+- Open-Meteo cma_grapes_global: 0% (0 / 0 / 3)
+- Open-Meteo ukmo_global_deterministic_10km: 0% (0 / 3 / 3)
+- Open-Meteo knmi: 0% (0 / 19 / 3)
+- Open-Meteo dmi: 0% (0 / 19 / 3)
+- Open-Meteo metno: 0% (0 / 19 / 3)
+- Tiempo Campero: 0% (0 / 41 / 3)
 - The Weather Channel: 0% (0 / 1 / 0)
-- MET Norway: 0% (0 / 0 / 1)
+- MET Norway: 0% (0 / 0 / 3)
+- Open-Meteo ensamble_gfs: 0% (0 / 0 / 0)
 
 ## Viento fuerte — 7 casos medidos
 - Open-Meteo knmi: 18% (2 / 7 / 2)
 - Open-Meteo dmi: 18% (2 / 7 / 2)
 - Open-Meteo metno: 18% (2 / 7 / 2)
-- Open-Meteo cma_grapes_global: 14% (2 / 10 / 2)
+- Open-Meteo cma_grapes_global: 13% (2 / 11 / 2)
 - SMN (WRF): 12% (1 / 1 / 6)
 - Open-Meteo icon: 10% (1 / 6 / 3)
 - Tiempo Campero: 6% (1 / 13 / 3)
@@ -121,6 +126,7 @@ Todavía no pasó en los días medidos.
 - Open-Meteo ukmo_global_deterministic_10km: 0% (0 / 0 / 4)
 - The Weather Channel: 0% (0 / 0 / 0)
 - MET Norway: 0% (0 / 0 / 4)
+- Open-Meteo ensamble_gfs: 0% (0 / 0 / 0)
 
 ## Nieve — 0 casos medidos
 Todavía no pasó en los días medidos.
