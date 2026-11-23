@@ -1,25 +1,7 @@
 {
- "actualizado": "2026-11-23T02:57:34Z",
+ "actualizado": "2026-11-23T21:00:03Z",
  "version": 1,
  "dias": {
-  "2026-11-21": {
-   "producto": "manana",
-   "generado": "2026-11-21T16:41:40Z",
-   "zonas": {
-    "norte": {
-     "nivel": 0,
-     "puntaje": 0.393
-    },
-    "sur": {
-     "nivel": 0,
-     "puntaje": 0.234
-    },
-    "valle": {
-     "nivel": 0,
-     "puntaje": 0.288
-    }
-   }
-  },
   "2026-11-22": {
    "producto": "manana",
    "generado": "2026-11-22T16:58:45Z",
@@ -39,8 +21,8 @@
    }
   },
   "2026-11-23": {
-   "producto": "noche",
-   "generado": "2026-11-23T02:57:34Z",
+   "producto": "manana",
+   "generado": "2026-11-23T21:00:03Z",
    "zonas": {
     "norte": {
      "nivel": 0,
