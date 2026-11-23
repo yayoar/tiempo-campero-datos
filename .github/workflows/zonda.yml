@@ -2,8 +2,17 @@ name: Puntaje de zonda
 
 on:
   schedule:
-    - cron: "30 22 * * *"   # 19:30 h de Mendoza: aviso para mañana
-    - cron: "0 9 * * *"     # 06:00 h de Mendoza: actualización para hoy
+    # 23/11/2026 (Yayo): varios horarios por aviso porque GitHub atrasa las corridas; zonda.py decide por la hora real
+    # y no repite un aviso ya hecho. Noche (para mañana): 18:30, 19:00, 19:30 y 20:00 h de Mendoza.
+    - cron: "30 21 * * *"
+    - cron: "0 22 * * *"
+    - cron: "30 22 * * *"
+    - cron: "0 23 * * *"
+    # Mañana (para hoy): 5:00, 5:30, 6:00 y 6:30 h de Mendoza.
+    - cron: "0 8 * * *"
+    - cron: "30 8 * * *"
+    - cron: "0 9 * * *"
+    - cron: "30 9 * * *"
   workflow_dispatch:
     inputs:
       producto:
@@ -33,8 +42,7 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Calcular
         run: |
-          if [ -n "${{ github.event.inputs.producto }}" ]; then P="${{ github.event.inputs.producto }}";
-          elif [ "${{ github.event.schedule }}" = "0 9 * * *" ]; then P=manana; else P=noche; fi
+          if [ -n "${{ github.event.inputs.producto }}" ]; then P="${{ github.event.inputs.producto }}"; else P=auto; fi
           python zonda.py "$P" ${{ github.event.inputs.fecha }}
       - name: Guardar resultado
         run: |
