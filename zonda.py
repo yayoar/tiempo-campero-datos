@@ -145,6 +145,52 @@ def wrf(D, corrida):
     return out
 
 
+ALT_PTS = {"cordillera": (-33.55, -69.75), "valle": (-33.73, -69.12), "santiago": (-33.45, -70.67), "mendoza": (-32.89, -68.85)}
+
+
+def altura(D):
+    """23/11/2026 (decidido con Yayo): variables en altura del GFS para el Valle, SOLO PARA GUARDAR (no cambian el aviso).
+    Mismas cuentas que la prueba del 23/11 (historico/altura): viento del oeste a 700 y 500 hPa sobre la cordillera,
+    viento a 850 hPa sobre el Valle, estabilidad 850-700 (12 a 18 h), colchón frío de la mañana (T850 - T2m, 6 a 11 h),
+    diferencia de altura de 700 hPa entre Santiago y Mendoza, y humedad mínima a 700 hPa."""
+    V = ["wind_speed_500hPa", "wind_direction_500hPa", "wind_speed_700hPa", "wind_direction_700hPa", "wind_speed_850hPa",
+         "wind_direction_850hPa", "temperature_700hPa", "temperature_850hPa", "geopotential_height_700hPa",
+         "relative_humidity_700hPa", "temperature_2m"]
+    H = {n: om(la, lo, V, ["gfs_seamless"], D, D) for n, (la, lo) in ALT_PTS.items()}
+    def col(n, v):
+        h = H[n]; x = h.get(v, h.get(f"{v}_gfs_seamless")) or []
+        return np.array([np.nan if y is None else y for y in x], float)
+    hora = np.array([int(t[11:13]) for t in H["valle"]["time"]])
+    oeste = lambda d: (d >= 225) | (d <= 10)
+    def vmax(n, nivel):
+        v, d = col(n, f"wind_speed_{nivel}hPa"), col(n, f"wind_direction_{nivel}hPa")
+        return float(np.nanmax(np.where(oeste(d), v, 0))) if len(v) else np.nan
+    t7, t8, t2 = col("valle", "temperature_700hPa"), col("valle", "temperature_850hPa"), col("valle", "temperature_2m")
+    r = lambda x: None if x is None or not np.isfinite(x) else round(float(x), 1)
+    return {"v700_O": r(vmax("cordillera", 700)), "v500_O": r(vmax("cordillera", 500)), "v850_valle_O": r(vmax("valle", 850)),
+            "estab_850_700": r(np.nanmean((t7 - t8)[(hora >= 12) & (hora <= 18)])),
+            "colchon_manana": r(np.nanmax((t8 - t2)[(hora >= 6) & (hora <= 11)])),
+            "dz700_scl_mza": r(np.nanmax(col("santiago", "geopotential_height_700hPa") - col("mendoza", "geopotential_height_700hPa"))),
+            "hr700": r(np.nanmin(col("valle", "relative_humidity_700hPa")))}
+
+
+def registrar(D, producto, gl, en, W, alt, zonas):
+    """Guarda en datos/zonda_registro.csv todo lo que vio el ayudante ese día (una fila por corrida), para poder
+    reentrenar y medir más adelante. No lo lee la app."""
+    import csv
+    ruta = os.path.join(AQUI, "datos", "zonda_registro.csv")
+    fila = {"fecha": D.isoformat(), "producto": producto,
+            "generado": dt.datetime.now(dt.timezone.utc).replace(tzinfo=None).replace(microsecond=0).isoformat() + "Z"}
+    for lugar, f in gl.items():
+        for k, v in {**f, **en.get(lugar, {}), **W.get(lugar, {})}.items(): fila[f"{lugar}_{k}"] = v
+    for k, v in alt.items(): fila[f"alt_{k}"] = v
+    for z, v in zonas.items(): fila[f"{z}_nivel"], fila[f"{z}_puntaje"] = v["nivel"], v["puntaje"]
+    viejas = list(csv.DictReader(open(ruta, encoding="utf8"))) if os.path.exists(ruta) else []
+    campos = list(dict.fromkeys([c for r in viejas for c in r] + list(fila)))
+    with open(ruta, "w", encoding="utf8", newline="") as fh:
+        w = csv.DictWriter(fh, fieldnames=campos); w.writeheader(); w.writerows(viejas + [fila])
+
+
 def puntaje(m, feats, relleno):
     x = np.array([feats.get(c, relleno.get(c, np.nan)) for c in m["columnas"]], float)
     z = (x - np.array(m["media"])) / np.array(m["escala"])
@@ -182,7 +228,11 @@ def main():
                            **({"faltan_corridas_smn": faltan} if faltan else {})}
     os.makedirs(os.path.dirname(ruta), exist_ok=True)
     json.dump({"actualizado": ahora, "version": 1, "dias": dict(sorted(dias.items()))}, open(ruta, "w"), indent=1, ensure_ascii=False)
-    print(json.dumps({"fecha": D.isoformat(), "producto": producto, "candidato": candidato, "globales": gl, "ensamble": en, "wrf": W, "zonas": zonas, "faltan": faltan}, ensure_ascii=False))
+    try: alt = altura(D)
+    except Exception as e: alt = {}; print("altura falló:", e)
+    try: registrar(D, producto, gl, en, W, alt, zonas)
+    except Exception as e: print("registro falló:", e)
+    print(json.dumps({"fecha": D.isoformat(), "producto": producto, "candidato": candidato, "globales": gl, "ensamble": en, "wrf": W, "zonas": zonas, "faltan": faltan, "altura": alt}, ensure_ascii=False))
 
 
 if __name__ == "__main__":
