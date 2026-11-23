@@ -369,8 +369,34 @@ def estaciones_dacc():
     json.dump(estado, open(estado_r, "w"), indent=0)
     print("estaciones: filas nuevas", total)
 
+def instantaneas():
+    """22/11/2026 (decidido con Yayo): el último dato de cada estación de Contingencias, cada ~15 minutos, para medir
+    cuánto tarda el zonda en llegar de una estación a otra (los archivos de Drive vienen de a una hora).
+    Fuente: api/todas_instantaneas.json (la del mapa de la página). Trae temperatura, humedad, velocidad media del
+    viento (m/s, aunque la página le pone "km/h") y dirección, y lluvia; NO trae ráfaga.
+    Se guarda en datos/estaciones/dacc/inst/AAAA-MM.csv.gz sin repetir (estación, hora del dato):
+    estación, fecha y hora del dato, temperatura, humedad, dirección, velocidad, lluvia."""
+    carpeta = os.path.join(DATOS, "estaciones", "dacc", "inst"); os.makedirs(carpeta, exist_ok=True)
+    estado_r = os.path.join(carpeta, "ultimo.json")
+    estado = json.load(open(estado_r)) if os.path.exists(estado_r) else {}
+    lista = json.loads(get("https://agrometeo.mendoza.gov.ar/api/todas_instantaneas.json"))
+    por_mes = {}
+    for x in lista:
+        e, f = str(x.get("estacion", "")), str(x.get("fechaIngles", ""))
+        if not e or not re.match(r"20[1-3]\d-[01]\d-[0-3]\d \d\d:\d\d", f) or f <= estado.get(e, ""): continue
+        fila = [e, f] + ["" if x.get(k) is None else str(x[k]).replace(",", ".") for k in
+                         ("tempAire", "humedad", "direccionViento", "velocidadViento", "precipitacion")]
+        por_mes.setdefault(f[:7], []).append(fila); estado[e] = f
+    for mes, filas in por_mes.items():
+        with gzip.open(os.path.join(carpeta, f"{mes}.csv.gz"), "at", encoding="utf8") as fh:
+            for r in sorted(filas, key=lambda r: (r[1], r[0])): fh.write(",".join(r) + "\n")
+    json.dump(estado, open(estado_r, "w"), indent=0)
+    print("instantáneas: filas nuevas", sum(len(v) for v in por_mes.values()))
+
 if __name__ == "__main__":
+    if "--inst" in sys.argv:   # corrida corta, cada 15 minutos entre las corridas de cada hora
+        instantaneas(); sys.exit(0)
     import duelo, duelo_total, duelo_estaciones
-    for paso in (radar, pronosticos, diarias, estaciones_dacc, duelo.main, duelo_total.main, duelo_estaciones.main):
+    for paso in (radar, pronosticos, diarias, estaciones_dacc, instantaneas, duelo.main, duelo_total.main, duelo_estaciones.main):
         try: paso()
         except Exception as e: print(paso.__name__, "falló:", e)
