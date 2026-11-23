@@ -37,7 +37,6 @@ jobs:
             git commit -q -m "Colector $(date -u +%Y-%m-%dT%H:%MZ)" || echo "sin cambios"
             for i in 1 2 3; do git pull --rebase --autostash -q && git push -q && break; sleep 15; done
             [ $(( $(date +%s) + 3600 )) -gt $fin ] && break
-            # 22/11/2026: entre corrida y corrida, el último dato de cada estación cada ~15 minutos (se sube en la corrida siguiente)
-            for k in 1 2 3; do sleep 825; python colector.py --inst || true; done
-            sleep 825
+            # 22/11/2026: entre corrida y corrida, el último dato de cada estación cada ~5 minutos (se sube en la corrida siguiente)
+            for k in $(seq 11); do sleep 300; python colector.py --inst || true; done
           done
