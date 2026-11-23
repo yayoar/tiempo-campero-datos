@@ -370,8 +370,9 @@ def estaciones_dacc():
     print("estaciones: filas nuevas", total)
 
 def instantaneas():
-    """22/11/2026 (decidido con Yayo): el último dato de cada estación de Contingencias, cada ~15 minutos, para medir
+    """22/11/2026 (decidido con Yayo): el último dato de cada estación de Contingencias, cada ~5 minutos, para medir
     cuánto tarda el zonda en llegar de una estación a otra (los archivos de Drive vienen de a una hora).
+    Las estaciones actualizan ese dato cada 3 a 7 minutos (medido el 22/11/2026).
     Fuente: api/todas_instantaneas.json (la del mapa de la página). Trae temperatura, humedad, velocidad media del
     viento (m/s, aunque la página le pone "km/h") y dirección, y lluvia; NO trae ráfaga.
     Se guarda en datos/estaciones/dacc/inst/AAAA-MM.csv.gz sin repetir (estación, hora del dato):
@@ -394,7 +395,7 @@ def instantaneas():
     print("instantáneas: filas nuevas", sum(len(v) for v in por_mes.values()))
 
 if __name__ == "__main__":
-    if "--inst" in sys.argv:   # corrida corta, cada 15 minutos entre las corridas de cada hora
+    if "--inst" in sys.argv:   # corrida corta, cada 5 minutos entre las corridas de cada hora
         instantaneas(); sys.exit(0)
     import duelo, duelo_total, duelo_estaciones
     for paso in (radar, pronosticos, diarias, estaciones_dacc, instantaneas, duelo.main, duelo_total.main, duelo_estaciones.main):
