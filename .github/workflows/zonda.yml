@@ -40,6 +40,6 @@ jobs:
         run: |
           git config user.name "ayudante-tiempo-campero"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add datos/zonda.json
+          git add datos/zonda.json datos/zonda_registro.csv
           git commit -m "Zonda $(date -u +%Y-%m-%dT%H:%MZ)" || echo "sin cambios"
           git pull --rebase && git push
