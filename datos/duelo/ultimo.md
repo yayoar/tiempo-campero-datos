@@ -1,4 +1,4 @@
-# Duelo en tu casa — actualizado 23/11 15:28
+# Duelo en tu casa — actualizado 23/11 23:23
 
 - **Tiempo Campero**: 12 días medidos; acertó si llovía o no 10 de 12; error medio mínima 1.7°, máxima 1.4°.
 - **The Weather Channel**: 4 días medidos; acertó si llovía o no 4 de 4; error medio mínima 5.0°, máxima 3.4°.
@@ -24,9 +24,9 @@
 
 | Día | Fuente | ¿Llueve? | mm | Horas | Mín | Máx | Tormenta |
 |---|---|---|---|---|---|---|---|
-| 23/11 | Tiempo Campero | Posible lluvia | 3.7 | — | 10.0 | 29.1 |  |
-| 24/11 | Tiempo Campero | Posible lluvia | 3.7 | — | 11.4 | 25.0 | 1 |
-| 25/11 | Tiempo Campero | no | 2.5 | — | 8.4 | 29.8 |  |
-| 26/11 | Tiempo Campero | Posible lluvia | 5.0 | 0-3 h | 12.5 | 28.6 | 2 |
-| 27/11 | Tiempo Campero | no | 0.1 | — | 9.7 | 33.3 |  |
-| 28/11 | Tiempo Campero | Posible lluvia | 2.7 | — | 11.2 | 33.5 | 1 |
+| 23/11 | Tiempo Campero | Posible lluvia | 2.4 | — | 10.1 | 29.6 | 2 |
+| 24/11 | Tiempo Campero | Posible lluvia | 3.5 | — | 11.0 | 25.6 | 1 |
+| 25/11 | Tiempo Campero | no | 5.4 | — | 8.8 | 29.2 |  |
+| 26/11 | Tiempo Campero | Posible lluvia | 3.2 | — | 12.7 | 29.4 |  |
+| 27/11 | Tiempo Campero | no | 0.4 | — | 10.8 | 33.5 |  |
+| 28/11 | Tiempo Campero | no | 0.6 | — | 10.6 | 34.2 | 1 |
