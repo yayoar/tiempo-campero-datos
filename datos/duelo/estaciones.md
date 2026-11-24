@@ -1,4 +1,4 @@
-# Duelo por estación — Valle de Uco (actualizado 24/11 08:54)
+# Duelo por estación — Valle de Uco (actualizado 24/11 09:31)
 
 Pronóstico de la mañana del día anterior contra lo medido en cada estación de Contingencias, hora por hora.
 Puesto: por error medio de temperatura (menos es mejor). Lluvia y fenómenos: efectividad = aciertos / (aciertos + falsas alarmas + no avisados);
@@ -8,17 +8,17 @@ entre paréntesis, aciertos / falsas alarmas / no avisados.
 
 | Puesto | Pronóstico | Horas medidas | Error medio de temperatura | Lluvia hora a hora | Fenómenos del día |
 |---|---|---|---|---|---|
-| 1 | SMN (4 km) | 4427 | 2.0° | 6% (9/106/26) | 27% (42/83/31) |
+| 1 | SMN (4 km) | 4430 | 2.0° | 6% (9/106/26) | 27% (42/83/31) |
 | 2 | The Weather Channel | 359 | 2.0° | 0% (0/40/0) | 6% (1/14/1) |
-| 3 | Reino Unido | 3346 | 2.0° | 4% (22/554/13) | 9% (11/77/35) |
-| 4 | **Tiempo Campero** | 3346 | 2.1° | 8% (26/298/9) | 16% (20/81/26) |
-| 5 | Alemania | 3346 | 2.3° | 7% (27/357/8) | 11% (12/63/34) |
-| 6 | Canadá | 3346 | 2.4° | 3% (26/733/9) | 8% (10/82/36) |
-| 7 | Centro Europeo | 3346 | 2.4° | 4% (23/519/12) | 6% (7/71/39) |
-| 8 | MET Norway | 3346 | 2.4° | 5% (21/361/14) | 8% (9/73/37) |
-| 9 | Estados Unidos | 3346 | 2.5° | 4% (33/861/2) | 9% (10/70/36) |
-| 10 | Francia | 3346 | 2.9° | 6% (23/348/12) | 9% (10/71/36) |
-| 11 | Japón | 3346 | 3.5° | 3% (6/185/29) | 12% (10/34/36) |
+| 3 | Reino Unido | 3349 | 2.0° | 4% (22/556/13) | 9% (11/77/35) |
+| 4 | **Tiempo Campero** | 3349 | 2.1° | 8% (26/298/9) | 16% (20/81/26) |
+| 5 | Alemania | 3349 | 2.3° | 7% (27/360/8) | 11% (12/63/34) |
+| 6 | Canadá | 3349 | 2.4° | 3% (26/733/9) | 8% (10/82/36) |
+| 7 | Centro Europeo | 3349 | 2.4° | 4% (23/522/12) | 6% (7/71/39) |
+| 8 | MET Norway | 3349 | 2.4° | 5% (21/362/14) | 8% (9/73/37) |
+| 9 | Estados Unidos | 3349 | 2.5° | 4% (33/861/2) | 9% (10/70/36) |
+| 10 | Francia | 3349 | 2.9° | 6% (23/348/12) | 9% (10/71/36) |
+| 11 | Japón | 3349 | 3.5° | 3% (6/185/29) | 12% (10/34/36) |
 
 ## El Peral
 
@@ -57,16 +57,16 @@ entre paréntesis, aciertos / falsas alarmas / no avisados.
 | Puesto | Pronóstico | Horas medidas | Error medio de temperatura | Lluvia hora a hora | Fenómenos del día |
 |---|---|---|---|---|---|
 | 1 | The Weather Channel | 24 | 1.4° | 0% (0/1/0) | 0% (0/1/0) |
-| 2 | **Tiempo Campero** | 225 | 1.4° | 6% (1/17/0) | 0% (0/6/1) |
-| 3 | Alemania | 225 | 1.7° | 5% (1/18/0) | 17% (1/5/0) |
-| 4 | Reino Unido | 225 | 1.9° | 3% (1/31/0) | 0% (0/5/1) |
-| 5 | Centro Europeo | 225 | 1.9° | 3% (1/31/0) | 0% (0/4/1) |
-| 6 | MET Norway | 225 | 2.1° | 6% (1/16/0) | 0% (0/3/1) |
-| 7 | Estados Unidos | 225 | 2.2° | 2% (1/58/0) | 0% (0/6/1) |
-| 8 | SMN (4 km) | 297 | 2.3° | 0% (0/15/1) | 9% (1/7/3) |
-| 9 | Francia | 225 | 2.5° | 0% (0/19/1) | 0% (0/5/1) |
-| 10 | Canadá | 225 | 2.6° | 2% (1/58/0) | 0% (0/6/1) |
-| 11 | Japón | 225 | 3.2° | 0% (0/16/1) | 0% (0/3/1) |
+| 2 | **Tiempo Campero** | 226 | 1.4° | 6% (1/17/0) | 0% (0/6/1) |
+| 3 | Alemania | 226 | 1.7° | 5% (1/19/0) | 17% (1/5/0) |
+| 4 | Reino Unido | 226 | 1.9° | 3% (1/31/0) | 0% (0/5/1) |
+| 5 | Centro Europeo | 226 | 1.9° | 3% (1/32/0) | 0% (0/4/1) |
+| 6 | MET Norway | 226 | 2.0° | 6% (1/16/0) | 0% (0/3/1) |
+| 7 | Estados Unidos | 226 | 2.2° | 2% (1/58/0) | 0% (0/6/1) |
+| 8 | SMN (4 km) | 298 | 2.3° | 0% (0/15/1) | 9% (1/7/3) |
+| 9 | Francia | 226 | 2.5° | 0% (0/19/1) | 0% (0/5/1) |
+| 10 | Canadá | 226 | 2.6° | 2% (1/58/0) | 0% (0/6/1) |
+| 11 | Japón | 226 | 3.2° | 0% (0/16/1) | 0% (0/3/1) |
 
 ## Cordón del Plata
 
@@ -89,16 +89,16 @@ entre paréntesis, aciertos / falsas alarmas / no avisados.
 | Puesto | Pronóstico | Horas medidas | Error medio de temperatura | Lluvia hora a hora | Fenómenos del día |
 |---|---|---|---|---|---|
 | 1 | The Weather Channel | 24 | 2.1° | 0% (0/1/0) | 0% (0/1/0) |
-| 2 | SMN (4 km) | 296 | 2.3° | 0% (0/7/0) | 14% (1/4/2) |
-| 3 | **Tiempo Campero** | 224 | 2.4° | 0% (0/22/0) | 0% (0/6/0) |
-| 4 | Reino Unido | 224 | 2.7° | 0% (0/36/0) | 0% (0/5/0) |
-| 5 | Canadá | 224 | 2.7° | 0% (0/53/0) | 0% (0/7/0) |
-| 6 | Centro Europeo | 224 | 2.9° | 0% (0/31/0) | 0% (0/4/0) |
-| 7 | Alemania | 224 | 2.9° | 0% (0/23/0) | 0% (0/6/0) |
-| 8 | MET Norway | 224 | 3.0° | 0% (0/25/0) | 0% (0/7/0) |
-| 9 | Estados Unidos | 224 | 3.3° | 0% (0/59/0) | 0% (0/7/0) |
-| 10 | Francia | 224 | 3.6° | 0% (0/19/0) | 0% (0/5/0) |
-| 11 | Japón | 224 | 4.4° | 0% (0/16/0) | 0% (0/3/0) |
+| 2 | SMN (4 km) | 297 | 2.3° | 0% (0/7/0) | 14% (1/4/2) |
+| 3 | **Tiempo Campero** | 225 | 2.4° | 0% (0/22/0) | 0% (0/6/0) |
+| 4 | Reino Unido | 225 | 2.7° | 0% (0/37/0) | 0% (0/5/0) |
+| 5 | Canadá | 225 | 2.7° | 0% (0/53/0) | 0% (0/7/0) |
+| 6 | Centro Europeo | 225 | 2.9° | 0% (0/32/0) | 0% (0/4/0) |
+| 7 | Alemania | 225 | 2.9° | 0% (0/24/0) | 0% (0/6/0) |
+| 8 | MET Norway | 225 | 3.0° | 0% (0/26/0) | 0% (0/7/0) |
+| 9 | Estados Unidos | 225 | 3.3° | 0% (0/59/0) | 0% (0/7/0) |
+| 10 | Francia | 225 | 3.6° | 0% (0/19/0) | 0% (0/5/0) |
+| 11 | Japón | 225 | 4.4° | 0% (0/16/0) | 0% (0/3/0) |
 
 ## Agua Amarga
 
@@ -201,16 +201,16 @@ entre paréntesis, aciertos / falsas alarmas / no avisados.
 | Puesto | Pronóstico | Horas medidas | Error medio de temperatura | Lluvia hora a hora | Fenómenos del día |
 |---|---|---|---|---|---|
 | 1 | The Weather Channel | 24 | 1.4° | 0% (0/1/0) | 0% (0/1/0) |
-| 2 | **Tiempo Campero** | 225 | 1.7° | 0% (0/27/0) | 0% (0/6/0) |
-| 3 | Reino Unido | 225 | 1.8° | 0% (0/45/0) | 0% (0/7/0) |
-| 4 | SMN (4 km) | 297 | 2.0° | 0% (0/5/0) | 17% (1/3/2) |
-| 5 | Canadá | 225 | 2.0° | 0% (0/52/0) | 0% (0/7/0) |
-| 6 | Alemania | 225 | 2.1° | 0% (0/24/0) | 0% (0/6/0) |
-| 7 | Centro Europeo | 225 | 2.4° | 0% (0/56/0) | 0% (0/8/0) |
-| 8 | MET Norway | 225 | 2.4° | 0% (0/22/0) | 0% (0/6/0) |
-| 9 | Francia | 225 | 2.7° | 0% (0/14/0) | 0% (0/5/0) |
-| 10 | Estados Unidos | 225 | 2.7° | 0% (0/60/0) | 0% (0/6/0) |
-| 11 | Japón | 225 | 3.5° | 0% (0/16/0) | 0% (0/3/0) |
+| 2 | **Tiempo Campero** | 226 | 1.7° | 0% (0/27/0) | 0% (0/6/0) |
+| 3 | Reino Unido | 226 | 1.8° | 0% (0/46/0) | 0% (0/7/0) |
+| 4 | SMN (4 km) | 298 | 1.9° | 0% (0/5/0) | 17% (1/3/2) |
+| 5 | Canadá | 226 | 2.0° | 0% (0/52/0) | 0% (0/7/0) |
+| 6 | Alemania | 226 | 2.1° | 0% (0/25/0) | 0% (0/6/0) |
+| 7 | Centro Europeo | 226 | 2.4° | 0% (0/57/0) | 0% (0/8/0) |
+| 8 | MET Norway | 226 | 2.4° | 0% (0/22/0) | 0% (0/6/0) |
+| 9 | Francia | 226 | 2.7° | 0% (0/14/0) | 0% (0/5/0) |
+| 10 | Estados Unidos | 226 | 2.7° | 0% (0/60/0) | 0% (0/6/0) |
+| 11 | Japón | 226 | 3.5° | 0% (0/16/0) | 0% (0/3/0) |
 
 ## El Cepillo
 
