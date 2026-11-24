@@ -1,4 +1,4 @@
-# Duelo por estación — Valle de Uco (actualizado 24/11 04:04)
+# Duelo por estación — Valle de Uco (actualizado 24/11 04:06)
 
 Pronóstico de la mañana del día anterior contra lo medido en cada estación de Contingencias, hora por hora.
 Puesto: por error medio de temperatura (menos es mejor). Lluvia y fenómenos: efectividad = aciertos / (aciertos + falsas alarmas + no avisados);
@@ -8,17 +8,17 @@ entre paréntesis, aciertos / falsas alarmas / no avisados.
 
 | Puesto | Pronóstico | Horas medidas | Error medio de temperatura | Lluvia hora a hora | Fenómenos del día |
 |---|---|---|---|---|---|
-| 1 | SMN (4 km) | 4354 | 2.0° | 7% (9/98/26) | 27% (42/83/31) |
+| 1 | SMN (4 km) | 4355 | 2.0° | 7% (9/99/26) | 27% (42/83/31) |
 | 2 | The Weather Channel | 359 | 2.0° | 0% (0/40/0) | 6% (1/14/1) |
-| 3 | Reino Unido | 3273 | 2.0° | 4% (22/501/13) | 9% (11/77/35) |
-| 4 | **Tiempo Campero** | 3273 | 2.0° | 8% (26/296/9) | 16% (20/81/26) |
-| 5 | Alemania | 3273 | 2.3° | 7% (27/348/8) | 11% (12/63/34) |
-| 6 | Canadá | 3273 | 2.4° | 4% (26/702/9) | 8% (10/82/36) |
-| 7 | Centro Europeo | 3273 | 2.4° | 5% (23/457/12) | 6% (7/71/39) |
-| 8 | MET Norway | 3273 | 2.4° | 6% (21/341/14) | 8% (9/73/37) |
-| 9 | Estados Unidos | 3273 | 2.5° | 4% (33/861/2) | 9% (10/70/36) |
-| 10 | Francia | 3273 | 2.9° | 6% (23/345/12) | 9% (10/71/36) |
-| 11 | Japón | 3273 | 3.5° | 3% (6/185/29) | 12% (10/34/36) |
+| 3 | Reino Unido | 3274 | 2.0° | 4% (22/502/13) | 9% (11/77/35) |
+| 4 | **Tiempo Campero** | 3274 | 2.0° | 8% (26/296/9) | 16% (20/81/26) |
+| 5 | Alemania | 3274 | 2.3° | 7% (27/348/8) | 11% (12/63/34) |
+| 6 | Canadá | 3274 | 2.4° | 4% (26/703/9) | 8% (10/82/36) |
+| 7 | Centro Europeo | 3274 | 2.4° | 5% (23/458/12) | 6% (7/71/39) |
+| 8 | MET Norway | 3274 | 2.4° | 6% (21/341/14) | 8% (9/73/37) |
+| 9 | Estados Unidos | 3274 | 2.5° | 4% (33/861/2) | 9% (10/70/36) |
+| 10 | Francia | 3274 | 2.9° | 6% (23/345/12) | 9% (10/71/36) |
+| 11 | Japón | 3274 | 3.5° | 3% (6/185/29) | 12% (10/34/36) |
 
 ## El Peral
 
@@ -57,16 +57,16 @@ entre paréntesis, aciertos / falsas alarmas / no avisados.
 | Puesto | Pronóstico | Horas medidas | Error medio de temperatura | Lluvia hora a hora | Fenómenos del día |
 |---|---|---|---|---|---|
 | 1 | The Weather Channel | 24 | 1.4° | 0% (0/1/0) | 0% (0/1/0) |
-| 2 | **Tiempo Campero** | 220 | 1.4° | 6% (1/17/0) | 0% (0/6/1) |
-| 3 | Alemania | 220 | 1.8° | 6% (1/17/0) | 17% (1/5/0) |
-| 4 | Reino Unido | 220 | 1.9° | 3% (1/28/0) | 0% (0/5/1) |
-| 5 | Centro Europeo | 220 | 2.0° | 4% (1/26/0) | 0% (0/4/1) |
-| 6 | MET Norway | 220 | 2.1° | 6% (1/16/0) | 0% (0/3/1) |
-| 7 | Estados Unidos | 220 | 2.2° | 2% (1/58/0) | 0% (0/6/1) |
-| 8 | SMN (4 km) | 292 | 2.3° | 0% (0/13/1) | 9% (1/7/3) |
-| 9 | Francia | 220 | 2.5° | 0% (0/19/1) | 0% (0/5/1) |
-| 10 | Canadá | 220 | 2.6° | 2% (1/54/0) | 0% (0/6/1) |
-| 11 | Japón | 220 | 3.2° | 0% (0/16/1) | 0% (0/3/1) |
+| 2 | **Tiempo Campero** | 221 | 1.4° | 6% (1/17/0) | 0% (0/6/1) |
+| 3 | Alemania | 221 | 1.7° | 6% (1/17/0) | 17% (1/5/0) |
+| 4 | Reino Unido | 221 | 1.9° | 3% (1/29/0) | 0% (0/5/1) |
+| 5 | Centro Europeo | 221 | 2.0° | 4% (1/27/0) | 0% (0/4/1) |
+| 6 | MET Norway | 221 | 2.1° | 6% (1/16/0) | 0% (0/3/1) |
+| 7 | Estados Unidos | 221 | 2.2° | 2% (1/58/0) | 0% (0/6/1) |
+| 8 | SMN (4 km) | 293 | 2.3° | 0% (0/14/1) | 9% (1/7/3) |
+| 9 | Francia | 221 | 2.5° | 0% (0/19/1) | 0% (0/5/1) |
+| 10 | Canadá | 221 | 2.6° | 2% (1/55/0) | 0% (0/6/1) |
+| 11 | Japón | 221 | 3.2° | 0% (0/16/1) | 0% (0/3/1) |
 
 ## Cordón del Plata
 
