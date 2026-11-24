@@ -1,10 +1,10 @@
 name: Candidatos por estación
 
-# 24/11/2026 (decidido con Yayo): una vez por mes se vuelven a medir, con días nuevos, los umbrales por estación
+# 24/11/2026 (decidido con Yayo): todos los días se vuelven a medir, con días nuevos, los umbrales por estación
 # que mejoraron en la prueba. Escribe datos/duelo/candidatos.md. No cambia nada de la app.
 on:
   schedule:
-    - cron: "23 13 1 * *"   # día 1 de cada mes, 10:23 h de Mendoza
+    - cron: "23 13 * * *"   # todos los días, 10:23 h de Mendoza
   workflow_dispatch:
 
 permissions:
