@@ -1,0 +1,210 @@
+{
+ "_nota": "Candidatos a umbral por estación (24/11/2026, decidido con Yayo). Elegidos con días hasta mayo 2026 y medidos en jun-nov 2026. Se vuelven a medir cada mes solo con días nuevos (desde \"desde\"). Confirmado: en días nuevos, con 10 casos o más, el candidato supera al actual por 5 puntos de efectividad o más, no tiene más no avisados y no aumenta las falsas alarmas más de un 5% (o 1 si son pocas). La app hoy no admite umbrales por estación: los confirmados quedan para un APK nuevo.",
+ "desde": "2026-11-25",
+ "candidatos": [
+  {
+   "fenomeno": "helada",
+   "estacion": "36",
+   "nombre": "Colonia Las Rosas",
+   "actual": 1.0,
+   "candidato": 1.2,
+   "prueba_jun_nov_2026": {
+    "actual": {
+     "aciertos": 63,
+     "falsas": 14,
+     "no_avisados": 6,
+     "efectividad": 0.759
+    },
+    "candidato": {
+     "aciertos": 64,
+     "falsas": 15,
+     "no_avisados": 5,
+     "efectividad": 0.762
+    }
+   }
+  },
+  {
+   "fenomeno": "helada",
+   "estacion": "44",
+   "nombre": "La Estacada",
+   "actual": 1.0,
+   "candidato": 1.4,
+   "prueba_jun_nov_2026": {
+    "actual": {
+     "aciertos": 69,
+     "falsas": 13,
+     "no_avisados": 5,
+     "efectividad": 0.793
+    },
+    "candidato": {
+     "aciertos": 71,
+     "falsas": 13,
+     "no_avisados": 3,
+     "efectividad": 0.816
+    }
+   }
+  },
+  {
+   "fenomeno": "lluvia",
+   "estacion": "57",
+   "nombre": "Chacayes Alpasión",
+   "actual": [
+    1.0,
+    0.8
+   ],
+   "candidato": [
+    5,
+    0.4
+   ],
+   "prueba_jun_nov_2026": {
+    "actual": {
+     "aciertos": 24,
+     "falsas": 7,
+     "no_avisados": 5,
+     "efectividad": 0.667
+    },
+    "candidato": {
+     "aciertos": 23,
+     "falsas": 5,
+     "no_avisados": 6,
+     "efectividad": 0.676
+    }
+   }
+  },
+  {
+   "fenomeno": "lluvia",
+   "estacion": "42",
+   "nombre": "Chacayes Piedra Negra",
+   "actual": [
+    1.0,
+    0.8
+   ],
+   "candidato": [
+    3,
+    0.5
+   ],
+   "prueba_jun_nov_2026": {
+    "actual": {
+     "aciertos": 24,
+     "falsas": 8,
+     "no_avisados": 8,
+     "efectividad": 0.6
+    },
+    "candidato": {
+     "aciertos": 25,
+     "falsas": 7,
+     "no_avisados": 7,
+     "efectividad": 0.641
+    }
+   }
+  },
+  {
+   "fenomeno": "lluvia",
+   "estacion": "61",
+   "nombre": "Cordón del Plata",
+   "actual": [
+    1.0,
+    0.8
+   ],
+   "candidato": [
+    1,
+    0.6
+   ],
+   "prueba_jun_nov_2026": {
+    "actual": {
+     "aciertos": 23,
+     "falsas": 7,
+     "no_avisados": 6,
+     "efectividad": 0.639
+    },
+    "candidato": {
+     "aciertos": 26,
+     "falsas": 10,
+     "no_avisados": 3,
+     "efectividad": 0.667
+    }
+   }
+  },
+  {
+   "fenomeno": "lluvia",
+   "estacion": "60",
+   "nombre": "Cruz Negra",
+   "actual": [
+    1.0,
+    0.8
+   ],
+   "candidato": [
+    0.5,
+    0.9
+   ],
+   "prueba_jun_nov_2026": {
+    "actual": {
+     "aciertos": 18,
+     "falsas": 7,
+     "no_avisados": 6,
+     "efectividad": 0.581
+    },
+    "candidato": {
+     "aciertos": 17,
+     "falsas": 5,
+     "no_avisados": 7,
+     "efectividad": 0.586
+    }
+   }
+  },
+  {
+   "fenomeno": "lluvia",
+   "estacion": "11",
+   "nombre": "La Consulta",
+   "actual": [
+    1.0,
+    0.8
+   ],
+   "candidato": [
+    2,
+    0.6
+   ],
+   "prueba_jun_nov_2026": {
+    "actual": {
+     "aciertos": 18,
+     "falsas": 8,
+     "no_avisados": 8,
+     "efectividad": 0.529
+    },
+    "candidato": {
+     "aciertos": 18,
+     "falsas": 4,
+     "no_avisados": 8,
+     "efectividad": 0.6
+    }
+   }
+  },
+  {
+   "fenomeno": "lluvia",
+   "estacion": "52",
+   "nombre": "Pareditas",
+   "actual": [
+    1.0,
+    0.8
+   ],
+   "candidato": [
+    3,
+    0.4
+   ],
+   "prueba_jun_nov_2026": {
+    "actual": {
+     "aciertos": 23,
+     "falsas": 6,
+     "no_avisados": 5,
+     "efectividad": 0.676
+    },
+    "candidato": {
+     "aciertos": 24,
+     "falsas": 7,
+     "no_avisados": 4,
+     "efectividad": 0.686
+    }
+   }
+  }
+ ]
+}
