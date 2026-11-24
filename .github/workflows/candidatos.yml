@@ -2,6 +2,8 @@ name: Candidatos por estación
 
 # 24/11/2026 (decidido con Yayo): todos los días se vuelven a medir, con días nuevos, los umbrales por estación
 # que mejoraron en la prueba. Escribe datos/duelo/candidatos.md. No cambia nada de la app.
+# 24/11/2026 (decidido con Yayo): además, horarios.py mide contra el dato cada 5 minutos el horario de las franjas de aviso
+# y la temperatura hora por hora que muestra la app. Escribe datos/duelo/horarios.md.
 on:
   schedule:
     - cron: "23 13 * * *"   # todos los días, 10:23 h de Mendoza
@@ -23,10 +25,13 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Medir
         run: python candidatos.py
+      - name: Horarios
+        run: python horarios.py || echo "horarios falló"
       - name: Guardar resultado
         run: |
           git config user.name "ayudante-tiempo-campero"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add datos/duelo/candidatos.md datos/duelo/candidatos_estado.json
+          git add datos/duelo/horarios.md datos/duelo/horarios_estado.json || true
           git commit -m "Candidatos $(date -u +%Y-%m-%d)" || echo "sin cambios"
           for i in 1 2 3; do git pull --rebase --autostash -q && git push -q && break; sleep 15; done
