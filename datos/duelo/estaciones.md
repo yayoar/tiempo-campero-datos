@@ -1,4 +1,4 @@
-# Duelo por estación — Valle de Uco (actualizado 25/11 00:50)
+# Duelo por estación — Valle de Uco (actualizado 25/11 00:51)
 
 Pronóstico de la mañana del día anterior contra lo medido en cada estación de Contingencias, hora por hora.
 Puesto: por error medio de temperatura (menos es mejor). Lluvia y fenómenos: efectividad = aciertos / (aciertos + falsas alarmas + no avisados);
@@ -8,17 +8,17 @@ entre paréntesis, aciertos / falsas alarmas / no avisados.
 
 | Puesto | Pronóstico | Horas medidas | Error medio de temperatura | Lluvia hora a hora | Fenómenos del día |
 |---|---|---|---|---|---|
-| 1 | SMN (4 km) | 4663 | 2.0° | 6% (9/106/26) | 25% (43/99/32) |
+| 1 | SMN (4 km) | 4665 | 2.0° | 6% (9/106/26) | 25% (43/99/32) |
 | 2 | The Weather Channel | 359 | 2.0° | 0% (0/40/0) | 6% (1/14/1) |
-| 3 | Reino Unido | 3582 | 2.0° | 4% (22/573/13) | 8% (11/91/37) |
-| 4 | **Tiempo Campero** | 3582 | 2.0° | 8% (26/306/9) | 14% (20/94/28) |
-| 5 | Alemania | 3582 | 2.3° | 6% (27/396/8) | 10% (14/87/34) |
-| 6 | Canadá | 3582 | 2.4° | 3% (26/747/9) | 7% (10/96/38) |
-| 7 | Centro Europeo | 3582 | 2.4° | 4% (23/591/12) | 5% (7/84/41) |
-| 8 | MET Norway | 3582 | 2.4° | 5% (21/373/14) | 7% (9/87/39) |
-| 9 | Estados Unidos | 3582 | 2.5° | 4% (33/900/2) | 8% (10/77/38) |
-| 10 | Francia | 3582 | 2.8° | 5% (23/396/12) | 7% (10/86/38) |
-| 11 | Japón | 3582 | 3.5° | 3% (6/185/29) | 12% (10/35/38) |
+| 3 | Reino Unido | 3584 | 2.0° | 4% (22/573/13) | 8% (11/91/37) |
+| 4 | **Tiempo Campero** | 3584 | 2.0° | 8% (26/306/9) | 14% (20/94/28) |
+| 5 | Alemania | 3584 | 2.3° | 6% (27/396/8) | 10% (14/87/34) |
+| 6 | Canadá | 3584 | 2.4° | 3% (26/747/9) | 7% (10/96/38) |
+| 7 | Centro Europeo | 3584 | 2.4° | 4% (23/591/12) | 5% (7/84/41) |
+| 8 | MET Norway | 3584 | 2.4° | 5% (21/373/14) | 7% (9/87/39) |
+| 9 | Estados Unidos | 3584 | 2.5° | 4% (33/900/2) | 8% (10/77/38) |
+| 10 | Francia | 3584 | 2.8° | 5% (23/396/12) | 7% (10/86/38) |
+| 11 | Japón | 3584 | 3.5° | 3% (6/185/29) | 12% (10/35/38) |
 
 ## El Peral
 
@@ -40,17 +40,17 @@ entre paréntesis, aciertos / falsas alarmas / no avisados.
 
 | Puesto | Pronóstico | Horas medidas | Error medio de temperatura | Lluvia hora a hora | Fenómenos del día |
 |---|---|---|---|---|---|
-| 1 | SMN (4 km) | 312 | 1.7° | 8% (1/10/2) | 25% (3/7/2) |
-| 2 | Reino Unido | 240 | 2.0° | 6% (2/29/1) | 11% (1/6/2) |
+| 1 | SMN (4 km) | 313 | 1.7° | 8% (1/10/2) | 25% (3/7/2) |
+| 2 | Reino Unido | 241 | 2.0° | 6% (2/29/1) | 11% (1/6/2) |
 | 3 | The Weather Channel | 24 | 2.1° | — | — |
-| 4 | **Tiempo Campero** | 240 | 2.1° | 10% (2/17/1) | 29% (2/4/1) |
-| 5 | Canadá | 240 | 2.4° | 3% (2/57/1) | 11% (1/6/2) |
-| 6 | Centro Europeo | 240 | 2.4° | 5% (2/35/1) | 14% (1/4/2) |
-| 7 | MET Norway | 240 | 2.6° | 11% (2/15/1) | 17% (1/3/2) |
-| 8 | Alemania | 240 | 2.6° | 9% (2/20/1) | 25% (2/5/1) |
-| 9 | Estados Unidos | 240 | 2.9° | 5% (3/56/0) | 12% (1/5/2) |
-| 10 | Francia | 240 | 3.1° | 0% (0/20/3) | 12% (1/5/2) |
-| 11 | Japón | 240 | 3.8° | 6% (1/15/2) | 20% (1/2/2) |
+| 4 | **Tiempo Campero** | 241 | 2.1° | 10% (2/17/1) | 29% (2/4/1) |
+| 5 | Canadá | 241 | 2.4° | 3% (2/57/1) | 11% (1/6/2) |
+| 6 | Centro Europeo | 241 | 2.4° | 5% (2/35/1) | 14% (1/4/2) |
+| 7 | MET Norway | 241 | 2.6° | 11% (2/15/1) | 17% (1/3/2) |
+| 8 | Alemania | 241 | 2.6° | 9% (2/20/1) | 25% (2/5/1) |
+| 9 | Estados Unidos | 241 | 2.9° | 5% (3/56/0) | 12% (1/5/2) |
+| 10 | Francia | 241 | 3.1° | 0% (0/20/3) | 12% (1/5/2) |
+| 11 | Japón | 241 | 3.9° | 6% (1/15/2) | 20% (1/2/2) |
 
 ## Cruz Negra
 
@@ -137,16 +137,16 @@ entre paréntesis, aciertos / falsas alarmas / no avisados.
 | Puesto | Pronóstico | Horas medidas | Error medio de temperatura | Lluvia hora a hora | Fenómenos del día |
 |---|---|---|---|---|---|
 | 1 | The Weather Channel | 24 | 1.9° | 0% (0/1/0) | 0% (0/1/0) |
-| 2 | Reino Unido | 230 | 1.9° | 0% (0/32/0) | 0% (0/7/2) |
-| 3 | SMN (4 km) | 302 | 2.1° | 0% (0/6/0) | 20% (2/6/2) |
-| 4 | Alemania | 230 | 2.2° | 0% (0/25/0) | 0% (0/8/2) |
-| 5 | Centro Europeo | 230 | 2.5° | 0% (0/36/0) | 0% (0/5/2) |
-| 6 | Estados Unidos | 230 | 2.5° | 0% (0/53/0) | 0% (0/6/2) |
-| 7 | MET Norway | 230 | 2.6° | 0% (0/13/0) | 0% (0/4/2) |
-| 8 | Canadá | 230 | 2.8° | 0% (0/55/0) | 0% (0/6/2) |
-| 9 | **Tiempo Campero** | 230 | 2.8° | 0% (0/20/0) | 12% (1/6/1) |
-| 10 | Francia | 230 | 2.9° | 0% (0/17/0) | 0% (0/5/2) |
-| 11 | Japón | 230 | 3.6° | 0% (0/15/0) | 0% (0/2/2) |
+| 2 | Reino Unido | 231 | 1.9° | 0% (0/32/0) | 0% (0/7/2) |
+| 3 | SMN (4 km) | 303 | 2.1° | 0% (0/6/0) | 20% (2/6/2) |
+| 4 | Alemania | 231 | 2.2° | 0% (0/25/0) | 0% (0/8/2) |
+| 5 | Centro Europeo | 231 | 2.5° | 0% (0/36/0) | 0% (0/5/2) |
+| 6 | Estados Unidos | 231 | 2.6° | 0% (0/53/0) | 0% (0/6/2) |
+| 7 | MET Norway | 231 | 2.6° | 0% (0/13/0) | 0% (0/4/2) |
+| 8 | Canadá | 231 | 2.7° | 0% (0/55/0) | 0% (0/6/2) |
+| 9 | **Tiempo Campero** | 231 | 2.8° | 0% (0/20/0) | 12% (1/6/1) |
+| 10 | Francia | 231 | 2.9° | 0% (0/17/0) | 0% (0/5/2) |
+| 11 | Japón | 231 | 3.7° | 0% (0/15/0) | 0% (0/2/2) |
 
 ## Chacayes Piedra Negra
 
