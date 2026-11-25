@@ -1,4 +1,4 @@
-# Duelo por estación — Valle de Uco (actualizado 25/11 17:55)
+# Duelo por estación — Valle de Uco (actualizado 25/11 17:56)
 
 Pronóstico de la mañana del día anterior contra lo medido en cada estación de Contingencias, hora por hora.
 Puesto: por error medio de temperatura (menos es mejor). Lluvia y fenómenos: efectividad = aciertos / (aciertos + falsas alarmas + no avisados);
@@ -8,17 +8,17 @@ entre paréntesis, aciertos / falsas alarmas / no avisados.
 
 | Puesto | Pronóstico | Horas medidas | Error medio de temperatura | Lluvia hora a hora | Fenómenos del día |
 |---|---|---|---|---|---|
-| 1 | SMN (4 km) | 4921 | 1.9° | 6% (9/106/26) | 25% (43/99/32) |
+| 1 | SMN (4 km) | 4922 | 1.9° | 6% (9/106/26) | 25% (43/99/32) |
 | 2 | The Weather Channel | 359 | 2.0° | 0% (0/40/0) | 6% (1/14/1) |
-| 3 | **Tiempo Campero** | 3840 | 2.0° | 8% (26/306/9) | 14% (20/94/28) |
-| 4 | Reino Unido | 3840 | 2.0° | 4% (22/573/13) | 8% (11/91/37) |
-| 5 | Alemania | 3840 | 2.3° | 6% (27/396/8) | 10% (14/87/34) |
-| 6 | Canadá | 3840 | 2.4° | 3% (26/756/9) | 7% (10/96/38) |
-| 7 | Centro Europeo | 3840 | 2.4° | 4% (23/591/12) | 5% (7/84/41) |
-| 8 | MET Norway | 3840 | 2.4° | 5% (21/375/14) | 7% (9/87/39) |
-| 9 | Estados Unidos | 3840 | 2.6° | 4% (33/901/2) | 8% (10/77/38) |
-| 10 | Francia | 3840 | 2.9° | 5% (23/396/12) | 7% (10/86/38) |
-| 11 | Japón | 3840 | 3.5° | 3% (6/185/29) | 12% (10/35/38) |
+| 3 | **Tiempo Campero** | 3841 | 2.0° | 8% (26/306/9) | 14% (20/94/28) |
+| 4 | Reino Unido | 3841 | 2.0° | 4% (22/573/13) | 8% (11/91/37) |
+| 5 | Alemania | 3841 | 2.3° | 6% (27/396/8) | 10% (14/87/34) |
+| 6 | Canadá | 3841 | 2.4° | 3% (26/756/9) | 7% (10/96/38) |
+| 7 | Centro Europeo | 3841 | 2.4° | 4% (23/591/12) | 5% (7/84/41) |
+| 8 | MET Norway | 3841 | 2.4° | 5% (21/375/14) | 7% (9/87/39) |
+| 9 | Estados Unidos | 3841 | 2.6° | 4% (33/901/2) | 8% (10/77/38) |
+| 10 | Francia | 3841 | 2.9° | 5% (23/396/12) | 7% (10/86/38) |
+| 11 | Japón | 3841 | 3.5° | 3% (6/185/29) | 12% (10/35/38) |
 
 ## El Peral
 
@@ -89,16 +89,16 @@ entre paréntesis, aciertos / falsas alarmas / no avisados.
 | Puesto | Pronóstico | Horas medidas | Error medio de temperatura | Lluvia hora a hora | Fenómenos del día |
 |---|---|---|---|---|---|
 | 1 | The Weather Channel | 24 | 2.1° | 0% (0/1/0) | 0% (0/1/0) |
-| 2 | SMN (4 km) | 329 | 2.3° | 0% (0/7/0) | 12% (1/5/2) |
-| 3 | **Tiempo Campero** | 257 | 2.4° | 0% (0/22/0) | 0% (0/7/0) |
-| 4 | Canadá | 257 | 2.7° | 0% (0/55/0) | 0% (0/8/0) |
-| 5 | Reino Unido | 257 | 2.8° | 0% (0/38/0) | 0% (0/6/0) |
-| 6 | Alemania | 257 | 2.9° | 0% (0/26/0) | 0% (0/8/0) |
-| 7 | Centro Europeo | 257 | 2.9° | 0% (0/37/0) | 0% (0/5/0) |
-| 8 | MET Norway | 257 | 3.1° | 0% (0/27/0) | 0% (0/8/0) |
-| 9 | Estados Unidos | 257 | 3.4° | 0% (0/59/0) | 0% (0/7/0) |
-| 10 | Francia | 257 | 3.6° | 0% (0/20/0) | 0% (0/6/0) |
-| 11 | Japón | 257 | 4.4° | 0% (0/16/0) | 0% (0/3/0) |
+| 2 | SMN (4 km) | 330 | 2.3° | 0% (0/7/0) | 12% (1/5/2) |
+| 3 | **Tiempo Campero** | 258 | 2.4° | 0% (0/22/0) | 0% (0/7/0) |
+| 4 | Canadá | 258 | 2.7° | 0% (0/55/0) | 0% (0/8/0) |
+| 5 | Reino Unido | 258 | 2.8° | 0% (0/38/0) | 0% (0/6/0) |
+| 6 | Alemania | 258 | 2.9° | 0% (0/26/0) | 0% (0/8/0) |
+| 7 | Centro Europeo | 258 | 2.9° | 0% (0/37/0) | 0% (0/5/0) |
+| 8 | MET Norway | 258 | 3.1° | 0% (0/27/0) | 0% (0/8/0) |
+| 9 | Estados Unidos | 258 | 3.4° | 0% (0/59/0) | 0% (0/7/0) |
+| 10 | Francia | 258 | 3.6° | 0% (0/20/0) | 0% (0/6/0) |
+| 11 | Japón | 258 | 4.4° | 0% (0/16/0) | 0% (0/3/0) |
 
 ## Agua Amarga
 
