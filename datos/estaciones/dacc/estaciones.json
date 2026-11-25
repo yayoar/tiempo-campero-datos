@@ -789,5 +789,17 @@
 "lng": -67.9527,
 "web": 1,
 "idArchivoGoolgeDatos": "1yEKa8893iQy92mzU3DiQWZlOrGujIo3j"
+},
+{
+"Estacion": 68,
+"Nombre": "Vista Flores - Antucurá",
+"Departamento": "Tunuyán",
+"Propiedad": "Bodega Antucurá",
+"Latitud": "33° 40' 02.6\"S",
+"Longitud": "69° 07' 53.6\"O",
+"Altura": "975",
+"lat": -33.6674,
+"lng": -69.1315,
+"web": 1
 }
 ]
