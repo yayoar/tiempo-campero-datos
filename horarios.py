@@ -39,7 +39,7 @@ def medido(dia):
             v = f(c[5]); v = None if v is None or v > 45 else v   # más de 45 m/s de viento medio no es creíble
             out.setdefault(c[0], []).append((t, f(c[2]), f(c[3]), None if v is None else v * 3.6, f(c[6])))
     # Anemómetro roto: si la mediana del viento medio del día pasa de 20 m/s (72 km/h), el viento de esa estación no se usa
-    # (Cruz Negra marca 45-66 m/s todo el día desde hace meses).
+    # (Cruz Negra: anemómetro roto desde el 12/11/2026, marca 999,9 o 63-66 m/s).
     for e, x in out.items():
         vs = [y[3] for y in x if y[3] is not None]
         if vs and st.median(vs) > 72: out[e] = [(a, b_, c_, None, d_) for a, b_, c_, _, d_ in x]
