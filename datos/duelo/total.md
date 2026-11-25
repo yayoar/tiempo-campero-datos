@@ -1,4 +1,4 @@
-# Duelo de todas las fuentes — 18 días medidos (actualizado 24/11 21:52)
+# Duelo de todas las fuentes — 18 días medidos (actualizado 24/11 22:57)
 
 Efectividad = aciertos / (aciertos + falsas alarmas + no avisados). Entre paréntesis: aciertos / falsas alarmas / no avisados.
 
