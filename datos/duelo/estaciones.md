@@ -1,4 +1,4 @@
-# Duelo por estación — Valle de Uco (actualizado 25/11 22:45)
+# Duelo por estación — Valle de Uco (actualizado 25/11 22:46)
 
 Pronóstico de la mañana del día anterior contra lo medido en cada estación de Contingencias, hora por hora.
 Puesto: por error medio de temperatura (menos es mejor). Lluvia y fenómenos: efectividad = aciertos / (aciertos + falsas alarmas + no avisados);
@@ -8,17 +8,17 @@ entre paréntesis, aciertos / falsas alarmas / no avisados.
 
 | Puesto | Pronóstico | Horas medidas | Error medio de temperatura | Lluvia hora a hora | Fenómenos del día |
 |---|---|---|---|---|---|
-| 1 | SMN (4 km) | 4989 | 1.9° | 6% (9/108/29) | 25% (43/99/32) |
-| 2 | **Tiempo Campero** | 3908 | 2.0° | 8% (27/314/11) | 14% (20/94/28) |
+| 1 | SMN (4 km) | 4992 | 1.9° | 7% (10/108/31) | 25% (43/99/32) |
+| 2 | **Tiempo Campero** | 3911 | 2.0° | 8% (30/314/11) | 14% (20/94/28) |
 | 3 | The Weather Channel | 359 | 2.0° | 0% (0/40/0) | 6% (1/14/1) |
-| 4 | Reino Unido | 3908 | 2.0° | 4% (25/606/13) | 8% (11/91/37) |
-| 5 | Alemania | 3908 | 2.3° | 6% (27/396/11) | 10% (14/87/34) |
-| 6 | Canadá | 3908 | 2.3° | 4% (29/785/9) | 7% (10/96/38) |
-| 7 | Centro Europeo | 3908 | 2.4° | 4% (23/596/15) | 5% (7/84/41) |
-| 8 | MET Norway | 3908 | 2.4° | 5% (23/386/15) | 7% (9/87/39) |
-| 9 | Estados Unidos | 3908 | 2.6° | 4% (36/949/2) | 8% (10/77/38) |
-| 10 | Francia | 3908 | 2.8° | 5% (24/411/14) | 7% (10/86/38) |
-| 11 | Japón | 3908 | 3.5° | 3% (6/185/32) | 12% (10/35/38) |
+| 4 | Reino Unido | 3911 | 2.0° | 4% (28/606/13) | 8% (11/91/37) |
+| 5 | Alemania | 3911 | 2.3° | 6% (27/396/14) | 10% (14/87/34) |
+| 6 | Canadá | 3911 | 2.3° | 4% (32/785/9) | 7% (10/96/38) |
+| 7 | Centro Europeo | 3911 | 2.4° | 4% (26/596/15) | 5% (7/84/41) |
+| 8 | MET Norway | 3911 | 2.4° | 6% (26/386/15) | 7% (9/87/39) |
+| 9 | Estados Unidos | 3911 | 2.6° | 4% (39/949/2) | 8% (10/77/38) |
+| 10 | Francia | 3911 | 2.8° | 5% (24/411/17) | 7% (10/86/38) |
+| 11 | Japón | 3911 | 3.5° | 3% (6/185/35) | 12% (10/35/38) |
 
 ## El Peral
 
@@ -104,16 +104,16 @@ entre paréntesis, aciertos / falsas alarmas / no avisados.
 
 | Puesto | Pronóstico | Horas medidas | Error medio de temperatura | Lluvia hora a hora | Fenómenos del día |
 |---|---|---|---|---|---|
-| 1 | Reino Unido | 262 | 1.5° | 6% (3/43/2) | 20% (2/6/2) |
-| 2 | SMN (4 km) | 334 | 1.7° | 11% (1/4/4) | 40% (4/5/1) |
-| 3 | **Tiempo Campero** | 262 | 1.8° | 12% (3/20/2) | 40% (4/6/0) |
-| 4 | Canadá | 262 | 2.0° | 6% (3/45/2) | 25% (2/4/2) |
-| 5 | MET Norway | 262 | 2.0° | 23% (3/8/2) | 12% (1/4/3) |
-| 6 | Alemania | 262 | 2.1° | 8% (3/35/2) | 18% (2/7/2) |
-| 7 | Estados Unidos | 262 | 2.1° | 6% (5/72/0) | 29% (2/3/2) |
-| 8 | Centro Europeo | 262 | 2.1° | 8% (3/32/2) | 12% (1/4/3) |
-| 9 | Francia | 262 | 2.7° | 9% (5/49/0) | 20% (2/6/2) |
-| 10 | Japón | 262 | 3.1° | 0% (0/16/5) | 40% (2/1/2) |
+| 1 | Reino Unido | 263 | 1.5° | 8% (4/43/2) | 20% (2/6/2) |
+| 2 | SMN (4 km) | 335 | 1.7° | 20% (2/4/4) | 40% (4/5/1) |
+| 3 | **Tiempo Campero** | 263 | 1.8° | 15% (4/20/2) | 40% (4/6/0) |
+| 4 | Canadá | 263 | 2.0° | 8% (4/45/2) | 25% (2/4/2) |
+| 5 | MET Norway | 263 | 2.0° | 29% (4/8/2) | 12% (1/4/3) |
+| 6 | Alemania | 263 | 2.1° | 7% (3/35/3) | 18% (2/7/2) |
+| 7 | Estados Unidos | 263 | 2.1° | 8% (6/72/0) | 29% (2/3/2) |
+| 8 | Centro Europeo | 263 | 2.1° | 11% (4/32/2) | 12% (1/4/3) |
+| 9 | Francia | 263 | 2.7° | 9% (5/49/1) | 20% (2/6/2) |
+| 10 | Japón | 263 | 3.2° | 0% (0/16/6) | 40% (2/1/2) |
 | 11 | The Weather Channel | 24 | 5.2° | 0% (0/12/0) | 0% (0/1/0) |
 
 ## Colonia Las Rosas
@@ -169,32 +169,32 @@ entre paréntesis, aciertos / falsas alarmas / no avisados.
 | Puesto | Pronóstico | Horas medidas | Error medio de temperatura | Lluvia hora a hora | Fenómenos del día |
 |---|---|---|---|---|---|
 | 1 | The Weather Channel | 24 | 1.6° | 0% (0/2/0) | 50% (1/1/0) |
-| 2 | SMN (4 km) | 334 | 1.6° | 17% (2/5/5) | 47% (8/6/3) |
-| 3 | Canadá | 262 | 1.7° | 8% (5/54/2) | 12% (2/5/9) |
-| 4 | **Tiempo Campero** | 262 | 1.8° | 14% (4/21/3) | 27% (4/4/7) |
-| 5 | Centro Europeo | 262 | 1.9° | 11% (4/31/3) | 7% (1/4/10) |
-| 6 | Estados Unidos | 262 | 1.9° | 9% (7/70/0) | 14% (2/3/9) |
-| 7 | MET Norway | 262 | 1.9° | 7% (6/83/1) | 10% (2/10/9) |
-| 8 | Alemania | 262 | 2.2° | 9% (4/38/3) | 15% (2/2/9) |
-| 9 | Reino Unido | 262 | 2.2° | 11% (5/38/2) | 13% (2/4/9) |
-| 10 | Francia | 262 | 2.3° | 9% (5/49/2) | 12% (2/6/9) |
-| 11 | Japón | 262 | 2.9° | 10% (2/14/5) | 17% (2/1/9) |
+| 2 | SMN (4 km) | 335 | 1.6° | 15% (2/5/6) | 47% (8/6/3) |
+| 3 | Canadá | 263 | 1.7° | 10% (6/54/2) | 12% (2/5/9) |
+| 4 | **Tiempo Campero** | 263 | 1.8° | 17% (5/21/3) | 27% (4/4/7) |
+| 5 | Centro Europeo | 263 | 1.9° | 13% (5/31/3) | 7% (1/4/10) |
+| 6 | Estados Unidos | 263 | 1.9° | 10% (8/70/0) | 14% (2/3/9) |
+| 7 | MET Norway | 263 | 1.9° | 8% (7/83/1) | 10% (2/10/9) |
+| 8 | Alemania | 263 | 2.2° | 9% (4/38/4) | 15% (2/2/9) |
+| 9 | Reino Unido | 263 | 2.2° | 13% (6/38/2) | 13% (2/4/9) |
+| 10 | Francia | 263 | 2.4° | 9% (5/49/3) | 12% (2/6/9) |
+| 11 | Japón | 263 | 2.9° | 9% (2/14/6) | 17% (2/1/9) |
 
 ## Chacayes El Carrizalejo
 
 | Puesto | Pronóstico | Horas medidas | Error medio de temperatura | Lluvia hora a hora | Fenómenos del día |
 |---|---|---|---|---|---|
-| 1 | Canadá | 255 | 1.6° | 19% (9/36/3) | 12% (2/5/9) |
-| 2 | SMN (4 km) | 328 | 1.6° | 18% (3/5/9) | 37% (7/8/4) |
+| 1 | Canadá | 256 | 1.6° | 20% (10/36/3) | 12% (2/5/9) |
+| 2 | SMN (4 km) | 329 | 1.6° | 17% (3/5/10) | 37% (7/8/4) |
 | 3 | The Weather Channel | 23 | 1.7° | 0% (0/11/0) | 0% (0/1/1) |
-| 4 | **Tiempo Campero** | 255 | 1.7° | 32% (8/13/4) | 31% (4/2/7) |
-| 5 | Reino Unido | 255 | 1.9° | 14% (5/25/7) | 13% (2/4/9) |
-| 6 | Centro Europeo | 255 | 1.9° | 9% (4/31/8) | 7% (1/4/10) |
-| 7 | MET Norway | 255 | 2.1° | 7% (6/80/6) | 10% (2/10/9) |
-| 8 | Alemania | 255 | 2.1° | 20% (8/28/4) | 15% (2/2/9) |
-| 9 | Estados Unidos | 255 | 2.1° | 16% (12/62/0) | 14% (2/3/9) |
-| 10 | Francia | 255 | 2.5° | 14% (8/46/4) | 12% (2/6/9) |
-| 11 | Japón | 255 | 2.6° | 0% (0/0/12) | 14% (2/3/9) |
+| 4 | **Tiempo Campero** | 256 | 1.7° | 35% (9/13/4) | 31% (4/2/7) |
+| 5 | Reino Unido | 256 | 1.8° | 16% (6/25/7) | 13% (2/4/9) |
+| 6 | Centro Europeo | 256 | 1.9° | 11% (5/31/8) | 7% (1/4/10) |
+| 7 | MET Norway | 256 | 2.1° | 8% (7/80/6) | 10% (2/10/9) |
+| 8 | Alemania | 256 | 2.2° | 20% (8/28/5) | 15% (2/2/9) |
+| 9 | Estados Unidos | 256 | 2.2° | 17% (13/62/0) | 14% (2/3/9) |
+| 10 | Francia | 256 | 2.5° | 14% (8/46/5) | 12% (2/6/9) |
+| 11 | Japón | 256 | 2.6° | 0% (0/0/13) | 14% (2/3/9) |
 
 ## La Consulta
 
