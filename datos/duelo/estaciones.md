@@ -1,4 +1,4 @@
-# Duelo por estación — Valle de Uco (actualizado 26/11 10:45)
+# Duelo por estación — Valle de Uco (actualizado 26/11 10:46)
 
 Pronóstico de la mañana del día anterior contra lo medido en cada estación de Contingencias, hora por hora.
 Puesto: por error medio de temperatura (menos es mejor). Lluvia y fenómenos: efectividad = aciertos / (aciertos + falsas alarmas + no avisados);
@@ -8,17 +8,17 @@ entre paréntesis, aciertos / falsas alarmas / no avisados.
 
 | Puesto | Pronóstico | Horas medidas | Error medio de temperatura | Lluvia hora a hora | Fenómenos del día |
 |---|---|---|---|---|---|
-| 1 | SMN (4 km) | 5168 | 1.9° | 7% (14/142/34) | 23% (45/105/43) |
+| 1 | SMN (4 km) | 5169 | 1.9° | 7% (14/142/34) | 23% (45/105/43) |
 | 2 | The Weather Channel | 359 | 2.0° | 0% (0/40/0) | 6% (1/14/1) |
-| 3 | Reino Unido | 4087 | 2.0° | 5% (33/649/15) | 13% (21/105/40) |
-| 4 | **Tiempo Campero** | 4087 | 2.0° | 9% (35/358/13) | 19% (30/98/31) |
-| 5 | Alemania | 4087 | 2.3° | 6% (30/478/18) | 13% (20/93/41) |
+| 3 | Reino Unido | 4088 | 2.0° | 5% (33/649/15) | 13% (21/105/40) |
+| 4 | **Tiempo Campero** | 4088 | 2.0° | 9% (35/358/13) | 19% (30/98/31) |
+| 5 | Alemania | 4088 | 2.3° | 6% (30/478/18) | 13% (20/93/41) |
 | 6 | Canadá | 3931 | 2.3° | 4% (35/802/9) | 7% (12/104/49) |
-| 7 | Centro Europeo | 4087 | 2.3° | 5% (32/642/16) | 6% (9/96/52) |
-| 8 | MET Norway | 4087 | 2.4° | 6% (29/404/19) | 7% (11/97/50) |
-| 9 | Estados Unidos | 4087 | 2.6° | 4% (45/1071/3) | 12% (17/84/44) |
-| 10 | Francia | 4087 | 2.8° | 6% (26/421/22) | 8% (12/95/49) |
-| 11 | Japón | 4087 | 3.5° | 3% (6/185/42) | 11% (11/35/50) |
+| 7 | Centro Europeo | 4088 | 2.3° | 5% (32/642/16) | 6% (9/96/52) |
+| 8 | MET Norway | 4088 | 2.4° | 6% (29/404/19) | 7% (11/97/50) |
+| 9 | Estados Unidos | 4088 | 2.6° | 4% (45/1071/3) | 12% (17/84/44) |
+| 10 | Francia | 4088 | 2.8° | 6% (26/421/22) | 8% (12/95/49) |
+| 11 | Japón | 4088 | 3.5° | 3% (6/185/42) | 11% (11/35/50) |
 
 ## El Peral
 
@@ -104,16 +104,16 @@ entre paréntesis, aciertos / falsas alarmas / no avisados.
 
 | Puesto | Pronóstico | Horas medidas | Error medio de temperatura | Lluvia hora a hora | Fenómenos del día |
 |---|---|---|---|---|---|
-| 1 | Reino Unido | 274 | 1.4° | 8% (4/46/2) | 25% (3/7/2) |
-| 2 | SMN (4 km) | 346 | 1.7° | 15% (2/7/4) | 33% (4/6/2) |
-| 3 | **Tiempo Campero** | 274 | 1.8° | 12% (4/26/2) | 42% (5/7/0) |
+| 1 | Reino Unido | 275 | 1.5° | 8% (4/46/2) | 25% (3/7/2) |
+| 2 | SMN (4 km) | 347 | 1.7° | 15% (2/7/4) | 33% (4/6/2) |
+| 3 | **Tiempo Campero** | 275 | 1.8° | 12% (4/26/2) | 42% (5/7/0) |
 | 4 | Canadá | 264 | 2.0° | 8% (4/46/2) | 22% (2/4/3) |
-| 5 | MET Norway | 274 | 2.0° | 27% (4/9/2) | 10% (1/5/4) |
-| 6 | Alemania | 274 | 2.1° | 6% (3/42/3) | 23% (3/8/2) |
-| 7 | Centro Europeo | 274 | 2.1° | 9% (4/38/2) | 10% (1/5/4) |
-| 8 | Estados Unidos | 274 | 2.1° | 7% (6/80/0) | 33% (3/4/2) |
-| 9 | Francia | 274 | 2.7° | 9% (5/50/1) | 17% (2/7/3) |
-| 10 | Japón | 274 | 3.2° | 0% (0/16/6) | 33% (2/1/3) |
+| 5 | MET Norway | 275 | 2.0° | 27% (4/9/2) | 10% (1/5/4) |
+| 6 | Alemania | 275 | 2.1° | 6% (3/42/3) | 23% (3/8/2) |
+| 7 | Centro Europeo | 275 | 2.1° | 9% (4/38/2) | 10% (1/5/4) |
+| 8 | Estados Unidos | 275 | 2.1° | 7% (6/80/0) | 33% (3/4/2) |
+| 9 | Francia | 275 | 2.7° | 9% (5/50/1) | 17% (2/7/3) |
+| 10 | Japón | 275 | 3.2° | 0% (0/16/6) | 33% (2/1/3) |
 | 11 | The Weather Channel | 24 | 5.2° | 0% (0/12/0) | 0% (0/1/0) |
 
 ## Colonia Las Rosas
