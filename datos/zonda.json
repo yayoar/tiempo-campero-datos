@@ -1,28 +1,7 @@
 {
- "actualizado": "2026-11-26T18:15:02Z",
+ "actualizado": "2026-11-27T17:57:19Z",
  "version": 1,
  "dias": {
-  "2026-11-25": {
-   "producto": "noche",
-   "generado": "2026-11-24T19:25:45Z",
-   "zonas": {
-    "norte": {
-     "nivel": 0,
-     "puntaje": 0.212
-    },
-    "sur": {
-     "nivel": 0,
-     "puntaje": 0.393
-    },
-    "valle": {
-     "nivel": 0,
-     "puntaje": 0.099
-    }
-   },
-   "faltan_corridas_smn": [
-    "18"
-   ]
-  },
   "2026-11-26": {
    "producto": "noche",
    "generado": "2026-11-25T18:32:14Z",
@@ -56,6 +35,27 @@
     "valle": {
      "nivel": 0,
      "puntaje": 0.467
+    }
+   },
+   "faltan_corridas_smn": [
+    "18"
+   ]
+  },
+  "2026-11-28": {
+   "producto": "noche",
+   "generado": "2026-11-27T17:57:19Z",
+   "zonas": {
+    "norte": {
+     "nivel": 0,
+     "puntaje": 0.395
+    },
+    "sur": {
+     "nivel": 1,
+     "puntaje": 0.659
+    },
+    "valle": {
+     "nivel": 0,
+     "puntaje": 0.341
     }
    },
    "faltan_corridas_smn": [
