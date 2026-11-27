@@ -1,4 +1,4 @@
-# Duelo por estación — Valle de Uco (actualizado 27/11 01:50)
+# Duelo por estación — Valle de Uco (actualizado 27/11 01:51)
 
 Pronóstico de la mañana del día anterior contra lo medido en cada estación de Contingencias, hora por hora.
 Puesto: por error medio de temperatura (menos es mejor). Lluvia y fenómenos: efectividad = aciertos / (aciertos + falsas alarmas + no avisados);
@@ -8,17 +8,17 @@ entre paréntesis, aciertos / falsas alarmas / no avisados.
 
 | Puesto | Pronóstico | Horas medidas | Error medio de temperatura | Lluvia hora a hora | Fenómenos del día |
 |---|---|---|---|---|---|
-| 1 | **Tiempo Campero** | 4318 | 2.0° | 8% (35/363/17) | 18% (31/107/37) |
+| 1 | **Tiempo Campero** | 4319 | 2.0° | 8% (35/363/17) | 18% (31/107/37) |
 | 2 | The Weather Channel | 359 | 2.0° | 0% (0/40/0) | 6% (1/14/1) |
-| 3 | Reino Unido | 4318 | 2.0° | 5% (33/651/19) | 12% (21/108/47) |
-| 4 | SMN (4 km) | 5399 | 2.0° | 7% (14/159/38) | 23% (50/121/45) |
-| 5 | Alemania | 4318 | 2.3° | 6% (30/485/22) | 12% (21/114/47) |
-| 6 | Canadá | 3958 | 2.3° | 4% (35/802/9) | 7% (12/104/49) |
-| 7 | Centro Europeo | 4318 | 2.3° | 4% (32/674/20) | 6% (11/108/57) |
-| 8 | MET Norway | 4318 | 2.4° | 6% (29/410/23) | 8% (13/102/55) |
-| 9 | Estados Unidos | 4318 | 2.6° | 4% (48/1192/4) | 14% (23/97/45) |
-| 10 | Francia | 4318 | 2.8° | 5% (26/429/26) | 8% (14/105/54) |
-| 11 | Japón | 4318 | 3.5° | 3% (6/185/46) | 12% (13/45/55) |
+| 3 | Reino Unido | 4319 | 2.0° | 5% (33/651/19) | 12% (21/108/47) |
+| 4 | SMN (4 km) | 5400 | 2.0° | 7% (14/159/38) | 23% (50/121/45) |
+| 5 | Alemania | 4319 | 2.3° | 6% (30/485/22) | 12% (21/114/47) |
+| 6 | Canadá | 3959 | 2.3° | 4% (35/802/9) | 7% (12/104/49) |
+| 7 | Centro Europeo | 4319 | 2.3° | 4% (32/674/20) | 6% (11/108/57) |
+| 8 | MET Norway | 4319 | 2.4° | 6% (29/410/23) | 8% (13/102/55) |
+| 9 | Estados Unidos | 4319 | 2.6° | 4% (48/1193/4) | 14% (23/97/45) |
+| 10 | Francia | 4319 | 2.8° | 5% (26/429/26) | 8% (14/105/54) |
+| 11 | Japón | 4319 | 3.5° | 3% (6/185/46) | 12% (13/45/55) |
 
 ## El Peral
 
@@ -137,16 +137,16 @@ entre paréntesis, aciertos / falsas alarmas / no avisados.
 | Puesto | Pronóstico | Horas medidas | Error medio de temperatura | Lluvia hora a hora | Fenómenos del día |
 |---|---|---|---|---|---|
 | 1 | The Weather Channel | 24 | 1.9° | 0% (0/1/0) | 0% (0/1/0) |
-| 2 | Reino Unido | 279 | 2.0° | 0% (0/38/0) | 9% (1/8/2) |
-| 3 | SMN (4 km) | 351 | 2.2° | 0% (0/9/0) | 17% (2/7/3) |
-| 4 | Alemania | 279 | 2.2° | 0% (0/33/0) | 7% (1/11/2) |
-| 5 | Centro Europeo | 279 | 2.5° | 0% (0/37/0) | 0% (0/7/3) |
-| 6 | MET Norway | 279 | 2.6° | 0% (0/14/0) | 0% (0/5/3) |
-| 7 | Estados Unidos | 279 | 2.6° | 0% (0/68/0) | 0% (0/7/3) |
-| 8 | Canadá | 255 | 2.7° | 0% (0/58/0) | 0% (0/6/3) |
-| 9 | **Tiempo Campero** | 279 | 2.7° | 0% (0/23/0) | 20% (2/7/1) |
-| 10 | Francia | 279 | 2.9° | 0% (0/19/0) | 0% (0/7/3) |
-| 11 | Japón | 279 | 3.8° | 0% (0/15/0) | 0% (0/3/3) |
+| 2 | Reino Unido | 280 | 2.0° | 0% (0/38/0) | 9% (1/8/2) |
+| 3 | SMN (4 km) | 352 | 2.2° | 0% (0/9/0) | 17% (2/7/3) |
+| 4 | Alemania | 280 | 2.2° | 0% (0/33/0) | 7% (1/11/2) |
+| 5 | Centro Europeo | 280 | 2.5° | 0% (0/37/0) | 0% (0/7/3) |
+| 6 | MET Norway | 280 | 2.6° | 0% (0/14/0) | 0% (0/5/3) |
+| 7 | Estados Unidos | 280 | 2.6° | 0% (0/69/0) | 0% (0/7/3) |
+| 8 | Canadá | 256 | 2.7° | 0% (0/58/0) | 0% (0/6/3) |
+| 9 | **Tiempo Campero** | 280 | 2.7° | 0% (0/23/0) | 20% (2/7/1) |
+| 10 | Francia | 280 | 2.9° | 0% (0/19/0) | 0% (0/7/3) |
+| 11 | Japón | 280 | 3.8° | 0% (0/15/0) | 0% (0/3/3) |
 
 ## Chacayes Piedra Negra
 
